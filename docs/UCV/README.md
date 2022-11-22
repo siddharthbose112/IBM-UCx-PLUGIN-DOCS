@@ -97,7 +97,7 @@ CircleCI is a modern continuous integration and continuous delivery (CI/CD) plat
 
 ---
 
-|Back to ...||Code Coverage |Latest Version|
+|Back to ...||CircleCI |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-circleci/README.md)|[1.0.22](https://raw.githubusercontent.com//UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-circleci/ucv-ext-circleci:1.0.22.tar.7z.001)|
 
