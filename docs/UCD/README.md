@@ -2322,9 +2322,9 @@ This is a partner plugin.
 
 ---
 
-|Back to ...||CyberArk |Latest Version|
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](cyberark/README.md)|[4.1098501](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/cyberark/cyberark-4.1098501.zip)|
+|        Back to ...         ||     CyberArk     |        Latest Version        |
+|:--------------------------:|:----------------:|:----------------------------:| :---: |
+| [All Plugins](../index.md) | [Top](#contents) | [Readme](cyberark/README.md) |[4.1098501](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/cyberark/cyberark-4.1098501.zip)|
 
 ## eggPlant  [partner plugin]
 
@@ -2332,9 +2332,9 @@ The eggPlant Functional test tool from TestPlant enables you to execute syntheti
 
 ---
 
-|Back to ...||eggPlant |Latest Version|
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](eggplant/README.md)|[0]()|
+|        Back to ...         ||     eggPlant     |        Latest Version         |
+|:--------------------------:|:----------------:|:-----------------------------:|:------:|
+| [All Plugins](../index.md) | [Top](#contents) | [Readme](eggplant/README.md)  | [0]()  )  |
 
 ## z/OS Dataset Writer
 
@@ -2342,9 +2342,9 @@ Apart from copying content to a mainframe dataset, this plug-in provides the fol
 
 ---
 
-|Back to ...||z/OS Dataset Writer |Latest Version|
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](zos-dataset-writer/README.md)|[4.1138411](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-dataset-writer/ucd-plugins-zos-dataset-writer-4.1138411.zip)|
+|        Back to ...         || z/OS Dataset Writer |             Latest Version             |
+|:--------------------------:|:-------------------:|:--------------------------------------:| :---: |
+| [All Plugins](../index.md) |  [Top](#contents)   | [Readme](zos-dataset-writer/README.md) |[4.1138411](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-dataset-writer/ucd-plugins-zos-dataset-writer-4.1138411.zip)|
 
 ## z/OS External Artifact Repository
 
@@ -2352,9 +2352,9 @@ The External Artifact Repository plug-in includes the step to download artifacts
 
 ---
 
-|Back to ...||z/OS External Artifact Repository |Latest Version|
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](zOS-external-artifact-download/README.md)|[10.1152827](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/ucd-ExtArtRepo-10.1152827.zip)|
+|        Back to ...         || z/OS External Artifact Repository |                   Latest Version                   |
+|:--------------------------:|:---------------------------------:|:--------------------------------------------------:| :---: |
+| [All Plugins](../index.md) |         [Top](#contents)          | [Readme](zOS-external-artifact-download/README.md) |[10.1152827](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/ucd-ExtArtRepo-10.1152827.zip)|
 
 ## z/OS FTP Utility
 
@@ -2362,9 +2362,9 @@ The zOS FTP plug-in automates the importing of hierarchical file system (HFS) ar
 
 ---
 
-|Back to ...||z/OS FTP Utility |Latest Version|
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](zos-ftp/README.md)|[1.1100685](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-ftp/zos-ftp-1.1100685.zip)|
+|        Back to ...         || z/OS FTP Utility |       Latest Version        |
+|:--------------------------:|:----------------:|:---------------------------:| :---: |
+| [All Plugins](../index.md) | [Top](#contents) | [Readme](zos-ftp/README.md) |[1.1100685](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-ftp/zos-ftp-1.1100685.zip)|
 
 ## z/OS File Source Config
 
@@ -2372,9 +2372,9 @@ The z/OS File Source Config plug-in automates uploading data sets, UNIX files an
 
 ---
 
-|Back to ...||z/OS File Source Config |Latest Version|
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](zOSFileSourceConfig/README.md)|[7.1131549](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOSFileSourceConfig/ucd-zOSFileSourceConfig-7.1131549.zip)|
+|        Back to ...         || z/OS File Source Config |             Latest Version              |
+|:--------------------------:|:-----------------------:|:---------------------------------------:| :---: |
+| [All Plugins](../index.md) |    [Top](#contents)     | [Readme](zOSFileSourceConfig/README.md) |[7.1131549](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOSFileSourceConfig/ucd-zOSFileSourceConfig-7.1131549.zip)|
 
 ## z/OS Management Facility
 
@@ -2382,9 +2382,9 @@ The z/OS Management Facility (zOSMF) plug-in provides functions to discover soft
 
 ---
 
-|Back to ...||z/OS Management Facility |Latest Version|
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](zosmf/README.md)|[14.1153260](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zosmf/ucd-zosmf-14.1153260.zip)|
+|        Back to ...         || z/OS Management Facility |      Latest Version       |
+|:--------------------------:|:------------------------:|:-------------------------:| :---: |
+| [All Plugins](../index.md) |     [Top](#contents)     | [Readme](zosmf/README.md) |[14.1153260](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zosmf/ucd-zosmf-14.1153260.zip)|
 
 ## z/OS Multi Generate Artifact Information
 
@@ -2392,9 +2392,9 @@ The z/OS Multi Generate Artifact Information plug-in scans version artifacts and
 
 ---
 
-|Back to ...||z/OS Multi Generate Artifact Information |Latest Version|
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](zos-multi-generate-artifact-info/README.md)|[7.1150817](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/ucd-plugins-zos-multi-generate-artifact-info-7.1150817.zip)|
+|        Back to ...         || z/OS Multi Generate Artifact Information |                    Latest Version                    |
+|:--------------------------:|:----------------------------------------:|:----------------------------------------------------:| :---: |
+| [All Plugins](../index.md) |             [Top](#contents)             | [Readme](zos-multi-generate-artifact-info/README.md) |[7.1150817](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/ucd-plugins-zos-multi-generate-artifact-info-7.1150817.zip)|
 
 ## z/OS Shell
 
@@ -2402,9 +2402,9 @@ The z/OS Shell plug-in is for the z/OS only operating system. It performs the sa
 
 ---
 
-|Back to ...||z/OS Shell |Latest Version|
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](java-shell/README.md)|[2.1133862](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/java-shell/ucd-java-shell-2.1133862.zip)|
+|        Back to ...         ||    z/OS Shell    |         Latest Version         |
+|:--------------------------:|:----------------:|:------------------------------:| :---: |
+| [All Plugins](../index.md) | [Top](#contents) | [Readme](java-shell/README.md) |[2.1133862](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/java-shell/ucd-java-shell-2.1133862.zip)|
 
 ## z/OS USS Utility
 
@@ -2412,9 +2412,9 @@ The z/OS USS Utility plug-in automates working with USS files on the z/OS operat
 
 ---
 
-|Back to ...||z/OS USS Utility |Latest Version|
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](zos-replacetokens-uss/README.md)|[1.1127592](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-replacetokens-uss/ucd-plugins-zos-replacetokens-uss-1.1127592.zip)|
+|        Back to ...         || z/OS USS Utility |              Latest Version               |
+|:--------------------------:|:----------------:|:-----------------------------------------:| :---: |
+| [All Plugins](../index.md) | [Top](#contents) | [Readme](zos-replacetokens-uss/README.md) |[1.1127592](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-replacetokens-uss/ucd-plugins-zos-replacetokens-uss-1.1127592.zip)|
 
 ## z/OS Utility
 
@@ -2422,9 +2422,9 @@ The z/OS Utility plug-in includes steps for retrieving and deploying IBM z/OS ar
 
 ---
 
-|Back to ...||z/OS Utility |Latest Version|
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](zos-deploy/README.md)|[78.1151227](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-78.1151227.zip)|
+|        Back to ...         ||   z/OS Utility   |         Latest Version         |
+|:--------------------------:|:----------------:|:------------------------------:| :---: |
+| [All Plugins](../index.md) | [Top](#contents) | [Readme](zos-deploy/README.md) |[79.1153131](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-79.1153131.zip)|
 
 ## z/OS Rexx Executor
 
@@ -2432,6 +2432,6 @@ The z/OS Rexx Executor plugin executes REXX program from a Dataset (or) specifie
 
 ---
 
-|        Back to ...         |                  |      z/OS Rexx Executor      |                                                       Latest Version                                                       |
-|:--------------------------:|:----------------:|:----------------------------:|:--------------------------------------------------------------------------------------------------------------------------:|
+|        Back to ...         |                  |      z/OS Rexx Executor      |                                                         Latest Version                                                          |
+|:--------------------------:|:----------------:|:----------------------------:|:-------------------------------------------------------------------------------------------------------------------------------:|
 | [All Plugins](../index.md) | [Top](#contents) | [Readme](zos-rexx/README.md) | [1.1152822](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-rexx/ucd-plugins-zos-rexx-1.1152822.zip) |
