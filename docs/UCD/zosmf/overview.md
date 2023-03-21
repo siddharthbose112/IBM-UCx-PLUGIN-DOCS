@@ -45,7 +45,7 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
-#### Version 14.1153260 includes the following updates:
+#### Version 15.1153789 includes the following updates:
 
 * Fixes Groovy compilation issue on Groovy-3.0.x.
 
@@ -64,6 +64,6 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 * Fixed a problem in Start Workflow step that partially completed workflow gives a step failure.
 * Enhanced Start Workflow step to display job logs.
 
-|Back to ...||Latest Version|z/OS Management Facility ||||
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[14.1153260](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zosmf/ucd-zosmf-14.1153260.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|          Back to ...          ||         Latest Version         |                                                             z/OS Management Facility                                                              ||||
+|:-----------------------------:|:------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :----: |:-------------------------:|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [15.1153789](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zosmf/ucd-zosmf-15.1153789 [Readme](README.md) me](README.md) |[Usage](usage.md) [Downloads](downloads.md) loads](downloads.md) |
