@@ -62,4 +62,4 @@ Example 3. Agent is started by user AGNTUSR. Allow this agent to submit job on b
 
 |          Back to ...          |                                |                                                    Latest Version                                                     |      SQL-JDBC       |||||
 |:-----------------------------:|:------------------------------:|:---------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [13.1154072](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQL-JDBC/ucd-SQL-JDBC-13.1154072.zip) | [Readme](README.md) |[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [13.1154072](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLJDBC/ucd-SQL-JDBC-13.1154072.zip) | [Readme](README.md) |[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Downloads](downloads.md)|

@@ -56,4 +56,4 @@ This release includes a new step to run SQL scripts using PassTicket authenticat
 
 |          Back to ...          |                                |                                                    Latest Version                                                     |      SQL-JDBC       |||||
 |:-----------------------------:|:------------------------------:|:---------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [13.1154072](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQL-JDBC/ucd-SQL-JDBC-13.1154072.zip) | [Readme](README.md) |[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [13.1154072](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLJDBC/ucd-SQL-JDBC-13.1154072.zip) | [Readme](README.md) |[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

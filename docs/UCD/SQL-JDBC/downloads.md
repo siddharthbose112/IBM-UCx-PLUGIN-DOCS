@@ -2,7 +2,7 @@
 # SQL-JDBC - Downloads
 
 To download the plug-in, click the following version-specific links.
-- [ucd-SQL-JDBC-13.1154072.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQL-JDBC/ucd-SQL-JDBC-13.1154072.zip)
+- [ucd-SQL-JDBC-13.1154072.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLJDBC/ucd-SQL-JDBC-13.1154072.zip)
 - [SQL-JDBC-12.1100867.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQL-JDBC/SQL-JDBC-12.1100867.zip)
 - [SQL-JDBC-12.1056537.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQL-JDBC/SQL-JDBC-12.1056537.zip)
 - [SQL-JDBC-12.1002454.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQL-JDBC/SQL-JDBC-12.1002454.zip)
@@ -14,4 +14,4 @@ To download the plug-in, click the following version-specific links.
 
 |          Back to ...          |                                |                                                    Latest Version                                                     |      SQL-JDBC       |||||
 |:-----------------------------:|:------------------------------:|:---------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [13.1154072](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQL-JDBC/ucd-SQL-JDBC-13.1154072.zip) | [Readme](README.md) |[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Steps](steps.md)|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [13.1154072](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLJDBC/ucd-SQL-JDBC-13.1154072.zip) | [Readme](README.md) |[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Usage](usage.md)|[Steps](steps.md)|

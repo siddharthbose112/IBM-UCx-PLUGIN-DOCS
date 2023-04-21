@@ -2091,7 +2091,7 @@ The SQL-JDBC plugin is a database-independent plug-in. It allows users to run SQ
 
 |Back to ...||SQL-JDBC |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](SQL-JDBC/README.md)|[13.1154072](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQL-JDBC/ucd-SQL-JDBC-13.1154072.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](SQL-JDBC/README.md)|[13.1154072](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLJDBC/ucd-SQL-JDBC-13.1154072.zip)|
 
 ## Salesforce
 
