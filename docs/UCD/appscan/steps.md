@@ -20,26 +20,17 @@ Configure scan job options.
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | AppScan Enterprise URL | String | AppScan Enterprise Control Center URL. For example, https://localhost/ | Yes |
-| HTTP Authentication | Enumeration:
-* default
-* true
-* false
-* ``${p?:component/appscan.httpAuth}``
-| Check this field to enable Basic/NTLM authentication. | No |
+| HTTP Authentication | Enumeration: Default / Enable ``true`` / Disable ``false`` / ``${p?:component/appscan.httpAuth}`` | Check this field to enable Basic/NTLM authentication. | No |
 | HTTP Password | Password |  | No |
 | HTTP User | String |  | No |
+| Login .config File | String | Please provide a .config login file for the scan. | No |
+| Login Method | Enumeration: None / Automatic / Manual File | Select the login method. | No |
 | Password | Password | Password to log into ASE. | Yes |
 | Recorded Traffic .htd File | String |  | No |
 | Scan FIID | String | FIID of the scan to configure. This is found in the scans URL. | Yes |
 | Scan Limit | String |  | No |
 | Scan Site Password | Password | Password to use when logging into the site. Input here will overwrite the password if there is already one set in the scan. | No |
 | Scan Site User | String | User to log into the site as. Input here will overwrite the username if there is already one set in the scan. | No |
-| Set Automatic Login | Enumeration:
-* default
-* true
-* false
-* ``${p?:component/appscan.setAuto}``
-| Set to true to automatically login with the given Scan Site User and Scan Site Password. | No |
 | Site URL | String | URL of site to scan. If there is already at least one starting URL associated with the scan, input here will add to the list of URLs. | No |
 | User | String | Username to log into ASE. | Yes |
 
@@ -52,11 +43,13 @@ Create an AppScan security scan.
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | AppScan Enterprise URL | String | AppScan Enterprise Control Center URL. For example, https://localhost/ | Yes |
 | Application ID | String | The application ID. Used to associate the job with an application. | No |
+| Automated Scan Name | Enumeration: No / Yes | Please select Yes for automated scan name. |
 | Folder ID | String | ID of the specific folder in which to create the scan and report pack. If this is left blank, the scan and report pack will be created in the root folder. | No |
 | Password | Password | Password to log into ASE. | Yes |
 | Scan Description | String | The description to give to the newly created scan. | Yes |
 | Scan Name | String | The name to give to the newly created scan. | Yes |
 | Template Name | String | Name of the template to use to create the scan and report pack. Must be a valid template that you have access to in the Templates directory or any of its subfolders. | Yes |
+| Test Policy ID | String | The Test Policy ID. Used to associate the job with an application. | No |
 | User | String | Username to log into ASE. | Yes |
 
 ### Delete Folder Item
