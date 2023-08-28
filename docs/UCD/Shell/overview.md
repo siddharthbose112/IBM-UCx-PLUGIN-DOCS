@@ -22,11 +22,7 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 #### Version 19
 
-Allows overriding of temporary directory used for running scripts.
-
-#### Version 18
-
-Revert to system temp directory.
+Allows overriding of temporary directory used for running scripts. 
 
 #### Version 17
 
