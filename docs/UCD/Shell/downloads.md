@@ -4,7 +4,6 @@
 To download the plug-in, click the following version-specific links:
 
 - [ucd-Shell-19.1158728.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Shell/ucd-Shell-19.1158728.zip)
-- [ucd-Shell-18.1158127.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Shell/ucd-Shell-18.1158127.zip)
 - [ucd-Shell-17.1157671.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Shell/ucd-Shell-17.1157671.zip)
 - [ucd-Shell-16.1155715.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Shell/ucd-Shell-16.1155715.zip)
 - [ucd-Shell-15.1150657.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Shell/ucd-Shell-15.1150657.zip)
