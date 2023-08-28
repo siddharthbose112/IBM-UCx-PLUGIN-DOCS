@@ -38,7 +38,7 @@ The following properties must be specified to configure an Nexus hosted Docker r
 
 * **Image Name:** The namespace or repository of the image in the Docker registry.
 * **Registry:** The host name of the Nexus server or the reverse proxy of the Docker registry.
-* **Registry Type:** Select the `Nexus` option.
+* **Registry Type:** Select the `Docker` option.
 * **Registry Username:** If the Docker registry is secure, specify a user name to authenticate.
 * **Registry Password:** If the Docker registry is secure, specify the password associated with the user name to authenticate.
 
