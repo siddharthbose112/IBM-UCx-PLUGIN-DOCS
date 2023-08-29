@@ -18,7 +18,7 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 ### History
 
 #### Version 95
-Updated ini4j library for CVE-2022-41404
+Updated ini4j library for CVE-2022-41404.
 
 #### Version 94
 
