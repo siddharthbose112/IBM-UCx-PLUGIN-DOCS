@@ -12534,4 +12534,4 @@ Role for resources that represents a WebSphere com.ibm.etools.webservice.wssecur
 
 |Back to ...||Latest Version|WebSphere Application Server - Configure ||||||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[92.1152136](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereConfiguration/ucd-WebSphereConfiguration-92.1152136.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Example Applications](example applications.md)|[Example Processes](example processes.md)|[Steps](steps.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[93.1160857](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereConfiguration/ucd-WebSphereConfiguration-93.1160857.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Example Applications](example applications.md)|[Example Processes](example processes.md)|[Steps](steps.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
