@@ -25,9 +25,15 @@ No special steps are required for installing the plug-in. See [Installing plug-i
 
 ### History
 
+#### Version 93
+
+* Fixed the defect in v92 which shows error with respect to log4j library for few steps..
+
 #### Version 92
 
 * Log4j dependency updated.
+
+##### This version has a defect related to log4j library with few steps. v93 is recommended. 
 
 #### Version 91
 
@@ -326,4 +332,4 @@ Version 37 includes fixes for the following APARs:
 
 |Back to ...||Latest Version|WebSphere Application Server - Configure ||||||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[92.1152136](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereConfiguration/ucd-WebSphereConfiguration-92.1152136.zip)|[Readme](README.md)|[Usage](usage.md)|[Example Applications](example applications.md)|[Example Processes](example processes.md)|[Steps](steps.md)|[Roles](roles.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[93.1160857](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereConfiguration/ucd-WebSphereConfiguration-93.1160857.zip)|[Readme](README.md)|[Usage](usage.md)|[Example Applications](example applications.md)|[Example Processes](example processes.md)|[Steps](steps.md)|[Roles](roles.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|

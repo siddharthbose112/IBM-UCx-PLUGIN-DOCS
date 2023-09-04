@@ -39,4 +39,4 @@ For more information, see [Applying and removing partial configurations](https:/
 
 |Back to ...||Latest Version|WebSphere Application Server - Configure ||||||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[92.1152136](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereConfiguration/ucd-WebSphereConfiguration-92.1152136.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Example Processes](example processes.md)|[Steps](steps.md)|[Roles](roles.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[93.1160857](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereConfiguration/ucd-WebSphereConfiguration-93.1160857.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Example Processes](example processes.md)|[Steps](steps.md)|[Roles](roles.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|

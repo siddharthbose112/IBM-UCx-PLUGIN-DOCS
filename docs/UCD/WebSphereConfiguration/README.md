@@ -6,4 +6,4 @@ Starting with version 14 of the WebSphere Application Server – Configure plug-
 
 |Back to ...||Latest Version|||||||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[92.1152136](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereConfiguration/ucd-WebSphereConfiguration-92.1152136.zip)|[Overview](overview.md)|[Usage](usage.md)|[Example Applications](example applications.md)|[Example Processes](example processes.md)|[Steps](steps.md)|[Roles](roles.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[93.1160857](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereConfiguration/ucd-WebSphereConfiguration-93.1160857.zip)|[Overview](overview.md)|[Usage](usage.md)|[Example Applications](example applications.md)|[Example Processes](example processes.md)|[Steps](steps.md)|[Roles](roles.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
