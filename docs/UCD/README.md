@@ -129,7 +129,6 @@
 	- [IBM WebSphere Portal](#ibm-websphere-portal)
 	- [IBM WebSphere Service Registry and Repository](#ibm-websphere-service-registry-and-repository)
 	- [IBM Workload Automation  \[community plugin\]](#ibm-workload-automation--community-plugin)
-	- [IBM z/TPF Beta](#ibm-ztpf-beta)
 	- [IBM-MQ](#ibm-mq)
 	- [InfoSphere-ISD](#infosphere-isd)
 	- [Informatica  \[community plugin\]](#informatica--community-plugin)
