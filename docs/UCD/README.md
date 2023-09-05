@@ -129,7 +129,6 @@
 	- [IBM WebSphere Portal](#ibm-websphere-portal)
 	- [IBM WebSphere Service Registry and Repository](#ibm-websphere-service-registry-and-repository)
 	- [IBM Workload Automation  \[community plugin\]](#ibm-workload-automation--community-plugin)
-	- [IBM z/TPF Beta](#ibm-ztpf-beta)
 	- [IBM-MQ](#ibm-mq)
 	- [InfoSphere-ISD](#infosphere-isd)
 	- [Informatica  \[community plugin\]](#informatica--community-plugin)
@@ -1475,16 +1474,6 @@ The IBM Workload Automation plug-in is a facility provided to help you moving wo
 |Back to ...||IBM Workload Automation |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-workload-automation/README.md)|[0]()|
-
-## IBM z/TPF Beta
-
-IBM z/Transaction Processing Facility is a high-performance and high-reliability transaction processing operating system for airline, rail, and hotel reservations, and financial transactions systems. The z/TPF Deploy beta plug-in runs a ZOLDR LOAD command and then a ZOLDR ACTIVATE command on the target z/TPF system. The z/TPF Undeploy beta plug-in runs a ZOLDR DEACTIVATE command and then a ZOLDR DELETE command on the target z/TPF system. The z/TPF Commit beta plug-in runs a ZOLDR ACCEPT command on the target z/TPF system. Together these three plug-ins for IBM UrbanCode™ Deploy can automate the build, promotion, and deployment of artifacts to z/TPF test and production systems, as part of a continuous delivery environment.
-
----
-
-|Back to ...||IBM z/TPF Beta |Latest Version|
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-z-tpf-beta/README.md)|[0]()|
 
 ## IBM-MQ
 
