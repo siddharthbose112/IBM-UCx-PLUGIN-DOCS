@@ -17,6 +17,14 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 24
+
+* Modified code to generate the report summary file as a json instead of xml as Appscan's Rest API to that gives proper xml response is deprecated.
+
+#### Version 23
+
+* Fixed plugin code for retriving report summary file in xml format.
+
 #### Version 22
 
 * Added Test policy Id as a input property to Create scan step.fixed defect to update correct testpolicyId while creating a scan.
@@ -135,4 +143,4 @@ Initial release of the plug-in.
 
 |Back to ...||Latest Version|IBM AppScan Enterprise |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[22.1159870](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan/ucd-appscan-22.1159870.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[24.1161014](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan/ucd-appscan-24.1161014.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|
