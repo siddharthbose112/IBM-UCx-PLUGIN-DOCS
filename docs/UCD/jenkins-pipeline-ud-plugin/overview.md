@@ -26,6 +26,12 @@ The [Jenkins Pipeline Plug-in Tutorial](https://community.ibm.com/community/user
 
 ### History
 
+#### Version 2.28
+
+* Added : Update Component version in existing Snapshot feature.
+* Field added: updateSnapshotComp - Update Component version in Snapshot (true/false). Select to update Component version in existing snapshot. When this option is selected any component versions specified in the 'Snapshot/Component Versions' field will be added to the existing snapshot instead of being used directly for the deployment.
+
+
 #### Version 2.27
 
 * Fixed : 401 unauthorised error while pushing artifacts to IBM UrbanCode Deploy server.
