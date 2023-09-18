@@ -1553,7 +1553,7 @@ The Jenkins Pipeline plug-in allows for interaction with UrbanCode Deploy compon
 
 |Back to ...||Jenkins Pipeline |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](jenkins-pipeline-ud-plugin/README.md)|[2.27.1134919](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/jenkins-pipeline-ud-plugin/ibm-ucdeploy-build-steps-2.27.1134919.hpi)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](jenkins-pipeline-ud-plugin/README.md)|[2.28](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/jenkins-pipeline-ud-plugin/ibm-ucdeploy-build-steps-2.28.1161061.hpi)|
 
 ## Jenkins Publisher
 
