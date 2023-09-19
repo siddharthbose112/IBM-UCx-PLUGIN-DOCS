@@ -1613,7 +1613,7 @@ Apache Maven provides developers a complete build lifecycle framework. It is use
 
 |Back to ...||Maven |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](MavenSourceConfig/README.md)|[27.1150685](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/MavenSourceConfig/ucd-MavenSourceConfig-27.1150685.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](MavenSourceConfig/README.md)|[28.1155760](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/MavenSourceConfig/ucd-MavenSourceConfig-28.1155760.zip)|
 
 ## Maven Resolve
 

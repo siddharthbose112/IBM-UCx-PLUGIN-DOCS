@@ -8,4 +8,4 @@ The Maven plug-in automates downloading artifacts from Maven repositories.
 
 |Back to ...||Latest Version|||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[27.1150685](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/MavenSourceConfig/ucd-MavenSourceConfig-27.1150685.zip)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[28.1155760](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/MavenSourceConfig/ucd-MavenSourceConfig-28.1155760.zip)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

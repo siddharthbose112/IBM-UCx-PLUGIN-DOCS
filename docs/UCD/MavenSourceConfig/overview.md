@@ -25,6 +25,10 @@ This plug-in is installed when installing IBM UrbanCode Deploy. When new plug-in
 
 ### History
 
+#### Version 28
+
+* Updating Jettison library to 1.5.4 for CVE-2023-1436.
+
 #### Version 27
 
 * Jettison dependency updated .
@@ -114,4 +118,4 @@ This plug-in is installed when installing IBM UrbanCode Deploy. When new plug-in
 
 |Back to ...||Latest Version|Maven ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[27.1150685](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/MavenSourceConfig/ucd-MavenSourceConfig-27.1150685.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[28.1155760](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/MavenSourceConfig/ucd-MavenSourceConfig-28.1155760.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
