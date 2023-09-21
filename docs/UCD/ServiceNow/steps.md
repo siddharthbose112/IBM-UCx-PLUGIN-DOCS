@@ -98,7 +98,7 @@ Check records in a specified table against specified field values.
 
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
-| Check Fields | String | Newline seperated list of field value pairs. You may use the Name, what you see in the XML export, of the field. The record(s) will be checked to ensure that the values of the inputed field match and that the fields exist. For example: description=This is a high valued task | Yes |
+| Check Fields | String | Newline seperated list of field value pairs. You may use the Name, what you see in the XML export, of the field. The record(s) will be checked to ensure that the values of the inputed field match and that the fields exist. For example: description=This is a high valued task . IF you want to use OR operations on Check fields , first please select checkbox OR for Check Fileds.  Now you can provide multiple value using OR operator inside Check fields . For example : Type= emergency OR emergency1 | Yes |
 | OR for Check Fileds | Boolean | Select to implement OR opertions for Check fields. | No |
 | HTTP Proxy Host | String | Provide the hostname of the HTTP proxy to use to connect to ServiceNow. Eg proxy.domain.com | No |
 | HTTP Proxy Password | Password | Provide the password to authenticate with HTTP proxy. | No |
@@ -245,5 +245,5 @@ Update records by specifying field values.
 
 |Back to ...||Latest Version|ServiceNow |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[38.1159088](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/ucd-ServiceNow-38.1159088.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[39.1161576](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/ucd-ServiceNow-39.1161576.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
 
