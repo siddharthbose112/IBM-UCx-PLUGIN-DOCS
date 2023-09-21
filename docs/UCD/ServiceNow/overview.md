@@ -27,9 +27,9 @@ No special steps are required for installation. See [Installing plug-ins in IBM 
 
 ### History
 
-#### Version 38
+#### Version 39
 
-RFE - URBANCODE-I-557 - Resolved issue for OR condition. .
+RFE - URBANCODE-I-557 Implement OR on the key(any key).
 
 #### Version 37
 
@@ -160,5 +160,5 @@ This version includes a fix for a defect related to the ServiceNow REST API in t
 
 |Back to ...||Latest Version|ServiceNow |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[38.1159088](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/ucd-ServiceNow-38.1159088.zip)|[Readme](README.md)|[Usage](usage.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[39.1161576](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/ucd-ServiceNow-39.1161576.zip)|[Readme](README.md)|[Usage](usage.md)|[Troubleshooting](troubleshooting.md)|[Steps](steps.md)|[Downloads](downloads.md)|
 
