@@ -11,4 +11,4 @@ Jump start your deployment strategy with our preconfigured [Docker templates](ht
 
 |Back to ...||Latest Version|||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[42.1158923](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DockerSourceConfig/ucd-DockerSourceConfig-42.1158923.zip)|[Overview](overview.md)|[Usage](usage.md)|[Settings](settings.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[43.1162237](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DockerSourceConfig/ucd-DockerSourceConfig-43.1162237.zip)|[Overview](overview.md)|[Usage](usage.md)|[Settings](settings.md)|[Downloads](downloads.md)|

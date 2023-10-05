@@ -24,6 +24,10 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 43
+
+* Add support for image registries that return image manifest info using schemaVersion 2.
+
 #### Version 42
 
 * Log4j and Jettison dependency updated.
@@ -162,4 +166,4 @@ Version 4 supports the IBM Containers service.
 
 |Back to ...||Latest Version|Docker Registry ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[42.1158923](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DockerSourceConfig/ucd-DockerSourceConfig-42.1158923.zip)|[Readme](README.md)|[Usage](usage.md)|[Settings](settings.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[43.1162237](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DockerSourceConfig/ucd-DockerSourceConfig-43.1162237.zip)|[Readme](README.md)|[Usage](usage.md)|[Settings](settings.md)|[Downloads](downloads.md)|
