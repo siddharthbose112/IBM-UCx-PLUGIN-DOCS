@@ -1923,7 +1923,7 @@ SQL\*Plus (commonly known as sqlplus) is an Oracle database client that can run 
 
 |Back to ...||Oracle SQLPlus |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](SQLPlus/README.md)|[23.1153956](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLPlus/ucd-SQLPlus-23.1153956.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](SQLPlus/README.md)|[24.1163812](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/SQLPlus/ucd-SQLPlus-24.1163812.zip)|
 
 ## Oracle Service Bus Configuration Management
 
