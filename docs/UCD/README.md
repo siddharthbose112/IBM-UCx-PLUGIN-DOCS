@@ -18,6 +18,7 @@
 	- [App Connect Enterprise](#app-connect-enterprise)
 	- [Apple Xcode  \[community plugin\]](#apple-xcode--community-plugin)
 	- [Apprenda  \[partner plugin\]](#apprenda--partner-plugin)
+	- [Argo CD](#argocd)
 	- [Artifactory](#artifactory)
 	- [Artifactory Source Config](#artifactory-source-config)
 	- [ASOC \[community plugin\]](#asoc-community-plugin)
