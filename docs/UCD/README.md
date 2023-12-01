@@ -360,6 +360,16 @@ The Apprenda plugin for IBM UrbanCode Deploy enables deployment of applications 
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](apprenda/README.md)|[0]()|
 
+## ArgoCD
+
+Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. The Argo CD plug-in provides the ability to interact with Argo CD applications within IBM DevOps Deploy.
+
+---
+
+|Back to ...||ArgoCD |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](argocd/README.md)|[1.1164092](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/argocd/ucd-plugins-argocd-1.1164092.zip)|
+
 ## Artifactory
 
 Artifactory provides repository management for various types of resources. The Artifactory plug-in integrates with the Artifactory repository to import Maven, Gradle, Ivy, and NuGet artifacts, add properties to files and folders, modify build status, and more.
