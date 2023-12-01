@@ -3,9 +3,9 @@
 
 * [App Create](#app-create)
 * [App Get](#app-get)
-* [App Get](#app-rollback)
-* [App Get](#app-set)
-* [App Get](#app-sync)
+* [App Rollback](#app-rollback)
+* [App Set](#app-set)
+* [App Sync](#app-sync)
 * [Login](#login)
 
 
@@ -51,7 +51,7 @@ Set Argo CD application parameters.
 | Argo CD Application Name | String | The name of the Argo CD application to modify. | Yes |
 | Additional application set flags | String | A list of flags to set when running the application set step.  For example: '--config=path'. Specify each flag on a new line.  If the flag takes an argument, put the argument on a separate line or use an equal '=' (not whitespace) between the flag and argument. | Yes |
 
-### App Create
+### App Sync
 
 Sync an Argo CD application.
 
@@ -78,4 +78,4 @@ Login to an Argo CD instance.
 
 |Back to ...||Latest Version|Argo CD ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1.1164092](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/argocd/ucd-plugins-argocd-1.1164092.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1.1164029](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/argocd/ucd-plugins-argocd-1.1164029.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
