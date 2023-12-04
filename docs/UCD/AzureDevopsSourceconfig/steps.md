@@ -1,5 +1,5 @@
 
-# Artifactory - Steps
+# Azure DevOps - Steps
 
 The following process steps are available in the in the Azure plug-in
 
