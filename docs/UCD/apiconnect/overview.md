@@ -35,6 +35,14 @@ The apic toolkit must be downloaded and installed separately. Directions can be 
 
 ### History
 
+#### Version 8
+
+* Updated plugin to only support API Connect 10.0.x. This version of the plugin only supports IBM API-Connect v10.x and newer.
+
+#### Version 7
+
+* Updated plugin to support API Connect 2018.
+
 #### Version 6
 
 * Allow space to be specified on the Publish API Product Definitions (products:publish) and Replace Product in Catalog (products:replace) steps.
@@ -63,4 +71,4 @@ The apic toolkit must be downloaded and installed separately. Directions can be 
 
 |Back to ...||Latest Version|IBM API Connect ||||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[7.1022553](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/apiconnect/apiconnect-7.1022553.zip)|[Readme](README.md)|[Usage](usage.md)|[Tutorials](tutorials.md)|[Steps](steps.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[8.1164159](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/apiconnect/ucd-apiconnect-8.1164159.zip)|[Readme](README.md)|[Usage](usage.md)|[Tutorials](tutorials.md)|[Steps](steps.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|

@@ -823,7 +823,7 @@ IBM API Connection is an application programming interface (API) management plat
 
 |Back to ...||IBM API Connect |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](apiconnect/README.md)|[7.1022553](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/apiconnect/apiconnect-7.1022553.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](apiconnect/README.md)|[8.1164159](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/apiconnect/ucd-apiconnect-8.1164159.zip)|
 
 ## IBM AppScan Enterprise
 
