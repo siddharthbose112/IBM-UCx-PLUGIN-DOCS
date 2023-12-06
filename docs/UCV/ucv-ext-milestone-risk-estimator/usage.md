@@ -22,7 +22,7 @@ The tables in the Configuration properties topic describe the properties used to
 3. On the Add Integration page enter values for the fields used to configure the integration and define communication.
 4. Click **Add/Save**.
 
-[!Integration](media/riskEstimatorIntegration.png)
+[![Integration](media/riskEstimatorIntegration.png)](media/riskEstimatorIntegration.png)
 
 ## Metrics Result In VSM
 
@@ -32,7 +32,7 @@ Once the Milestone Risk Estimator plugin has been executed successfully, it is p
 2. Click on **Metric Bar**, Click on **+** button.
 3. Select from category **Delivery Flow**, **P.R.E Risk** (shows the evaluated risk as percentage) and **P.R.E Deadline** (shows an estimated deadline).
 
-[!Value Stream Page](media/riskEstimatorVSM.png)
+[![Value Stream Page](media/riskEstimatorVSM.png)](media/riskEstimatorVSM.png)
 
 ## Metrics Result In Insights
 
@@ -44,7 +44,7 @@ To view metrics result in insights page follow bellow steps.
 4. Select from category **Delivery Flow**, **P.R.E Risk** (shows the evaluated risk as percentage) and **P.R.E Deadline** (shows an estimated deadline), Click on **Add** button.
 5. To view data for perticular value stream left side click on drop down **Value Stream**, select required Value stream.
 
-[!Insights Page](media/riskEstimatorInsights.png)
+[![Insights Page](media/riskEstimatorInsights.png)](media/riskEstimatorInsights.png)
 
 ## Configuration Properties
 
@@ -55,7 +55,7 @@ The following tables describe the properties used to configure the integration. 
 
 Some properties might not be displayed in the user interface, to see all properties enable the **Show Hidden Properties** field.
 
-[!Show Hidden Properties](media/riskEstimatorHiddenProps.png)
+[![Show Hidden Properties](media/riskEstimatorHiddenProps.png)](media/riskEstimatorHiddenProps.png)
 
 ### General Configuration Properties
 
