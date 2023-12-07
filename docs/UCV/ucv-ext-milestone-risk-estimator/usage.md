@@ -1,48 +1,56 @@
 # Milestone Risk Estimator - Usage
 
-To use the Milestone Risk Estimator plugin, the plugin must be loaded and an instance created before you can configure the plugin integration. You define configuration properties in the user interface.
+To use the Milestone Risk Estimator plug-in, the plug-in must be loaded and an instance created before you can configure the plugin integration. You define configuration properties in the user interface.
 
 ## Integration Type
 
 The Milestone Risk Estimator plugin supports scheduled events integration which are listed in the following table.
 
-| Name | Description |
-| --- | --- |
-| ExecuteTrain | Probabilistic Estimator Training |
-| ExecutePredict | Probabilistic Estimator Predictor |
+| Name | Description | Synchronization Interval |
+| --- | --- | --- |
+| ExecuteTrain | Probabilistic Estimator Training | 10080 minutes |
+| ExecutePredict | Probabilistic Estimator Predictor | 1440 minutes |
 
 ## Integration
 
 The tables in the Configuration properties topic describe the properties used to define the integration.
 
-### Using the user interface
+To install the plug-in, perform the following steps:
 
-1. In Urbancode Velocity, click **Settings** > **Integrations** > **Available**.
-2. In **Available** plugins list, under the **Action** column for the plugin, click **Add Integration**.
+1. In Urbancode Velocity, click **Settings** > **Integrations** > **Available**
+2. In the **Action** column for the Milestone Risk Estimator plug-in, click **Install**.
+
+To integrate the plug-in, perform the following steps:
+
+1. In Urbancode Velocity, click **Settings** > **Integrations** > **Installed**.
+2. In the **Action** column for the Milestone Risk Estimator plug-in, click **Add Integration**.
 3. On the Add Integration page enter values for the fields used to configure the integration and define communication.
-4. Click **Add/Save**.
+4. Click **Add**.
 
 [![Integration](media/riskEstimatorIntegration.png)](media/riskEstimatorIntegration.png)
 
 ## Metrics Result In VSM
 
-Once the Milestone Risk Estimator plugin has been executed successfully, it is possible to observe results through dedicated metrics.
+Once the Milestone Risk Estimator plugin has been executed successfully, it is possible to observe results through dedicated metrics. Perform the following steps to add the metrics in the value stream.
 
-1. In Urbancode Velocity click on **Value Streams**, click on required Value Stream
-2. Click on **Metric Bar**, Click on **+** button.
-3. Select from category **Delivery Flow**, **P.R.E Risk** (shows the evaluated risk as percentage) and **P.R.E Deadline** (shows an estimated deadline).
+1. In Urbancode Velocity, click **Value Streams**. 
+2. Click required Value Stream.
+2. Click the **Metric Bar**, them click **+** button.
+3. In **Delivery Flow** category, click **+** button next to **P.R.E Risk** and **P.R.E Deadline** to add these metrics.
 
 [![Value Stream Page](media/riskEstimatorVSM.png)](media/riskEstimatorVSM.png)
 
 ## Metrics Result In Insights
 
-To view metrics result in insights page follow bellow steps.
+Perform the following steps to view metrics result in insights page.
 
-1. In Urbancode Velocity click on **Insights**
-2. Click on **Create Dashboard**, create your own dashboard with any name
-3. Select created dashboard and click on **Add Charts** at top right of the page
-4. Select from category **Delivery Flow**, **P.R.E Risk** (shows the evaluated risk as percentage) and **P.R.E Deadline** (shows an estimated deadline), Click on **Add** button.
-5. To view data for perticular value stream left side click on drop down **Value Stream**, select required Value stream.
+1. In Urbancode Velocity, click **Insights**
+2. Click **All Dashboards**.
+3. Click **Create Dashboard** to create your own dashboard with any name.
+4. Select created dashboard or any other existing dashboard.
+5. Click **Add Charts** at top right of the page.
+6. In **Delivery Flow** category, click **Add** next to **P.R.E Risk** and **P.R.E Deadline** to add these metrics.
+7. To view data for particular value stream, on the left navigation pane under **Value Streams**, select the required Value stream.
 
 [![Insights Page](media/riskEstimatorInsights.png)](media/riskEstimatorInsights.png)
 
@@ -73,7 +81,7 @@ Some properties might not be displayed in the user interface, to see all propert
 
 | Name | Type | Description | Required | Property Name |
 | --- | --- | --- | --- | --- |
-| Value streams to consider for risk assessment | Array | Provide a set of value stream names comma separated, to be considered for training/prediction (i.e: Vsm_Name1,Vsm_Name2 ) | Yes | vsmsArray |
+| Value streams to consider for risk assessment | Array | Comma separated list of value stream names to be considered for training and prediction (For example: Vsm_Name1,Vsm_Name2 ) | Yes | vsmsArray |
 
 
 |Back to ...||Latest Version|Milestone Risk Estimator |||
