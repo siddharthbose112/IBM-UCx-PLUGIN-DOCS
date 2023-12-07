@@ -30,6 +30,7 @@
 	- [JUnit](#junit)
 	- [Jira](#jira)
 	- [Microsoft Visual Studio Testing](#microsoft-visual-studio-testing)
+	- [Milestone Risk Estimator](#milestone-risk-estimator)
 	- [urbancode-velocity](#urbancode-velocity)
 	- [Planview Leankit](#planview-leankit)
 	- [Rally](#rally)
@@ -288,6 +289,17 @@ Microsoft Visual Studio is a testing framework which is used to define and run u
 |Back to ...||Microsoft Visual Studio Testing |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-vs-quality/README.md)|[1.0.31](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-vs-quality/ucv-ext-vs-quality-1.0.31.tar.zip)|
+
+## Milestone Risk Estimator
+
+The Milestone Risk Estimator plug-in represents an innovative Machine Learning(ML) solution designed to enhance value stream management by providing accurate sprint risk estimates. The projected outcomes are presented through metrics, enabling more effective sprint management for increased productivity.
+
+---
+
+|Back to ...||Milestone Risk Estimator |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-milestone-risk-estimator/README.md)|[1.0.1](https://hub.docker.com/r/urbancode/ucv-ext-milestone-risk-estimator/tags)|
+
 
 ## urbancode-velocity
 
