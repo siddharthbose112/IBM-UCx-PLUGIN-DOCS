@@ -1704,7 +1704,7 @@ The Web Deploy tool (msdeploy) simplifies the migration, management and deployme
 
 |Back to ...||Microsoft IIS MS-Deploy (Azure App Service) |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](IIS-MSDeploy/README.md)|[5.115409](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IIS-MSDeploy/ucd-IIS-MSDeploy-5.1154090.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](IIS-MSDeploy/README.md)|[6.1164186](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IIS-MSDeploy/ucd-IIS-MSDeploy-6.1164186.zip)|
 
 ## Microsoft SQL Server SQLCmd
 
