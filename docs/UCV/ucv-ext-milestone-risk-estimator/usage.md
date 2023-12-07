@@ -27,8 +27,6 @@ To integrate the plug-in, perform the following steps:
 3. On the Add Integration page enter values for the fields used to configure the integration and define communication.
 4. Click **Add**.
 
-[![Integration](media/riskEstimatorIntegration.png)](media/riskEstimatorIntegration.png)
-
 ## Metrics Result In VSM
 
 Once the Milestone Risk Estimator plugin has been executed successfully, it is possible to observe results through dedicated metrics. Perform the following steps to add the metrics in the value stream.
@@ -37,8 +35,6 @@ Once the Milestone Risk Estimator plugin has been executed successfully, it is p
 2. Click required Value Stream.
 2. Click the **Metric Bar**, them click **+** button.
 3. In **Delivery Flow** category, click **+** button next to **P.R.E Risk** and **P.R.E Deadline** to add these metrics.
-
-[![Value Stream Page](media/riskEstimatorVSM.png)](media/riskEstimatorVSM.png)
 
 ## Metrics Result In Insights
 
@@ -52,8 +48,6 @@ Perform the following steps to view metrics result in insights page.
 6. In **Delivery Flow** category, click **Add** next to **P.R.E Risk** and **P.R.E Deadline** to add these metrics.
 7. To view data for particular value stream, on the left navigation pane under **Value Streams**, select the required Value stream.
 
-[![Insights Page](media/riskEstimatorInsights.png)](media/riskEstimatorInsights.png)
-
 ## Configuration Properties
 
 The following tables describe the properties used to configure the integration. Each table contains the field name when using the user interface and the property name.
@@ -62,8 +56,6 @@ The following tables describe the properties used to configure the integration. 
 * The Milestone Risk Estimator Configuration Properties table describes the configuration properties that define the connection and communications with the Milestone Risk Estimator.
 
 Some properties might not be displayed in the user interface, to see all properties enable the **Show Hidden Properties** field.
-
-[![Show Hidden Properties](media/riskEstimatorHiddenProps.png)](media/riskEstimatorHiddenProps.png)
 
 ### General Configuration Properties
 
