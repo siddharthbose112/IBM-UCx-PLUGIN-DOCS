@@ -55,6 +55,11 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 130
+
+* Updated plugin rectify shared-library creation error. 
+
+
 #### Version 129
 
 * Fixed defect to make the plugin compatibel with UCD v7.1.2.2 and above. Refer link: https://www.ibm.com/support/pages/node/6963029.
@@ -244,4 +249,4 @@ The following features were added in version 96:
 
 |Back to ...||Latest Version|WebSphere Application Server - Deployment |||||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[129.1158192](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/ucd-WebSphere-129.1158192.zip)|[Readme](README.md)|[User permissions](user permissions.md)|[Usage](usage.md)|[Steps](steps.md)|[Roles](roles.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[130.1164187](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/ucd-WebSphere-130.1164187.zip)|[Readme](README.md)|[User permissions](user permissions.md)|[Usage](usage.md)|[Steps](steps.md)|[Roles](roles.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
