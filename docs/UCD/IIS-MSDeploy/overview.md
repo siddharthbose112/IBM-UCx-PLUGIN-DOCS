@@ -14,6 +14,10 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 6
+
+Updated plugin for groovy3 support.
+
 #### Version 5
 
 Log4j and Jettison dependency updated .
