@@ -1,9 +1,9 @@
 
-# Welcome to UrbanCode Velocity Plugins
+# Welcome to DevOps Velocity Plugins
 
 ## Contents
 
-- [Welcome to UrbanCode Velocity Plugins](#welcome-to-urbancode-velocity-plugins)
+- [Welcome to DevOps Velocity Plugins](#welcome-to-urbancode-velocity-plugins)
 	- [Contents](#contents)
 - [List of all Plugins](#list-of-all-plugins)
 	- [Apache JMeter](#apache-jmeter)
@@ -44,7 +44,7 @@
 	- [TestComplete](#testcomplete)
 	- [TestNG](#testng)
 	- [Twistlock](#twistlock)
-	- [Urbancode Deploy](#urbancode-deploy)
+	- [DevOps Deploy](#urbancode-deploy)
 	- [WhiteSource](#whitesource)
 	- [YAML Executor](#yaml-executor)
 
@@ -52,7 +52,7 @@
 
 ## Apache JMeter
 
-Apache JMeter is a testing tool to analyze and measure web application performance. The JMeter plug-in imports the test results  data in UrbanCode Velocity metrics.
+Apache JMeter is a testing tool to analyze and measure web application performance. The JMeter plug-in imports the test results  data in DevOps Velocity metrics.
 
 ---
 
@@ -212,7 +212,7 @@ HCL AppScan on Cloud (ASoC) is an application security offering that allows you 
 
 ## HCL OneTest
 
-The HCL OneTest tool provides automated software testing tools. This plug-in provides integration of Functional,  Performance and Web UI testing results (JSON) into the UrbanCode Velocity server.
+The HCL OneTest tool provides automated software testing tools. This plug-in provides integration of Functional,  Performance and Web UI testing results (JSON) into the DevOps Velocity server.
 
 ---
 
@@ -222,7 +222,7 @@ The HCL OneTest tool provides automated software testing tools. This plug-in pro
 
 ## HCL OneTest Server
 
-The HCL OneTest Server plug-in imports test results as metrics into the UrbanCode Velocity server.
+The HCL OneTest Server plug-in imports test results as metrics into the DevOps Velocity server.
 
 ---
 
@@ -242,7 +242,7 @@ Handlebars is a simple templating language. It can be used to generate HTML or o
 
 ## IBM Engineering Workflow Management (EWM)
 
-The IBM Engineering Workflow Management (EWM) plug-in, previously known as the IBM Rational Team Concert, provides  integration with the IBM Workflow Management (EWM) server. This plug-in imports work items from an IBM EWM server to an  Urban Code Velocity value stream map.
+The IBM Engineering Workflow Management (EWM) plug-in, previously known as the IBM Rational Team Concert, provides  integration with the IBM Workflow Management (EWM) server. This plug-in imports work items from an IBM EWM server to an  DevOps Velocity value stream map.
 
 ---
 
@@ -252,7 +252,7 @@ The IBM Engineering Workflow Management (EWM) plug-in, previously known as the I
 
 ## Jenkins
 
-A new plug-in for Jenkins works as any other plug-ins of UrbanCode Velocity. The old plugin has been renamed to Jenkins (Legacy). The Jenkins plug-in pull jobs from Jenkins and provide as an Input to the release pipelines and as an automation task in deployment plan. 
+A new plug-in for Jenkins works as any other plug-ins of DevOps Velocity. The old plugin has been renamed to Jenkins (Legacy). The Jenkins plug-in pull jobs from Jenkins and provide as an Input to the release pipelines and as an automation task in deployment plan. 
 
 ---
 
@@ -262,7 +262,7 @@ A new plug-in for Jenkins works as any other plug-ins of UrbanCode Velocity. The
 
 ## JUnit
 
-JUnit provides a testing framework for the Java programming language. The JUnit plug-in imports the test results data in  UrbanCode Velocity metrics.
+JUnit provides a testing framework for the Java programming language. The JUnit plug-in imports the test results data in  DevOps Velocity metrics.
 
 ---
 
@@ -303,7 +303,7 @@ The Milestone Risk Estimator plug-in represents an innovative Machine Learning(M
 
 ## urbancode-velocity
 
-With this Jenkins plugin, you can run Jenkins jobs as a part of a deployment plan in UrbanCode Velocity. You can run jobs that will trigger the creation of a version in a Velocity Pipeline as well as persist properties on that version that can be used as input properties in other Jenkins builds. This plugin will pass along important data from Git to the Velocity Pipeline.
+With this Jenkins plugin, you can run Jenkins jobs as a part of a deployment plan in DevOps Velocity. You can run jobs that will trigger the creation of a version in a Velocity Pipeline as well as persist properties on that version that can be used as input properties in other Jenkins builds. This plugin will pass along important data from Git to the Velocity Pipeline.
 
 ---
 
@@ -324,7 +324,7 @@ The Planview Leankit plugin processes incoming data from Planview LeanKit server
 
 ## Rally
 
-Rally is an Agile project management tool for planning, scheduling, and tracking iterations and releases. The Rally  plug-in provides for integration with a Rally server. It imports Rally artifacts into the UrbanCode Velocity server.
+Rally is an Agile project management tool for planning, scheduling, and tracking iterations and releases. The Rally  plug-in provides for integration with a Rally server. It imports Rally artifacts into the DevOps Velocity server.
 
 ---
 
@@ -362,7 +362,7 @@ The SAP ChaRM plug-in will sync SAP Normal Changes in SAP's Change Request Manag
 
 ## ServiceNow
 
-The ServiceNow plug-in for IBM UrbanCode Velocity automates the importing of ServiceNow incident management(Beta),  change management and problem management data from a ServiceNow server.
+The ServiceNow plug-in for IBM DevOps Velocity automates the importing of ServiceNow incident management(Beta),  change management and problem management data from a ServiceNow server.
 
 ---
 
@@ -372,7 +372,7 @@ The ServiceNow plug-in for IBM UrbanCode Velocity automates the importing of Ser
 
 ## Shell
 
-The Shell plug-in for IBM UrbanCode Velocity automates the task in releases.
+The Shell plug-in for IBM DevOps Velocity automates the task in releases.
 
 ---
 
@@ -410,7 +410,7 @@ SonarQube is an open source tool suite to measure and analyze the quality of sou
 
 ## TestNG
 
-TestNG is a testing framework for Java programming. This plug-in provides integration of testing results into the  UrbanCode Velocity server.
+TestNG is a testing framework for Java programming. This plug-in provides integration of testing results into the  DevOps Velocity server.
 
 ---
 
@@ -420,7 +420,7 @@ TestNG is a testing framework for Java programming. This plug-in provides integr
 
 ## Twistlock
 
-Twistlock provides container security. It is a rule-based access control policy system for Docker and Kubernetes  containers. The Twistlock plug-in imports the Twistlock data in UrbanCode Velocity metrics.
+Twistlock provides container security. It is a rule-based access control policy system for Docker and Kubernetes  containers. The Twistlock plug-in imports the Twistlock data in DevOps Velocity metrics.
 
 ---
 
@@ -428,15 +428,15 @@ Twistlock provides container security. It is a rule-based access control policy 
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-twistlock/README.md)|[1.0.43](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-twistlock/ucv-ext-twistlock-1.0.43.tar.zip)|
 
-## Urbancode Deploy
+## DevOps Deploy
 
-UrbanCode Deploy is engineered to handle the most complex deployment situations with push-button automation and controlled auditing needed in production. UrbanCode Deploy automates application deployments across varying IT environments.
+DevOps Deploy is engineered to handle the most complex deployment situations with push-button automation and controlled auditing needed in production. DevOps Deploy automates application deployments across varying IT environments.
 
-The Deploy Plugin for UrbanCode Velocity imports deployment data from UrbanCode Deploy into UrbanCode Velocity. Applications in UrbanCode Deploy can be mapped in the UrbanCode Velocity pipeline and the application versions can be tracked from the pipeline.
+The Deploy Plugin for DevOps Velocity imports deployment data from DevOps Deploy into DevOps Velocity. Applications in DevOps Deploy can be mapped in the DevOps Velocity pipeline and the application versions can be tracked from the pipeline.
 
 ---
 
-|Back to ...||Urbancode Deploy |Latest Version|
+|Back to ...||DevOps Deploy |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-ucd/README.md)|[3.4.5](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd:3.4.5.tar.7z.001)|
 
@@ -444,7 +444,7 @@ The Deploy Plugin for UrbanCode Velocity imports deployment data from UrbanCode 
 
 WhiteSource identifies all open source components and their dependencies in software. WhiteSource secures software from vulnerabilities and enforces license policies throughout the software development lifecycle.
 
-The WhiteSource plug-in retrieves WhiteSource scan results and displays the License Risks and Security Vulnerabilities in IBM UrbanCode Velocity metric displays.
+The WhiteSource plug-in retrieves WhiteSource scan results and displays the License Risks and Security Vulnerabilities in IBM DevOps Velocity metric displays.
 
 ---
 
@@ -454,7 +454,7 @@ The WhiteSource plug-in retrieves WhiteSource scan results and displays the Lice
 
 ## YAML Executor
 
-The YAML Executor plug-in automates the initial setup process for integrating different CI/CD tools into UrbanCode Velocity. You can define the integration configurations in a YAML file and apply it in UrbanCode Velocity to automate the integration process.
+The YAML Executor plug-in automates the initial setup process for integrating different CI/CD tools into DevOps Velocity. You can define the integration configurations in a YAML file and apply it in DevOps Velocity to automate the integration process.
 
 ---
 
