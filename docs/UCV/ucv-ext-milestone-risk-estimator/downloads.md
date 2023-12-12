@@ -1,15 +1,24 @@
 # Milestone Risk Estimator - Downloads
 
-To download the plugins, click the following version specific links.
-- [ucv-ext-milestone-risk-estimator:1.0.1.tar.7z.009-File 9](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-milestone-risk-estimator/ucv-ext-milestone-risk-estimator%3A1.0.1.tar.7z.009)
-- [ucv-ext-milestone-risk-estimator:1.0.1.tar.7z.008-File 8](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-milestone-risk-estimator/ucv-ext-milestone-risk-estimator%3A1.0.1.tar.7z.008)
-- [ucv-ext-milestone-risk-estimator:1.0.1.tar.7z.007-File 7](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-milestone-risk-estimator/ucv-ext-milestone-risk-estimator%3A1.0.1.tar.7z.007)
-- [ucv-ext-milestone-risk-estimator:1.0.1.tar.7z.006-File 6](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-milestone-risk-estimator/ucv-ext-milestone-risk-estimator%3A1.0.1.tar.7z.006)
-- [ucv-ext-milestone-risk-estimator:1.0.1.tar.7z.005-File 5](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-milestone-risk-estimator/ucv-ext-milestone-risk-estimator%3A1.0.1.tar.7z.005)
-- [ucv-ext-milestone-risk-estimator:1.0.1.tar.7z.004-File 4](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-milestone-risk-estimator/ucv-ext-milestone-risk-estimator%3A1.0.1.tar.7z.004)
-- [ucv-ext-milestone-risk-estimator:1.0.1.tar.7z.003-File 3](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-milestone-risk-estimator/ucv-ext-milestone-risk-estimator%3A1.0.1.tar.7z.003)
-- [ucv-ext-milestone-risk-estimator:1.0.1.tar.7z.002-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-milestone-risk-estimator/ucv-ext-milestone-risk-estimator%3A1.0.1.tar.7z.002)
-- [ucv-ext-milestone-risk-estimator:1.0.1.tar.7z.001-File 1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-milestone-risk-estimator/ucv-ext-milestone-risk-estimator%3A1.0.1.tar.7z.001)
+To download the plug-ins, click the following version specific links.
+- [ucv-ext-milestone-risk-estimator:1.0.3.tar.7z.009](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-milestone-risk-estimator/ucv-ext-milestone-risk-estimator%3A1.0.3.tar.7z.009)
+- [ucv-ext-milestone-risk-estimator:1.0.3.tar.7z.008](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-milestone-risk-estimator/ucv-ext-milestone-risk-estimator%3A1.0.3.tar.7z.008)
+- [ucv-ext-milestone-risk-estimator:1.0.3.tar.7z.007](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-milestone-risk-estimator/ucv-ext-milestone-risk-estimator%3A1.0.3.tar.7z.007)
+- [ucv-ext-milestone-risk-estimator:1.0.3.tar.7z.006](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-milestone-risk-estimator/ucv-ext-milestone-risk-estimator%3A1.0.3.tar.7z.006)
+- [ucv-ext-milestone-risk-estimator:1.0.3.tar.7z.005](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-milestone-risk-estimator/ucv-ext-milestone-risk-estimator%3A1.0.3.tar.7z.005)
+- [ucv-ext-milestone-risk-estimator:1.0.3.tar.7z.004](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-milestone-risk-estimator/ucv-ext-milestone-risk-estimator%3A1.0.3.tar.7z.004)
+- [ucv-ext-milestone-risk-estimator:1.0.3.tar.7z.003](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-milestone-risk-estimator/ucv-ext-milestone-risk-estimator%3A1.0.3.tar.7z.003)
+- [ucv-ext-milestone-risk-estimator:1.0.3.tar.7z.002](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-milestone-risk-estimator/ucv-ext-milestone-risk-estimator%3A1.0.3.tar.7z.002)
+- [ucv-ext-milestone-risk-estimator:1.0.3.tar.7z.001](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-milestone-risk-estimator/ucv-ext-milestone-risk-estimator%3A1.0.3.tar.7z.001)
+- [ucv-ext-milestone-risk-estimator:1.0.1.tar.7z.009](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-milestone-risk-estimator/ucv-ext-milestone-risk-estimator%3A1.0.1.tar.7z.009)
+- [ucv-ext-milestone-risk-estimator:1.0.1.tar.7z.008](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-milestone-risk-estimator/ucv-ext-milestone-risk-estimator%3A1.0.1.tar.7z.008)
+- [ucv-ext-milestone-risk-estimator:1.0.1.tar.7z.007](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-milestone-risk-estimator/ucv-ext-milestone-risk-estimator%3A1.0.1.tar.7z.007)
+- [ucv-ext-milestone-risk-estimator:1.0.1.tar.7z.006](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-milestone-risk-estimator/ucv-ext-milestone-risk-estimator%3A1.0.1.tar.7z.006)
+- [ucv-ext-milestone-risk-estimator:1.0.1.tar.7z.005](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-milestone-risk-estimator/ucv-ext-milestone-risk-estimator%3A1.0.1.tar.7z.005)
+- [ucv-ext-milestone-risk-estimator:1.0.1.tar.7z.004](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-milestone-risk-estimator/ucv-ext-milestone-risk-estimator%3A1.0.1.tar.7z.004)
+- [ucv-ext-milestone-risk-estimator:1.0.1.tar.7z.003](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-milestone-risk-estimator/ucv-ext-milestone-risk-estimator%3A1.0.1.tar.7z.003)
+- [ucv-ext-milestone-risk-estimator:1.0.1.tar.7z.002](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-milestone-risk-estimator/ucv-ext-milestone-risk-estimator%3A1.0.1.tar.7z.002)
+- [ucv-ext-milestone-risk-estimator:1.0.1.tar.7z.001](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-milestone-risk-estimator/ucv-ext-milestone-risk-estimator%3A1.0.1.tar.7z.001)
 
 **Instructions to extract tar file from .7z file/files:**
 - Install p7zip by running command: ```sudo apt-get install p7zip```
@@ -21,4 +30,4 @@ To download the plugins, click the following version specific links.
 
 |Back to ...||Latest Version|Milestone Risk Estimator |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.1](https://hub.docker.com/r/urbancode/ucv-ext-milestone-risk-estimator/tags)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.3](https://hub.docker.com/r/urbancode/ucv-ext-milestone-risk-estimator/tags)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|
