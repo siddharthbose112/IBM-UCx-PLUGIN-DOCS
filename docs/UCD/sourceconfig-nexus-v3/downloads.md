@@ -3,6 +3,7 @@
 
 To download the plug-in, click the following version-specific links.
 
+- [ucd-sourceconfig-nexus-v3-5.1164218.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sourceconfig-nexus-v3/ucd-sourceconfig-nexus-v3-5.1164218.zip)
 - [ucd-sourceconfig-nexus-v3-4.1155934.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sourceconfig-nexus-v3/ucd-sourceconfig-nexus-v3-4.1155934.zip)
 - [sourceconfig-nexus-v3-3.1053071.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sourceconfig-nexus-v3/sourceconfig-nexus-v3-3.1053071.zip)
 - [sourceconfig-nexus-v3-2.1026800.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sourceconfig-nexus-v3/sourceconfig-nexus-v3-2.1026800.zip)
@@ -10,4 +11,4 @@ To download the plug-in, click the following version-specific links.
 
 |Back to ...||Latest Version|Nexus Repository Manager V3 ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[4.1155934](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sourceconfig-nexus-v3/ucd-sourceconfig-nexus-v3-4.1155934.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[5.1164218](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sourceconfig-nexus-v3/ucd-sourceconfig-nexus-v3-5.1164218.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|
