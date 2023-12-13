@@ -2,7 +2,7 @@
 
 ## Intro to IBM UrbanCode Plug-In Documentation
 
-This repository holds the IBM UrbanCode products plugin documentation.
+This repository holds the IBM DevOps products plugin documentation.
 
 ## Terms and Conditions
 
@@ -10,7 +10,7 @@ This repository holds the IBM UrbanCode products plugin documentation.
 
 * [Terms and Conditions Textual Form](docs/ibm-plugins-terms-and-conditions.txt)
 * [General Terms and Conditions](docs/UrbanCode_General_Plugin_Terms_and_Conditions.md)
-* [IBM UrbanCode Deploy Plugins Terms and Conditions](docs/UrbanCode_Deploy_Plugin_Terms_and_Conditions.md)
+* [IBM DevOps Deploy Plugins Terms and Conditions](docs/UrbanCode_Deploy_Plugin_Terms_and_Conditions.md)
 
 ## Documentation Links
 
@@ -20,8 +20,8 @@ This repository holds the IBM UrbanCode products plugin documentation.
 
 #### [IBM UrbanCode Build Plugin List](docs/UCB/README.md)
 
-#### [IBM UrbanCode Deploy Plugin List](docs/UCD/README.md)
+#### [IBM DevOps Deploy Plugin List](docs/UCD/README.md)
 
 #### [IBM UrbanCode Release Plugin List](docs/UCR/README.md)
 
-#### [IBM UrbanCode Velocity Plugin List](docs/UCV/README.md)
+#### [IBM DevOps Velocity Plugin List](docs/UCV/README.md)
