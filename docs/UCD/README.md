@@ -823,7 +823,7 @@ IBM API Connection is an application programming interface (API) management plat
 
 |Back to ...||IBM API Connect |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](apiconnect/README.md)|[7.1022553](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/apiconnect/apiconnect-7.1022553.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](apiconnect/README.md)|[8.1164159](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/apiconnect/ucd-apiconnect-8.1164159.zip)|
 
 ## IBM AppScan Enterprise
 
@@ -1704,7 +1704,7 @@ The Web Deploy tool (msdeploy) simplifies the migration, management and deployme
 
 |Back to ...||Microsoft IIS MS-Deploy (Azure App Service) |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](IIS-MSDeploy/README.md)|[5.115409](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IIS-MSDeploy/ucd-IIS-MSDeploy-5.1154090.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](IIS-MSDeploy/README.md)|[6.1164186](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IIS-MSDeploy/ucd-IIS-MSDeploy-6.1164186.zip)|
 
 ## Microsoft SQL Server SQLCmd
 
@@ -1864,7 +1864,7 @@ Nexus is a repository manager, developed by SonaType, designed to store artifact
 
 |Back to ...||Nexus Repository Manager V3 |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](sourceconfig-nexus-v3/README.md)|[4.1155934](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sourceconfig-nexus-v3/ucd-sourceconfig-nexus-v3-4.1155934.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](sourceconfig-nexus-v3/README.md)|[5.1164218](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sourceconfig-nexus-v3/ucd-sourceconfig-nexus-v3-5.1164218.zip)|
 
 ## Nexus Source Config
 
@@ -2305,7 +2305,7 @@ The WebSphere Application Server – Deployment plug-in provides a number of ste
 
 |Back to ...||WebSphere Application Server - Deployment |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Websphere/README.md)|[129.1158192](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/ucd-WebSphere-129.1158192.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](Websphere/README.md)|[130.1164187](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/ucd-WebSphere-130.1164187.zip)|
 
 ## WebSphere Application Server - Install
 
