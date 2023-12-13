@@ -39,7 +39,7 @@ The following tables describe the properties used to configure the integration.
 | properties | List of configuration properties used to connect and communicate with the Redmine server. Enclose the properties within braces. | Yes |
 | tenant_id | The name of the tenant. | Yes |
 | type | Unique identifier assigned to the plugin. The value for the Redmine plugin is `ucv-ext-fortify-ssc`. | Yes |
-| ucvAccessKey | The auto-generated User Access Key that the containerized plugin will use to communicate with UrbanCode Velocity (support starts with plugin v2.0.30 or later). | Yes |
+| ucvAccessKey | The auto-generated User Access Key that the containerized plugin will use to communicate with DevOps Velocity (support starts with plugin v2.0.30 or later). | Yes |
 
 ### Fortify SSC Properties table
 
@@ -48,7 +48,7 @@ The following tables describe the properties used to configure the integration.
 | URL | String | The URL of the Fortify SSC server. | Yes |
 | token | String | The API key to authenticate with the Fortify SSC server. | Yes |
 | Initial sync date | String | The date to pull data for the initial run. | No |
-| User Access Key | Secure | The user access key to authenticate with UrbanCode Velocity server, prior to version 2.4.0. | No |
+| User Access Key | Secure | The user access key to authenticate with DevOps Velocity server, prior to version 2.4.0. | No |
 
 
 

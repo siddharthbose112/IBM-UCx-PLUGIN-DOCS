@@ -2,13 +2,13 @@
 # Digital.ai Agility - Overview
 
 
-The Digital.io Agility plug-in provides the integration with Digital.io Agility server. The plug-in imports work items from a Digital.io Agility server and provides a single view consisting of all the work items in UrbanCode Velocity value stream map.
+The Digital.io Agility plug-in provides the integration with Digital.io Agility server. The plug-in imports work items from a Digital.io Agility server and provides a single view consisting of all the work items in DevOps Velocity value stream map.
 
 ## Compatibility
 
 This plug-in requires the following:
 
-* UrbanCode Velocity
+* DevOps Velocity
 Version 1.4.5 or later
 * Digital.io Agility Server Version 21.0 or later
 
@@ -24,7 +24,7 @@ UrbanCode Velolcity plug-in images are located in DockerHub. To view available p
 
 ### Version 1.0.11
 
-* Auto-generated User Access Key support added (support starts with IBM UrbanCode Velocity version 2.4.0 or later)
+* Auto-generated User Access Key support added (support starts with IBM DevOps Velocity version 2.4.0 or later)
 
 ### Version 1.0.0
 

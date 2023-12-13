@@ -4,7 +4,7 @@
 To use the HCL One Test plug-in, the plug-in must be loaded and an instance created before you can configure the plug-in integration. Configuration properties are defined using the product user interface or a JSON file.
 
 
-To use the plug-in upload a code coverage results file to UrbanCode Velocity to parse. Whenever UrbanCode Velocity receives the file, the plug-in parses the data and creates a metric entry.
+To use the plug-in upload a code coverage results file to DevOps Velocity to parse. Whenever DevOps Velocity receives the file, the plug-in parses the data and creates a metric entry.
 
 ## Integration type
 
@@ -12,11 +12,11 @@ The HCL One Test plug-in parses data from the HCL One Test tool.
 
 ## Invoking the plug-in
 
-You can invoke the plug-in manually using a REST Call or by [using a Jenkins plug-in](#invokejenkins) to integrate UrbanCode Velocity in a Jenkins environment.
+You can invoke the plug-in manually using a REST Call or by [using a Jenkins plug-in](#invokejenkins) to integrate DevOps Velocity in a Jenkins environment.
 
 ### Invoke using Jenkins plug-in
 
-Install the [UrbanCode Velocity plug-in](https://plugins.jenkins.io/urbancode-velocity) into your Jenkins server. In your freestyle job or pipeline use the **UCV-Upload Metrics File to UrbanCode Velocity** step and provide the required fields. This step allows your build job to upload generated coverage results files to UrbanCode Velocity.
+Install the [DevOps Velocity plug-in](https://plugins.jenkins.io/urbancode-velocity) into your Jenkins server. In your freestyle job or pipeline use the **UCV-Upload Metrics File to DevOps Velocity** step and provide the required fields. This step allows your build job to upload generated coverage results files to DevOps Velocity.
 
 #### Example
 
@@ -42,11 +42,11 @@ pluginType: 'onetest', tenantId: '<tenant Id>', testSetName: 'onetest', metricsR
 
 ### Invoke the plug-in using a Rest call
 
-When using a REST call to invoke the Code Coverage plug-in, it must be a POST method and include the location of the UrbanCode Velocity quality data endpoint.
+When using a REST call to invoke the Code Coverage plug-in, it must be a POST method and include the location of the DevOps Velocity quality data endpoint.
 
 The following request sample shows a REST call that you can copy and update as necessary. Key points about the snippet:
 
-* The URL points to the UrbanCode Velocity quality data endpoint. Update with the server location for your installation of UrbanCode Velocity.
+* The URL points to the DevOps Velocity quality data endpoint. Update with the server location for your installation of DevOps Velocity.
 * The BODY of the call is a multipart/form data. It includes information about the payload.
 
 

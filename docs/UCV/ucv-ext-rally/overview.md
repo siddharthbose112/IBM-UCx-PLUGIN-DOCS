@@ -1,16 +1,16 @@
 # Rally - Overview
 
-The Rally plug-in provides for integration with a Rally server. This plug-in imports work items from a Rally server and saves them as UrbanCode Velocity issues. The plug-in uses the Rally REST API to import data from a Rally server.
+The Rally plug-in provides for integration with a Rally server. This plug-in imports work items from a Rally server and saves them as DevOps Velocity issues. The plug-in uses the Rally REST API to import data from a Rally server.
 
-Data between the Rally server and the UrbanCode Velocity server is synchronized every five minutes.
+Data between the Rally server and the DevOps Velocity server is synchronized every five minutes.
 
 ## Compatibility
 
-Must be running UrbanCode Velocity version 1.2.1 and later to use the plug-in.
+Must be running DevOps Velocity version 1.2.1 and later to use the plug-in.
 
 ## Versions
 
-UrbanCode Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode
+DevOps Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode
 DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-rally/tags).
 
 ## History

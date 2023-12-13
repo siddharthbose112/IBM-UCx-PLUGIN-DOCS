@@ -46,11 +46,11 @@ test name or test path must be specified)
 ```
 
 
-**commitID** is the SHA of the commit. You can either not link it to anything in UrbanCode Velocity, or you can link it to a build, or to a commit (will accomplish the same thing in the end, by making the metric show up on the DOT). There are some IDs that are readily available when orchestrating from a Jenkins job for instance (such as the BUILD\_ID).
+**commitID** is the SHA of the commit. You can either not link it to anything in DevOps Velocity, or you can link it to a build, or to a commit (will accomplish the same thing in the end, by making the metric show up on the DOT). There are some IDs that are readily available when orchestrating from a Jenkins job for instance (such as the BUILD\_ID).
 
 You can map a build to a metric using tags defined on the Rational Test Automation Server by evaluating the tag against a regular express. Use the
 
-**Build Label Pattern** field to define the regular expression. For example, a build expression of “([A-Z]+-[0-9]+)” and a test has a tag of “BUILD-123”, the build is mapped with ID BUILD-123 in the UrbanCode Velocity server to the newly created metric. For assistance in forming a regular expression, see the [Regular expression tester](https://regexr.com) website. You can use the website to help form and test a regular expression based on your build ID.
+**Build Label Pattern** field to define the regular expression. For example, a build expression of “([A-Z]+-[0-9]+)” and a test has a tag of “BUILD-123”, the build is mapped with ID BUILD-123 in the DevOps Velocity server to the newly created metric. For assistance in forming a regular expression, see the [Regular expression tester](https://regexr.com) website. You can use the website to help form and test a regular expression based on your build ID.
 
 ## Integration
 
@@ -68,7 +68,7 @@ There are two methods to integrate the plug-in:
 
 ### Using a JSON file
 
-The JSON file contains the information for creating a value stream and integrating with the IBM Rational Test Automation Server server. The following table describes the information for the creating a IBM UrbanCode Velocity value stream map.
+The JSON file contains the information for creating a value stream and integrating with the IBM Rational Test Automation Server server. The following table describes the information for the creating a IBM DevOps Velocity value stream map.
 
 1. Download the value stream map. The value stream map is a JSON file used to define integrations.
 2. Edit the JSON file to include the plug-in configuration properties.
@@ -100,7 +100,7 @@ The following tables describe the properties used to configure the integration. 
 | Build Label Pattern | buildRegExp | String | A regular expression pattern to match a build ID on a test execution label. For example: ([A-Z]+-[0-9]+). | No|
 | Rational Test Automation Server Offline User Token | rtasOfflineToken | String | The offline user token created in the Rational Test Automation Server user interface by clicking the Create Token button. | Yes |
 | Rational Test Automation Server URL | rtasUrl | String | The base URL of the Rational Test Automation Server. For example: https://tp- cicd2.nonprod.hclpnp.com. | Yes |
-| UrbanCode Velocity User Access Key | ucvAccessKey | String | The user access key used to authenticate with the UrbanCode Velocity server. | Yes |
+| DevOps Velocity User Access Key | ucvAccessKey | String | The user access key used to authenticate with the DevOps Velocity server. | Yes |
 
 ## Example
 

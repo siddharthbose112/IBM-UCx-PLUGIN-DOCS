@@ -19,7 +19,7 @@ There are two methods to integrate the plug-in:
 
 * Using a JSON file
 
-For details see [Using plug-ins in UrbanCode Velocity](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2022/07/20/using-plug-ins-in-urbancode-velocity&preview=true).
+For details see [Using plug-ins in DevOps Velocity](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2022/07/20/using-plug-ins-in-urbancode-velocity&preview=true).
 
 ### Using the user interface
 
@@ -30,7 +30,7 @@ For details see [Using plug-ins in UrbanCode Velocity](https://community.ibm.com
 
 ### Using a JSON file
 
-The JSON file contains the information for creating a value stream and integrating with the IBM Engineering WorkFlow Management (EWM) server. The following table describes the information for the creating a UrbanCode Velocity value stream map.
+The JSON file contains the information for creating a value stream and integrating with the IBM Engineering WorkFlow Management (EWM) server. The following table describes the information for the creating a DevOps Velocity value stream map.
 
 1. Download the value stream map. The value stream map is a JSON file used to define integrations.
 2. Edit the JSON file to include the plug-in configuration properties.
@@ -63,7 +63,7 @@ The following tables describe the properties used to configure the integration. 
 | Projects | Array | A list of projects from which to import work items. | Yes | projects |
 | Server URL | String | The URL of the IBM EWM server. For example: <https://server.com/ccm>. | Yes | serverUrl |
 | Since | String | The number of months for which data is to be pulled. The default is 12 months. | No | since |
-| UrbanCode Velocity User Access Key | String | The user access key used to authenticate with the UrbanCode Velocity server. | Yes | ucvAccessKey |
+| DevOps Velocity User Access Key | String | The user access key used to authenticate with the DevOps Velocity server. | Yes | ucvAccessKey |
 | User ID | String | The user name used to authenticate with the IBM EWM server. | Yes | userId |
 
 ## Example

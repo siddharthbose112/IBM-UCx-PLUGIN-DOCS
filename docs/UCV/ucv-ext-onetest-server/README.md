@@ -1,7 +1,7 @@
 
 # HCL OneTest Server
 
-The HCL OneTest Server plug-in imports test results as metrics into the UrbanCode Velocity server.
+The HCL OneTest Server plug-in imports test results as metrics into the DevOps Velocity server.
 
 |Back to ...||Latest Version||||
 | :---: | :---: | :---: | :---: | :---: | :---: |

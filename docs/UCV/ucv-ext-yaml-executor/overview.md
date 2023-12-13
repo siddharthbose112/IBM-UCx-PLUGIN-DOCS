@@ -6,11 +6,11 @@ The YAML Executor plug-in is automatically installed and configured without manu
 
 ## Compatability
 
-This plug-in requires UrbanCode Velocity version 4.0.12 and later.
+This plug-in requires DevOps Velocity version 4.0.12 and later.
 
 ## Versions
 
-UrbanCode Velocity plug-in images are located in DockerHub. To
+DevOps Velocity plug-in images are located in DockerHub. To
 view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-yaml-executor/tags).
 
 

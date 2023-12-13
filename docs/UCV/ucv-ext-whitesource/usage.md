@@ -43,7 +43,7 @@ define communication.
 ### Using a JSON file
 
 The JSON file contains the information for creating a value stream and 
-integrating with the WhiteSource server. The following table describes the information for creating a UrbanCode Velocity value stream map.
+integrating with the WhiteSource server. The following table describes the information for creating a DevOps Velocity value stream map.
 
 1. From a value stream page, download the value stream map. 
 The value stream map is a JSON file used to define integrations.
@@ -83,7 +83,7 @@ Some properties might not be displayed in the user interface, to see all propert
 | --- | --- | ---| --- | --- |
 | User Key                       | String | User Key for authentication with WhiteSource.           | Yes | userKey   |
 | URL                            | String | The base URL of the WhiteSource API.                    | Yes | asocUrl   |
-| UrbanCode Velocity User Access Key | Secure | User access key for authentication with UrbanCode Velocity. | Yes | keySecret |
+| DevOps Velocity User Access Key | Secure | User access key for authentication with DevOps Velocity. | Yes | keySecret |
 
 
 ## JSON code example

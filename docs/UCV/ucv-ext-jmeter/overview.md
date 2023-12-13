@@ -7,11 +7,11 @@ The JMeter plug-in provides for parsing CVS and XML data sent to a quality data 
 
 ## Compatibility
 
-Must be running UrbanCode Velocity version 1.2.1 and later to use the plug-in.
+Must be running DevOps Velocity version 1.2.1 and later to use the plug-in.
 
 ## Versions
 
-UrbanCode Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-jmeter/tags).
+DevOps Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-jmeter/tags).
 
 ## History
 

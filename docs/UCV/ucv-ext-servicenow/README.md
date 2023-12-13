@@ -1,7 +1,7 @@
 
 # ServiceNow
 
-The ServiceNow plug-in for IBM UrbanCode Velocity automates the importing of ServiceNow incident management(Beta), change management and problem management data from a ServiceNow server.
+The ServiceNow plug-in for IBM DevOps Velocity automates the importing of ServiceNow incident management(Beta), change management and problem management data from a ServiceNow server.
 
 |Back to ...||Latest Version||||
 | :---: | :---: | :---: | :---: | :---: | :---: |

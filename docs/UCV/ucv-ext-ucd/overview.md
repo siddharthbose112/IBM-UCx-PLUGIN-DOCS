@@ -1,15 +1,15 @@
 
 # Urbancode Deploy - Overview
 
-The UrbanCode Deploy plugin for UrbanCode Velocity synchronizes applications, processes, components, versions, snapshots, teams, environments, and more from UrbanCode Deploy. A Deploy application can be configured as an application in an UrbanCode Velocity pipeline and the UrbanCode Deploy processes can be configured in the UrbanCode Velocity pipeline. The UrbanCode Velocity Pipeline can then display the latest version of the application deployed to different environments.
+The UrbanCode Deploy plugin for DevOps Velocity synchronizes applications, processes, components, versions, snapshots, teams, environments, and more from UrbanCode Deploy. A Deploy application can be configured as an application in an DevOps Velocity pipeline and the UrbanCode Deploy processes can be configured in the DevOps Velocity pipeline. The DevOps Velocity Pipeline can then display the latest version of the application deployed to different environments.
 
 ## Compatibility
 
-The UrbanCode Deploy plug-in requires UrbanCode Velocity version 2.3 or later.
+The UrbanCode Deploy plug-in requires DevOps Velocity version 2.3 or later.
 
 ## Versions
 
-UrbanCode Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-ucd/tags).
+DevOps Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-ucd/tags).
 
 ## History
 

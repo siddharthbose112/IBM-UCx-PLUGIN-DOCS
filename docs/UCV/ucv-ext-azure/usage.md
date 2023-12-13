@@ -73,7 +73,7 @@ The following tables describe the properties used to configure the integration. 
 | Repositories | Array | A list of repositories from which to import pull request, commit, and build data. | No | No | repositories |
 | URL | String | The URL of the Azure DevOps server. | Yes | No | baseUrl |
 | User Name | String | The user name to authenticate with the Azure DevOps server. | No | No | username |
-| UrbanCode Velocity User AccessKey | Secure | The user access key to authenticate with the UrbanCode Velocity server. | No | No | ucvAccessKey |
+| DevOps Velocity User AccessKey | Secure | The user access key to authenticate with the DevOps Velocity server. | No | No | ucvAccessKey |
 
 
 |Back to ...||Latest Version|Azure DevOps |||

@@ -61,7 +61,7 @@ The following tables describe the properties used to configure the integration. 
 | Name | Type | Description | Required | Project Name |
 | --- | --- | --- | --- | --- |
 | API URL | String | The URL to the REST API v3 for the GitHub instance. | Yes | apiUrl |
-| UrbanCode Velocity User Access Key | String | The user access key generated from UrbanCode Velocity used to authenticate with the UrbanCode Velocity server. | Yes | ucvAccessKey |
+| DevOps Velocity User Access Key | String | The user access key generated from DevOps Velocity used to authenticate with the DevOps Velocity server. | Yes | ucvAccessKey |
 | Owner | String | The owner name of the GitHub repository. | Yes | owner |
 | Repositories | Array | List of GitHub repositories, Use either Repositories field or name field to specify the repositories. | Yes | repositories |
 | branch | String | GitHub repositories branch, The branch to pull commits from. | No | branch |
