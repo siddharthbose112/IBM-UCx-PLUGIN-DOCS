@@ -5,10 +5,10 @@ Fortify Software security center (SSC) enables teams with the application securi
 
 ## Compatibility
 
-Must be running UrbanCode Velocity version 2.0.0 and later to use the plug-in.
+Must be running DevOps Velocity version 2.0.0 and later to use the plug-in.
 
 ## Versions
-UrbanCode Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-fortify-ssc/tags).
+DevOps Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-fortify-ssc/tags).
 
 
 ## History
@@ -27,7 +27,7 @@ UrbanCode Velocity plug-in images are located in DockerHub. To view available ve
 
 * Project Names Field Added: The Fortify SSC Plugin was syncing all project data. Added a field to provide a comma separated list of project names to sync data from. Due to a massive no. of projects, plugin was crashing.
 
-* Removed Manual User Access Key: From current version onwards this plugin will only support Auto Generated User Access Key feature of UrbanCode Velocity.
+* Removed Manual User Access Key: From current version onwards this plugin will only support Auto Generated User Access Key feature of DevOps Velocity.
 
 * Initial Sync Date Field Added: Under the hidden properties section of add integration page for Fortify SSC plugin an Initial Sync Date field is added. This field is optional and can be used only for first sync.
 

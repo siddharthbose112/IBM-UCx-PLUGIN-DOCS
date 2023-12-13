@@ -20,7 +20,7 @@ There are two methods to integrate the plug-in:
 * Using the user interface
 * Using a JSON file
 
-For details, see [Using plug-ins in UrbanCode Velocity](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2022/07/20/using-plug-ins-in-urbancode-velocity).
+For details, see [Using plug-ins in DevOps Velocity](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2022/07/20/using-plug-ins-in-urbancode-velocity).
 
 ### Using the user interface
 
@@ -31,7 +31,7 @@ For details, see [Using plug-ins in UrbanCode Velocity](https://community.ibm.co
 
 ### Using a JSON file
 
-The JSON file contains the information for creating a value stream and integrating with the BitBucket server. The following table describes the information for the creating a UrbanCode Velocity value stream map.
+The JSON file contains the information for creating a value stream and integrating with the BitBucket server. The following table describes the information for the creating a DevOps Velocity value stream map.
 
 1. Download the value stream map. The value stream map is a JSON file used to define integrations.
 2. Edit the JSON file to include the plug-in configuration properties.

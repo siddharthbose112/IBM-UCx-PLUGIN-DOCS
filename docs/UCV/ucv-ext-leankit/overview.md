@@ -1,16 +1,16 @@
 
 # Planview Leankit - Overview
 
-The Planview LeanKit plug-in imports data from Planview LeanKit server into IBM UrbanCode Velocity.
+The Planview LeanKit plug-in imports data from Planview LeanKit server into IBM DevOps Velocity.
 
 
 ## Compatibility
 
-This plug-in requires UrbanCode Velocity version 2.0.0 or later.
+This plug-in requires DevOps Velocity version 2.0.0 or later.
 
 ## Versions
 
-UrbanCode Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode
+DevOps Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode
 DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-leankit/tags).
 
 ## History

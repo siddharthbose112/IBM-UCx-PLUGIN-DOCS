@@ -1,15 +1,15 @@
 
 # Azure DevOps - Overview
 
-The Azure DevOps (formerly *Microsoft Team Foundation Server or TFS*) plug-in provides for integration with an Azure DevOps server. This plug-in imports work items, commits, pull requests and deployment data from an Azure DevOps server and saves them as UrbanCode Velocity issues. Data between the Azure DevOps server and the UrbanCode Velocity server is synchronized every five minutes.
+The Azure DevOps (formerly *Microsoft Team Foundation Server or TFS*) plug-in provides for integration with an Azure DevOps server. This plug-in imports work items, commits, pull requests and deployment data from an Azure DevOps server and saves them as DevOps Velocity issues. Data between the Azure DevOps server and the DevOps Velocity server is synchronized every five minutes.
 
 ## Compatibility
 
-Must be running UrbanCode Velocity version 1.2.1 and later to use the plug-in.
+Must be running DevOps Velocity version 1.2.1 and later to use the plug-in.
 
 ## Versions
 
-There is no install process for this plug-in. The Azure DevOps plug-in is identified to UrbanCode Velocity as a value stream integration. UrbanCode Velocity plug-in images are located in DockerHub and the UrbanCode Velolcity code accesses the version that you select. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-azure/tags).
+There is no install process for this plug-in. The Azure DevOps plug-in is identified to DevOps Velocity as a value stream integration. DevOps Velocity plug-in images are located in DockerHub and the UrbanCode Velolcity code accesses the version that you select. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-azure/tags).
 
 ## History
 

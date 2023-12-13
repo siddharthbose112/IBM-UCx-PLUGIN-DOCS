@@ -5,11 +5,11 @@ The Cucumber plug-in automates running Cucumber test scenarios. Test scenarios a
 
 ## Compatibility
 
-This plug-in requires UrbanCode Velocity version 1.4.5 and later.
+This plug-in requires DevOps Velocity version 1.4.5 and later.
 
 ## Versions
 
-There is no install process for this plug-in. UrbanCode Velocity plug-in images are located in DockerHub and the UrbanCode Velolcity code accesses the version that you select. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-cucumber/tags).
+There is no install process for this plug-in. DevOps Velocity plug-in images are located in DockerHub and the UrbanCode Velolcity code accesses the version that you select. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-cucumber/tags).
 
 
 ## History

@@ -41,7 +41,7 @@ The JSON file contains the information for creating a value stream. The JSON fil
 The following tables describe the properties you use to configure the integration. Each table contains the field name from the user interface and the property name in a JSON file.
 
 * The General Configuration Properties table describes configuration properties that all plug-in integrations use.
-* The CircleCI Configuration Properties table describes the configuration properties that facilitate communication with IBM UrbanCode Velocity.
+* The CircleCI Configuration Properties table describes the configuration properties that facilitate communication with IBM DevOps Velocity.
 
 ### General Configuration Properties table
 
@@ -67,7 +67,7 @@ The following tables describe the properties you use to configure the integratio
 | Proxy User Name | String | The user name used to authenticate with the proxy server. | No | proxyUsername |
 | Repositories | Array | A comma seperated list of repositories from which to import pull requests, commits, and build data. | Yes | repositories |
 | URL| String | API URL of CircleCI. | Yes | apiUrl |
-| User Access Key | String | The user access key used to authenticate with the IBM UrbanCode Velocity server.| Yes | velocityAccessKey |
+| User Access Key | String | The user access key used to authenticate with the IBM DevOps Velocity server.| Yes | velocityAccessKey |
 
 ## JSON code example
 

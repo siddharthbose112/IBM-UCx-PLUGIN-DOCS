@@ -6,7 +6,7 @@ Milestone risk estimator plug-in for Urbancode Velocity estimates value stream m
 
 ## Compatability
 
-Must be running UrbanCode Velocity version 5.0.0 and later to use the plug-in.
+Must be running DevOps Velocity version 5.0.0 and later to use the plug-in.
 
 ## Versions
 

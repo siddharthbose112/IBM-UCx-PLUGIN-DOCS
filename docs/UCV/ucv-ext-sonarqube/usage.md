@@ -11,7 +11,7 @@
 + Obtain or create authentication token
 * Velocity certificate authentication
 + Trusted Certificate: The certificate must be validated as trusted. This means validated by a public or organizational Certificate Authority (CA) or else imported into the truststore of the SonarQube server’s Java Runtime Environment (JRE).
-+ Common Name: The UrbanCode Velocity host name used in the webhook must meet the requirements of the UrbanCode Velocity certificate common name (CN), whether you are using a single-name, wildcard, or multi-name. It is best to craft your certificate so that its common name matches your UrbanCode Velocity host name. However, if there is a mismatch and the certificate cannot be changed, then the host name can be changed instead. This can be done at the network or local level, such as a hosts file entry on the SonarQube server that maps the common name to the actual host name, such that the common name can be used from that server.
++ Common Name: The DevOps Velocity host name used in the webhook must meet the requirements of the DevOps Velocity certificate common name (CN), whether you are using a single-name, wildcard, or multi-name. It is best to craft your certificate so that its common name matches your DevOps Velocity host name. However, if there is a mismatch and the certificate cannot be changed, then the host name can be changed instead. This can be done at the network or local level, such as a hosts file entry on the SonarQube server that maps the common name to the actual host name, such that the common name can be used from that server.
 
 
 ## Integration Type
@@ -25,7 +25,7 @@ The endpoint URL needed for the webhook is described below.
 
 ## Setup
 
-### Creating the UrbanCode Velocity Integration
+### Creating the DevOps Velocity Integration
 
 Each external data source should have its own integration, with multiple integrations per plugin type. SonarQube integrations are created from the SonarQube plugin type and can be added three different ways:
 
@@ -39,7 +39,7 @@ The parameters for adding a SonarQube integration are summarized in the table be
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Velocity Hostname | String | The Velocity hostname including the port if applicable. For example, “velocityHost:9000”. | API only |
-| Velocity Access Key | Secure | The access key used to authenticate to UrbanCode Velocity. You can use a previously generated key or generate a new key. | Yes |
+| Velocity Access Key | Secure | The access key used to authenticate to DevOps Velocity. You can use a previously generated key or generate a new key. | Yes |
 | Integration Name | String | A name used to reference the integration. | Yes |
 | SonarQube Auth Token | Secure | The SonarQube authentication token. You can use a previously generated token or generate a new token in SonarQube. | Yes |
 | SonarQube URL | String | The base URL of the SonarQube server including the port number. For example: “http://sonarQubeHost:9000”. | Yes |
@@ -71,7 +71,7 @@ https://<*velocityHostname:port*>/reporting-consumer/integration \
 ### 2.) Creating the SonarQube Webhook
 
 
-The SonarQube webhook must target the Velocity integration’s endpoint URL which has two variables: the“hostName:port” for Velocity, as well as the integration ID. This means that the UrbanCode Velocity integration mustalways be setup first and that the integration ID is known before we can provide the webhook URL. Once the endpoint URL is constructed, it is simply a matter of creating a webhook in SonarQube with that URL. For information on creating the webhook, see the [SonarQube Webhooks](https://docs.sonarqube.org/latest/project-administration/webhooks/) documentation. In general, you will need administrative permissions and can add two types of webhooks within SonarQube:
+The SonarQube webhook must target the Velocity integration’s endpoint URL which has two variables: the“hostName:port” for Velocity, as well as the integration ID. This means that the DevOps Velocity integration mustalways be setup first and that the integration ID is known before we can provide the webhook URL. Once the endpoint URL is constructed, it is simply a matter of creating a webhook in SonarQube with that URL. For information on creating the webhook, see the [SonarQube Webhooks](https://docs.sonarqube.org/latest/project-administration/webhooks/) documentation. In general, you will need administrative permissions and can add two types of webhooks within SonarQube:
 
 1. Project scoped webhooks
 2. Globally scoped webhooks

@@ -4,16 +4,16 @@
 WhiteSource plug-in provides for the management of open source components security, licenses, 
 and maintenance throughout a software development cycle. It identifies the open source components within a software development lifecycle with security or compliance issues. 
 When issues are detected alerts and remediation assistance is provided. 
-The WhiteSource plug-in integrates with WhiteSource to retrieves license risks and security vulnerabilities data from WhiteSource scan results to include in an UrbanCode Velocity metric.
+The WhiteSource plug-in integrates with WhiteSource to retrieves license risks and security vulnerabilities data from WhiteSource scan results to include in an DevOps Velocity metric.
 
 
 ## Compatability
 
-This plug-in requires UrbanCode Velocity version 2.4 and later.
+This plug-in requires DevOps Velocity version 2.4 and later.
 
 ## Versions
 
-UrbanCode Velocity plug-in images are located in DockerHub. To
+DevOps Velocity plug-in images are located in DockerHub. To
 view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-whitesource/tags).
 
 

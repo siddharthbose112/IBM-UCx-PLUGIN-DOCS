@@ -1,7 +1,7 @@
 
 # Black Duck - Usage
 
-To use the Black Duck plug-in you must define the integration and send an HTTP Post to request the new endpoint. The value stream map contains the properties used to define the plug-in integration within the UrbanCode Velocity user interface. Defining the integration includes defining configuration properties that connect the UrbanCode Velocity server to the Black Duck server.
+To use the Black Duck plug-in you must define the integration and send an HTTP Post to request the new endpoint. The value stream map contains the properties used to define the plug-in integration within the DevOps Velocity user interface. Defining the integration includes defining configuration properties that connect the DevOps Velocity server to the Black Duck server.
 
 1. Download the value stream map. The value stream map is a JSON file used to define integrations.
 2. Edit the JSON file to include the plug-in configuration properties.
@@ -54,7 +54,7 @@ The configuration properties which are included in the `properties` field are un
 | --- | --- | --- | --- | --- |
 | Access Token | accessToken | Secure | The access token to authenticate with the Black Duck server. You can use either this property or a password to authenticate with the server. | Yes |
 | Black Duck URL | blackDuckUrl | String | The base URL of the Black Duck server. for example: `https://poc79.blackduck.synopsys.com`. | Yes |
-| UrbanCode Velocity User Access Key | ucvAccessKey | Secure | The user access key to authenticate with the UrbanCode Velocity server. | Yes |
+| DevOps Velocity User Access Key | ucvAccessKey | Secure | The user access key to authenticate with the DevOps Velocity server. | Yes |
 
 ## Example
 

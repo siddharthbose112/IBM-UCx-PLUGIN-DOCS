@@ -69,7 +69,7 @@ server. When using the JSON method to integrate the plug-in these properties are
 | Proxy Password | Secure | The password used to authenticate with the proxy server. | No | Yes | proxyPassword |
 | Proxy Server | String | The URL of the proxy server including the port number. The URL protocol can be http or https. | No | Yes | proxyServer |
 | Proxy User Name | String | The user name used to authenticate with the proxy server. | No | Yes | proxyUsername |
-| UrbanCode Velocity User Access Key | Secure | The user access key generated from UrbanCode Velocity used to authenticate with the UrbanCode Velocity server. | Yes | No | ucvAccessKey |
+| DevOps Velocity User Access Key | Secure | The user access key generated from DevOps Velocity used to authenticate with the DevOps Velocity server. | Yes | No | ucvAccessKey |
 | URL | String | The URL of the VersionOne server. | Yes | No | serverUrl |
 | User ID | String | The user name used to authenticate with the VersionOne server. | Yes | No | userId |
 

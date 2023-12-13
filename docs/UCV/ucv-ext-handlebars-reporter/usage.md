@@ -52,15 +52,15 @@ file.
 | image | The version of the plug-in that you want to use. To view available versions,see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-handlebars-reporter). If a value is not specified, the latest version is used. | No |
 | name | An assigned name to the value stream. | Yes |
 | loggingLevel | The level of Log4j messages to log. Valid values are: all, debug, info, warn, error, fatal, off, and trace. The default is info. | No |
-| properties | List of configuration properties used to connect and communicate with the UrbanCode Velocity server. Enclose the properties within braces. | Yes |
+| properties | List of configuration properties used to connect and communicate with the DevOps Velocity server. Enclose the properties within braces. | Yes |
 | tenant_id | The name of the tenant. | Yes |
-| type | Unique identifier assigned to the plug-in. The value for the UrbanCode Velocity plug-in is `ucv-ext-handlebars-reporter` | Yes |
+| type | Unique identifier assigned to the plug-in. The value for the DevOps Velocity plug-in is `ucv-ext-handlebars-reporter` | Yes |
 
 ### Handlebar Detection Configuration Properties
 
 | Name | Type | Description | Required | Project Name |
 | --- | --- | --- | --- | --- |
-| UCV User Access Key | Secure | The user access key used to authenticate with the UrbanCode Velocity server. | Yes | ucvKey |
+| UCV User Access Key | Secure | The user access key used to authenticate with the DevOps Velocity server. | Yes | ucvKey |
 
 ## Example
 

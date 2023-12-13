@@ -1,16 +1,16 @@
 
 # HCL OneTest Server - Overview
 
-The HCL OneTest Server plug-in provides for integration with an OneTest server. This plug-in imports test result data from an OneTest server and saves the data as UrbanCode Velocity issues. The data is used to generate metrics. Data between the OneTest server and the UrbanCode Velocity server is synchronized every five minutes.
+The HCL OneTest Server plug-in provides for integration with an OneTest server. This plug-in imports test result data from an OneTest server and saves the data as DevOps Velocity issues. The data is used to generate metrics. Data between the OneTest server and the DevOps Velocity server is synchronized every five minutes.
 
 
 ## Compatibility
 
-Must be running UrbanCode Velocity version 1.3.0 and later to use the plug-in. HCL OneTest Server 10.0.2 and later is supported.
+Must be running DevOps Velocity version 1.3.0 and later to use the plug-in. HCL OneTest Server 10.0.2 and later is supported.
 
 ## Versions
 
-There is no install process for this plug-in. The HCL OneTest Server plug-in is identified to UrbanCode Velocity as a value stream integration. UrbanCode Velocity plug-in images are located in DockerHub and the UrbanCode Velolcity code accesses the version that you select. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-onetest-server/tags).
+There is no install process for this plug-in. The HCL OneTest Server plug-in is identified to DevOps Velocity as a value stream integration. DevOps Velocity plug-in images are located in DockerHub and the UrbanCode Velolcity code accesses the version that you select. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-onetest-server/tags).
 
 
 ## History

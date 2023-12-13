@@ -3,7 +3,7 @@
 
 To use the HCL OneTest Server plug-in you must define the integration, create a value stream, and upload the integration.
 
-The value stream map contains the properties, you will use to define the plug-in integration. Basically, the plug-in integration is defined with a value stream within the UrbanCode Velocity user interface. Defining the integration includes defining configuration properties that connect the UrbanCode Velocity server to the OneTest server.
+The value stream map contains the properties, you will use to define the plug-in integration. Basically, the plug-in integration is defined with a value stream within the DevOps Velocity user interface. Defining the integration includes defining configuration properties that connect the DevOps Velocity server to the OneTest server.
 
 The basic flow to use the plug-in includes:
 
@@ -12,7 +12,7 @@ The basic flow to use the plug-in includes:
 3. Save and upload the JSON file. This replaces the current JSON file with the new content.
 4. View the new integration on the Integration user interface page.
 
-You can map a build to a metric using tags defined on the OneTest server by evaluating the tag against a regular express. Use the Build Label Pattern field to define the regular expression. For example, a build expression of “([A-Z]+-[0-9]+)” and a test has a tag of “BUILD-123”, the build is mapped with ID BUILD-123 in the UrbanCode Velocity server to the newly created metric. For assistance in forming a regular expression, see the [Regular expression tester](https://regexr.com) website. You can use the website to help form and test a regular expression based on your build ID.
+You can map a build to a metric using tags defined on the OneTest server by evaluating the tag against a regular express. Use the Build Label Pattern field to define the regular expression. For example, a build expression of “([A-Z]+-[0-9]+)” and a test has a tag of “BUILD-123”, the build is mapped with ID BUILD-123 in the DevOps Velocity server to the newly created metric. For assistance in forming a regular expression, see the [Regular expression tester](https://regexr.com) website. You can use the website to help form and test a regular expression based on your build ID.
 
 ## Integration type
 
@@ -27,7 +27,7 @@ The HCL OneTest Server plug-in supports endpoint integration which are listed in
 
 From the user interface Value Steam page, click **Upload** to upload the value stream map which is a JSON file.
 
-The JSON file contains the information for creating a value stream and integrating with the OneTest server. The following table describes the information for the creating a UrbanCode Velocity value stream map.
+The JSON file contains the information for creating a value stream and integrating with the OneTest server. The following table describes the information for the creating a DevOps Velocity value stream map.
 
 
 | Name | Description | Required |
@@ -50,7 +50,7 @@ HCL OneTest Server plug-in and define the connection and communication to the On
 | Build Label Pattern | buildRegExp | String | A regular expression pattern that will match a build ID on a test execution label. For example: ([A-Z]+-[0-9]+). | No |
 | HCL OneTest Offline User Token | oneTestRefreshToken | String | The offline user token created in the HCL OneTest user interface by clicking the Create Token button. | Yes |
 | HCL OneTest Server URL | oneTestUrl | String | The base URL of the HCL OneTest Server. For example: https://tp-cicd2.nonprod.hclpnp.com. | Yes |
-| UrbanCode Velocity User Access Key | ucvAccessKey | String | The user access key to authenticate with the UrbanCode Velocity server. | Yes |
+| DevOps Velocity User Access Key | ucvAccessKey | String | The user access key to authenticate with the DevOps Velocity server. | Yes |
 
 ## Example
 

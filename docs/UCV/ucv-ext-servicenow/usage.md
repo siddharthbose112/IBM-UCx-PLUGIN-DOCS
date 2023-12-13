@@ -3,7 +3,7 @@
 
 To use the ServiceNow plug-in you must define the integration, create a value stream, and upload the integration.
 
-The value stream map contains the properties, you will use to define the plug-in integration. Basically, the plug-in integration is defined with a value stream within the UrbanCode Velocity user interface. Defining the integration includes defining configuration properties that connect the UrbanCode Velocity server to the ServiceNow server.
+The value stream map contains the properties, you will use to define the plug-in integration. Basically, the plug-in integration is defined with a value stream within the DevOps Velocity user interface. Defining the integration includes defining configuration properties that connect the DevOps Velocity server to the ServiceNow server.
 
 The basic flow to use the plug-in includes:
 
@@ -30,7 +30,7 @@ To create a value stream, complete the following tasks.
 2. Locate and open the value stream on the Value Streams page.
 3. Click **Download Sample** and save the same JSON value stream file.
 4. Edit the file and include the properties needed to define the integration.
-5. Click **Upload** to upload the JSON file. The JSON file contains the information for creating a value stream and integrating with the ServiceNow server. The following table describes the information for the creating a UrbanCode Velocity value stream map.
+5. Click **Upload** to upload the JSON file. The JSON file contains the information for creating a value stream and integrating with the ServiceNow server. The following table describes the information for the creating a DevOps Velocity value stream map.
 
 
 | Name | Description | Required |
@@ -51,7 +51,7 @@ The configuration properties which are included in the `properties` field are un
 | --- | --- | --- | --- | --- |
 | Access Token | Secure | The access token used to authenticate with the ServiceNow server. You can use either this property or the Password property to authenticate with the server. | No | accessToken |
 | Password | Secure | The password used to authenticate with the ServiceNow server. You can use either this property or the Access Token property to authenticate with the server. | No | password |
-| UrbanCode Velocity User Access Key | Secure | The user access key to authenticate with the UrbanCode Velocity server. | Yes | ucvAccessKey |
+| DevOps Velocity User Access Key | Secure | The user access key to authenticate with the DevOps Velocity server. | Yes | ucvAccessKey |
 | URL | String | The URL of the ServiceNow server. | Yes | baseUrl |
 | User Name | String | The user name used to authenticate with the ServiceNow server. | Yes | username |
 | Proxy Server | String | The URL of the proxy server including the port number. | No | proxyServer |

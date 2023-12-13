@@ -1,7 +1,7 @@
 
 # GitHub Dependabot - Overview
 
-- The GitHub Dependabot plug-in imports repository vulnerability data from GitHub server into UrbanCode Velocity. 
+- The GitHub Dependabot plug-in imports repository vulnerability data from GitHub server into DevOps Velocity. 
 - It scans for existing GitHub integrations and retrieves data only for those particular GitHub repositories. 
 - The Plugin works on repository level and imports data for entire repository.
 - The GitHub Dependabot leverage the existing GitHub plug-in to scan and link against known repositories. It is highly recommend that you install and configure the existing GitHub plug-in before you install the GitHub Dependabot plug-in. 
@@ -11,11 +11,11 @@
 
 ## Compatibility
 
-This plug-in requires UrbanCode Velocity version 2.5.0 or later. The plug-in works on top of GitHub plug-in so at least one GitHub integration should be already there.
+This plug-in requires DevOps Velocity version 2.5.0 or later. The plug-in works on top of GitHub plug-in so at least one GitHub integration should be already there.
 
 ## Versions
 
-UrbanCode Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode
+DevOps Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode
 DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-dependabot/tags).
 
 ## History

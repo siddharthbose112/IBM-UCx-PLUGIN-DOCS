@@ -41,7 +41,7 @@ Some properties might not be displayed in the user interface, to see all propert
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------- |
 | Integration Name               | An assigned name to the value stream.                                                                                           | Yes      | name          |
 | Logging Level                  | The level of Log4j messages to display in the log file. Valid values are: all, debug, info, warn, error, fatal, off, and trace. | No       | loggingLevel  |
-| UrbanCode Velocity User Access Key | An auto-generated user access key provides credentials for communicating with the UrbanCode Velocity server.                        | Yes      | NA            |
+| DevOps Velocity User Access Key | An auto-generated user access key provides credentials for communicating with the DevOps Velocity server.                        | Yes      | NA            |
 
 ### Snyk properties
 

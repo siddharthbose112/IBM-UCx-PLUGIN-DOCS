@@ -44,7 +44,7 @@ Some properties might not be displayed in the user interface, to see all propert
 | NA                             | List of configuration properties used to connect and communicate with the Planview LeanKit server. Enclose the properties within braces.                            | Yes      | properties    |
 |                                | The name of the tenant.                                                                                                                                             | Yes      | tenant_id     |
 | NA                             | Unique identifier assigned to the plug-in. The value for the Planview LeanKit plug-in is `ucv-ext-leankit`.                                                           | Yes      | type          |
-| UrbanCode Velocity User Access Key | The auto-generated User Access Key that the containerized plug-in will use to communicate with UrbanCode Velocity (support starts with plugin v2.0.30 or later).         | Yes      | ucvAccessKey  |
+| DevOps Velocity User Access Key | The auto-generated User Access Key that the containerized plug-in will use to communicate with DevOps Velocity (support starts with plugin v2.0.30 or later).         | Yes      | ucvAccessKey  |
 
 ### Planview LeanKit properties
 
@@ -53,7 +53,7 @@ Some properties might not be displayed in the user interface, to see all propert
 | URL             | String | The URL of the Planview LeanKit server.                                                                                                                                                                          | Yes      |
 | Private Token   | Secure | The token to authenticate with Planview LeanKit server.                                                                                                                                                          | Yes      |
 | Board IDS       | Array  | The Planview LeanKit board ID to pull the data from Planview LeanKit board. To pull data from multiple boards, enter the board ID’s separated with comma. For example, 1400100201, 1112053040, 1999999789.       | No       |
-| User Access Key | Secure | The user access key to authenticate with UrbanCode Velocity server. This property is applicable for UrbanCode Velocity version earlier to 2.4.0.                                                                          | No       |
+| User Access Key | Secure | The user access key to authenticate with DevOps Velocity server. This property is applicable for DevOps Velocity version earlier to 2.4.0.                                                                          | No       |
 
 
 |Back to ...||Latest Version|Planview Leankit |||

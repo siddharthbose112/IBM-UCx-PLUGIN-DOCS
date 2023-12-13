@@ -7,7 +7,7 @@ To use the HCL AppScan on Cloud plug-in (ASoC), the plug-in must be loaded, and 
 The ASoC plug-in supports endpoint integration and a scheduled event integration.
 
 ### Endpoint Integration
-You can use the ASoC plug-in’s endpoint integration to sync or import the scan data into UrbanCode Velocity’s application vulnerabilities metrics by triggering the API endpoint with GET or POST request.
+You can use the ASoC plug-in’s endpoint integration to sync or import the scan data into DevOps Velocity’s application vulnerabilities metrics by triggering the API endpoint with GET or POST request.
 
 The endpoint integration is listed in the following table.
 
@@ -22,10 +22,10 @@ The endpoint integration is listed in the following table.
 The following two features are available from version 2.0.1 or later of the plug-in:
 
 * The plug-in imports historical scan data from ASoC.
-    * To sync or import the scan data into UrbanCode Velocity, update the ASoC applications field in the plug-in configuration with the application names in ASoC. The plug-in will import the latest scan data from ASoC.
+    * To sync or import the scan data into DevOps Velocity, update the ASoC applications field in the plug-in configuration with the application names in ASoC. The plug-in will import the latest scan data from ASoC.
 * The plug-in supports ASoC webhooks.
-    * The plug-in endpoint can be defined as a webhook in ASoC. When the webhook is called by ASoC after every scan execution, the plug-in will run and import the scan data from ASoC to UrbanCode Velocity.
-    * To call out ASoC scan using REST API, pass the ‘build url’ as a ‘Comment’ as shown in the below example. As a result, the plug-in imports the ‘build url’ and associate the scan result to the specific ‘build’ / ‘build url’ in UrbanCode Velocity.
+    * The plug-in endpoint can be defined as a webhook in ASoC. When the webhook is called by ASoC after every scan execution, the plug-in will run and import the scan data from ASoC to DevOps Velocity.
+    * To call out ASoC scan using REST API, pass the ‘build url’ as a ‘Comment’ as shown in the below example. As a result, the plug-in imports the ‘build url’ and associate the scan result to the specific ‘build’ / ‘build url’ in DevOps Velocity.
     ```
     curl --location --request POST 'https://cloud.appscan.com/api/v2/Scans/MobileAnalyzer' \
     --header 'Content-Type: application/x-www-form-urlencoded' \
@@ -36,8 +36,8 @@ The following two features are available from version 2.0.1 or later of the plug
     --data-urlencode 'Execute=true' \
     --data-urlencode 'Comment=https://build-url-goes-here'
     ```
-    * Running the ASoC scan using User Interface (UI) will not associate the scan result to the build url in UrbanCode Velocity.
-    * To use the webhook, you must install AppScan presence on the machine where UrbanCode Velocity is running. For more information, see ASoC documentation.
+    * Running the ASoC scan using User Interface (UI) will not associate the scan result to the build url in DevOps Velocity.
+    * To use the webhook, you must install AppScan presence on the machine where DevOps Velocity is running. For more information, see ASoC documentation.
     * The following is an example of creating a webhook in ASoC.
     ```
     curl curl --location --request POST 'https://cloud.appscan.com/api/V2/Webhooks' \
@@ -70,7 +70,7 @@ The payload for the POST is shown below.
 
 ### Scheduled Integration
 
-You can use the HCL AppScan on Cloud plug-in’s scheduled event integration to automatically sync or import the scan data into UrbanCode Velocity’s application vulnerabilities metrics at regular interval of time. Currently, HCL AppScan on Cloud plug-in sync or import scan data from HCL AppScan on Cloud to UrbanCode Velocity at an interval of 5 minutes.
+You can use the HCL AppScan on Cloud plug-in’s scheduled event integration to automatically sync or import the scan data into DevOps Velocity’s application vulnerabilities metrics at regular interval of time. Currently, HCL AppScan on Cloud plug-in sync or import scan data from HCL AppScan on Cloud to DevOps Velocity at an interval of 5 minutes.
 
 ## Integration
 
@@ -108,13 +108,13 @@ The JSON file contains the information for creating a value stream. Within the J
 
 ## Minimum permission to integrate with HCL AppScan on Cloud (ASoC)
 
-The HCL AppScan on Cloud (ASoC) Account used to generate the token must have access to the project which is being integrated with UrbanCode Velocity.
+The HCL AppScan on Cloud (ASoC) Account used to generate the token must have access to the project which is being integrated with DevOps Velocity.
 
 ## Configuration properties
 
 The following tables describe the properties used to configure the integration. Each table contains the field name when using the user interface and the property name when using a JSON file.
 
-The General Configuration Properties table describes configuration properties used by all plug-in integrations. The HCL AppScan on Cloud configuration properties table describes the configuration properties that define the connection and communications with the UrbanCode Velocity server. When using the JSON method to integrate the plug-in these properties are coded within the properties configuration property.
+The General Configuration Properties table describes configuration properties used by all plug-in integrations. The HCL AppScan on Cloud configuration properties table describes the configuration properties that define the connection and communications with the DevOps Velocity server. When using the JSON method to integrate the plug-in these properties are coded within the properties configuration property.
 
 Some properties might not be displayed in the user interface, to see all properties enable the Show Hidden Properties field.
 
@@ -135,7 +135,7 @@ Some properties might not be displayed in the user interface, to see all propert
 | Key ID | String | The key ID to authenticate with the Application Security On Cloud server. | Yes | keyId |
 | URL | String | The URL of the Application Security on Cloud server. | Yes | asocUrl |
 | Key Secret | Secure | The key secret to authenticate with the Application Security On Cloud server. | Yes | keySecret |
-| UrbanCode Velocity User Access Key | Secure | The user access key to authenticate with the UrbanCode Velocity server. | Yes | ucvAccessKey |
+| DevOps Velocity User Access Key | Secure | The user access key to authenticate with the DevOps Velocity server. | Yes | ucvAccessKey |
 |Run as a Scheduled Event|Boolean|To integrate the plug-in as a Scheduled Event. Set this property to “true” to run the integration as a scheduled event.|No|isScheduledEvent|
 
 ## JSON code sample

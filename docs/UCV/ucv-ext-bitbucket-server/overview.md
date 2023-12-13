@@ -6,11 +6,11 @@ The BitBucket Server plug-in provides for integration with a BitBucket server.
 
 ## Compatibility
 
-This plug-in requires UrbanCode Velocity version 2.5.0 and later.
+This plug-in requires DevOps Velocity version 2.5.0 and later.
 
 ## Versions
 
-UrbanCode Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode
+DevOps Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode
 DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-bitbucket-server/tags).
 
 ## History
@@ -38,7 +38,7 @@ DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-bitbucket-server/tags).
 
 ### Version 1.1.23
 
-* **Removed Manual User Access Key:** From current version onwards, this plug-in will only support "Auto Generated User Access Key" feature of UrbanCode Velocity.
+* **Removed Manual User Access Key:** From current version onwards, this plug-in will only support "Auto Generated User Access Key" feature of DevOps Velocity.
 * **Added Category:** SCM is the category of BitBucket server plug-in.
     
 ### Version 1.1.22

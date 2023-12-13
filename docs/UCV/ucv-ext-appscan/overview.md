@@ -7,12 +7,12 @@ plug-in retrieves the security vulnerability report of the application and displ
 
 ## Compatibility
 
-Must be running UrbanCode Velocity version 1.2.1 and later to use the plug-in.
+Must be running DevOps Velocity version 1.2.1 and later to use the plug-in.
 
 ## Versions
 
 There is no install process for this plug-in. The AppScan Enterprise plug-in is identified to UrbanCode
-Velocity as a value stream integration. UrbanCode Velocity plug-in images are located in DockerHub and the UrbanCode
+Velocity as a value stream integration. DevOps Velocity plug-in images are located in DockerHub and the UrbanCode
 Velolcity code accesses the version that you select. To view available versions, see the [UrbanCode
 DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-appscan/tags).
 
