@@ -76,6 +76,10 @@ Some properties might not be displayed in the user interface, to see all propert
 | Value streams to consider for risk assessment | Array | Comma separated list of value stream names to be considered for training and prediction (For example: Vsm_Name1,Vsm_Name2 ) | Yes | vsmsArray |
 
 
+
+
+
+
 |Back to ...||Latest Version|Milestone Risk Estimator |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.3](https://hub.docker.com/r/urbancode/ucv-ext-milestone-risk-estimator/tags)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
