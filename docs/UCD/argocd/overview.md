@@ -11,6 +11,10 @@ The Argo CD server that is hosting the Argo CD applications you want to interact
 
 No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
 
+### Compatibility
+Comapatible with IBM DevOps Deploy version 8.0.0 and later.                       
+Compatible with IBM UrbanCode Deploy version 7.1.0 and later.
+
 ### History
 
 #### Version 1
