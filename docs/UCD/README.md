@@ -953,7 +953,7 @@ IBM InfoSphere DataStage integrates data across multiple systems using a high pe
 
 |Back to ...||IBM InfoSphere DataStage |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](datastage/README.md)|[9.998792](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/datastage/datastage-9.998792.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](datastage/README.md)|[10.1164467](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/datastage/ucd-datastage-10.1164467.zip)|
 
 ## IBM InfoSphere Optim
 

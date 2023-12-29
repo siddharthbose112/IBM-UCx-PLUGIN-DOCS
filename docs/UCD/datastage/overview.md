@@ -16,6 +16,15 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 10
+
+*Made correction for default values of few attributes
+*URBANCODE-I-486: Enhancing plugin to handle false import error from DataStage.
+
+#### Version 9
+
+Fixes APAR PH02989 - Delete asset not working.
+
 #### Version 8
 
 * Fixes APAR PI99404Added options to configure the -qs and -qspa flags for the dscc command in the Compile Job or Routine step.
@@ -71,4 +80,4 @@ Initial Release. Added functionality for importing and export .dsx files, listin
 
 |Back to ...||Latest Version|IBM InfoSphere DataStage ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.998792](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/datastage/datastage-9.998792.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[10.1164467](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/datastage/ucd-datastage-10.1164467.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
