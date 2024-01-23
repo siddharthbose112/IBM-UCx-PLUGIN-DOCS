@@ -1,4 +1,4 @@
-# IBM DevOps Test UI (Test UI) - Web UI
+# IBM DevOps Test UI - Web UI (Test UI)
 
 IBM DevOps Test UI is an automated functional testing and regression testing tool. This software provides automated testing capabilities for functional, regression, GUI, and data-driven testing.
 
