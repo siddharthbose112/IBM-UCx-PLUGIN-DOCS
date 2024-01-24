@@ -10,4 +10,4 @@ The IBM UrbanCode Deploy plug-in for Test UI includes process steps for running 
 | :---: | :---: | :---: | :---: |
 |[7.0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestUI/DTUI-FunctionalTest-DD-IBM-7.0.zip)|[DTUI-Downloads](downloads.md)|[All Deploy Plugins](../README.md)|[All Plugins](../../index.md)|
 
-For Web UI tests, you can download the plugin from [UCD plugin for Web UI tests](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestUIWebUI/DTUI-UITest-DD-IBM-12.0.zip) 
+For Web UI tests, you can download the plugin from [UCD plugin for Web UI tests](https://github.com/UrbanCode/IBM-UCx-PLUGIN-DOCS/blob/main/docs/UCD/IBMDevOpsTestUIWebUI/README.md) 
