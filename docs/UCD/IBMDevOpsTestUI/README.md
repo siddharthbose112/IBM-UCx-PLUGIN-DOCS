@@ -2,14 +2,12 @@
 
 Supported in IBM DevOps Test UI 11.0.0 and future releases.
 
-IBM DevOps Test UI is an automated functional testing and regression testing tool. This software provides automated testing capabilities for functional, regression, GUI, and data-driven testing.
+IBM DevOps Test UI is an automated functional testing and regression testing tool. This software provides automated testing capabilities for functional, regression, GUI, and data-driven testing. With the UI Test perspective, you can test the modern Web UI applications that use HTML5, Dojo, and jQuery frameworks. You can use the Functional Test perspective to test the Java, SAP, and other HTML applications.
 
-With the UI Test perspective, you can test the modern Web UI applications that use HTML5, Dojo, and jQuery frameworks. You can use the Functional Test perspective to test the Java, SAP, and other HTML applications.
+The IBM UrbanCode Deploy plug-in for Test UI includes process steps for running the Functional test scripts on UrbanCode Deploy agent computers remotely.
 
-The IBM UrbanCode Deploy plug-ins for Test UI includes process steps for remotely running Web UI and Functional test scripts on UrbanCode Deploy agent computers.
-
-In addition to the Functional test plugin download above, it and the Web UI ones are available from: [UCD plugin for Web UI tests](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestUIWebUI/DTUI-UITest-DD-IBM-12.0.zip) 
-
-|Back to ...||Latest Version||
+|Latest Version||Back to ...||
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[7.0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestUI/DTUI-FunctionalTest-DD-IBM-7.0.zip)|[Downloads](downloads.md)|
+|[7.0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestUI/DTUI-FunctionalTest-DD-IBM-7.0.zip)|[DTUI-Downloads](downloads.md)|[All Deploy Plugins](../README.md)|[All Plugins](../../index.md)|
+
+For Web UI tests, you can download the plugin from [UCD plugin for Web UI tests](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestUIWebUI/DTUI-UITest-DD-IBM-12.0.zip) 
