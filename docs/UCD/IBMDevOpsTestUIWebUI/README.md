@@ -1,14 +1,14 @@
-# IBM DevOps Test UI - Web UI (Test UI)
+# IBM DevOps Test UI - Web UI
 
 Supported in IBM DevOps Test UI 11.0.0 and future releases.
 
-IBM DevOps Test UI is an automated functional testing and regression testing tool. This software provides automated testing capabilities for functional, regression, GUI, and data-driven testing.
+IBM DevOps Test UI is an automated functional testing and regression testing tool. This software provides automated testing capabilities for functional, regression, GUI, and data-driven testing. With the UI Test perspective, you can test the modern Web UI applications that use HTML5, Dojo, and jQuery frameworks.
 
-With the UI Test perspective, you can test the modern Web UI applications that use HTML5, Dojo, and jQuery frameworks.
-
-The IBM UrbanCode Deploy plug-ins for Test UI includes process steps for remotely running Web UI scripts on UrbanCode Deploy agent computers.
+The IBM UrbanCode Deploy plug-in for Test UI includes process steps for running the Web UI tests on UrbanCode Deploy agent computers remotely.
 
 
-|Back to ...||Latest Version||
+|Latest Version||Back to ...||
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[12.0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestUIWebUI/DTUI-UITest-DD-IBM-12.0.zip)|[Downloads](downloads.md)|
+|[12.0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestUIWebUI/DTUI-UITest-DD-IBM-12.0.zip)|[DTUI-WebUI-Downloads](downloads.md)|[All Deploy Plugins](../README.md)|[All Plugins](../../index.md)|
+
+For Functional tests, you can download the plugin from [UCD plugin for Functional tests](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestUI/DTUI-FunctionalTest-DD-IBM-7.0.zip) 
