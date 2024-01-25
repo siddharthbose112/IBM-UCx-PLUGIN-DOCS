@@ -776,14 +776,14 @@ The IBM UrbanCode Deploy plug-in for Test UI includes process steps for running 
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](HCLDevOpsTestUI/README.md)|[7.0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLDevOpsTestUI/DTUI-FunctionalTest-DD-HCL-7.0.zip)|
 
-## HCL DevOps Test UI - Web UI
+## HCL DevOps Test UI-Web UI
 
 HCL DevOps Test UI is an automated functional testing and regression testing tool. This software provides automated testing capabilities for functional, regression, GUI, and data-driven testing. You can use the Functional Test perspective to test the Java, SAP, and other HTML applications.
 The IBM UrbanCode Deploy plug-in for HCL DevOps Test UI - Web UI includes process steps for running the Web UI tests on UrbanCode Deploy agent computers remotely.
 
 ---
 
-|Back to ...||HCL DevOps Test UI - Web UI |Latest Version|
+|Back to ...||HCL DevOps Test UI-Web UI |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](HCLDevOpsTestUIWebUI/README.md)|[12.0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/HCLDevOpsTestUIWebUI/DTUI-UITest-DD-HCL-12.0.zip)|
 
@@ -1019,14 +1019,14 @@ The IBM UrbanCode Deploy plug-in for Test UI includes process steps for running 
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](IBMDevOpsTestUI/README.md)|[7.0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestUI/DTUI-FunctionalTest-DD-IBM-7.0.zip)|
 
-## IBM DevOps Test UI - Web UI
+## IBM DevOps Test UI-Web UI
 
 IBM DevOps Test UI is an automated functional testing and regression testing tool. This software provides automated testing capabilities for functional, regression, GUI, and data-driven testing. You can use the Functional Test perspective to test the Java, SAP, and other HTML applications.
 The IBM UrbanCode Deploy plug-in for IBM DevOps Test UI - Web UI includes process steps for running the Web UI tests on UrbanCode Deploy agent computers remotely.
 
 ---
 
-|Back to ...||IBM DevOps Test UI - Web UI |Latest Version|
+|Back to ...||IBM DevOps Test UI-Web UI |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](IBMDevOpsTestUIWebUI/README.md)|[12.0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/IBMDevOpsTestUIWebUI/DTUI-UITest-DD-IBM-12.0.zip)|
 
