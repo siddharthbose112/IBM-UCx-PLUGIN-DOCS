@@ -2,9 +2,9 @@
 
 Supported in HCL DevOps Test Virtualization 11.0.0 and future releases.
 
-Test Virtualization is software that is used for creating, maintaining, publishing, and running message-based stubs and database stubs.
+Test Virtualization is a software that is used for creating, maintaining, publishing, and running message-based stubs and database stubs.
 
-Test virtualization plug-in, which executes virtual services that model services which your application depends on. You can initiate the execution of virtual services from UrbanCode Deploy server.
+You can use the Test Virtualization plug-in to integrate DevOps Test Vitualization server with UrbanCode Deploy to execute virtual services from the UrbanCode Deploy server.
 
 ### Available Steps
 
