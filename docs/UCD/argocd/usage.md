@@ -15,7 +15,9 @@ To access this plug-in in the palette, click **Cloud** > **ArgoCD**.
 
 ### Learning activities
 
-* [GitOps with DevOps Deploy and Argo CD](https://community.ibm.com/community/user/wasdevops/blogs/randy-langehennig1/2023/12/19/gitops-with-devops-deploy-and-argo-cd-part-1)
+* [GitOps with DevOps Deploy and Argo CD Part-1](https://community.ibm.com/community/user/wasdevops/blogs/randy-langehennig1/2023/12/19/gitops-with-devops-deploy-and-argo-cd-part-1)
+* [GitOps with DevOps Deploy and Argo CD Part-2](https://community.ibm.com/community/user/wasdevops/blogs/randy-langehennig1/2024/01/11/gitops-with-devops-deploy-and-argo-cd-part-2?CommunityKey=0ab505af-8e12-4199-843b-0dbbb3848f0e)
+
 
 |Back to ...||Latest Version|Argo CD ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
