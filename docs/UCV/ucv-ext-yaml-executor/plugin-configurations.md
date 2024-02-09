@@ -1,4 +1,4 @@
-# UrbanCode Velocity Plugins Configuration
+# DevOps Velocity Plugins Configuration
 
 ## Content
 

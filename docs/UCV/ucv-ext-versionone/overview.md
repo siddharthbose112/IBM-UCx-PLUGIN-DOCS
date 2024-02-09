@@ -2,15 +2,15 @@
 # CollabNet VersionOne - Overview
 
 
-The plug-in for CollabNet VersionOne provides the integration with CollabNet VersionOne server. The plug-in imports work items from a VersionOne server and provides a single view consisting of all the work items in UrbanCode Velocity value stream map.
+The plug-in for CollabNet VersionOne provides the integration with CollabNet VersionOne server. The plug-in imports work items from a VersionOne server and provides a single view consisting of all the work items in DevOps Velocity value stream map.
 
 ## Compatibility
 
-This plug-in requires UrbanCode Velocity Version 1.4.5 or later and VersionOne server (CollabNet hosted) Version 20.0.2.29 or later.
+This plug-in requires DevOps Velocity Version 1.4.5 or later and VersionOne server (CollabNet hosted) Version 20.0.2.29 or later.
 
 ## Versions
 
-UrbanCode Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-versionone/tags).
+DevOps Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-versionone/tags).
 
 ## History
 
@@ -29,7 +29,7 @@ UrbanCode Velocity plug-in images are located in DockerHub. To view available ve
 
 ### Version 1.0.6
 
-* Deleted work are assigned inactive status in UrbanCode Velocity. Use the `"query": "issue.status='inactive'"` to view inactive work.
+* Deleted work are assigned inactive status in DevOps Velocity. Use the `"query": "issue.status='inactive'"` to view inactive work.
 
 ### Version 1.0.3
 

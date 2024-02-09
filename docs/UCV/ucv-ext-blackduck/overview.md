@@ -2,14 +2,14 @@
 # Black Duck - Overview
 
 
-The Black Duck plug-in provides for integration with a Black Duck server. This plug-in imports scan result data from an Black Duck server and saves the data as metrics in UrbanCode Velocity insights.
+The Black Duck plug-in provides for integration with a Black Duck server. This plug-in imports scan result data from an Black Duck server and saves the data as metrics in DevOps Velocity insights.
 
 ## Compatibility
 
-Must be running UrbanCode Velocity version 2.0.4 and later to use the plug-in. Black Duck Server version 2020.6.0 and later is supported.
+Must be running DevOps Velocity version 2.0.4 and later to use the plug-in. Black Duck Server version 2020.6.0 and later is supported.
 
 ## Versions
-There is no install process for this plug-in. The Black Duck plug-in is identified to UrbanCode Velocity as a value stream integration. UrbanCode Velocity plug-in images are located in DockerHub and the UrbanCode Velolcity code accesses the version that you select. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-blackduck/tags).
+There is no install process for this plug-in. The Black Duck plug-in is identified to DevOps Velocity as a value stream integration. DevOps Velocity plug-in images are located in DockerHub and the UrbanCode Velolcity code accesses the version that you select. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-blackduck/tags).
 
 # History
 

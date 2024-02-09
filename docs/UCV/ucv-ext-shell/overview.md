@@ -1,16 +1,16 @@
 
 # Shell - Overview
 
-The Shell plugin allows you to automate the task in IBM UrbanCode Velocity.
+The Shell plugin allows you to automate the task in IBM DevOps Velocity.
 
 ## Compatibility
 
-The Shell plug-in requires IBM UrbanCode Velocity version 2.0 or later.
+The Shell plug-in requires IBM DevOps Velocity version 2.0 or later.
 
 
 ## Versions
 
-The UrbanCode Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-circleci/tags).
+The DevOps Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-circleci/tags).
 
 ## History
 

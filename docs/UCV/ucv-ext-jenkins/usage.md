@@ -23,7 +23,7 @@ To integrate the Jenkins plug-in, perform the following steps:
 ## Using Jenkins jobs as input for the release pipelines
 
 To use Jenkins jobs as input for the release pipelines, perform the following steps:
-1. Log in to UrbanCode Velocity.
+1. Log in to DevOps Velocity.
 2. Click **Value streams** on the Navigation bar.
 3. Click **All Value Streams** tab and select the required value stream.
 4. On the Value Streams page, click **Pipeline** tab and then click **Add app** to add an application.
@@ -41,7 +41,7 @@ To use Jenkins jobs as input for the release pipelines, perform the following st
 
 To use Jenkins jobs as automation tasks in deployment plans, perform the following steps:
 
-1. Log in to UrbanCode Velocity. 
+1. Log in to DevOps Velocity. 
 2. Click **Releases** on the Navigation bar.
 3. Click the required release.
 4. On the Releases page, click the required deployment plan to open the deployment plan page.
@@ -75,7 +75,7 @@ The following tables describe the properties used to configure the integration. 
 | NA | List of configuration properties used to connect and communicate with the Jenkins server. Enclose the properties within braces. | Yes | properties |
 |  | The name of the tenant. | Yes | tenant\_id |
 | NA | Unique identifier assigned to the plug-in. The value for the Jenkins plug-in is `ucv-ext-jenkins` | Yes | type |
-| UrbanCode Velocity User Access Key | An auto-generated user access key provides credentials for communicating with the UrbanCode Velocity server. | Yes | NA |
+| DevOps Velocity User Access Key | An auto-generated user access key provides credentials for communicating with the DevOps Velocity server. | Yes | NA |
 
 
 

@@ -4,7 +4,7 @@
 
 To use the AppScan Enterprise plug-in you must define the integration, create a value stream, and upload the integration.
 
-The value stream map contains the properties, you will use to define the plug-in integration. Basically, the plug-in integration is defined with a value stream within the UrbanCode Velocity user interface. Defining the integration includes defining configuration properties that connect the UrbanCode Velocity server to the AppScan Enterprise server.
+The value stream map contains the properties, you will use to define the plug-in integration. Basically, the plug-in integration is defined with a value stream within the DevOps Velocity user interface. Defining the integration includes defining configuration properties that connect the DevOps Velocity server to the AppScan Enterprise server.
 
 The basic flow to use the plug-in includes:
 
@@ -39,7 +39,7 @@ The AppScan Enterprise plug-in supports endpoint integration which are listed in
 
 From the user interface Value Steam page, click **Upload** to upload the value stream map which is a JSON file.
 
-The JSON file contains the information for creating a value stream and integrating with the AppScan Enterprise server. The following table describes the information for the creating a UrbanCode Velocity value stream map.
+The JSON file contains the information for creating a value stream and integrating with the AppScan Enterprise server. The following table describes the information for the creating a DevOps Velocity value stream map.
 
 
 | Name | Description | Required |
@@ -59,7 +59,7 @@ The configuration properties which are included in the `properties` field are un
 | Name | Type | Description | Required | Property Name |
 | --- | --- | --- | --- | --- |
 | Password | Secure | The password to authenticate with the AppScan Enterprise server. | Yes | password |
-| UrbanCode Velocity User Access Key | Secure | The user access key to authenticate with the UrbanCode Velocity server. | Yes | ucvAccessKey |
+| DevOps Velocity User Access Key | Secure | The user access key to authenticate with the DevOps Velocity server. | Yes | ucvAccessKey |
 | User Name | String | The user name to use to authenticate with the AppScan Enterprise server. | Yes | username |
 | URL | String | The URL of the AppScan Enterprise server. Include the port number. | Yes | url |
 

@@ -6,11 +6,11 @@ The BitBucket Cloud plug-in provides for integration with a BitBucket Cloud.
 
 ## Compatibility
 
-This plug-in requires UrbanCode Velocity version 2.5.0 and later.
+This plug-in requires DevOps Velocity version 2.5.0 and later.
 
 ## Versions
 
-UrbanCode Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode
+DevOps Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode
 DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-bitbucket-cloud/tags).
 
 ## History
@@ -20,7 +20,7 @@ DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-bitbucket-cloud/tags).
 * **Initial Sync Date Field Added**: Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync.
 ### Version 1.0.26
 
-* **Removed Manual User Access Key**: From current version onwards this plug-in will only support Auto Generated User Access Key feature of UrbanCode Velocity.
+* **Removed Manual User Access Key**: From current version onwards this plug-in will only support Auto Generated User Access Key feature of DevOps Velocity.
 * **Added Category**: SCM is the category of BitBucket Cloud plug-in.
 
 ### Version 1.0.22

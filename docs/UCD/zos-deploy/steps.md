@@ -23,6 +23,7 @@
     - [Wait For Job](#wait-for-job)
     - [Delete Dataset](#delete-dataset)
     - [Cleanup Backup Files](#cleanup-backup-files)
+    - [Restore Backup Datasets](#restore-backup-datasets)
 
 ### Allocate Data Set
 
@@ -125,6 +126,9 @@ For each artifact in a delta deployment, the following attributes are compared t
 | Last Modified Timestamp                                                    | INVENTORY  | IBM UrbanCode Deploy reads the **Last Modified Timestamp** value when the version is packaged. All load modules that are build by RTC have **Last Modified Timestamp** values stored in SSI. If SSI has no **Last Modified Timestamp** values, **ZLM4DATE**, **ZLMTIME** and **ZLMSEC** statistical values are read from ISPF. Note that the JCL-built or third-party tool load modules have a **Last Modified Timestamp** value of NO. |
 | Custom properties starting with **SYS.id** (aka identification properties) | INVENTORY  | These properties provide an open framework for the customer or provider to add additional attributes to indicate whether two artifacts are the same. Two artifacts are considered the same when all attributes that are used for comparison match exactly.                                                                                                                                                                              |
 | checksum                                                                   | RUNTIME    | The checksum value is determined when the version is packaged. During a **RUNTIME** deployment, the checksum is calculated for the artifact in the target environment and compared with the checksum calculated during the version creation. These properties can be hash or binder information for load modules.                                                                                                                       |
+
+* To prevent adding inputs data to Z Inventory table follow [Disable inputs for Z Inventory](troubleshooting.md#disable-inputs-for-z-inventory). 
+  This will keep the size of the Z Inventory table in check.
 
 ### FTP Artifacts
 
@@ -247,7 +251,12 @@ Run TSO and ISPF commands using the ISPF gateway.
 
 ### Submit Job
 
-Submit job. **Note:** Using passphrase in place of password is supported from JMON version v2.9.14. Passphrase authentication is enabled by setting property PASS_PHRASE to ON in JMON configurations. JMON binaries with passphrase support are copied to #HLQ#.SBUZAUTH dataset from agent version 7.1.2.0 after agent install or upgrade.
+Submit job.
+
+**Note:**
+* Using passphrase in place of password is supported from JMON version v2.9.14. Passphrase authentication is enabled by setting property PASS_PHRASE to ON in JMON configurations. JMON binaries with passphrase support are copied to #HLQ#.SBUZAUTH dataset from agent version 7.1.2.0 after agent install or upgrade.
+* When the JCL Line with replace tokens is 72 characters long, last character is assumed to be continuation character and this character is kept intact during token replacement and submitting Job.
+* When the JCL Line with replace tokens is 80 characters long, the 72nd character is assumed to be continuation character and the characters 73-80 are considered to be sequence numbers. In this case, the characters 72-80 are kept intact during token replacement and submitting job.
 
 | Name                                          | Type                                            | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Required |
 |-----------------------------------------------|-------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
@@ -317,7 +326,23 @@ All the properties in the step are **hidden properties**
 | Component Name       | String | Name of the component                                                           | Yes      |
 | Resource Id          | String | Resource Id                                                                     | Yes      |
 
+### Restore Backup Datasets
+
+Restored datasets from backup taken during deployment
+
+| Name                    | Type    | Description                                                                                                                                                                                                                                                                                                     | Required |
+|-------------------------|---------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+| Restore Dataset Mapping | String  | Specify list of mapping rules for the datasets to be restored, separated by newline characters. Use the following format: Env_Dataset,Restore_Dataset. Use the asterisk (*) in the Env_Dataset value to match any characters. If multiple rules specify the same Env_Dataset value, only the first one is used. | Yes      |
+| Allow Creating Dataset  | Boolean | Select to create a dataset if the specified restore dataset does not exist.                                                                                                                                                                                                                                     | No       |
+|                         |         | **Hidden Properties (below)**                                                                                                                                                                                                                                                                                   |          |
+| ISPF Gateway Path       | String  | Specify the path for ISPF gateway binary files.                                                                                                                                                                                                                                                                 | Yes      |
+| Deployment Base Path    | String  | The base location to store deployment results and backups for rollback. The default value is the BUZ_DEPLOY_BASE environment variable, which is set to the deployment base path that was specified during installation. Typically, you do not change this value.                                                | Yes      |
+| Temporary DSN Prefix    | String  | Specify a DSN prefix to be used to create temporary data sets. The default value is the BUZ_TMP_DSN_PREFIX environment variable. If a value is not provided, the prefix in the agent user’s profile or the agent user’s ID is used.                                                                             | No       |
+| Version Name            | String  | Version Name                                                                                                                                                                                                                                                                                                    | Yes      |
+| Component Name          | String  | Component Name                                                                                                                                                                                                                                                                                                  | Yes      |
+| Resource Id             | String  | Resource Id                                                                                                                                                                                                                                                                                                     | Yes      |
+
 
 |          Back to ...          |                                |                                                        Latest Version                                                         |    z/OS Utility     |                         |                                       |                   |                           |
 |:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:-----------------------:|:-------------------------------------:|:-----------------:|:-------------------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [86.1162422](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-86.1162422.zip) | [Readme](README.md) | [Overview](overview.md) | [Troubleshooting](troubleshooting.md) | [Usage](usage.md) | [Downloads](downloads.md) |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [88.1165251](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-88.1165251.zip) | [Readme](README.md) | [Overview](overview.md) | [Troubleshooting](troubleshooting.md) | [Usage](usage.md) | [Downloads](downloads.md) |

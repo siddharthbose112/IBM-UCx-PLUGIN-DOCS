@@ -3,7 +3,7 @@
 
 To use the GitLab plug-in you must define the integration, create a value stream, and upload the integration.
 
-The value stream map contains the properties, you will use to define the plug-in integration. Basically, the plug-in integration is defined with a value stream within the UrbanCode Velocity user interface. Defining the integration includes defining configuration properties that connect the UrbanCode Velocity server to the GitLab server.
+The value stream map contains the properties, you will use to define the plug-in integration. Basically, the plug-in integration is defined with a value stream within the DevOps Velocity user interface. Defining the integration includes defining configuration properties that connect the DevOps Velocity server to the GitLab server.
 
 
 The basic flow to use the plug-in includes:
@@ -29,7 +29,7 @@ The GitLab plug-in supports scheduled events integration which are listed in the
 
 From the user interface Value Steam page, click **Upload** to upload the value stream map which is a JSON file.
 
-The JSON file contains the information for creating a value stream and integrating with the GitLab server. The following table describes the information for the creating a UrbanCode Velocity value stream map.
+The JSON file contains the information for creating a value stream and integrating with the GitLab server. The following table describes the information for the creating a DevOps Velocity value stream map.
 
 
 | Name | Description | Required |
@@ -51,7 +51,7 @@ The configuration properties which are included in the `properties` field are un
 | URL | String | The URL of the GitLab server. | Yes | baseUrl |
 | Private Token | String | The Gitlab server access token. For more information, see the GitLab documentation at https://gitlab.com/profile/personal_access_tokens. | Yes | private\_token |
 | Project IDs | Array | A list of GitLab Project IDs to import the source data. | Yes | projectIds |
-| UrbanCode Velocity User Access Key | String | The user access key used to authenticate with the UrbanCode Velocity server. | Yes | ucvAccessKey |
+| DevOps Velocity User Access Key | String | The user access key used to authenticate with the DevOps Velocity server. | Yes | ucvAccessKey |
 | Priorty Field Mapping using Labels | Array | Map GitLab label for Priorty to this server. The priorty field label must be a key vaule pair connected by “:” or “-“. Example: If Gitlab Label for priorty is priortyKey:High, then pass priortyKey in this field. | No | fieldMapping |
 | Proxy Server | String | The URL of the proxy server including the port number. | No | proxyServer|
 | Proxy User Name | String | The user name used to authenticate with the proxy server. | No | proxyUsername |

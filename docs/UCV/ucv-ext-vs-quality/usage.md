@@ -1,7 +1,7 @@
 
 # Microsoft Visual Studio Testing - Usage 
 
-To use the Microsoft Visual Studio Testing plug-in, the plug-in must be loaded and an instance created. Load the plug-in into the UrbanCode Velocity container if necessary using the below steps:
+To use the Microsoft Visual Studio Testing plug-in, the plug-in must be loaded and an instance created. Load the plug-in into the DevOps Velocity container if necessary using the below steps:
 1. From the user interface, click **Settings** > **Integrations** > **Plugins**. 
 2. On the Plugins page, locate the plug-in and click **Load Plugin**. 
 3. To create an instance, locate the plug-in and click **Install**. 
@@ -12,10 +12,10 @@ The plug-in is now listed below those plug-ins to be installed and available for
 The Microsoft Visual Studio Testing plug-in parses unit test result data from the Microsoft Visual Studio Testing server.
 
 ## Invoking the plug-in
-To gather data from the Microsoft Visual Studio Testing server, send an HTTP Post request with the data to parse. Whenever there is a hit to the endpoint, the data is parsed and displayed as metrics in IBM UrbanCode Velocity. You can use various methods such as Postman, REST calls, CURL, and CI/CD tools like Jenkins to invoke the plug-in endpoints.
+To gather data from the Microsoft Visual Studio Testing server, send an HTTP Post request with the data to parse. Whenever there is a hit to the endpoint, the data is parsed and displayed as metrics in IBM DevOps Velocity. You can use various methods such as Postman, REST calls, CURL, and CI/CD tools like Jenkins to invoke the plug-in endpoints.
 
 ### Invoke using Jenkins
-Install the UrbanCode Velocity plug-in into your Jenkins server. In your freestyle job or pipeline use the UCV-Upload Metrics File to UrbanCode Velocity step and provide the required fields. This step allows your build job to upload generated coverage results files to UrbanCode Velocity.
+Install the DevOps Velocity plug-in into your Jenkins server. In your freestyle job or pipeline use the UCV-Upload Metrics File to DevOps Velocity step and provide the required fields. This step allows your build job to upload generated coverage results files to DevOps Velocity.
 ```
 pipeline {
    agent any
@@ -30,11 +30,11 @@ pipeline {
 ```
 
 ### Invoke the plug-in using a REST call
-When using a REST call to invoke the Microsoft Visual Studio Testing plug-in, it must be a POST method and include the location of the UrbanCode Velocity quality data endpoint.
+When using a REST call to invoke the Microsoft Visual Studio Testing plug-in, it must be a POST method and include the location of the DevOps Velocity quality data endpoint.
 
 The following request sample shows a REST call that you can copy and update as necessary. Key points about the snippet:
 
-* The URL points to the UrbanCode Velocity quality data endpoint. Update with the server location for your installation of UrbanCode Velocity.
+* The URL points to the DevOps Velocity quality data endpoint. Update with the server location for your installation of DevOps Velocity.
 * The BODY of the call is a multipart/form data. It includes information about the payload.
 
 ```

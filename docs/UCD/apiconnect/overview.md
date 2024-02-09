@@ -21,7 +21,7 @@ To access this plug-in in the palette, click **IBM API Management** > **IBM API 
 
 ### Compatibility
 
-This plug-in is supported to run on all operating systems that are supported by both the IBM UrbanCode Deploy agent (except for z/OS) and the apic toolkit. This plug-in supports apic v2.0.18 and higher. Authentication issues exist within the apic toolkit. See [Troubleshooting](#troubleshooting) for a workaround.
+This plug-in is supported to run on all operating systems that are supported by both the IBM UrbanCode Deploy agent (except for z/OS) and the apic toolkit. This plug-in supports apic v10.0.x and higher. If you are using apic v5 or apic v2018 please use the Version 7 plugin available on the [Download Page](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/apiconnect/downloads.html) . Authentication issues exist within the apic toolkit. See [Troubleshooting](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/apiconnect/troubleshooting.html) for a workaround.
 
 This plug-in requires version 6.0.1 or later of IBM UrbanCode Deploy.
 
@@ -34,6 +34,14 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 The apic toolkit must be downloaded and installed separately. Directions can be found [Installing the toolkit](https://www.ibm.com/support/knowledgecenter/SSMNED_5.0.0/com.ibm.apic.toolkit.doc/tapim_cli_install.html) topic in the product documentation.
 
 ### History
+
+#### Version 8
+
+* Updated plugin to only support API Connect 10.0.x. This version of the plugin only supports IBM API-Connect v10.x and newer.
+
+#### Version 7
+
+* Updated plugin to support API Connect 2018.
 
 #### Version 6
 
@@ -63,4 +71,4 @@ The apic toolkit must be downloaded and installed separately. Directions can be 
 
 |Back to ...||Latest Version|IBM API Connect ||||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[7.1022553](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/apiconnect/apiconnect-7.1022553.zip)|[Readme](README.md)|[Usage](usage.md)|[Tutorials](tutorials.md)|[Steps](steps.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[8.1164159](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/apiconnect/ucd-apiconnect-8.1164159.zip)|[Readme](README.md)|[Usage](usage.md)|[Tutorials](tutorials.md)|[Steps](steps.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|

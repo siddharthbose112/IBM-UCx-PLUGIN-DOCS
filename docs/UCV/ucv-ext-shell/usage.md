@@ -1,7 +1,7 @@
 
 # Shell - Usage
 
-To use the Shell plugin, the plugin must be loaded and an instance created before you can configure the plugin integration. If necessary, load the plugin into the IBM UrbanCode Velocity from the user interface, click **Settings** > **Integrations** > **Plugins**. On the Plugins tab, locate the plugin and click **Load Plugin**.
+To use the Shell plugin, the plugin must be loaded and an instance created before you can configure the plugin integration. If necessary, load the plugin into the IBM DevOps Velocity from the user interface, click **Settings** > **Integrations** > **Plugins**. On the Plugins tab, locate the plugin and click **Load Plugin**.
 
 To create an instance, locate the plugin on the Plugins page and click **Install**. The plugin is now listed below those plugins to be installed and available for integration. After the integration is complete, the Execute Shell automation task is available for use in a release process.
 
@@ -38,7 +38,7 @@ The JSON file contains the information for creating a value stream. Within the J
 The following tables describe the properties used to configure the integration. Each table contains the field name when using the user interface and the property name when using a JSON file.
 
 * The General Configuration Properties table describes configuration properties used by all plug-in integrations.
-* The Shell Configuration Properties table describes the configuration properties used to communicate with IBM UrbanCode Velocity.
+* The Shell Configuration Properties table describes the configuration properties used to communicate with IBM DevOps Velocity.
 
 ### General Configuration Properties table
 
@@ -55,7 +55,7 @@ The following tables describe the properties used to configure the integration. 
 
 | Name | Type | Description | Required | Project Name |
 | --- | --- | --- | --- | --- |
-| User Access Key | Secure | The access token secret for oauth authentication. Used to communicate with IBM UrbanCode Velocity.| Yes | ucvAccessKey |
+| User Access Key | Secure | The access token secret for oauth authentication. Used to communicate with IBM DevOps Velocity.| Yes | ucvAccessKey |
 
 
 |Back to ...||Latest Version|||||

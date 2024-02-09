@@ -10,7 +10,7 @@ event which is described in the following table.
 
 | Name | Description |
 | --- | --- |
-| syncRallyDataEvent | Queries the Rally server for stories and defects to import into UrbanCode Velocity issues. If the Rally data already exists as an issue, the issue is updated. |
+| syncRallyDataEvent | Queries the Rally server for stories and defects to import into DevOps Velocity issues. If the Rally data already exists as an issue, the issue is updated. |
 
 ## Integration
 
@@ -65,7 +65,7 @@ The following tables describe the properties used to configure the integration. 
 | Password | Secure | The password used to authenticate with the Rally server. Specify either the username and password properties or the apiKey property. | No | password |
 | URL | String | The URL of the Rally server. The default is https://rally1.rallydev.com. | Yes | baseUrl |
 | User Name | String | The user name used to authenticate with the Rally server. Specify either the username and password properties or the apiKey property. | No | username |
-| ucvAccessKey | Secure | The user access key used to authenticate with the IBM UrbanCode Velocity server. | Yes | ucvAccessKey |
+| ucvAccessKey | Secure | The user access key used to authenticate with the IBM DevOps Velocity server. | Yes | ucvAccessKey |
 | Workspace | String | The name of the Rally workspace to use on request. This property is required if you are not using a default workspace. | No | workspace |
 | Proxy Server | String | The URL of the proxy server including the port number. | No | proxyServer |
 | Proxy User Name | String | The user name used to authenticate with the proxy server. | No | proxyUsername |

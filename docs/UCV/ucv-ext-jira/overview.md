@@ -3,19 +3,19 @@
 
 ## Overview
 
-The Jira plug-in provides for integration with a Jira server. This plug-in imports Jira issues and saves them as UrbanCode Velocity issues. Data between the Jira server and the UrbanCode Velocity server is synchronized every five minutes.
+The Jira plug-in provides for integration with a Jira server. This plug-in imports Jira issues and saves them as DevOps Velocity issues. Data between the Jira server and the DevOps Velocity server is synchronized every five minutes.
 
 ## Compatibility
 
-Must be running UrbanCode Velocity version 1.2.1 and later to use the plug-in.
+Must be running DevOps Velocity version 1.2.1 and later to use the plug-in.
 
 ## Upgrade notes
 
-Beginning with UrbanCode Velocity version 2.4.0 users must enter a user access key is required to connect with the UrbanCode Velocity server. If you are upgrading from a previous version, you must obtain and add the key to the UrbanCode Velocity configuration property. If the user access key is not added, the integration fails. A proper JQL query must be provided while integration.
+Beginning with DevOps Velocity version 2.4.0 users must enter a user access key is required to connect with the DevOps Velocity server. If you are upgrading from a previous version, you must obtain and add the key to the DevOps Velocity configuration property. If the user access key is not added, the integration fails. A proper JQL query must be provided while integration.
 
 ## Versions
 
-UrbanCode Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-jira/tags).
+DevOps Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-jira/tags).
 
 ### History
 
@@ -72,8 +72,8 @@ UrbanCode Velocity plug-in images are located in DockerHub. To view available ve
 
 #### Version 1.0.64
 
-* ReSync support added. Applies to UrbanCode Velocity version 2.4.4 or later.
-* Auto-generated User Access Key support added. Applies to UrbanCode Velocity version 2.4.0 or later.
+* ReSync support added. Applies to DevOps Velocity version 2.4.4 or later.
+* Auto-generated User Access Key support added. Applies to DevOps Velocity version 2.4.0 or later.
 
 #### Version 1.0.51
 

@@ -59,6 +59,11 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 * Fixed the issue for securedata jar for compatibility with Java 8.
 
+#### Version 130
+
+* Updated plugin rectify shared-library creation error. 
+
+
 #### Version 129
 
 * Fixed defect to make the plugin compatibel with UCD v7.1.2.2 and above. Refer link: https://www.ibm.com/support/pages/node/6963029.
@@ -249,3 +254,4 @@ The following features were added in version 96:
 |Back to ...||Latest Version|WebSphere Application Server - Deployment |||||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[131.1165947](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/ucd-WebSphere-131.1165947.zip)|[Readme](README.md)|[User permissions](user permissions.md)|[Usage](usage.md)|[Steps](steps.md)|[Roles](roles.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
+

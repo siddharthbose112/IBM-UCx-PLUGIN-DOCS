@@ -10,6 +10,7 @@
 * [Replace Product in Catalog](#replace_product_in_catalog)
 * [Set Configuration Variable](#set_configuration_variable)
 * [Supersede Product in Catalog](#supersede_product_in_catalog)
+* [Create a Product](#create_a_product)
 
 
 ### Login
@@ -21,7 +22,8 @@ Authenticate with an API Connect cloud through the management server. This step 
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | APIC Tool Path | String | The full path to the apic command-line tool. For example: C:\Users\John\AppData\Roaming\npm\apic.cmd | No |
-| Password | Password | The password to use to authenticate with the API Connect management server. | Yes |
+| Password | Password | The password to use to authenticate with the API Connect management server. Either password of API key is required for login, Both can't be empty. | No |
+| API Key | Password | The api key to use to authenticate with the API Connect management server. Either password of API key is required for login, Both can't be empty. | No |
 | Realm | String | The identity provider used to authenticate and the scope of the tasks that can be performed (I.E. provider/default-idp-2). This field is required if using the API Connect v2018 toolkit. | No |
 | Server | String | The API Connect management server endpoint to authenticate with. For example, the IBM Bluemix endpoint is us.apiconnect.ibmcloud.com. | Yes |
 | Username | String | The user name to use to authenticate with the API Connect management server. | Yes |
@@ -36,6 +38,20 @@ Remove local authentication credentials for an API Connect cloud. Run this step 
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | APIC Tool Path | String | The full path to the apic command-line tool. For example: C:\Users\John\AppData\Roaming\npm\apic.cmd | No |
 | Server | String | The API Connect management server endpoint to remove credentials from. For example, the IBM Bluemix endpoint is us.apiconnect.ibmcloud.com. | Yes |
+
+### Create a product (for API Connect v10.x)
+
+
+Create a new product in API Connect (apic create:product).
+
+
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
+| APIC Tool Path | String | The full path to the apic command-line tool. For example: C:\Users\John\AppData\Roaming\npm\apic.cmd | No |
+| Server | String | The API Connect management server endpoint to remove credentials from. For example, the IBM Bluemix endpoint is us.apiconnect.ibmcloud.com. | Yes |
+| Product Name | String | Specify a name with which you want to craete a new Product in IBM API connect, Ex: test-product. | Yes |
+| Product Version | String | Specify a version with which you want to craete a new Product in IBM API connect. Ex: 1.0.0. | Yes |
+| Product Version | String | Specify a title with which you want to craete a new Product in IBM API connect . Ex: Test Product.| Yes |
 
 ### Publish API Product Definitions
 
@@ -138,4 +154,4 @@ Supersede a published product in a catalog with another product (apic products:r
 
 |Back to ...||Latest Version|IBM API Connect ||||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[7.1022553](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/apiconnect/apiconnect-7.1022553.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Tutorials](tutorials.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[8.1164159](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/apiconnect/ucd-apiconnect-8.1164159.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Tutorials](tutorials.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|

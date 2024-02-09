@@ -19,9 +19,24 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 5
+
+* RFE-URBANCODE-I-598: Updated plugin to support multiple application files import from a Raw   repository in Nexus.
+* Updated deprecated library HttpClientBuilder to HttpClientBuilder2.
+* Updating Jettison library to 1.5.4 for CVE-2023-1436.
+
 #### Version 4
 
-Log4j and Jettison dependency updated.
+* Updated dependencies for log4j and jettison.
+
+#### Version 3
+
+* A version's importing field will be correctly set and marked as finished importing when creating versions that aren't copied to codestation.
+
+
+#### Version 2
+
+* Fixing CVE:CVE-2019-4233.
 
 #### Version 1
 
@@ -30,4 +45,4 @@ Initial release of this plug-in.
 
 |Back to ...||Latest Version|Nexus Repository Manager V3 ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[4.1155934](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sourceconfig-nexus-v3/ucd-sourceconfig-nexus-v3-4.1155934.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[5.1164218](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/sourceconfig-nexus-v3/ucd-sourceconfig-nexus-v3-5.1164218.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

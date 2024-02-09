@@ -1,17 +1,17 @@
 
 # YAML Executor - Steps
 
-## Importing YAML configuration file into UrbanCode Velocity
+## Importing YAML configuration file into DevOps Velocity
 
-Import the YAML configuration file into UrbanCode Velocity by using any one of the following methods:
+Import the YAML configuration file into DevOps Velocity by using any one of the following methods:
 
 ### Method 1: Using GitHub plug-in
 
-Integrate UrbanCode Velocity with a GitHub repository that contains the ucv.yml file to import the YAML configuration file into UrbanCode Velocity.
+Integrate DevOps Velocity with a GitHub repository that contains the ucv.yml file to import the YAML configuration file into DevOps Velocity.
 
 Perform the following steps to import the YAML configuration file using GitHub plug-in:
 
-1. Log in to UrbanCode Velocity.
+1. Log in to DevOps Velocity.
 2. Click **Settings>Integrations**.
 3. In the Installed tab, click **Add Integration** for the installed GitHub plug-in.    
    **Note:** If the GitHub plug-in is not installed, go to Available tab and click Install for GitHub Plug-in.
@@ -22,15 +22,15 @@ Perform the following steps to import the YAML configuration file using GitHub p
    ![images/2.png](images/2.png)
 6. Click **Add** to save the details and enable the integration.
    
-   The YAML configuration file from the GitHub repository is automatically synced to UrbanCode Velocity and displayed under Settings>External config pipeline.
+   The YAML configuration file from the GitHub repository is automatically synced to DevOps Velocity and displayed under Settings>External config pipeline.
 
 ### Method 2: Using user interface
 
-You can import the YAML configuration file into UrbanCode Velocity using user interface if it is not hosted in a GitHub repository.
+You can import the YAML configuration file into DevOps Velocity using user interface if it is not hosted in a GitHub repository.
 
 Perform the following steps to add YAML configuration file using user interface:
 
-1. Log in to UrbanCode Velocity.
+1. Log in to DevOps Velocity.
 2. Click **Settings>External config pipeline**.
 3. Click **Download sample yaml** to download the sample YAML file.
 4. Edit the sample file with the actual values of your configuration.
@@ -66,9 +66,9 @@ Perform the following steps to add YAML configuration file using user interface:
     
 ## Applying YAML configuration file
 
-Once you have the YAML configuration file in UrbanCode Velocity, perform the following steps to apply the configuration:
+Once you have the YAML configuration file in DevOps Velocity, perform the following steps to apply the configuration:
 
-1. Log in to UrbanCode Velocity.
+1. Log in to DevOps Velocity.
 2. Click **Settings>External config pipeline**.
 3. Choose the required YAML configuration file in the list and click right angle bracket to preview the configuration details.
 
@@ -80,7 +80,7 @@ Once you have the YAML configuration file in UrbanCode Velocity, perform the fol
 
 ## YAML configuration file properties
 
-The YAML configuration file is used to define configuration settings for automating the initial setup process for integrating various CI/CD tools into UrbanCode Velocity.
+The YAML configuration file is used to define configuration settings for automating the initial setup process for integrating various CI/CD tools into DevOps Velocity.
 
 ### YAML File Structure
 
@@ -111,7 +111,7 @@ The following table describe the properties that you must define under configs :
 |loggingLevel |String|Logging level for the integration.	        |Yes     |
 |deltaTime	|String|Optional: Time difference for the integration.|Yes     |
 
-For additional configuration properties depending on integration type, see [UrbanCode Velocity Plugins Configuration.](plugin-configurations.md)
+For additional configuration properties depending on integration type, see [DevOps Velocity Plugins Configuration.](plugin-configurations.md)
 
 ### Sample YAML configuration file
 
