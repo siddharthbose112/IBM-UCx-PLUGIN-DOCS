@@ -2284,7 +2284,7 @@ To learn more about different solutions for WebSphere Application Server, see [F
 
 |Back to ...||WebSphere Application Server - Configure |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](WebSphereConfiguration/README.md)|[93.1160857](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereConfiguration/ucd-WebSphereConfiguration-93.1160857.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](WebSphereConfiguration/README.md)|[94.1165946](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereConfiguration/ucd-WebSphereConfiguration-94.1165946.zip)|
 
 ## WebSphere Application Server - Deployment
 
@@ -2294,7 +2294,7 @@ The WebSphere Application Server – Deployment plug-in provides a number of ste
 
 |Back to ...||WebSphere Application Server - Deployment |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Websphere/README.md)|[129.1158192](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/ucd-WebSphere-129.1158192.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](Websphere/README.md)|[131.1165947](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Websphere/ucd-WebSphere-131.1165947.zip)|
 
 ## WebSphere Application Server - Install
 
