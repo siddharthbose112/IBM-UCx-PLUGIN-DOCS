@@ -7,6 +7,10 @@
 * [App Set](#app-set)
 * [App Sync](#app-sync)
 * [Login](#login)
+* [AppSet Create](#appset-create)
+* [AppSet Delete](#appset-delete)
+* [AppSet List](#appset-list)
+* [AppSet Get](#appset-get)
 
 
 ### App Create
@@ -76,6 +80,48 @@ Login to an Argo CD instance.
 | Additional login flags | String | A list of flags to set when running the login step.  For example: '--config=path'. Specify each flag on a new line.  If the flag takes an argument, put the argument on a separate line or use an equal '=' (not whitespace) between the flag and argument. | Yes |
 
 
+### AppSet Create
+
+Create one or more Argo CD ApplicationSets.
+
+
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
+| Argo CD ApplicationSet Configuration Filename or URL | String | Configuration filename or URL used to create the ApplicationSet. | Yes |
+| Additional appset create flags | String | A list of flags to set when running the appset create step.  For example: '--config=path'. Specify each flag on a new line.  If the flag takes an argument, put the argument on a separate line or use an equal '=' (not whitespace) between the flag and argument. | Yes | 
+
+
+### AppSet Delete
+
+Delete one or more Argo CD ApplicationSets.
+
+
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
+| Name(s) of Argo CD ApplicationSet(s) | String | A list of ApplicationSet name(s) to delete.   Specify each name on a new line. | Yes |
+| Additional appset delete flags | String | A list of flags to set when running the appset delete step.  For example: '--config=path'. Specify each flag on a new line.  If the flag takes an argument, put the argument on a separate line or use an equal '=' (not whitespace) between the flag and argument. | Yes | 
+
+
+### AppSet List
+
+List one or more Argo CD ApplicationSets.
+
+
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
+| Additional appset list flags | String | A list of flags to set when running the appset list step.  For example: '--config=path'. Specify each flag on a new line.  If the flag takes an argument, put the argument on a separate line or use an equal '=' (not whitespace) between the flag and argument. | Yes | 
+
+### AppSet Get
+
+Get Argo CD ApplicationSet.
+
+
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
+| Argo CD ApplicationSet Name | String | The name of the Argo CD ApplicationSet to get. | Yes |
+| Additional appset get flags | String | A list of flags to set when running the appset get step.  For example: '--config=path'. Specify each flag on a new line.  If the flag takes an argument, put the argument on a separate line or use an equal '=' (not whitespace) between the flag and argument. | Yes | 
+
+
 |Back to ...||Latest Version|Argo CD ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1.1164029](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/argocd/ucd-plugins-argocd-1.1164029.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[2.1166082](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/argocd/ucd-plugins-argocd-2.1166082.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

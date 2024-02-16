@@ -5,4 +5,4 @@ Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. The Ar
 
 |Back to ...||Latest Version|||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1.1164029](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/argocd/ucd-plugins-argocd-1.1164029.zip)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[2.1166082](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/argocd/ucd-plugins-argocd-2.1166082.zip)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
