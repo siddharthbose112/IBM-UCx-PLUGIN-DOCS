@@ -32,7 +32,12 @@ This version includes translated steps and properties.
 
 The JVM Properties field was removed.
 
+#### Version 10
+
+Ant failures are resolved.
+
+
 
 |Back to ...||Latest Version|Ant |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[8.913229](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Ant/Ant-8.913229.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[10.1165571](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Ant/Ant-10.1165571.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|
