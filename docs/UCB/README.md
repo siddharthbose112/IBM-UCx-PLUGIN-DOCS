@@ -101,7 +101,7 @@ Apache Ant is a software tool that automates software processes during the build
 
 |Back to ...||Ant |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Ant/README.md)|[8.913229](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Ant/Ant-8.913229.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](Ant/README.md)|[10.1165571](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Ant/Ant-10.1165571.zip)|
 
 ## Artifactory for IBM UrbanCode Build
 
