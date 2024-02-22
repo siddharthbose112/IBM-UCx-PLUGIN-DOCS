@@ -34,6 +34,7 @@
 	- [IBM Dependency Based Build](#ibm-dependency-based-build)
 	- [IBM Security AppScan Source](#ibm-security-appscan-source)
 	- [IBM UrbanCode Deploy for IBM UrbanCode Build](#ibm-urbancode-deploy-for-ibm-urbancode-build)
+	- [Job As Code](#job-as-code)
 	- [JIRA for IBM UrbanCode Build](#jira-for-ibm-urbancode-build)
 	- [JUnit for IBM UrbanCode Build](#junit-for-ibm-urbancode-build)
 	- [JaCoCo](#jacoco)
@@ -354,6 +355,16 @@ IBM UrbanCode Deploy provides release management and automation to improve speed
 |Back to ...||IBM UrbanCode Deploy for IBM UrbanCode Build |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ibmucd/README.md)|[52.1071101](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/ibmucd/ibm-ucd-52.1071101.zip)|
+
+## Job As Code
+
+The Job As Config Plugin helps user to configure the job using a script file of YAML or JSON format. The Script file should be of UrbanCode Build pre-defined format
+
+---
+
+|Back to ...||Latest Version||||
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](jac/README.md)|[1.1070875](https://github.com/UrbanCode/IBM-UCB-PLUGINS/raw/main/files/jac/plugins-jac-1.1070875.zip)|
 
 ## JIRA for IBM UrbanCode Build
 
