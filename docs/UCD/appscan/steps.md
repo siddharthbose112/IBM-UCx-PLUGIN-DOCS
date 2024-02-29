@@ -27,6 +27,7 @@ Configure scan job options.
 | Login Method | Enumeration: None / Automatic / Manual File | Select the login method. | No |
 | Password | Password | Password to log into ASE. | Yes |
 | Recorded Traffic .htd File | String |  | No |
+| Scan Type Method	| Enumeration: Full Scan / Explore Only / Test Only	| Select the Scan Type. Default value is Full Scan. If record traffic file is provided, default value is Test Only. For Full Scan ID: 1, For Explore Only ID: 2, For Test Only ID: 3.	| No |
 | Scan FIID | String | FIID of the scan to configure. This is found in the scans URL. | Yes |
 | Scan Limit | String |  | No |
 | Scan Site Password | Password | Password to use when logging into the site. Input here will overwrite the password if there is already one set in the scan. | No |
@@ -92,7 +93,9 @@ Retrieve report from AppScan Enterprise. Reports are saved as a PDF file named A
 
 ### Retrieve Report
 
-Retrieve report pack summary and specific report information from AppScan Enterprise. Reports are saved as a xml files named [reportFIID]-Summary.xml and [reportFIID]-[reportName].xml
+For Plugin v24 and above: Reports are saved as a json files named [reportFIID]-Summary.json.
+
+Upto Plugin v23:Retrieve report pack summary and specific report information from AppScan Enterprise. Reports are saved as a xml files named [reportFIID]-Summary.xml and [reportFIID]-[reportName].xml
 
 
 
@@ -130,11 +133,11 @@ Wait for an AppScan Scan to complete.
 | AppScan Enterprise URL | String | AppScan Enterprise Control Center URL, For example, https://localhost/ | Yes |
 | Password | Password | Password to log into ASE. | Yes |
 | Scan FIID | String | FIID of the scan to wait for. This is found in the scan URL. | Yes |
-| Timeout | String | Timeout, in minutes, at which the step will fail if the scan is not yet complete. Leave empty to wait indefinitely. | No |
+| Timeout | String | Timeout, in minutes, at which the step will fail if the scan is not yet complete. By Default It will wait for 5 minutes. Large Value like 200000 recommended when the expected time is not known. | No |
 | User | String | Username to log into ASE. | Yes |
 
 
 
 |Back to ...||Latest Version|IBM AppScan Enterprise |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[24.1161014](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan/ucd-appscan-24.1161014.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[25.1166389](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan/ucd-appscan-25.1166389.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
