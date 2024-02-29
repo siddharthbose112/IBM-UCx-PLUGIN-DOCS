@@ -17,6 +17,11 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 25
+
+* Added property ScanType for the Configure Job Options step.
+* Modified timeout Logic for Retrieve report and Wait for scan step.
+
 #### Version 24
 
 * Modified code to generate the report summary file as a json instead of xml as Appscan's Rest API to that gives proper xml response is deprecated.
@@ -143,4 +148,4 @@ Initial release of the plug-in.
 
 |Back to ...||Latest Version|IBM AppScan Enterprise |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[24.1161014](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan/ucd-appscan-24.1161014.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[25.1166389](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan/ucd-appscan-25.1166389.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|
