@@ -896,7 +896,7 @@ IBM AppScan Enterprise enables organizations to mitigate application security ri
 
 |Back to ...||IBM AppScan Enterprise |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](appscan/README.md)|[25.1166389](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan/ucd-appscan-25.1166389.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](appscan/README.md)|[26.1166855](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan/ucd-appscan-26.1166855.zip)|
 
 ## IBM BigFix
 
