@@ -232,7 +232,7 @@
 	- [z/OS File Source Config](#zos-file-source-config)
 	- [z/OS Management Facility](#zos-management-facility)
 	- [z/OS Multi Generate Artifact Information](#zos-multi-generate-artifact-information)
-	- [z/OS Shell](#zos-shell)
+	- [z/OS Shell \[Deprecated\]](#zos-shell-deprecated)
 	- [z/OS USS Utility](#zos-uss-utility)
 	- [z/OS Utility](#zos-utility)
 	- [z/OS Rexx Executor](#zos-rexx-executor)
@@ -2526,7 +2526,10 @@ The z/OS Multi Generate Artifact Information plug-in scans version artifacts and
 |:--------------------------:|:----------------------------------------:|:----------------------------------------------------:| :---: |
 | [All Plugins](../index.md) |             [Top](#contents)             | [Readme](zos-multi-generate-artifact-info/README.md) |[8.1164047](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-multi-generate-artifact-info/ucd-plugins-zos-multi-generate-artifact-info-8.1164047.zip)|
 
-## z/OS Shell
+## z/OS Shell [Deprecated]
+
+> **Deprecation Notice**: The z/OS Shell plugin is deprecated. It is recommended to use the [Shell plugin](#Shell) instead.
+To download the plug-in, click the following version-specific links.
 
 The z/OS Shell plug-in is for the z/OS only operating system. It performs the same functions as the [Shell plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Shell/) for UrbanCode Deploy. The plug-in reduces the CPU consumption in the z/OS environment by using Java code instead of Groovy code.
 
