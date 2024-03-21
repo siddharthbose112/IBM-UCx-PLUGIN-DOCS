@@ -27,6 +27,7 @@ Use this step to add comments from the current changelog to the matching JIRA is
 | JIRA Base URL | String | The URL of the JIRA server. | Yes |
 | Password | Password | The password to use to connect to the JIRA server. | No |
 | Password Script | String | The property or script to use to authenticate with the JIRA server. If this method is used to authenticate with the server, leave the Password property blank. | No |
+| PAT token | Password | The PAT token to authenticate with the Jira Server 9(On Prem). If using pat token, username and password will be ignored. | No |
 | Proxy Hostname | String | The hostname to be specified if connecting through http proxy. | No |
 | Proxy Port | String | The port number to be specified if connecting through http proxy. | No |
 | Trust All Certificates | Boolean | Select this option to allow insecure connections to the server. | No |
@@ -49,6 +50,7 @@ Check JIRA Issues
 | JIRA Base URL | String | The URL of the JIRA server. | Yes |
 | Password | Password | The password to use to connect to the JIRA server. | No |
 | Password Script | String | The property or script to use to authenticate with the JIRA server. If this method is used to authenticate with the server, leave the Password property blank. | No |
+| PAT token | Password | The PAT token to authenticate with the Jira Server 9(On Prem). If using pat token, username and password will be ignored. | No |
 | Proxy Hostname | String | The hostname to be specified if connecting through http proxy. | No |
 | Proxy Port | String | The port number to be specified if connecting through http proxy. | No |
 | Status Name | String | The expected status of the issue. | Yes |
@@ -74,6 +76,7 @@ Use this step to create a new issue in a JIRA Bug Tracker.
 | Parent Issue ID | String | The issue ID of the parent issue.Overrides environment if entered, ignored if empty. | No |
 | Password | Password | The password to use to connect to the JIRA server. | No |
 | Password Script | String | The property or script to use to authenticate with the JIRA server.If this method is used to authenicate with the server, leave the Password field blank. | No |
+| PAT token | Password | The PAT token to authenticate with the Jira Server 9(On Prem). If using pat token, username and password will be ignored. | No |
 | Priority | String | The priority of the created issue. All values are predefined JIRA priority names. | Yes |
 | Project Key | String | The project key in JIRA. | Yes |
 | Proxy Hostname | String | The hostname to be specified if connecting through http proxy. | No |
@@ -100,6 +103,7 @@ Check if issues with specified issue type exists
 | JIRA Base URL | String | The URL of the JIRA server. | Yes |
 | Password | Password | The password to use to connect to the JIRA server. | No |
 | Password Script | String | The property or script to use to authenticate with the JIRA server. If this method is used to authenticate with the server, leave the Password property blank. | No |
+| PAT token | Password | The PAT token to authenticate with the Jira Server 9(On Prem). If using pat token, username and password will be ignored. | No |
 | Proxy Hostname | String | The hostname to be specified if connecting through http proxy. | No |
 | Proxy Port | String | The port number to be specified if connecting through http proxy. | No |
 | Status Name | Enumeration:
@@ -135,6 +139,7 @@ Use this step to edit fields on an existing JIRA issue.
 | JIRA Base URL | String | The URL of the JIRA server. | Yes |
 | Password | Password | The password to use to connect to the JIRA server. | No |
 | Password Script | String | The property or script to use to authenticate with the JIRA server.If this method is used to authenicate with the server, leave the Password field blank. | No |
+| PAT token | Password | The PAT token to authenticate with the Jira Server 9(On Prem). If using pat token, username and password will be ignored. | No |
 | Proxy Hostname | String | The hostname to be specified if connecting through http proxy. | No |
 | Proxy Port | String | The port number to be specified if connecting through http proxy. | No |
 | Trust All Certificates | Boolean | Select this option to allow insecure connections to the server. | No |
@@ -159,6 +164,7 @@ Use this step to perform JIRA issue transitions.
 | JIRA Base URL | String | The URL of the JIRA server. | Yes |
 | Password | Password | The password to use to connect to the JIRA server. | No |
 | Password Script | String | The property or script to use to authenticate with the JIRA server. If this method is used to authenticate with the server, leave the Password attribute blank. | No |
+| PAT token | Password | The PAT token to authenticate with the Jira Server 9(On Prem). If using pat token, username and password will be ignored. | No |
 | Proxy Hostname | String | The hostname to be specified if connecting through http proxy. | No |
 | Proxy Port | String | The port number to be specified if connecting through http proxy. | No |
 | Resolution Name | String | The resolution which the action has caused. For example, Fixed or Cannot Reproduce. This property is applicable only when the value for the Action Name property is Resolve Issue or Close Issue. | No |
@@ -170,4 +176,4 @@ Use this step to perform JIRA issue transitions.
 
 |Back to ...||Latest Version|JIRA for IBM UrbanCode Deploy ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[18.1166919](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/JIRA/ucd-JIRA-18.1166919.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[19.1167047](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/JIRA/ucd-JIRA-19.1167047.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

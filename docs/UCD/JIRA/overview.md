@@ -26,6 +26,10 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 19
+
+* RFE - URBANCODE-I-635.
+
 #### Version 18
 
 * RFE - URBANCODE-I-586.
@@ -98,4 +102,4 @@ The JIRA integration provides component process steps to create, comment and res
 
 |Back to ...||Latest Version|JIRA for IBM UrbanCode Deploy ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[18.1166919](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/JIRA/ucd-JIRA-18.1166919.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[19.1167047](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/JIRA/ucd-JIRA-19.1167047.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
