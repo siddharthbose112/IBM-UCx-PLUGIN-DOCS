@@ -1660,7 +1660,7 @@ JIRA is an issue tracking tool. You can use the tool to capture and organize iss
 
 |Back to ...||JIRA for IBM UrbanCode Deploy |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](JIRA/README.md)|[18.1166919](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/JIRA/ucd-JIRA-18.1166919.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](JIRA/README.md)|[19.1167047](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/JIRA/ucd-JIRA-19.1167047.zip)|
 
 ## Jenkins Job Manager  [community plugin]
 
