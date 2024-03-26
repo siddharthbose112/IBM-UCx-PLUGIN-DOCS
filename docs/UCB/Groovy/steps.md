@@ -29,4 +29,4 @@ Run a Groovy script.
 
 |Back to ...||Latest Version|Groovy for IBM UrbanCode Build |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[9.891045](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Groovy/Groovy-9.891045.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[16.1164697](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Groovy/Groovy-16.1164697.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
