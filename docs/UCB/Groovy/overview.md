@@ -24,6 +24,10 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 16
+
+Groovy failures are resolved.
+
 #### Version 7
 
 This version of the plug-in includes translated steps and properties.
@@ -39,4 +43,4 @@ This version of the plug-in includes the ability to run JUnit test cases in Groo
 
 |Back to ...||Latest Version|Groovy for IBM UrbanCode Build |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[9.891045](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Groovy/Groovy-9.891045.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[16.1164697](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Groovy/Groovy-16.1164697.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

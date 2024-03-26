@@ -304,7 +304,7 @@ Groovy is an object-oriented programming language for the Java platform. It is a
 
 |Back to ...||Groovy for IBM UrbanCode Build |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Groovy/README.md)|[9.891045](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Groovy/Groovy-9.891045.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](Groovy/README.md)|[16.1164697](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/Groovy/Groovy-16.1164697.zip)|
 
 ## HP Fortify
 
