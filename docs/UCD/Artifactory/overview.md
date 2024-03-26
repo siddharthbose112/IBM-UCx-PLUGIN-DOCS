@@ -29,6 +29,10 @@ No special steps are required for installation. See [Installing plug-ins in IBM 
 
 ### History
 
+#### Version 25
+
+* RFE - URBANCODE-I-626 .
+
 #### Version 24
 
 * Log4j and Jettison dependency updated .
@@ -127,4 +131,4 @@ No special steps are required for installation. See [Installing plug-ins in IBM 
 
 |Back to ...||Latest Version|Artifactory ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[24.1154918](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Artifactory/ucd-Artifactory-24.1154918.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[25.1167143](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Artifactory/ucd-Artifactory-25.1167143.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

@@ -18,6 +18,7 @@ Retrieve the latest build artifact within a SNAPSHOT.
 | Name | Type | Description | Required | Property Name |
 | --- | --- | --- | --- | --- |
 | Api Key | Password | The api key to authenticate with the Artifactory server. If using api key, username and password will be ignored. | No | apiKey |
+| Identity token | Password | The Identity token to authenticate with the Artifactory server. If using Identity token, api key, username and password will be ignored. | No | identityKey |
 | Artifactory Base URL | String | The base URL of the Artifactory server. For example: http://server.example.com:8081/artifactory | Yes | url |
 | Artifactory Repository | String | The repository in Artifactory where the build artifact resides. For example: libs-snapshot-local | Yes | repo |
 | Classifier | String | The classifier of the version snapshot, if any. | No | classifier |
@@ -35,6 +36,7 @@ Download a NuGet package from a NuGet repository.
 | Name | Type | Description | Required | Property Name |
 | --- | --- | --- | --- | --- |
 | Api Key | Password | The api key to authenticate with the Artifactory server. If using api key, username and password will be ignored. | No | apiKey |
+| Identity token | Password | The Identity token to authenticate with the Artifactory server. If using Identity token, api key, username and password will be ignored. | No | identityKey |
 | Artifactory Base URL | String | The base URL of the Artifactory server. For example: http://server.example.com:8081/artifactory | Yes | artifactoryUrl |
 | Packages | String | A list of packages to download, separated by newline characters. Use the following format: repoPath/version | Yes | artifacts |
 | Repository Password | Password | The password to authenticate with Artifactory. | No | password |
@@ -49,6 +51,7 @@ Download all files under a specified version of a repository that was built with
 | Name | Type | Description | Required | Property Name |
 | --- | --- | --- | --- | --- |
 | Api Key | Password | The api key to authenticate with the Artifactory server. If using api key, username and password will be ignored. | No | apiKey |
+| Identity token | Password | The Identity token to authenticate with the Artifactory server. If using Identity token, api key, username and password will be ignored. | No | identityKey |
 | Artifactory Base URL | String | The base URL of the Artifactory server. For example: http://server.example.com:8081/artifactory | Yes | artifactoryUrl |
 | Excludes | String | The patterns to use for excluding files to download. | No | excludes |
 | Includes | String | The patterns to use for including files to download. The wildcard \*\* indicates every directory and the wildcard \* indicates every file. So the pattern dist/\*\*/\* would retrieve the entire file tree underneath the dist directory. | Yes | includes |
@@ -66,6 +69,7 @@ Download all files under specified version of a repository (non-Maven).
 | Name | Type | Description | Required | Property Name |
 | --- | --- | --- | --- | --- |
 | Api Key | Password | The api key to authenticate with the Artifactory server. If using api key, username and password will be ignored. | No | apiKey |
+| Identity token | Password | The Identity token to authenticate with the Artifactory server. If using Identity token, api key, username and password will be ignored. | No | identityKey |
 | Artifactory Base URL | String | The base URL of the Artifactory server. For example: http://server.example.com:8081/artifactory | Yes | artifactoryUrl |
 | Download Recursively | Boolean | Select this box to download files and folders in subfolders of versions. Requires Artifactory Pro edition or higher. | No | recursive |
 | Excludes | String | The patterns to use for excluding files to download. | No | excludes |
@@ -84,6 +88,7 @@ Change the status of a build, optionally moving or copying the build to a target
 | Name | Type | Description | Required | Property Name |
 | --- | --- | --- | --- | --- |
 | Api Key | Password | The api key to authenticate with the Artifactory server. If using api key, no username and password can be specified. | No | apiKey |
+| Identity token | Password | The Identity token to authenticate with the Artifactory server. If using Identity token, api key, username and password will be ignored. | No | identityKey |
 | Artifactory Base URL | String | The base URL of the Artifactory server. For example: http://server.example.com:8081/artifactory | Yes | url |
 | Build Name | String | The name of the build to promote. | Yes | buildName |
 | Build Number | String | The number of the build to promote. | Yes | buildNumber |
@@ -107,6 +112,7 @@ Retrieve an archive file that contains all the artifacts for a specific build.
 | Name | Type | Description | Required | Property Name |
 | --- | --- | --- | --- | --- |
 | Api Key | Password | The API key to authenticate with the Artifactory server. If you enter an API key, you cannot specify a user name and password. | No | apiKey |
+| Identity token | Password | The Identity token to authenticate with the Artifactory server. If using Identity token, api key, username and password will be ignored. | No | identityKey |
 | Archive Type | Enumeration:
 * zip
 * tar
@@ -129,6 +135,7 @@ Attach properties to a file or folder.
 | Name | Type | Description | Required | Property Name |
 | --- | --- | --- | --- | --- |
 | Api Key | Password | The api key to authenticate with the Artifactory server. If using api key, username and password will be ignored. | No | apiKey |
+| Identity token | Password | The Identity token to authenticate with the Artifactory server. If using Identity token, api key, username and password will be ignored. | No | identityKey |
 | Artifact Path | String | The path to the artifact to set properties on. For example: libs-release-local/org/jfrog/multi1/2.7-SNAPSHOT | Yes | path |
 | Artifactory Base URL | String | The base URL of the Artifactory server. For example: http://server.example.com:8081/artifactory | Yes | url |
 | Password | Password | The password to authenticate with the Artifactory server. | No | password |
@@ -140,4 +147,4 @@ Attach properties to a file or folder.
 
 |Back to ...||Latest Version|Artifactory ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[24.1154918](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Artifactory/ucd-Artifactory-24.1154918.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[25.1167143](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Artifactory/ucd-Artifactory-25.1167143.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
