@@ -2,8 +2,9 @@
 Report Publisher - Downloads
 ============================
 
-# Downloads
+# Downloads 
 
+- [Report-Publisher-8.1164837.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/ReportPublisher/Report-Publisher-8.1164837.zip)
 - [Report-Publisher-8.913304.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/ReportPublisher/Report-Publisher-8.913304.zip)
 - [Report-Publisher-7.752918.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/ReportPublisher/Report-Publisher-7.752918.zip)
 - [Report-Publisher-6.597181.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/ReportPublisher/Report-Publisher-6.597181.zip)
@@ -14,4 +15,4 @@ Report Publisher - Downloads
 
 |Back to ...||Latest Version|Report Publisher |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[8.913304](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/ReportPublisher/Report-Publisher-8.913304.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|
+|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[8.1164837](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/ReportPublisher/Report-Publisher-8.1164837.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|

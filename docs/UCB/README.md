@@ -596,7 +596,7 @@ Uploads specified files as reports to the server. Available Steps
 
 |Back to ...||Report Publisher |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ReportPublisher/README.md)|[8.913304](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/ReportPublisher/Report-Publisher-8.913304.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ReportPublisher/README.md)|[8.1164837](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/ReportPublisher/Report-Publisher-8.1164837.zip)|
 
 ## Reporting
 
