@@ -24,6 +24,10 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 8
+
+This release includes few fixes.
+
 #### Version 7
 
 This release includes translated steps and properties.
@@ -39,4 +43,4 @@ This release includes a fix for an issue with uploading reports.
 
 |Back to ...||Latest Version|Report Publisher |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[8.913304](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/ReportPublisher/Report-Publisher-8.913304.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Build Plugins](../README.md)|[8.1164837](https://raw.githubusercontent.com/UrbanCode/IBM-UCB-PLUGINS/main/files/ReportPublisher/Report-Publisher-8.1164837.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|
