@@ -29,7 +29,7 @@ Velocity version 2.4.4 or later.
 
 ### Version 4.0.26
 
-* Auto generated User Access Key Related Changes.(For velocity version 3.0.0 we started supporting auto generated user access key. For version prior to 3.0.0 manually add user access key in the hidden field.)
+* Auto generated User Access Key Related Changes.(For DevOps velocity version 3.0.0 we started supporting auto generated user access key. For version prior to 3.0.0 manually add user access key in the hidden field.)
 
 ### Version 4.0.16
 

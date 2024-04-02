@@ -1,7 +1,7 @@
 
 # ServiceNow - Overview
 
-ServiceNow supports application delivery by integrating service management processes, social collaboration for IT departments, software-as-a-service delivery, and web functionality. The ServiceNow plug-in provides for integration with a ServiceNow server. This plug-in imports incident management(Beta), change management and problem management data from a ServiceNow server and provides a single view of ServiceNow incidents, change request and problems in Urban Code Velocity value stream map. Data between the ServiceNow server and the DevOps Velocity serveris synchronized every five minutes.
+ServiceNow supports application delivery by integrating service management processes, social collaboration for IT departments, software-as-a-service delivery, and web functionality. The ServiceNow plug-in provides for integration with a ServiceNow server. This plug-in imports incident management(Beta), change management and problem management data from a ServiceNow server and provides a single view of ServiceNow incidents, change request and problems in DevOps Velocity value stream map. Data between the ServiceNow server and the DevOps Velocity serveris synchronized every five minutes.
 
 ## Compatibility
 

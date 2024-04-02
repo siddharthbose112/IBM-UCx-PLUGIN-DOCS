@@ -39,7 +39,7 @@ The following request sample shows a REST call that you can copy and update as n
 
 ```
 METHOD: POST 
-URL: https://<url_urbancodevelocity_server>/reporting-consumer/metrics 
+URL: https://<url_DevOpsvelocity_server>/reporting-consumer/metrics 
 BODY (multipart/form-data):
  {
   payload: <payload_json_object_string> // See below for schema format
@@ -75,7 +75,7 @@ Note: These formats do not provide branch coverage information.
 
 ```
 curl --request POST \
-  --url https://url_urbancodevelocity_server>/reporting-consumer/metrics \
+  --url https://url_DevOpsvelocity_server>/reporting-consumer/metrics \
   --form 'payload={
   "tenant_id": "",
   "application": {

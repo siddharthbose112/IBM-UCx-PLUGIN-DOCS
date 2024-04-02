@@ -27,7 +27,7 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 * Minor Enhancements
 ### Version 1.3.34
 
-* **Removed Manual User Access Key**: From current version onwards this plugin will only support Auto Generated User Access Key feature of Urbancode Velocity.
+* **Removed Manual User Access Key**: From current version onwards this plugin will only support Auto Generated User Access Key feature of DevOps Velocity.
 * **Added Category**:ALM | SCM | BUILD are the categories of Github plugin . Also added global regex pattern to generate default link rule.
 
 ### Version 1.2.25
