@@ -74,7 +74,7 @@ for ServiceNow",
 "logginglevel": "info",
 "properties": {
 
-"ucvAccessKey": "*urbancodevelocity\_user\_accesskey*",
+"ucvAccessKey": "*DevOpsvelocity\_user\_accesskey*",
 "baseUrl": "*url\_servicenow\_server*",
 
 "username": "*user\_name*",
@@ -104,7 +104,7 @@ servicenow",
 "logginglevel": "info",
 
 "properties": {
-"ucvAccessKey": "*urbancodevelocity\_user\_accesskey*",
+"ucvAccessKey": "*DevOpsvelocity\_user\_accesskey*",
 "baseUrl":
 "*url\_servicenow\_server*",
 "username": "*user\_name*",

@@ -73,7 +73,7 @@ There is no install process for this plug-in. The GitLab plug-in is identified t
 
 ### Version 2.0.3
 
-* Performance Improvements for Build Feature (Requires Velocity Version 1.5.5 or above)
+* Performance Improvements for Build Feature (Requires DevOps Velocity Version 1.5.5 or above)
 
 ### Version 2.0.2
 

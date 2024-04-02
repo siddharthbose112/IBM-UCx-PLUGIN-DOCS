@@ -66,7 +66,7 @@ The payload for the POST is shown below.
 |Name|Description|Required|
 | --- | --- | --- |
 |scanId|The scan ID from the scan ran in ASoC. It is a mandatory field to render the scan results in Insights.	|Yes|
-|buildUrl|The build URL from the CI/CD tool such as Jenkins, HCL launch and so on. It is an optional field which links the ASoC scan results with UranCode Velocity|No|
+|buildUrl|The build URL from the CI/CD tool such as Jenkins, HCL DevOps Deploy and so on. It is an optional field which links the ASoC scan results with DevOps Velocity|No|
 
 ### Scheduled Integration
 

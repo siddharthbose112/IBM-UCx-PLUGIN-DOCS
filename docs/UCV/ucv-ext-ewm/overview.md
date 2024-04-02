@@ -1,7 +1,7 @@
 
 # IBM Engineering Workflow Management (EWM) - Overview
 
-The IBM Engineering Workflow Management (EWM) plug-in provides integration with the IBM EWM server. The plug-in imports work items from an IBM EWM server and provides a single view consisting of all the work items in Urban Code Velocity value stream map. Data between the IBM EWM server and the DevOps Velocity server is synchronized every five minutes.
+The IBM Engineering Workflow Management (EWM) plug-in provides integration with the IBM EWM server. The plug-in imports work items from an IBM EWM server and provides a single view consisting of all the work items in DevOps Velocity value stream map. Data between the IBM EWM server and the DevOps Velocity server is synchronized every five minutes.
 
 **Note:** IBM Engineering WorkFlow Management (EWM) was formerly called IBM Rational Team Concert (RTC). The name change occurred beginning with Version 7.0.
 

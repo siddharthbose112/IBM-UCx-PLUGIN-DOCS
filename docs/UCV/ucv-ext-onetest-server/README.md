@@ -1,7 +1,7 @@
 
-# HCL OneTest Server
+# HCL DevOps Test Server
 
-The HCL OneTest Server plug-in imports test results as metrics into the DevOps Velocity server.
+The HCL DevOps Test Server plug-in imports test results as metrics into the DevOps Velocity server.
 
 |Back to ...||Latest Version||||
 | :---: | :---: | :---: | :---: | :---: | :---: |
