@@ -15,7 +15,7 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 ### Version 1.0.37
 
-* **Rebranding**: Name of the plugin has been changed from HCL OneTest to HCL DevOps Test..
+* **Rebranding**: Name of the plugin has been changed from HCL OneTest to HCL DevOps Test.
 
 ### Version 1.0.34
 
