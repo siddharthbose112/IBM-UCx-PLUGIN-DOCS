@@ -101,6 +101,8 @@ The following tables describe the properties used to configure the integration. 
 | Rational Test Automation Server Offline User Token | rtasOfflineToken | String | The offline user token created in the Rational Test Automation Server user interface by clicking the Create Token button. | Yes |
 | Rational Test Automation Server URL | rtasUrl | String | The base URL of the Rational Test Automation Server. For example: https://tp- cicd2.nonprod.hclpnp.com. | Yes |
 | DevOps Velocity User Access Key | ucvAccessKey | String | The user access key used to authenticate with the DevOps Velocity server. | Yes |
+| Workflow Id | workflowId | String | The value stream that this metric is associated. | No |
+| Log Level | logLevel | String | The level of Log4j messages to display on the console. Valid values are: all, debug, info, warn, error, fatal, off, and trace. | No |
 
 ## Example
 

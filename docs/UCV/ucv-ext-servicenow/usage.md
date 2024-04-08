@@ -21,6 +21,8 @@ The ServiceNow plug-in supports scheduled events integration which are listed in
 | syncIncidentData | Queries the ServiceNow repository for Incidents |
 | syncChangeData | Queries the ServiceNow repository for Change request |
 | syncProblemData | Queries the ServiceNow repository for Problems |
+| ServiceNowWaitChangeTask | Checking all release Event task waiting field status |
+| ServiceNowWaitRequests | Checking all release Event task waiting field status |
 
 ## Integration
 
@@ -57,6 +59,7 @@ The configuration properties which are included in the `properties` field are un
 | Proxy Server | String | The URL of the proxy server including the port number. | No | proxyServer |
 | Proxy User Name | String | The user name used to authenticate with the proxy server. | No | proxyUsername |
 | Proxy Password | String | The password used to authenticate with the proxy server. | No | proxyPassword |
+| Page Size | String | The number of issues retrieved per page. | No | pageSize |
 
 ## Example
 

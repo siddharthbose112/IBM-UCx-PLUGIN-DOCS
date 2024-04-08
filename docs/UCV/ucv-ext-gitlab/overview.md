@@ -19,6 +19,15 @@ There is no install process for this plug-in. The GitLab plug-in is identified t
 
 ## History
 
+### Version 2.2.68
+
+* **Minor Bug Fix**: Dynamically getting type of issue.
+
+### Version 2.2.66
+
+* **Fix for Project Name Field**: Previous version of Gitlab plugin was not able to import data for some projects.
+* **Project IDs Field Added**: To import the source data you need to provide a list of GitLab Project IDs. Please note that you must provide at least one of either Project Names or Project IDs and can provide both if needed.
+
 ### Version 2.1.63
 
 * Minor Bug Fix: Previous version of plugin was giving Cannot read property status of null error.

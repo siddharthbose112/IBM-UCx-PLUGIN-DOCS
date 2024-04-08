@@ -21,6 +21,20 @@ DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-sap-charm/tags).
 
 ## History
 
+### Version 4.3.1
+
+* Minor plugin enhancements
+
+### Version 4.2.9
+
+* Minor Accelerate Description Enhancements
+
+### Version 4.2.8
+
+* Workflow modified
+* Automated features added
+* Multiple Transport ID enhancement
+
 ### Version 2.2.1
 
 - Manage multiple Transport IDs

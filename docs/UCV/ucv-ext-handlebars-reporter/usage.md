@@ -60,7 +60,7 @@ file.
 
 | Name | Type | Description | Required | Project Name |
 | --- | --- | --- | --- | --- |
-| UCV User Access Key | Secure | The user access key used to authenticate with the DevOps Velocity server. | Yes | ucvKey |
+| UCV User Access Key | Secure | The user access key used to authenticate with the DevOps Velocity server. | No | ucvKey |
 
 ## Example
 

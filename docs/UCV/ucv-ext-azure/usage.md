@@ -13,6 +13,7 @@ The Azure DevOps plug-in supports scheduled events integration which are listed 
 | SyncAzureGitDataEvent | Queries the Azure DevOps server for new or updated work items. |
 | SyncAzureBuildsEvent | Queries the Query Azure DevOps server for build data. |
 | SyncAzurePipelines | Queries the Azure DevOps server for deployment data. |
+| syncAzureReleaseStatus | Sync Azure Release Status. |
 
 ## Integration
 
@@ -74,6 +75,9 @@ The following tables describe the properties used to configure the integration. 
 | URL | String | The URL of the Azure DevOps server. | Yes | No | baseUrl |
 | User Name | String | The user name to authenticate with the Azure DevOps server. | No | No | username |
 | DevOps Velocity User AccessKey | Secure | The user access key to authenticate with the DevOps Velocity server. | No | No | ucvAccessKey |
+| Build Tags (Comma Separated List) | Array | Comma separated list of tags for pushing pipeline runs as build to this server. If kept empty all the pipeline runs will be pushed as builds. | No | No | tags |
+| API Limits | String | Maximum number of Azure Devops REST API calls that will be made by the plugin in a single execution. Making too many call in a short duration might result in a connection timeout at Azure Devops server. | No | No | apiLimits |
+| Additional Branches (Comma Separated List) | Array | A comma separated list of additional branches to collect commits from besides the main one, leave blank if not needed. | No | No | otherBranches |
 
 
 |Back to ...||Latest Version|Azure DevOps |||

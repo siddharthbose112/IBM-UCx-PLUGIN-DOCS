@@ -22,6 +22,10 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 * **Preventing Installation on Older Versions**: This version of HCL DevOps Test Plugin can only be installed on DevOps Velocity version 3.0.0 and later.
 * **Added Category**:Quality is the category of HCL DevOps Test plugin.
 
+### Version 1.0.33
+
+* minor fix
+
 ### Version 1.0.30
 
 * Updated dataset names
