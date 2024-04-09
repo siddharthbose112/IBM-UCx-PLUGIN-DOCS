@@ -32,4 +32,4 @@ Must be running **Velocity** version 5.0.0 and later to use the plug-in.
 
 |Back to ...||Latest Version|Milestone Risk Estimator |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.3](https://hub.docker.com/r/urbancode/ucv-ext-milestone-risk-estimator/tags)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.5](https://hub.docker.com/r/urbancode/ucv-ext-milestone-risk-estimator/tags)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)
