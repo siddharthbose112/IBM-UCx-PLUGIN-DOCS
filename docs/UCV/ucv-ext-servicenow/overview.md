@@ -14,6 +14,31 @@ The plug-in supports the ServiceNow Madrid, Orlando and Paris release.
 There is no install process for this plug-in. The ServiceNowb plug-in is identified to DevOps Velocity as a value stream integration. DevOps Velocity plug-in images are located in DockerHub and the UrbanCode Velolcity code accesses the version that you select. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-servicenow/tags).
 
 ## History
+### Version 1.1.3
+
+* **Minor bug fix**: Earlier plugin was unable to resync when incident is resolved.
+
+### Version 1.1.2
+
+* **Bug fix**: The previous version was failing to upload issues of large size.
+* **Minor enhancement**: Previously, the number of issues per page was fixed, but now it is configurable. You can modify the number of issues per page to fetch.
+* **Feature enhancement**: In automation task enabled to create and update change task.
+* **Bug fix**: Fixed issue related to syncing of change and problem in servicenow schedule event.
+
+### Version 1.1.1
+
+* Import incidents
+* Add Incident creation automation task
+
+### Version 1.0.42
+
+* **Minor bug fix**: Fixed bug related to proxy server change and related to automation task execution.
+### Version 1.0.36
+
+* **Removed Manual User Access Key**: From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.
+### Version 1.0.13
+
+* Bug fix
 
 ### Version 1.0.14
 

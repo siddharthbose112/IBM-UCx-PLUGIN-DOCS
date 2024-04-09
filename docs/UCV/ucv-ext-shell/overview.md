@@ -14,6 +14,14 @@ The DevOps Velocity plug-in images are located in DockerHub. To view available v
 
 ## History
 
+### Version 0.0.34
+
+* **Minor enhancement in code**: Enabled to throw error logs while executing shell automation task.
+
+### Version 0.0.31
+
+* Reduced Vulnerabilities
+
 ### Version 0.0.7
 
 * Initial release

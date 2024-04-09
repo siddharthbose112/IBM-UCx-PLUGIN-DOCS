@@ -72,6 +72,12 @@ The payload for the POST is shown below.
 
 You can use the HCL AppScan on Cloud plug-in’s scheduled event integration to automatically sync or import the scan data into DevOps Velocity’s application vulnerabilities metrics at regular interval of time. Currently, HCL AppScan on Cloud plug-in sync or import scan data from HCL AppScan on Cloud to DevOps Velocity at an interval of 5 minutes.
 
+### Integration Type
+
+| Name | Description                                                                                         |
+| ---- | --------------------------------------------------------------------------------------------------- |
+| Sync ASoC Data | Sync scan data from ASoC |
+
 ## Integration
 
 There are two methods to integrate the plug-in:
@@ -132,11 +138,18 @@ Some properties might not be displayed in the user interface, to see all propert
 
 | Name | Type | Description | Required | Property Name |
 | --- | --- | --- | --- | --- |
-| Key ID | String | The key ID to authenticate with the Application Security On Cloud server. | Yes | keyId |
-| URL | String | The URL of the Application Security on Cloud server. | Yes | asocUrl |
+| ASoC API Key ID | String | The key ID to authenticate with the Application Security On Cloud server. | Yes | keyId |
 | Key Secret | Secure | The key secret to authenticate with the Application Security On Cloud server. | Yes | keySecret |
 | DevOps Velocity User Access Key | Secure | The user access key to authenticate with the DevOps Velocity server. | Yes | ucvAccessKey |
 |Run as a Scheduled Event|Boolean|To integrate the plug-in as a Scheduled Event. Set this property to “true” to run the integration as a scheduled event.|No|isScheduledEvent|
+| Proxy Password | Secure | The password used to authenticate with the proxy server. | No | proxyPassword |
+| Proxy Server | String | The URL of the proxy server including the port number. The URL protocol can be http or https. | No | proxyServer |
+| Proxy User Name | String | The user name used to authenticate with the proxy server. | No | proxyUsername |
+
+|ASoC Base URL | String | The base URL of the Application Security on Cloud server. E.G. https://cloud.appscan.com/. | No | asocUrl |
+| ASoC Application | String | Application name in ASoC | No | application |
+| ASoC Policies | Array | Comma separated list of Policy names in ASoC - eg: OWASP Top 10 Mobile 2016, International Standard - ISO 27002 | No | policies |
+| Workflow Id | String | The value stream that this metric is associated. | Yes | workflowId |
 
 ## JSON code sample
 

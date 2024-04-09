@@ -65,6 +65,9 @@ The following tables describe the properties used to configure the integration. 
 | Since | String | The number of months for which data is to be pulled. The default is 12 months. | No | since |
 | DevOps Velocity User Access Key | String | The user access key used to authenticate with the DevOps Velocity server. | Yes | ucvAccessKey |
 | User ID | String | The user name used to authenticate with the IBM EWM server. | Yes | userId |
+| Proxy Password | Secure | The password used to authenticate with the proxy server. | No | Yes | proxyPassword |
+| Proxy Server | String | The URL of the proxy server including the port number. | No | Yes | proxyServer |
+| Proxy User Name | String | The user name used to authenticate with the proxy server. | No | Yes | proxyUsername |
 
 ## Example
 

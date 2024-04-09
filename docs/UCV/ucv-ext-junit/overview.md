@@ -16,6 +16,10 @@ view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/
 
 ## History
 
+### Version 1.0.
+
+* Reduce vulnerabilities
+
 ### Version 1.0.66
 
 * Updated dataset name

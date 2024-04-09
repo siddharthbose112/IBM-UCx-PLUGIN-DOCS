@@ -15,6 +15,12 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 ## History
 
+### Version 1.0.34
+
+* **Minor bug fix**:Fixed bug related to test results URL generated in plugin.
+* **Removed Manual User Access Key**: From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL DevOps Velocity.
+* **Added WorkflowId**: Under the hidden properties section of add integration page for rational-test-automation-server plugin a Workflow ID field is added. This field is optional and can be used to provide HCL DevOps Velocity WorkflowId - the ID of a Value Stream (VSM )to which rational-test-automation-server vulnerability data is associated.
+
 ### Version 1.0.22
 
 * User access key related changes.

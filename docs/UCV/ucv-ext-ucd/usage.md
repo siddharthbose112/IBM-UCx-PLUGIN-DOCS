@@ -10,6 +10,8 @@ The IBM DevOps Deploy plugin supports scheduled events integration which are lis
 | Name | Description |
 | --- | --- |
 | syncDeployEvent | Timed event that synchronizes with IBM DevOps Deploy |
+| Sync UrbanCode Deploy Teams | This is a timed event that syncs UrbanCode Deploy teams. |
+| Sync in Progress APRs | This is a timed event that syncs in Progress APRs from UrbanCode Deploy. |
 
 ## Integration
 
@@ -61,10 +63,8 @@ Some properties might not be displayed in the user interface, to see all propert
 | Name | Type | Description | Required | Property Name |
 | --- | --- | --- | --- | --- |
 | Access Token | String | Token to authenticate against IBM DevOps Deploy. | Yes | deployToken |
-| Max Deploy deployment history days | String |Number of days to go back and retrieve deployment history on initial sync. | No | deployMaxDeploymentHistory |
-| Deploy Team Page Size | String | Number of teams to read from urbancode per request. | No | deployTeamsPagination |
 | Url | String | IBM DevOps Deploy server url. | Yes | baseUrl |
-| User Access Key | String | The user access key to authenticate with this server. | Yes | ucvAccessKey |
+| User Access Key | String | The user access key to authenticate with this server. | No | ucvAccessKey |
 
 ## JSON Code Sample
 

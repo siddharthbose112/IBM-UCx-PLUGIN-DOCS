@@ -18,6 +18,10 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 * The older versions of ASoC plug-in was not reporting critical issues. The issue is fixed.
 
+### Version 3.0.16
+
+* Segregated Static scan and Dynamic scan data.
+
 ### Version 3.0.12
 
 * **Removed Manual User Access Key:** From current version onwards this plug-in will only support Auto Generated User Access Key feature of DevOps Velocity.
@@ -29,6 +33,10 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 ### Version 3.0.11
 
 * Fix for Changed API.
+
+### Version 3.0.9
+
+* Reduced Vulnerabilities
 
 ### Version 3.0.5
 

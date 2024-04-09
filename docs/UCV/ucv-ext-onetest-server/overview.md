@@ -14,6 +14,9 @@ There is no install process for this plug-in. The HCL DevOps Test Server plug-in
 
 
 ## History
+### Version 1.0.26
+
+* **Minor bug fix** :Fixed bug related to test results URL generated in plugin.
 
 ### Version 1.0.17
 
