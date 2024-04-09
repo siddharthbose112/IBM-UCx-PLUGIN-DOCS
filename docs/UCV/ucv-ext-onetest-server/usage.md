@@ -50,7 +50,8 @@ HCL DevOps Test Server plug-in and define the connection and communication to th
 | Build Label Pattern | buildRegExp | String | A regular expression pattern that will match a build ID on a test execution label. For example: ([A-Z]+-[0-9]+). | No |
 | HCL DevOps Test Offline User Token | oneTestRefreshToken | String | The offline user token created in the HCL DevOps Test user interface by clicking the Create Token button. | Yes |
 | HCL DevOps Test Server URL | oneTestUrl | String | The base URL of the HCL DevOps Test Server. For example: https://tp-cicd2.nonprod.hclpnp.com. | Yes |
-| DevOps Velocity User Access Key | ucvAccessKey | String | The user access key to authenticate with the DevOps Velocity server. | Yes |
+| Workflow Id | WorkflowId | String | The value stream that this metric is associated. | No |
+| DevOps Velocity User Access Key | ucvAccessKey | String | The user access key to authenticate with the DevOps Velocity server. | No |
 
 ## Example
 

@@ -57,6 +57,13 @@ To use Jenkins jobs as automation tasks in deployment plans, perform the followi
     * Click **Save** to save the task and close the dialog. 
     * Click **Save and create** another to save the task and create another task.
 
+## Integration Type
+The Jenkins plug-in supports scheduled events integration. There is a scheduled event which is described in the following table.
+
+| Name | Description |
+| --- | --- |
+| SyncJenkinsDataEvent | Query Jenkins for any new or updated builds. |
+
 ## Configuration properties
 
 The following tables describe the properties used to configure the integration. Each table contains the field name when using the user interface and the property name when using a JSON file.
@@ -93,6 +100,11 @@ The following tables describe the properties used to configure the integration. 
 | Request Depth |	String | The depth of folder levels that Jenkins API requests should make. Increased depth puts more load on each request but requires less requests for deeply nested folder structures. | No |
 | Queue Polling Timeout |	String | Length of time (in minutes) to poll for build to be kicked off from queue. | No |
 | Queue Polling Interval |	String | Time (in seconds) to wait between requests to get build after it is kicked off from queue. |	No |
+| Build Polling Timeout |	String | Length of time (in minutes) to wait for build to complete if task is set to wait. |	No |
+| Build Polling Interval |	String | Time (in seconds) to wait between requests to check if build completed if task is set to wait. |	No |
+| Builds on First Fetch |	String | Number of Builds to initially retrieve per job when getting all Jobs. (max value is 100) |	No |
+| Builds on Follow-Up Fetches |	String | Size of the batches of Builds to retrieve if a job contains more builds than "Builds on First Fetch |	No |
+| Excluded Repository Parameters |	String | Specify the jenkins job parameter names as a comma-separated list to identify repositories that should be disregarded in the context of the job. |	No |
 
 
 

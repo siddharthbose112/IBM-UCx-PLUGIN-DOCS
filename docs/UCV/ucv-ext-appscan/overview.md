@@ -17,6 +17,10 @@ Velolcity code accesses the version that you select. To view available versions,
 DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-appscan/tags).
 
 ## History
+### Version 2.0.51
+
+* **Bug Fix**: Previous version of the plug-in was not showing  'AppScan Enterprise Issues' in Value Streams page, where list of all Value Streams shown as rows and different metrics shown as columns. With this version, one can get clear insight into number of security issues found for each VSM under the column of AppScan Enterprise Issues. 
+* **Note**: To see this column, you should add metric definition of type 'AppScan Enterprise Issues' for respective VSM.
 
 ### Version 2.0.47
 
@@ -66,4 +70,4 @@ DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-appscan/tags).
 
 |Back to ...||Latest Version|HCL AppScan Enterprise (ASE) |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.0.47](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-appscan/ucv-ext-appscan:2.0.47.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.0.51](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-appscan/ucv-ext-appscan:2.0.51.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

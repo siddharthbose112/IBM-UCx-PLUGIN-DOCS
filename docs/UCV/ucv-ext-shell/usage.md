@@ -55,7 +55,7 @@ The following tables describe the properties used to configure the integration. 
 
 | Name | Type | Description | Required | Project Name |
 | --- | --- | --- | --- | --- |
-| User Access Key | Secure | The access token secret for oauth authentication. Used to communicate with IBM DevOps Velocity.| Yes | ucvAccessKey |
+| User Access Key | Secure | The access token secret for oauth authentication. Used to communicate with IBM DevOps Velocity.| No | ucvAccessKey |
 
 
 |Back to ...||Latest Version|||||

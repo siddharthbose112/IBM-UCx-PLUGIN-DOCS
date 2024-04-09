@@ -15,9 +15,36 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 ## History
 
+### Version 1.1.30
+
+* **Previous Version Bug Fix** : Version 1.1.28 of the plugin had a major bug related to Projects UI field.
+* **Normalise Sever URL** : In the previous versions of the plugin if Server URL ended with / , plugin was failing.
+
+### Version 1.1.28
+
+* **Clarifying delimitation** : For the properties used in index.js file clarified delimitation problem . Updated label information and description as comma separated list must be used. So that it is more clear while integrating.
+
 ### Version 1.1.27
 
 * Added change sets related data to history section of VSM dot.
+
+### Version 1.1.24
+
+* minor fix
+
+### Version 1.1.22
+
+* IssueRelationIn data added
+* Additional debug logs added
+* Minor bug fix
+
+### Version 1.1.22
+
+* Debug Logs Added
+* UAK Changes
+* Resync Data Feature
+* Proxy Server Configuration Added
+* Support for EWM 7.0.2
 
 ### Version 1.0.2
 
