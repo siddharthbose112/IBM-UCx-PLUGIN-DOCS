@@ -2,8 +2,8 @@
 # HCL DevOps Test Server - Usage
 
 ## Set Up
-You will need to "install" the plugin in UCV. You can do this in one of two ways.
-* Perhaps the easiest way is to create a new Value Stream in UCV.
+You will need to "install" the plugin in DevOps Velocity (UCV). You can do this in one of two ways.
+* Perhaps the easiest way is to create a new Value Stream in DevOps Velocity.
 
     * You can use the following template for creating your integration
     ```
