@@ -15,7 +15,7 @@ following table.
 | --- | --- | --- |
 | RTASEndpoint | rtas/callback | Post |
 
-## Send the HTTP Post
+## Invoking the plugin
 
 To gather data, send an HTTP POST request to your endpoint:  `https://<pluginEndpoint>/rtas/callback`
 
@@ -24,25 +24,23 @@ The payload for this POST must be in the following format:
 
 ```
 {
-"project": {
-"name":"",
-"id": ""
+  "project": {
+    "name":"<name of Rational Test Automation Server project>",
+    "id": "<id of Rational Test Automation Server project>"
+    (either project name or project id must be specified)
+  },
+  "test": {
+    "name":"<name of test>",
+    "path":"<path to test>"
+    (either test name or test path must be specified)
+  },
+  "commitId": "<sha of a commit>" (optional),
+  "build": {
+    "id": "<id of build in DevOps Velocity>",
+    "url": "<url of build in DevOps Velocity>"
+  } (optional, this will override buildRegExp if specified)
+}
 
-(either project name or project id must be specified)
-}``,
-"test": {
-"name":"",
-"path":"
-(either
-test name or test path must be specified)
-}``,
-"commitId": " (optional),
-"build": {
-"id": "",
-"url":
-""
-}`` (optional, this will override buildRegExp if specified)
-}``
 ```
 
 
