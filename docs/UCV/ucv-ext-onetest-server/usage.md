@@ -75,10 +75,10 @@ After going through the "Set Up" portion above, you can send an HTTP POST reques
   },
   "test": {
     "name":"<name of test>",
-    "path":"<path to test>
+    "path":"<path to test>"
     (either test name or test path must be specified)
   },
-  "commitId": "<sha of a commit> (optional),
+  "commitId": "<sha of a commit>" (optional),
   "build": {
     "id": "<id of build in UCV>",
     "url": "<url of build in UCV>"
