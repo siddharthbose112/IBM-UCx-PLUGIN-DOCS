@@ -14,6 +14,11 @@ There is no install process for this plug-in. The HCL DevOps Test Server plug-in
 
 
 ## History
+
+### Version 1.0.27
+
+* **Rebranding** :Name of the Plugin is changed from HCL OneTest Server to HCL DevOps Test server.
+
 ### Version 1.0.26
 
 * **Minor bug fix** :Fixed bug related to test results URL generated in plugin.
@@ -49,4 +54,4 @@ There is no install process for this plug-in. The HCL DevOps Test Server plug-in
 
 |Back to ...||Latest Version|HCL DevOps Test Server |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.26-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.26.tar.7z.001)[and 1.0.26-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.26.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.27-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.27.tar.7z.001)[and 1.0.27-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.27.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

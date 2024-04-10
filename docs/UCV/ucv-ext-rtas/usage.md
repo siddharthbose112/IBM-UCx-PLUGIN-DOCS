@@ -17,7 +17,7 @@ following table.
 
 ## Send the HTTP Post
 
-To gather data, send an HTTP POST request to your endpoint:  `https:///pluginEndpoint//rtas/callback`
+To gather data, send an HTTP POST request to your endpoint:  `https://<pluginEndpoint>/rtas/callback`
 
 The payload for this POST must be in the following format:
 

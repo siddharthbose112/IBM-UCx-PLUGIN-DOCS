@@ -1,18 +1,55 @@
 
 # HCL DevOps Test Server - Usage
 
-To use the HCL DevOps Test Server plug-in you must define the integration, create a value stream, and upload the integration.
+## Set Up
+You will need to "install" the plugin in UCV. You can do this in one of two ways.
+* Perhaps the easiest way is to create a new Value Stream in UCV.
 
-The value stream map contains the properties, you will use to define the plug-in integration. Basically, the plug-in integration is defined with a value stream within the DevOps Velocity user interface. Defining the integration includes defining configuration properties that connect the DevOps Velocity server to the DevOps Test server.
+    * You can use the following template for creating your integration
+    ```
+    "integrations": [
+  {
+    "type": "ucv-ext-onetest-server",
+    "tenant_id": "<tenant-id>",
+    "name": "<integration-name>",
+    "logginglevel": "INFO",
+    "properties":{
+      "ucvAccessKey": "<ucv-user-access-key>",
+      "oneTestUrl" : "<DevOps Test-server-url>",
+      "ev":"<DevOps Test-server-refresh-token>",
+      "buildRegExp": "([A-Z]+-[0-9]+)"
+        }
+    }
+    ]
 
-The basic flow to use the plug-in includes:
+    ```
+    * In the above example, provide all of your own values for the values inside of < > brackets.
+    * The buildRegExp field can be used to map a build to a metric. The tags on the HCL OneTest Server test will be evaluated against the regular expression.
+    * For instance, if your buildRegExp is defined as "([A-Z]+-[0-9]+)" and you tag your test with "BUILD-123" this will map the build with ID BUILD-123 in the Velocity server to the newly created metric.
+    * For help forming a regular expression based on your build ID, you can test out patterns at the following web page: https://regexr.com
+* Another option for creating is to hit the https://<velocity-url>/integration url with the integration definition as your payload:
 
-1. Download the value stream map. The value stream map is a JSON file used to define integrations.
-2. Edit the JSON file to include the plug-in configuration properties.
-3. Save and upload the JSON file. This replaces the current JSON file with the new content.
-4. View the new integration on the Integration user interface page.
+    ```
 
-You can map a build to a metric using tags defined on the DevOps Test server by evaluating the tag against a regular express. Use the Build Label Pattern field to define the regular expression. For example, a build expression of “([A-Z]+-[0-9]+)” and a test has a tag of “BUILD-123”, the build is mapped with ID BUILD-123 in the DevOps Velocity server to the newly created metric. For assistance in forming a regular expression, see the [Regular expression tester](https://regexr.com) website. You can use the website to help form and test a regular expression based on your build ID.
+    {
+    "type": "ucv-ext-onetest-server",
+    "tenant_id": "<tenant-id>",
+    "name": "<integration-name>",
+    "logginglevel": "INFO",
+    "properties":{
+        "ucvAccessKey": "<ucv-user-access-key>",
+        "oneTestUrl" : "<DevOps Test-server-url>",
+        "oneTestRefreshToken":"<DevOps Test-server-refresh-token>",
+        "buildRegExp": "([A-Z]+-[0-9]+)"
+    }
+    }
+
+    ```
+* Either option will allow you to create an HCL OneTest Server integration instance.
+
+## usage
+
+To use the HCL DevOps Test Server plugin, the plugin must be loaded, and an instance created before you can configure the plug-in integration. Configuration properties are defined using the product user interface or a JSON file. After the integration is complete, to invoke the plugin send an HTTP Post request to the plugin endpoint.
 
 ## Integration type
 
@@ -22,6 +59,33 @@ The HCL DevOps Test Server plug-in supports endpoint integration which are liste
 | Name | Path | Method |
 | --- | --- | --- |
 | OneTestEndpoint | onetest/callback | Post |
+
+## Invoking the plugin
+
+After going through the "Set Up" portion above, you can send an HTTP POST request to your new endpoint: https://<velocity-url>/pluginEndpoint/<integrationId>/onetest/callback
+* The payload for this POST must be in the following format
+
+```
+
+{
+  "project": {
+    "name":"<name of HCL OneTest Server project>",
+    "id": "<id of HCL OneTest Server project>"
+    (either project name or project id must be specified)
+  },
+  "test": {
+    "name":"<name of test>",
+    "path":"<path to test>
+    (either test name or test path must be specified)
+  },
+  "commitId": "<sha of a commit> (optional),
+  "build": {
+    "id": "<id of build in UCV>",
+    "url": "<url of build in UCV>"
+  } (optional, this will override buildRegExp if specified)
+}
+
+```
 
 ## Integration
 
@@ -53,35 +117,9 @@ HCL DevOps Test Server plug-in and define the connection and communication to th
 | Workflow Id | WorkflowId | String | The value stream that this metric is associated. | No |
 | DevOps Velocity User Access Key | ucvAccessKey | String | The user access key to authenticate with the DevOps Velocity server. | No |
 
-## Example
-
-The following example can be used as as template to include the AppScan plug-in integration into the JSON file. Copy and paste the template into the JSON file and make the appropriate changes.
-
-
-```
-
-"integrations": [
-{
-
-"type": "ucv-ext-onetest-server",
-"tenant_id": "",
-"name": "",
-"logginglevel": "INFO",
-
-"properties":{
-"ucvAccessKey": "",
-"oneTestUrl" : "",
-"oneTestRefreshToken":"",
-
-"buildRegExp": "([A-Z]+-[0-9]+)"
-}``
-}``
-]
-
-```
 
 
 
 |Back to ...||Latest Version|HCL DevOps Test Server |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.26-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.26.tar.7z.001)[and 1.0.26-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.26.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.27-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.27.tar.7z.001)[and 1.0.27-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.27.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
