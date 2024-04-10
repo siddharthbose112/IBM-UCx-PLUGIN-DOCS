@@ -80,8 +80,8 @@ After going through the "Set Up" portion above, you can send an HTTP POST reques
   },
   "commitId": "<sha of a commit>" (optional),
   "build": {
-    "id": "<id of build in UCV>",
-    "url": "<url of build in UCV>"
+    "id": "<id of build in DevOps Velocity>",
+    "url": "<url of build in DevOps Velocity>"
   } (optional, this will override buildRegExp if specified)
 }
 
