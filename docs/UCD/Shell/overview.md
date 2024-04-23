@@ -20,6 +20,14 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 21
+
+Updated securedata library, so that it will not fail to initialize if AES256 is unsupported.
+
+#### Version 20
+
+Improve command line length accounting in "Shell (with xargs)" step on Windows.
+
 #### Version 19
 
 Allows overriding of temporary directory used for running scripts. 
@@ -79,4 +87,4 @@ Version 5 includes a fix for a defect where the Shell plug-in was not upgraded w
 
 |Back to ...||Latest Version|Shell ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[19.1158728](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Shell/ucd-Shell-19.1158728.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[21.1167618](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Shell/ucd-Shell-21.1167618.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
