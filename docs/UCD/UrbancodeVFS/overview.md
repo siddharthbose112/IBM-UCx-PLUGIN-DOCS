@@ -20,6 +20,22 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 47
+
+Display more information when downloading artifacts from a Relay and Updated securedata library, so that it will not fail to initialize if AES256 is unsupported.
+
+#### Version 46
+
+Updating Jettison library to 1.5.4 for CVE-2023-1436
+
+#### Version 45
+
+Updating jettison library for CVE-2022-45693 and CVE-2022-45685
+
+#### Version 44
+
+Updating jettison library for CVE-2022-40150 CVE-2022-40149
+
 #### Version 43
 
 APAR PH48521 - Fixed a defect where a local IO error is reported incorrectly as an HTTP network error, such as: "MalformedChunkCodingException: CRLF expected at end of chunk" or "TruncatedChunkException: Truncated chunk".
@@ -104,4 +120,4 @@ This release includes a fix for an issue where the initial character in a file n
 
 |          Back to ...          |                                |                                                          Latest Version                                                           | IBM UrbanCode Deploy Versioned File Storage |||
 |:-----------------------------:|:------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------:| :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [43.1139365](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/ucd-UrbancodeVFS-43.1139365.zip) |             [Readme](README.md)             |[Steps](steps.md)|[Downloads](downloads.md)|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [47.1167424](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/ucd-UrbancodeVFS-47.1167424.zip) |             [Readme](README.md)             |[Steps](steps.md)|[Downloads](downloads.md)|
