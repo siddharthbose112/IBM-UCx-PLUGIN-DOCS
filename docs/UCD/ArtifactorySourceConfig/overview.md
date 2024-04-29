@@ -24,6 +24,10 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 33 *April 29, 2024*
+
+* Add support to configure a custom keystore to present a certificate to the artifactory server.
+
 #### Version 32 *June 29, 2023*
 
 * Plugin upload issue resolved.
@@ -178,5 +182,5 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 |Back to ...||Latest Version|Artifactory Source Config |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[32.1158294](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/ucd-ArtifactorySourceConfig-32.1158294.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Roles](roles.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[33.1167705](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/ucd-ArtifactorySourceConfig-33.1167705.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Roles](roles.md)|[Downloads](downloads.md)|
 
