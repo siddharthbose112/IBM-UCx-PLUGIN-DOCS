@@ -398,7 +398,7 @@ The Artifactory source configuration plug-in includes steps to complete the foll
 
 |Back to ...||Artifactory Source Config |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ArtifactorySourceConfig/README.md)|[32.1158294](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/ucd-ArtifactorySourceConfig-32.1158294.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ArtifactorySourceConfig/README.md)|[33.1167705](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ArtifactorySourceConfig/ucd-ArtifactorySourceConfig-33.1167705.zip)|
 
 
 ## ASOC [community plugin]
@@ -1740,7 +1740,7 @@ Apache Maven provides developers a complete build lifecycle framework. It is use
 
 |Back to ...||Maven |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](MavenSourceConfig/README.md)|[29.1164986](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/MavenSourceConfig/ucd-MavenSourceConfig-29.1164986.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](MavenSourceConfig/README.md)|[30.1167665](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/MavenSourceConfig/ucd-MavenSourceConfig-30.1167665.zip)|
 
 ## Maven Resolve
 
