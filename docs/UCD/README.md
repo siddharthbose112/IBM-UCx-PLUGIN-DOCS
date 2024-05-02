@@ -1750,7 +1750,7 @@ Maven is a software project management and comprehension tool. Based on the conc
 
 |Back to ...||Maven Resolve |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](Maven/README.md)|[10.1126874](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Maven/ucd-Maven-10.1126874.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](Maven/README.md)|[11.1167755](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Maven/ucd-Maven-11.1167755.zip)|
 
 ## Mesos Marathon
 
