@@ -118,7 +118,7 @@ The Code Coverage plug-in allows for parsing of data from several code coverage 
 
 |Back to ...||Code Coverage |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-coverage-core/README.md)|[1.0.30](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-coverage-core/ucv-ext-coverage-core-1.0.30.tar.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-coverage-core/README.md)|[1.0.42-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-coverage-core/ucv-ext-coverage-core%3A1.0.42.tar.7z.001)[and 1.0.42-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-coverage-core/ucv-ext-coverage-core%3A1.0.42.tar.7z.002)|
 
 ## CollabNet VersionOne
 
