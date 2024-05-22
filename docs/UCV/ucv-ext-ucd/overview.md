@@ -13,6 +13,9 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 ## History
 
+### Version 4.0.5
+
+* **Minor Bug Fix**: In previous version user who does not exist on IBM DevOps Deploy. server were able to execute the task. Now User who exists on IBM DevOps Deploy. Server and have sufficient permission is able to execute the task.
 ### Version 4.0.4
 
 * **Rebranding**: Name of the plugin is changed from UrbanCode Deploy to IBM DevOps Deploy.
@@ -57,4 +60,4 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 |Back to ...||Latest Version|IBM DevOps Deploy |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[4.0.4 -File 1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd%3A4.0.4.tar.7z.001) [and 4.0.4 -File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd%3A4.0.4.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[4.0.5 -File 1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd%3A4.0.5.tar.7z.001) [and 4.0.5 -File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd%3A4.0.5.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|
