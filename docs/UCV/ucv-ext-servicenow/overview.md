@@ -15,6 +15,11 @@ There is no install process for this plug-in. The ServiceNowb plug-in is identif
 
 ## History
 
+### Version 1.1.5
+
+* **Bug fix**: Removed drop down feature in update change request and change task and wait changes automation task which was implemented to select change request number as it was uploading more data to integration details. Now user can enter change request number manually.
+* **Bug fix**: Enabled to create standard and emergency change request in create change request and change task automation task by changing api request made to create.( earlier it was creating only normal change )
+
 ### Version 1.1.4
 
 * **Add initial sync:** Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync.
@@ -25,6 +30,7 @@ There is no install process for this plug-in. The ServiceNowb plug-in is identif
 ### Version 1.1.3
 
 * **Minor bug fix**: Earlier plugin was unable to resync when incident is resolved.
+* **Feature Enhancement**: Implemented drop down to select change request number in update change request and change task and wait changes automation tasks.
 
 ### Version 1.1.2
 
