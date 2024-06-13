@@ -28,7 +28,11 @@ view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/
 
 ## History
 
-### Version 1.1.15
+### Version 1.1.7
+
+* The Jenkins task in deployment remains incomplete when the Velocity instance goes down during deployment. When the instance comes back online with the new version, the task still does not get marked as complete.
+
+### Version 1.1.5
 
 * Fix xpath job filter
 * Use correct username on task completion
@@ -57,4 +61,4 @@ view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/
 
 |Back to ...||Latest Version|Jenkins |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.5-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jenkins/ucv-ext-jenkins%3A1.1.5.tar.7z.001)[and 1.1.5-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jenkins/ucv-ext-jenkins%3A1.1.5.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.7-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jenkins/ucv-ext-jenkins%3A1.1.7.tar.7z.001)[and 1.1.7-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jenkins/ucv-ext-jenkins%3A1.1.7.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
