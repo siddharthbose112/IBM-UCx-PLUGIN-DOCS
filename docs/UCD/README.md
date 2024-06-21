@@ -500,7 +500,7 @@ CICS® Transaction Server for z/OS provides scalable, general-purpose, transacti
 
 |Back to ...||CICS TS |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](CICS/README.md)|[44.20231019-2202](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS/cics-44.20231019-2202.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](CICS/README.md)|[45.20240620-1707](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS/cics-45.20240620-1707.zip)|
 
 ## Chef
 

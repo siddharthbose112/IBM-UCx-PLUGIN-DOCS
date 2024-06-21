@@ -30,11 +30,11 @@ The plug-in includes steps to:
 
 The CICS TS plug-in is supported to run against any of the following CICS editions:
 
-* IBM CICS Transaction Server for z/OS V5.4, V5.5, V5.6, V6.1
-* IBM CICS Transaction Server for z/OS Developer Trial V5.4, V5.5, V5.6, V6.1
-* IBM CICS Transaction Server for z/OS Value Unit Edition V5.4, V5.5, V5.6, V6.1
+* IBM CICS Transaction Server for z/OS V5.4, V5.5, V5.6, V6.1, 6.2
+* IBM CICS Transaction Server for z/OS Developer Trial V5.4, V5.5, V5.6, V6.1, 6.2
+* IBM CICS Transaction Server for z/OS Value Unit Edition V5.4, V5.5, V5.6, V6.1, 6.2
 
-Additionally, you must also have configured a CICS management client interface (CMCI) port, as described in topic [Setting up access for CICS Explorer](https://www.ibm.com/support/knowledgecenter/SSGMCP_5.4.0/configuring/cmci/clientapi_setup.html) in the IBM Knowledge Center.
+Additionally, you must also have configured a CICS management client interface (CMCI) port, as described in topic [Setting up access for CICS Explorer](https://www.ibm.com/docs/en/cics-ts/6.x?topic=configuring-setting-up-cmci) in the IBM Knowledge Center.
 
 This plug-in requires UrbanCode Deploy 6.2.5 or later, and the [zOS Utility](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-deploy/) 10 plug-in or later. Using this plug-in requires the UrbanCode Deploy agent to be running with Java 8; for details of how to upgrade the version of Java used by the agent, see [Changing or updating the JRE of agents](https://www.ibm.com/support/knowledgecenter/SS4GSP_6.2.4/com.ibm.udeploy.doc/topics/jre_change_agent.html).
 
@@ -45,4 +45,4 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 |          Back to ...          |                                |                                                      Latest Version                                                       |       CICS TS       ||||||
 |:-----------------------------:|:------------------------------:|:-------------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: | :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [44.20231019-2202](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS/cics-44.20231019-2202.zip) | [Readme](README.md) |[Usage](usage.md)|[Component Templates](component_templates.md)|[Steps](steps.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [45.20240620-1707](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS/cics-45.20240620-1707.zip) | [Readme](README.md) |[Usage](usage.md)|[Component Templates](component_templates.md)|[Steps](steps.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
