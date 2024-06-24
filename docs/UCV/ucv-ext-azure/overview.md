@@ -13,6 +13,12 @@ There is no install process for this plug-in. The Azure DevOps plug-in is identi
 
 ## History
 
+### Version 4.0.43
+
+* Uploading builds with respect to branch
+* Merged syncBuildEvent into syncPipelines to maintain order of resources to sync
+* Uploading builds in ascending order of start time.
+
 ### Version 4.0.40
 
 * Minor Bug Fix
@@ -112,4 +118,4 @@ bug fix.
 
 |Back to ...||Latest Version|Azure DevOps |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[4.0.40-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-azure/ucv-ext-azure%3A4.0.40.tar.7z.001)[and 4.0.40-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-azure/ucv-ext-azure%3A4.0.40.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[4.0.43-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-azure/ucv-ext-azure%3A4.0.43.tar.7z.001)[and 4.0.43-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-azure/ucv-ext-azure%3A4.0.43.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|
