@@ -49,9 +49,9 @@ Where available, the log contains CICS RESP and RESP2 codes for more detailed tr
 
 ```
 
-In this example, the Discard resources step fails for program DFHSJJI. The output of message BUZCP0031E lists the attempted EXEC CICS command, **DISCARD PROGRAM**, followed by the RESP and RESP 2 codes **NOTAUTH** and **100** respectively. You can find information on the command and response codes in the [DISCARD PROGRAM](http://www-01.ibm.com/support/knowledgecenter/SSGMCP_5.2.0/com.ibm.cics.ts.systemprogramming.doc/commands/dfha8_discardprogram.html) topic of the CICS TS online production documentation.
+In this example, the Discard resources step fails for program DFHSJJI. The output of message BUZCP0031E lists the attempted EXEC CICS command, **DISCARD PROGRAM**, followed by the RESP and RESP 2 codes **NOTAUTH** and **100** respectively. You can find information on the command and response codes in the [DISCARD PROGRAM](https://www.ibm.com/docs/en/cics-ts/6.x?topic=commands-discard-program) topic of the CICS TS online production documentation.
 
-Details for *any* EXEC CICS command and respective RESP and RESP2 codes are available in the [System Programming reference](http://www-01.ibm.com/support/knowledgecenter/SSGMCP_5.2.0/com.ibm.cics.ts.doc/topics/reference_sysprog.html) section of the CICS TS online product documentation, sorted by command name.
+Details for *any* EXEC CICS command and respective RESP and RESP2 codes are available in the [System Programming reference](https://www.ibm.com/docs/en/cics-ts/6.x?topic=system-programming-reference) section of the CICS TS online product documentation, sorted by command name.
 
 **Note:** If the target scope of a step is more than one region, the step will fail when *one or more regions* fail to complete a request. Use the step log to determine the scope, then use the CICS logs to determine the specific regions in which the failures occurred, and confirm the cause.
 
@@ -102,4 +102,4 @@ Add the parameter: com.urbancode.air.property.prop\_def.PropDef.disableAllowedVa
 
 |          Back to ...          |                                |                                                      Latest Version                                                       |       CICS TS       ||||||
 |:-----------------------------:|:------------------------------:|:-------------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: | :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [44.20231019-2202](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS/cics-44.20231019-2202.zip) | [Readme](README.md) |[Overview](overview.md)|[Usage](usage.md)|[Component Templates](component_templates.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [45.20240620-1707](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS/cics-45.20240620-1707.zip) | [Readme](README.md) |[Overview](overview.md)|[Usage](usage.md)|[Component Templates](component_templates.md)|[Steps](steps.md)|[Downloads](downloads.md)|
