@@ -204,7 +204,7 @@
 	- [SQL-JDBC](#sql-jdbc)
 	- [Salesforce](#salesforce)
 	- [Selenium](#selenium)
-	- [Send SMTP Email  \[community plugin\]](#send-smtp-email--community-plugin)
+	- [Send SMTP Email](#send-smtp-email)
 	- [ServiceNow](#servicenow)
 	- [Shell](#shell)
 	- [Siebel  \[community plugin\]](#siebel--community-plugin)
