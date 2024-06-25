@@ -2242,7 +2242,7 @@ Selenium is a testing tool which automates web applications.It can also be used 
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](Selenium/README.md)|[9.1154067](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Selenium/ucd-Selenium-9.1154067.zip)|
 
-## Send SMTP Email  [community plugin]
+## Send SMTP Email
 
 This community plugin provides a mechanism to send SMTP emails in your deployment process.
 
@@ -2250,7 +2250,7 @@ This community plugin provides a mechanism to send SMTP emails in your deploymen
 
 |Back to ...||Send SMTP Email |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](send-smtp-email/README.md)|[1](https://github.com/UrbanCode/Send-SMTP-Email-UCD/releases/download/1/smtp-email-open-dev.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](send-smtp-email/README.md)|[3](https://github.com/UrbanCode/Send-SMTP-Email-UCD/releases/download/v3.0/smtp-email-open-3.zip)|
 
 ## ServiceNow
 
