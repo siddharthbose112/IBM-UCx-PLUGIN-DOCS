@@ -20,6 +20,10 @@ view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/
 
 * Reduce vulnerabilities
 
+### Version 1.0.84
+
+* Updated the metric plugins in production to align with the new Argo-less framework.
+
 ### Version 1.0.66
 
 * Updated dataset name
@@ -39,4 +43,4 @@ view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/
 
 |Back to ...||Latest Version|JUnit |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.66](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-junit/ucv-ext-junit-1.0.66.tar.zip)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.84-File 1 ](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-junit/ucv-ext-junit:1.0.84.tar.7z.001)[and 1.0.84File 2](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-junit/ucv-ext-junit:1.0.84.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|
