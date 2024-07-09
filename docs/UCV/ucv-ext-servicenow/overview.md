@@ -14,6 +14,12 @@ The plug-in supports the ServiceNow Madrid, Orlando and Paris release.
 There is no install process for this plug-in. The ServiceNowb plug-in is identified to DevOps Velocity as a value stream integration. DevOps Velocity plug-in images are located in DockerHub and the UrbanCode Velolcity code accesses the version that you select. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-servicenow/tags).
 
 ## History
+
+### Version 1.1.6
+
+* We've added a new field for Resource Types and Sys_params, which will synchronize events based on the provided sys_params.
+* When the feature flag is enabled, all data collection queries will read from the read replica instance.
+
 ### Version 1.1.3
 
 * **Minor bug fix**: Earlier plugin was unable to resync when incident is resolved.
@@ -69,4 +75,4 @@ Added HTTP proxy support
 
 |Back to ...||Latest Version|ServiceNow |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.3-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.3.tar.7z.001)[and 1.1.3-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.3.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.6-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.6.tar.7z.001)[and 1.1.6-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.6.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
