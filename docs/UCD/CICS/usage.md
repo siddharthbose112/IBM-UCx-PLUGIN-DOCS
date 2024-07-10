@@ -64,7 +64,7 @@ Components represent deployable items and the processes, properties, and other c
 
 Create a Component to store your CICS application ready for deployment. The component name should match the CICS application name. For example: `com.ibm.cics.minibank.application`
 
-A version of the *Component* is created by your build script. The script typically extracts the Eclipse projects that consist of the source of the CICS application (including the binding, application, and bundles) from your source code management (SCM) system. The script then calls the [CICS TS build toolkit](http://www.ibm.com/support/knowledgecenter/SSGMCP_5.3.0/com.ibm.cics.ts.applicationprogramming.doc/topics/cicsbt_overview.html) to build the application. The build output directories and files are stored in UCD as a new *Component Version*.
+A version of the *Component* is created by your build script. The script typically extracts the Eclipse projects that consist of the source of the CICS application (including the binding, application, and bundles) from your source code management (SCM) system. The script then calls the [CICS TS build toolkit](https://www.ibm.com/docs/en/cics-ts/6.x?topic=applications-cics-application-build-automation-cics-build-toolkit) to build the application. The build output directories and files are stored in UCD as a new *Component Version*.
 
 #### Component process to deploy a CICS application
 
@@ -131,7 +131,7 @@ Secondly, using the same steps, configure a key ring and certificate for the age
 
 Finally, in order to complete the handshake, connect the CA certificate of the CICS region to the agent users key ring, and the CA certificate of the agent user to the CICS region’s key ring. This can be done using the RACDCERT CONNECT command, with USAGE(CERTAUTH).
 
-For details on using RACF commands, see [RACF command syntax](http://www.ibm.com/support/knowledgecenter/SSLTBW_2.1.0/com.ibm.zos.v2r1.icha400/cmdsyn.htm "RACF command syntax") in the z/OS product documentation.
+For details on using RACF commands, see [RACF command syntax](https://www.ibm.com/docs/en/zos/3.1.0?topic=reference-racf-command-syntax "RACF command syntax") in the z/OS product documentation.
 
 #### Configuring SSL in CICS
 
@@ -155,7 +155,7 @@ CMCISSL(SSL)
 
 ```
 
-For details of available configurations, see [Configuring CICS to use SSL](https://www-01.ibm.com/support/knowledgecenter/SSGMCP_5.2.0/com.ibm.cics.ts.doc/dfht5/topics/dfht560.html "Configuring CICS to use SSL") in the CICS product documentation.
+For details of available configurations, see [Configuring CICS to use SSL](https://www.ibm.com/docs/en/cics-ts/6.x?topic=layers-configuring-cics-use-ssl) in the CICS product documentation.
 
 #### Configuring SSL in the CICS TS plug-in
 
@@ -193,4 +193,4 @@ safkeyringhw:///<keyring name>
 
 |          Back to ...          |                                |                                                      Latest Version                                                       |       CICS TS       ||||||
 |:-----------------------------:|:------------------------------:|:-------------------------------------------------------------------------------------------------------------------------:|:-------------------:| :---: | :---: | :---: | :---: | :---: |
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [44.20231019-2202](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS/cics-44.20231019-2202.zip) | [Readme](README.md) |[Overview](overview.md)|[Component Templates](component_templates.md)|[Steps](steps.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [45.20240620-1707](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS/cics-45.20240620-1707.zip) | [Readme](README.md) |[Overview](overview.md)|[Component Templates](component_templates.md)|[Steps](steps.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|

@@ -37,7 +37,7 @@ The plug-in also includes steps that are related to managing redundant increment
 
 * IBM UrbanCode Deploy version 7.0.0 or later
 * IBM UrbanCode Deploy agents on z/OS
-* IBM z/OS version 2.2 or later with System REXX
+* IBM z/OS version 2.4 or later with System REXX
 * Starting with version 49 this plug-in requires Java 8 or above
 
 ### Installation
@@ -46,11 +46,22 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 ### History
 
+#### Version 91
+
+* Added support for single source to multiple targets mapping
+* Improvements in ISPF gateway error handling
+* User can set MAX-RC for copy dataset step
+* Improvements in HFS Deployment
+* Fixed PH62152 - RcException while allocating temporary datasets
+
 #### Version 90
 
 * Inventory Delta-deploy is now timezone agnostic
 * Minor code improvements 
 * PH60517 - Inventory Delta deploy discards the number of HLQ set in component configuration during artifact comparison
+* Fixed bug with Rollback when two or more source PDS mapped to same target during deployment
+* Rollback Program ported from Groovy to Java
+* Dataset Mapping that have DUMMY as target containers are not checked for R/W access
 
 #### Version 89
 
@@ -373,4 +384,4 @@ This release includes the following updates:
 
 |          Back to ...          |                                |                                                        Latest Version                                                         |    z/OS Utility     |                                       |                   |                   |                           |
 |:-----------------------------:|:------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:-------------------:|:-------------------------------------:|:-----------------:|:-----------------:|:-------------------------:|
-| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [90.1167272](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-90.1167272.zip) | [Readme](README.md) | [Troubleshooting](troubleshooting.md) | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |
+| [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [91.1168953](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-91.1168953.zip) | [Readme](README.md) | [Troubleshooting](troubleshooting.md) | [Steps](steps.md) | [Usage](usage.md) | [Downloads](downloads.md) |

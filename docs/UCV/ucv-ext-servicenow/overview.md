@@ -5,7 +5,7 @@ ServiceNow supports application delivery by integrating service management proce
 
 ## Compatibility
 
-Must be running DevOps Velocity version 1.2.6 and later to use the plug-in.
+Must be running DevOps Velocity version 5.0.2 and later to use the plug-in.
 
 The plug-in supports the ServiceNow Madrid, Orlando and Paris release.
 
@@ -20,9 +20,22 @@ There is no install process for this plug-in. The ServiceNowb plug-in is identif
 * We've added a new field for Resource Types and Sys_params, which will synchronize events based on the provided sys_params.
 * When the feature flag is enabled, all data collection queries will read from the read replica instance.
 
+### Version 1.1.5
+
+* **Bug fix**: Removed drop down feature in update change request and change task and wait changes automation task which was implemented to select change request number as it was uploading more data to integration details. Now user can enter change request number manually.
+* **Bug fix**: Enabled to create standard and emergency change request in create change request and change task automation task by changing api request made to create.( earlier it was creating only normal change )
+
+### Version 1.1.4
+
+* **Add initial sync:** Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync.
+* **Resync functionality:** After integration plugin provides an option to perform either full resync or resync from selected date so that plugin resync again.
+* **Output Property field added:** For automation task create change request and change task output property field is added which stores system id of change request when created and for change task output property is provided inside object under create change task field.
+* **Wait change task:** A new automation task is created for waiting change task.
+
 ### Version 1.1.3
 
 * **Minor bug fix**: Earlier plugin was unable to resync when incident is resolved.
+* **Feature Enhancement**: Implemented drop down to select change request number in update change request and change task and wait changes automation tasks.
 
 ### Version 1.1.2
 
@@ -41,7 +54,7 @@ There is no install process for this plug-in. The ServiceNowb plug-in is identif
 * **Minor bug fix**: Fixed bug related to proxy server change and related to automation task execution.
 ### Version 1.0.36
 
-* **Removed Manual User Access Key**: From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.
+* **Removed Manual User Access Key**: From current version onwards this plugin will only support Auto Generated User Access Key feature of Devops Velocity
 ### Version 1.0.13
 
 * Bug fix
@@ -59,7 +72,6 @@ Added HTTP proxy support
 
 * Added the capability to pull problems
 
-
 ### Version 1.0.9
 
 * Added access token support.
@@ -76,3 +88,4 @@ Added HTTP proxy support
 |Back to ...||Latest Version|ServiceNow |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.6-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.6.tar.7z.001)[and 1.1.6-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.6.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.4-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.4.tar.7z.001)[and 1.1.4-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.4.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
