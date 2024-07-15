@@ -17,6 +17,7 @@ jobs:
       - name: Remove unnecessary files
         run: |
           sudo ls -l /usr/share/dotnet
+          sudo ls -l /var/lib/docker/tmp
           sudo ls -l "$AGENT_TOOLSDIRECTORY"
           sudo rm -rf /usr/share/dotnet
           sudo rm -rf "$AGENT_TOOLSDIRECTORY"
