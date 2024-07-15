@@ -16,6 +16,8 @@ jobs:
           node-version: '20'
       - name: Remove unnecessary files
         run: |
+          sudo ls -l /usr/share/dotnet
+          sudo ls -l "$AGENT_TOOLSDIRECTORY"
           sudo rm -rf /usr/share/dotnet
           sudo rm -rf "$AGENT_TOOLSDIRECTORY"
       - uses: actions/checkout@v3
