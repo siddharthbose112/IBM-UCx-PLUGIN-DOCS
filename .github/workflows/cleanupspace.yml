@@ -16,6 +16,7 @@ jobs:
           node-version: '20'
       - name: Remove unnecessary files
         run: |
+          sudo df -h
           sudo ls -l /usr/share/dotnet
           sudo ls -l /var/lib/docker/tmp
           sudo ls -l "$AGENT_TOOLSDIRECTORY"
