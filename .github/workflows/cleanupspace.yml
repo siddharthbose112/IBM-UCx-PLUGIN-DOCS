@@ -16,11 +16,8 @@ jobs:
           node-version: '20'
       - name: Remove unnecessary files
         run: |
-          sudo cd /var/lib/docker
-          sudo df -h .
-          sudo cd -
           sudo ls -l /usr/share/dotnet
-          sudo ls -l /var/lib/docker/tmp
+          sudo df -h /var/lib/docker/tmp
           sudo ls -l "$AGENT_TOOLSDIRECTORY"
           sudo rm -rf /usr/share/dotnet
           sudo rm -rf "$AGENT_TOOLSDIRECTORY"
