@@ -298,7 +298,7 @@ The Milestone Risk Estimator plug-in represents an innovative Machine Learning(M
 
 |Back to ...||Milestone Risk Estimator |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-milestone-risk-estimator/README.md)|[1.0.5](https://hub.docker.com/r/urbancode/ucv-ext-milestone-risk-estimator/tags)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-milestone-risk-estimator/README.md)|[2.0.1](https://hub.docker.com/r/urbancode/ucv-ext-milestone-risk-estimator/tags)|
 
 
 ## urbancode-velocity
@@ -438,7 +438,7 @@ The Deploy Plugin for DevOps Velocity imports deployment data from DevOps Deploy
 
 |Back to ...||DevOps Deploy |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-ucd/README.md)|[3.4.5](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd:3.4.5.tar.7z.001)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-ucd/README.md)|[4.0.9 -File 1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd%3A4.0.9.tar.7z.001) [and 4.0.9 -File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd%3A4.0.9.tar.7z.002)|
 
 ## WhiteSource
 
