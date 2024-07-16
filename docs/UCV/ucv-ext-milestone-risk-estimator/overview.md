@@ -13,6 +13,14 @@ Must be running **Velocity** version 5.0.0 and later to use the plug-in.
 
 ### History
 
+### Version 2.0.1
+
+* Introduced simulation-based prediction of team velocities for more realistic scenarios.
+* Expanded support for a broader and customizable range of work item types.
+* Enhanced estimation accuracy by incorporating:
+  * History of ownership changes.
+  * Parent-child relationships among work items.
+
 ### Version 1.0.5
 
 * **Bug fix**: Addressed bugs related to empty training datasets and empty prediction datasets.
@@ -32,4 +40,4 @@ Must be running **Velocity** version 5.0.0 and later to use the plug-in.
 
 |Back to ...||Latest Version|Milestone Risk Estimator |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.5](https://hub.docker.com/r/urbancode/ucv-ext-milestone-risk-estimator/tags)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.0.1](https://hub.docker.com/r/urbancode/ucv-ext-milestone-risk-estimator/tags)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)

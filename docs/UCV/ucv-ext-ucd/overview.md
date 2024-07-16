@@ -13,6 +13,14 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 ## History
 
+### Version 4.0.9
+
+* In this version, there is no need to manually add the automatedTaskRunner to the UCD server. This enhancement simplifies scheduling deployments and auto-promotion by reducing manual intervention.
+
+* In this version, the automation task execution mechanism has been updated. Previously, tasks were completed during the sync event. Now, tasks are completed during the execution of the automation task itself. This change provides precise user feedback to the DevOps velocity and speeds up execution.
+Additionally, a new parameter called 'Build Polling Timeout' has been added to the plugin. This parameter indicates the 'Length of time (in minutes) to wait for the build to complete if the task is set to wait.' Users can customize the 'Build Polling Timeout' as needed. Furthermore, a wait property has been introduced. By default, this wait property is set to true when a task is added, indicating that the plugin will wait for the build to complete. If explicitly set to false, the plugin will not wait for the build to complete.
+
+
 ### Version 4.0.5
 
 * **Minor Bug Fix**: In previous version user who does not exist on IBM DevOps Deploy. server were able to execute the task. Now User who exists on IBM DevOps Deploy. Server and have sufficient permission is able to execute the task.
@@ -60,4 +68,4 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 |Back to ...||Latest Version|IBM DevOps Deploy |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[4.0.5 -File 1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd%3A4.0.5.tar.7z.001) [and 4.0.5 -File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd%3A4.0.5.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[4.0.9 -File 1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd%3A4.0.9.tar.7z.001) [and 4.0.9 -File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd%3A4.0.9.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|

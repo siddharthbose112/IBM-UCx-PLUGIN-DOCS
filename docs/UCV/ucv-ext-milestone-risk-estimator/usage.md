@@ -74,6 +74,8 @@ Some properties might not be displayed in the user interface, to see all propert
 | Name | Type | Description | Required | Property Name |
 | --- | --- | --- | --- | --- |
 | Value streams to consider for risk assessment | Array | Comma separated list of value stream names to be considered for training and prediction (For example: Vsm_Name1,Vsm_Name2 ) | Yes | vsmsArray |
+| All workitem types | Boolean | If true, every work item type will be considered for risk assessment | false | USE_EVERY_JYRA_TYPE |
+| Selected workitem types | Array | Comma separated list of work item types to consider for risk assessment | false | JYRA_TYPE |
 
 
 
@@ -82,4 +84,4 @@ Some properties might not be displayed in the user interface, to see all propert
 
 |Back to ...||Latest Version|Milestone Risk Estimator |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.5](https://hub.docker.com/r/urbancode/ucv-ext-milestone-risk-estimator/tags)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.0.1](https://hub.docker.com/r/urbancode/ucv-ext-milestone-risk-estimator/tags)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
