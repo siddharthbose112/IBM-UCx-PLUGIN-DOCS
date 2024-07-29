@@ -19,6 +19,10 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 ## History
 
+### Version 1.4.18
+
+* Changes in the Github plugin to handle draft PR and use the new field in the DB. Have added "top-level" field for "draft" on pull requests in our GraphQL schema.
+
 ### Version 1.4.17
 
 * Fix Pull Request sync with the newest versions of the GitHub Api.
@@ -149,4 +153,4 @@ Note - This feature is only supported in DevOps Velocity versions 4.0.11 or abov
 
 |Back to ...||Latest Version|GitHub |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.4.17-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github%3A1.4.17.tar.7z.001)[and 1.4.17-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github%3A1.4.17.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.4.18-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github%3A1.4.18.tar.7z.001)[and 1.4.18-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github%3A1.4.18.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

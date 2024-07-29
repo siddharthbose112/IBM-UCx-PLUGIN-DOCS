@@ -168,7 +168,7 @@ GitHub is a Git repository hosting service. It provides tools to manage artifact
 
 |Back to ...||GitHub |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-github/README.md)|[1.4.17-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github%3A1.4.17.tar.7z.001)[and 1.4.17-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github%3A1.4.17.tar.7z.002)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-github/README.md)|[1.4.18-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github%3A1.4.18.tar.7z.001)[and 1.4.18-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github%3A1.4.18.tar.7z.002)|
 
 ## GitHub Dependabot
 
@@ -258,7 +258,7 @@ A new plug-in for Jenkins works as any other plug-ins of DevOps Velocity. The ol
 
 |Back to ...||Jenkins |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-jenkins/README.md)|[1.1.5-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jenkins/ucv-ext-jenkins%3A1.1.5.tar.7z.001)[and 1.1.5-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jenkins/ucv-ext-jenkins%3A1.1.5.tar.7z.002)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-jenkins/README.md)|[1.1.7-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jenkins/ucv-ext-jenkins%3A1.1.7.tar.7z.001)[and 1.1.7-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jenkins/ucv-ext-jenkins%3A1.1.7.tar.7z.002)|
 
 ## JUnit
 
