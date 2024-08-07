@@ -53,7 +53,6 @@
 	- [GitLab-Sourceconfig-Generic-Packages](#gitlab-sourceconfig-generic-packages)
 	- [GitHub-Release](#github-release)
 	- [Google Android SDK](#google-android-sdk)
-	- [Gradle  \[community plugin\]](#gradle--community-plugin)
 	- [Groovy](#groovy)
 	- [HCL DevOps Test Hub](#hcl-devops-test-hub)
 	- [HCL DevOps Test Performance](#hcl-devops-test-performance)
@@ -725,15 +724,6 @@ View a demo of this plug-in [here](https://www.youtube.com/watch?v=Qrw8hz8Jv9c) 
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](plugin-air-Android/README.md)|[3.1107122](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/plugin-air-Android/plugin-air-Android-3.1107122.zip)|
 
-## Gradle  [community plugin]
-
-Gradle is a tool for automating common build tasks including testing and deployment. This plug-in calls the gradle command line to run a build script with the provided options against the defined tasks. Agent system requirements Compatible Gradle version: Gradle 1.10
-
----
-
-|Back to ...||Gradle |Latest Version|
-| :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](gradle/README.md)|[0]()|
 
 ## Groovy
 
