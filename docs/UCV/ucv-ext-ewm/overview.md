@@ -15,6 +15,10 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 ## History
 
+### Version 1.1.32
+
+* Fixed an issue where invalid date formats were causing errors in date processing due to a change in the EWM API date format.
+
 ### Version 1.1.30
 
 * **Previous Version Bug Fix** : Version 1.1.28 of the plugin had a major bug related to Projects UI field.
@@ -53,4 +57,4 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 |Back to ...||Latest Version|IBM Engineering Workflow Management (EWM) |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.27](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ewm/ucv-ext-ewm:1.1.27.tar)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.32-File 1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ewm/ucv-ext-ewm%3A1.1.32.tar.7z.001)[and 1.1.32-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ewm/ucv-ext-ewm%3A1.1.32.tar.7z.002)[and 1.1.32-File 3](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ewm/ucv-ext-ewm%3A1.1.32.tar.7z.003)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
