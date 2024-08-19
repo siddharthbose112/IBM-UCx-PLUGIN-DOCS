@@ -18,6 +18,8 @@
 	- [Cypress](#cypress)
 	- [Digital.ai Agility](#digitalai-agility)
 	- [Fortify SSC](#fortify-ssc)
+ 	- [GenAi summary release - IBM](#GenAi-Summary-release-IBM) 
+	- [GenAi summary release - openai](#GenAi-summary-release-OpenAi)
 	- [GitHub](#github)
 	- [GitHub Dependabot](#github-dependabot)
 	- [GitLab](#gitlab)
@@ -49,8 +51,6 @@
 	- [DevOps Deploy](#urbancode-deploy)
 	- [WhiteSource](#whitesource)
 	- [YAML Executor](#yaml-executor)
-	- [GenAi summary release - IBM](#GenAi-Summary-release-IBM) 
-	- [GenAi summary release - openai](#GenAi-summary-release-OpenAi)
 
 # List of all Plugins
 
