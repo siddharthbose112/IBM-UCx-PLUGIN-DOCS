@@ -23,6 +23,6 @@ To download tar files directly (use below links)
 - Go to **Velocity** > **Settings** > **Integrations** > **Installed** > **Load plugin**.
 - Add the image name and click **Submit**.
 
-|Back to ...||Latest Version|GenAi Summary Release - openai |||
+|Back to ...||Latest Version|GenAi Summary Release - OpenAi |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.1](https://hub.docker.com/r/urbancode/ucv-ext-release-summary-openai/tags)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|
