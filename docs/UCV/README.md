@@ -410,7 +410,7 @@ SonarQube is an open source tool suite to measure and analyze the quality of sou
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](testcomplete-ucv/README.md)|[0]()|
 
-## GenAi-summary-release-IBM
+## GenAi-summary-release-ibm
 
 The GenAI Summary Release - ibm plugin for DevOps Velocity is designed to streamline and enhance your workflow by automatically generating concise business value summaries for candidate releases. Leveraging cutting-edge generative AI technology, this plugin interprets issue data to provide meaningful summaries that can be directly used in your business communications. 
 
