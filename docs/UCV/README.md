@@ -17,6 +17,8 @@
 	- [Cucumber](#cucumber)
 	- [Digital.ai Agility](#digitalai-agility)
 	- [Fortify SSC](#fortify-ssc)
+	- [GenAi summary release - IBM](#GenAi-Summary-release-IBM) 
+	- [GenAi summary release - openai](#GenAi-summary-release-OpenAi)
 	- [GitHub](#github)
 	- [GitHub Dependabot](#github-dependabot)
 	- [GitLab](#gitlab)
@@ -47,8 +49,6 @@
 	- [DevOps Deploy](#urbancode-deploy)
 	- [WhiteSource](#whitesource)
 	- [YAML Executor](#yaml-executor)
-	- [GenAi summary release - IBM](#GenAi-Summary-release-IBM) 
-	- [GenAi summary release - openai](#GenAi-summary-release-OpenAi)
 
 # List of all Plugins
 
@@ -425,6 +425,7 @@ The GenAI Summary Release - OpenAi plugin for DevOps Velocity is designed to str
 |Back to ...||GenAi summary release - OpenAi|Latest Version|
 | :---: | :---: | :---: | :---: | 
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-release-summary-openai/README.md)|[1.0.1](https://hub.docker.com/r/urbancode/ucv-ext-release-summary-openai/tags)|
+
 ## TestNG
 
 TestNG is a testing framework for Java programming. This plug-in provides integration of testing results into the  DevOps Velocity server.
