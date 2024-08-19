@@ -15,6 +15,7 @@
 	- [Code Coverage](#code-coverage)
 	- [CollabNet VersionOne](#collabnet-versionone)
 	- [Cucumber](#cucumber)
+	- [Cypress](#cypress)
 	- [Digital.ai Agility](#digitalai-agility)
 	- [Fortify SSC](#fortify-ssc)
 	- [GitHub](#github)
@@ -139,6 +140,16 @@ Cucumber is a software testing tool that runs automated acceptance tests written
 |Back to ...||Cucumber |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-cucumber/README.md)|[1.0.8](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-cucumber/ucv-ext-cucumber-1.0.8.tar.zip)|
+
+## Cypress
+
+Cypress provides a testing framework for the Java programming language. The Cypress plug-in imports the test results data in DevOps Velocity metrics.
+
+---
+
+|Back to ...||Cypress |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-cypress/README.md)|[1.0.1-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-cypress/ucv-ext-cypress%3A1.0.1.tar.7z.001)[and 1.0.1-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-cypress/ucv-ext-cypress%3A1.0.1.tar.7z.002)|
 
 ## Digital.ai Agility
 
