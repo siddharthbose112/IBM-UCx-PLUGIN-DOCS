@@ -47,7 +47,7 @@
 	- [DevOps Deploy](#urbancode-deploy)
 	- [WhiteSource](#whitesource)
 	- [YAML Executor](#yaml-executor)
-	- [GenAi summary release - ibm](#GenAi-Summary-release-IBM) 
+	- [GenAi summary release - IBM](#GenAi-Summary-release-IBM) 
 	- [GenAi summary release - openai](#GenAi-summary-release-OpenAi)
 
 # List of all Plugins
