@@ -52,7 +52,7 @@ it expose 2 endpoint:
             "targetStageName" : "PROD",
             "currentStageName" : "DEV"
         }' \
-    'https://10.14.82.75/reporting-consumer/pluginEndpoint/669e12a21e0e8a001b70ec35/generate'
+    'https://.../reporting-consumer/pluginEndpoint/669e12a21e0e8a001b70ec35/generate'
     
   
 **Note**: change the `669e12a21e0e8a001b70ec35` with the integration id of the created integration.
@@ -76,7 +76,7 @@ The following is a sample curl command:
             "currentStageName" : "DEV"
             "releaseid" : "6641e4ce818a54c626097ad4"
         }' \
-    'https://10.14.82.75/reporting-consumer/pluginEndpoint/669e12a21e0e8a001b70ec35/emulate'
+    'https://.../reporting-consumer/pluginEndpoint/669e12a21e0e8a001b70ec35/emulate'
 
 **Note**: change the `669e12a21e0e8a001b70ec35` with the integration id of the created integration.
 

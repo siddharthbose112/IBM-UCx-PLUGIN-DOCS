@@ -16,7 +16,7 @@
 ### Install - Online
 
 1. Navigate to the `settings/integrations` page of Velocity  and select the `Available` tab.
-2. Select `GenAI Summary Releaser` plugin and click `Install` action.
+2. Select `GenAI Summary Release - OpenAi` plugin and click `Install` action.
 
 ## Configure
 To add the release summary integration navigate to `settings/integrations` page and select the `Installed` tab.
@@ -51,7 +51,7 @@ it expose 2 endpoint:
             "targetStageName" : "PROD",
             "currentStageName" : "DEV"
         }' \
-    'https://10.14.82.75/reporting-consumer/pluginEndpoint/669e12a21e0e8a001b70ec35/generate'
+    'https://.../reporting-consumer/pluginEndpoint/669e12a21e0e8a001b70ec35/generate'
     
   
 **Note**: change the `669e12a21e0e8a001b70ec35` with the integration id of the created integration.
@@ -75,7 +75,7 @@ The following is a sample curl command:
             "currentStageName" : "DEV"
             "releaseid" : "6641e4ce818a54c626097ad4"
         }' \
-    'https://10.14.82.75/reporting-consumer/pluginEndpoint/669e12a21e0e8a001b70ec35/emulate'
+    'https://.../reporting-consumer/pluginEndpoint/669e12a21e0e8a001b70ec35/emulate'
 
 **Note**: change the `669e12a21e0e8a001b70ec35` with the integration id of the created integration.
 

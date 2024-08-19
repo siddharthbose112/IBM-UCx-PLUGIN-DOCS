@@ -47,7 +47,7 @@
 	- [DevOps Deploy](#urbancode-deploy)
 	- [WhiteSource](#whitesource)
 	- [YAML Executor](#yaml-executor)
-	- [GenAi summary release - ibm](#GenAi-Summary-release-ibm) 
+	- [GenAi summary release - ibm](#GenAi-Summary-release-IBM) 
 	- [GenAi summary release - openai](#GenAi-summary-release-openai)
 
 # List of all Plugins
@@ -410,9 +410,9 @@ SonarQube is an open source tool suite to measure and analyze the quality of sou
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](testcomplete-ucv/README.md)|[0]()|
 
-## GenAi-summary-release-ibm
+## GenAi-summary-release-IBM
 
-The GenAI Summary Release - ibm plugin for DevOps Velocity is designed to streamline and enhance your workflow by automatically generating concise business value summaries for candidate releases. Leveraging cutting-edge generative AI technology, this plugin interprets issue data to provide meaningful summaries that can be directly used in your business communications. 
+The GenAI Summary Release - IBM plugin for DevOps Velocity is designed to streamline and enhance your workflow by automatically generating concise business value summaries for candidate releases. Leveraging cutting-edge generative AI technology, this plugin interprets issue data to provide meaningful summaries that can be directly used in your business communications. 
 
 |Back to ...||Latest Version||||
 | :---: | :---: | :---: | :---: | :---: | :---: |
