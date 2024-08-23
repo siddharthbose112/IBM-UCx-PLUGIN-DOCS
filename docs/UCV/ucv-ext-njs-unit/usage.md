@@ -5,7 +5,7 @@ To use the Njs-Unit plug-in, the plug-in must be loaded, and an instance created
 
 ## Integration steps 
 
-In HCL DevOps Velocity, click **Settings** > **Integrations** > **Available**. 
+In IBM DevOps Velocity, click **Settings** > **Integrations** > **Available**. 
 
   1. In the Action column for the Njs-Unit plug-in, click Install. 
   2. The plug-in is now listed in the Installed tab and available for invoking. 
@@ -81,9 +81,9 @@ curl --request POST \
 ' \
   --form testArtifact=@test-result/mocha.xml 
 
-Once you invoke the plug-in, perform the following steps to add the chart for unit test in HCL DevOps Velocity. 
+Once you invoke the plug-in, perform the following steps to add the chart for unit test in IBM DevOps Velocity. 
 
-  1. In HCL DevOps Velocity, click Insights > All Dashboards.
+  1. In IBM DevOps Velocity, click Insights > All Dashboards.
   2. Open any existing dashboard or create a new dashboard and open. 
   3. Click Add charts.
   4. Under the Quality category, add Unit Tests charts.
