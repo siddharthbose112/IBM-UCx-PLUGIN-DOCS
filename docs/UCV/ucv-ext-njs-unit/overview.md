@@ -1,7 +1,7 @@
 
 # Njs-Unit - Overview
 
-The Njs-Unit plugin provides for integration with a Njs-Unit server. Data is uploaded to the IBM DevOps Velocity server using an HTTP Post request.
+The Njs-Unit plugin helps you to upload the unit test results data to the IBM DevOps Velocity server using an HTTP Post request.
 
 ## Versions
 

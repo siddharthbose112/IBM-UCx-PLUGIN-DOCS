@@ -5,10 +5,9 @@ To use the Njs-Unit plug-in, the plug-in must be loaded, and an instance created
 
 ## Integration steps 
 
-In IBM DevOps Velocity, click **Settings** > **Integrations** > **Available**. 
-
-  1. In the Action column for the Njs-Unit plug-in, click Install. 
-  2. The plug-in is now listed in the Installed tab and available for invoking. 
+  1. In IBM DevOps Velocity, click **Settings** > **Integrations** > **Available**.
+  2. In the **Action** column for the Njs-Unit plug-in, click **Install**. 
+  3. The plug-in is now listed in the **Installed** tab and available for invoking. 
 
 ## Integration type
 
@@ -16,11 +15,11 @@ The Njs-Unit plug-in is a parser type plug-in. It parses XML and JSON data.
 
 ## Invoking the plug-in 
 
-To gather data from the Njs-Unit server, send an HTTP Post request with the data to parse. Whenever there is a hit to the endpoint, the data is parsed and displayed as metrics in DevOps Velocity. You can use various methods such as Postman, REST calls, CURL, and CI/CD tools like Jenkins to invoke the plug-in endpoints.
+You can invoke the plug-in manually using REST Call. Whenever there is a hit to the endpoint, the data is parsed and displayed as metrics in IBM DevOps Velocity. You can use various methods such as Postman or CURL to invoke the plug-in endpoints.
 
-## Invoke the plug-in using a Rest call 
+## Invoke the plug-in using REST call 
 
-When using a REST call to invoke the Njs-Unit plug-in, it must be a POST method and include the location of the DevOps Velocity quality data endpoint. 
+When using REST call to invoke the Njs-Unit plug-in, it must be a POST method and include the location of the DevOps Velocity quality data endpoint. 
 
 The following request sample shows a REST call that you can copy and update as necessary. Key points about the snippet: 
 
@@ -28,17 +27,21 @@ The following request sample shows a REST call that you can copy and update as n
 
   2. The BODY of the call is multipart/form data. It includes information about the payload.
 
+```
 METHOD: POST  
 URL: https://<url_urbancodevelocity_server>/reporting-consumer/metrics  
 BODY (multipart/form-data): 
  { 
   payload: <payload_json_object_string> // See below for schema format 
  testArtifact: <xml_file/JSON_file> 
- } 
+ }
+```
 
-## Payload schema 
+### Payload schema 
 
-The following shows the schema for the payload. Replace the angle brackets with your values for the parameters. 
+The following shows the schema for the payload. Replace the angle brackets with your values for the parameters.
+
+```
 { 
   "tenant_id": "<tenant_id>",    // required Tenant ID 
   "metricName": "<metric_name>", // optional: name for recurring test set 
@@ -63,9 +66,11 @@ The following shows the schema for the payload. Replace the angle brackets with 
   "pullRequestId": "<pullrequest_id>", // optional 
   "environment": "<environment_name>" // optional 
 } 
+```
 
 ## Invoke the plug-in using Curl request 
 
+```
 curl --request POST \
   --url https://url_urbancodevelocity_server>/reporting-consumer/metrics \
   --form 'payload={
@@ -79,14 +84,15 @@ curl --request POST \
   }
 }
 ' \
-  --form testArtifact=@test-result/mocha.xml 
+  --form testArtifact=@test-result/mocha.xml
+```
 
 Once you invoke the plug-in, perform the following steps to add the chart for unit test in IBM DevOps Velocity. 
 
-  1. In IBM DevOps Velocity, click Insights > All Dashboards.
+  1. In IBM DevOps Velocity, click **Insights > All Dashboards**.
   2. Open any existing dashboard or create a new dashboard and open. 
-  3. Click Add charts.
-  4. Under the Quality category, add Unit Tests charts.
+  3. Click **Add charts**.
+  4. Under the **Quality** category, add **Unit Tests** charts.
   5. You can see the Unit Test chart added to the dashboard. Analyze the data in the unit test chart to view the unit test results.
 
 
