@@ -1,7 +1,7 @@
 
 # Njs-Unit - Overview
 
-The Njs-Unit plugin provides for integration with a Njs-Unit server. Data is uploaded to the HCL Accelerate server using an HTTP Post request.
+The Njs-Unit plugin provides for integration with a Njs-Unit server. Data is uploaded to the HCL DevOps Velocity server using an HTTP Post request.
 
 ## Versions
 

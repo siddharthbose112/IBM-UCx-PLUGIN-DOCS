@@ -1,7 +1,7 @@
 
 # Njs-Unit
 
-You can visualize unit test results for given applications or value streams or teams in graphical format on the insight page. The Njs-Unit plugin provides for integration with a Njs-Unit server. Data is uploaded to the HCL Accelerate server using an HTTP Post request.
+You can visualize unit test results for given applications or value streams or teams in graphical format on the insight page. The Njs-Unit plugin provides for integration with a Njs-Unit server. Data is uploaded to the HCL DevOps Velocity server using an HTTP Post request.
 
 |Back to ...||Latest Version||||
 | :---: | :---: | :---: | :---: | :---: | :---: |
