@@ -5,7 +5,7 @@ The Njs-Unit plugin helps you to upload the unit test results data to the IBM De
 
 ## Versions
 
-DevOps Velocity plug-in images are located in DockerHub. To
+IBM DevOps Velocity plug-in images are located in DockerHub. To
 view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-njs-unit/tags).
 
 
