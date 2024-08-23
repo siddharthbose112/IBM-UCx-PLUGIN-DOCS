@@ -1,7 +1,7 @@
 
 # Njs-Unit - Usage
 
-To use the Njs-Unit plug-in, the plug-in must be loaded, and an instance created. Load the plug-in into the DevOps Velocity container if necessary.
+To use the Njs-Unit plug-in, the plug-in must be loaded, and an instance created. Load the plug-in into the IBM DevOps Velocity container if necessary.
 
 ## Integration steps 
 
@@ -19,11 +19,11 @@ You can invoke the plug-in manually using REST Call. Whenever there is a hit to 
 
 ## Invoke the plug-in using REST call 
 
-When using REST call to invoke the Njs-Unit plug-in, it must be a POST method and include the location of the DevOps Velocity quality data endpoint. 
+When using REST call to invoke the Njs-Unit plug-in, it must be a POST method and include the location of the IBM DevOps Velocity quality data endpoint. 
 
 The following request sample shows a REST call that you can copy and update as necessary. Key points about the snippet: 
 
-  1. The URL points to the DevOps Velocity quality data endpoint. Update with the server location for your installation of DevOps Velocity. 
+  1. The URL points to the IBM DevOps Velocity quality data endpoint. Update with the server location for your installation of IBM DevOps Velocity. 
 
   2. The BODY of the call is multipart/form data. It includes information about the payload.
 
