@@ -94,4 +94,4 @@ Generated summary will be stored as a field of the `release` document. The follo
 
 |Back to ...||Latest Version||||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.2](https://hub.docker.com/r/urbancode/ucv-ext-release-summary-ibm/tags)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.3](https://hub.docker.com/r/urbancode/ucv-ext-release-summary-ibm/tags)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)
