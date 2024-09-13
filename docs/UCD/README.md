@@ -1480,7 +1480,7 @@ The IBM UrbanCode Versioned File Storage plug-in includes steps to upload and do
 
 |Back to ...||IBM UrbanCode Deploy Versioned File Storage |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](UrbancodeVFS/README.md)|[47.1167424](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/ucd-UrbancodeVFS-47.1167424.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](UrbancodeVFS/README.md)|[48.1170581](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/ucd-UrbancodeVFS-48.1170581.zip)|
 
 ## IBM UrbanCode Deploy Versions
 
@@ -2472,9 +2472,9 @@ The External Artifact Repository plug-in includes the step to download artifacts
 
 ---
 
-|        Back to ...         || z/OS External Artifact Repository |                   Latest Version                   |
-|:--------------------------:|:---------------------------------:|:--------------------------------------------------:| :---: |
-| [All Plugins](../index.md) |         [Top](#contents)          | [Readme](zOS-external-artifact-download/README.md) |[10.1169084](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/ucd-ExtArtRepo-10.1169084.zip)|
+|        Back to ...         |                  |         z/OS External Artifact Repository          |                                                                  Latest Version                                                                   |
+|:--------------------------:|:----------------:|:--------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------:|
+| [All Plugins](../index.md) | [Top](#contents) | [Readme](zOS-external-artifact-download/README.md) | [11.1170736](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/ucd-ExtArtRepo-11.1170736.zip) |
 
 ## z/OS FTP Utility
 
