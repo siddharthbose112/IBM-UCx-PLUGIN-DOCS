@@ -49,6 +49,43 @@ The JSON file contains the information for creating a value stream and integrati
 3. Save and upload the JSON file. This replaces the current JSON file with the new content.
 4. View the new integration on the Integrations page.
 
+## OAuth
+
+OAuth 2.0 Authentication: 
+
+    Implemented OAuth 2.0 authentication for secure communication with third-party services.
+
+* OAuth 2.0 client credentials flow added for ServiceNow API integration. 
+* Refresh token mechanism introduced for automatic token renewal when the access token expires.
+
+### How to integrate using OAuth
+To integrate OAuth 2.0, follow these steps:
+
+Provide the required credentials:
+
+* Client ID
+* Client Secret
+* Username
+* Password
+
+### How to Retrieve Client ID and Client Secret in ServiceNow
+Navigate to OAuth Settings:
+
+* In your ServiceNow instance, click on All in the navigation pane.
+* Go to System OAuth and select Application Registry.
+* Retrieve Client ID and Generate Client Secret:
+
+Select the application you registered.
+* The Client ID will be displayed on this page.
+* The Client Secret will be generated when you submit the registration.
+
+Use for Integration:
+* After creating the application, click on it to view the Client Secret. Use both the Client ID and Client Secret when integrating ServiceNow with OAuth 2.0.
+
+Confirmation:
+* Once integrated successfully, you will see a log message confirming that OAuth 2.0 is being used:
+"Authentication via OAuth2.0: Using client credentials to obtain access token."
+
 ## Automation Tasks
 
 The following automation tasks are available in the ServiceNow plugin:
@@ -221,5 +258,5 @@ servicenow",
 |Back to ...||Latest Version|ServiceNow |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
 
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.8-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.8.tar.7z.001)[and 1.1.8-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.8.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
 |[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.6-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.6.tar.7z.001)[and 1.1.6-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.6.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.5-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.5.tar.7z.001)[and 1.1.5-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.5.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

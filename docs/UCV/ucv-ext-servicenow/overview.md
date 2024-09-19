@@ -15,6 +15,15 @@ There is no install process for this plug-in. The ServiceNowb plug-in is identif
 
 ## History
 
+### Version 1.1.8
+
+OAuth 2.0 Authentication: 
+
+Implemented OAuth 2.0 authentication for secure communication with third-party services.
+
+1. OAuth 2.0 client credentials flow added for ServiceNow API integration.
+2. Refresh token mechanism introduced for automatic token renewal when the access token expires.
+
 ### Version 1.1.6
 
 * We've added a new field for Resource Types and Sys_params, which will synchronize events based on the provided sys_params.
