@@ -53,38 +53,22 @@ The JSON file contains the information for creating a value stream and integrati
 
 OAuth 2.0 Authentication: 
 
-    Implemented OAuth 2.0 authentication for secure communication with third-party services.
+You must provide the following details during integration of service now plug-in to set up OAuth authentication: 
 
-* OAuth 2.0 client credentials flow added for ServiceNow API integration. 
-* Refresh token mechanism introduced for automatic token renewal when the access token expires.
-
-### How to integrate using OAuth
-To integrate OAuth 2.0, follow these steps:
-
-Provide the required credentials:
-
-* Client ID
-* Client Secret
-* Username
+* client_id
+* client_secret
+* username
 * Password
 
-### How to Retrieve Client ID and Client Secret in ServiceNow
-Navigate to OAuth Settings:
+### Generating the OAuth credentials in ServiceNow 
 
-* In your ServiceNow instance, click on All in the navigation pane.
-* Go to System OAuth and select Application Registry.
-* Retrieve Client ID and Generate Client Secret:
+To obtain the client_id and client_secret from your ServiceNow instance, perform the following steps: 
 
-Select the application you registered.
-* The Client ID will be displayed on this page.
-* The Client Secret will be generated when you submit the registration.
-
-Use for Integration:
-* After creating the application, click on it to view the Client Secret. Use both the Client ID and Client Secret when integrating ServiceNow with OAuth 2.0.
-
-Confirmation:
-* Once integrated successfully, you will see a log message confirming that OAuth 2.0 is being used:
-"Authentication via OAuth2.0: Using client credentials to obtain access token."
+* Log in to the ServiceNow instance.
+* On the left-hand navigation pane, search for OAuth, and then select Application Registry.
+* Click New, and then select Create an OAuth API endpoint for external clients.
+* Fill in the required details, and then click Submit.
+* Navigate to the newly created OAuth record, and then click on it to view the client_id and client_secret. 
 
 ## Automation Tasks
 
