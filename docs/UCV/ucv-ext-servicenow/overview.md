@@ -1,19 +1,27 @@
 
 # ServiceNow - Overview
 
-ServiceNow supports application delivery by integrating service management processes, social collaboration for IT departments, software-as-a-service delivery, and web functionality. The ServiceNow plug-in provides for integration with a ServiceNow server. This plug-in imports incident management(Beta), change management and problem management data from a ServiceNow server and provides a single view of ServiceNow incidents, change request and problems in DevOps Velocity value stream map. Data between the ServiceNow server and the DevOps Velocity serveris synchronized every five minutes.
+The ServiceNow plug-in provides for integration with a ServiceNow server. This plug-in imports incident management (Beta), change management and problem management data from a ServiceNow server and provides a single view of ServiceNow incidents, change requests, and problems in an IBM DevOps Velocity value stream map. Data between the ServiceNow server and the IBM DevOps Velocity server is synchronized every five minutes.
 
 ## Compatibility
 
-Must be running DevOps Velocity version 5.0.2 and later to use the plug-in.
-
-The plug-in supports the ServiceNow Madrid, Orlando and Paris release.
+IBM DevOps Velocity 5.0.0 or later
+IBM UrbanCode Velocity 2.0 to IBM DevOps Velocity 4.0.x
 
 ## Versions
 
-There is no install process for this plug-in. The ServiceNowb plug-in is identified to DevOps Velocity as a value stream integration. DevOps Velocity plug-in images are located in DockerHub and the UrbanCode Velolcity code accesses the version that you select. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-servicenow/tags).
+IBM DevOps Velocity plug-in images are located in DockerHub and the IBM DevOps Velocity code accesses the version that you select. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-servicenow/tags).
 
 ## History
+
+### Version 1.1.8
+
+OAuth 2.0 Authentication: 
+
+Implemented OAuth 2.0 authentication for secure communication with third-party services.
+
+* OAuth 2.0 client credentials flow added for ServiceNow API integration.
+* Refresh token mechanism introduced for automatic token renewal when the access token expires.
 
 ### Version 1.1.6
 
@@ -23,18 +31,18 @@ There is no install process for this plug-in. The ServiceNowb plug-in is identif
 ### Version 1.1.5
 
 * **Bug fix**: Removed drop down feature in update change request and change task and wait changes automation task which was implemented to select change request number as it was uploading more data to integration details. Now user can enter change request number manually.
-* **Bug fix**: Enabled to create standard and emergency change request in create change request and change task automation task by changing api request made to create.( earlier it was creating only normal change )
+* **Bug fix**: Enabled to create standard and emergency change request in create change request and change task automation task by changing api request made to create. (earlier it was creating only normal change)
 
 ### Version 1.1.4
 
-* **Add initial sync:** Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync.
-* **Resync functionality:** After integration plugin provides an option to perform either full resync or resync from selected date so that plugin resync again.
+* **Add initial sync:** Under the hidden properties section of add integration page for the plug-in an Initial Sync Date field is added. This field is optional and can be used only for the first sync.
+* **Resync functionality:** After integration plug-in provides an option to perform either full resync or resync from selected date so that plug-in resync again.
 * **Output Property field added:** For automation task create change request and change task output property field is added which stores system id of change request when created and for change task output property is provided inside object under create change task field.
 * **Wait change task:** A new automation task is created for waiting change task.
 
 ### Version 1.1.3
 
-* **Minor bug fix**: Earlier plugin was unable to resync when incident is resolved.
+* **Minor bug fix**: Earlier plug-in was unable to resync when incident is resolved.
 * **Feature Enhancement**: Implemented drop down to select change request number in update change request and change task and wait changes automation tasks.
 
 ### Version 1.1.2
@@ -46,23 +54,24 @@ There is no install process for this plug-in. The ServiceNowb plug-in is identif
 
 ### Version 1.1.1
 
-* Import incidents
-* Add Incident creation automation task
+* Import incidents.
+* Add Incident creation automation task.
 
 ### Version 1.0.42
 
 * **Minor bug fix**: Fixed bug related to proxy server change and related to automation task execution.
+
 ### Version 1.0.36
 
-* **Removed Manual User Access Key**: From current version onwards this plugin will only support Auto Generated User Access Key feature of Devops Velocity
+* **Removed Manual User Access Key**: From current version onwards this plug-in will only support Auto Generated User Access Key feature of IBM Devops Velocity.
+
 ### Version 1.0.13
 
 * Bug fix
 
 ### Version 1.0.14
 
-*
-Added HTTP proxy support
+* Added HTTP proxy support.
 
 ### Version 1.0.13
 
@@ -70,7 +79,7 @@ Added HTTP proxy support
 
 ### Version 1.0.12
 
-* Added the capability to pull problems
+* Added the capability to pull problems.
 
 ### Version 1.0.9
 
@@ -78,7 +87,7 @@ Added HTTP proxy support
 
 ### Version 1.0.6
 
-* Update plugin version from 0.x.x to 1.x.x format.
+* Update plug-in version from 0.x.x to 1.x.x format.
 
 ### Version 0.0.4
 
@@ -87,5 +96,5 @@ Added HTTP proxy support
 
 |Back to ...||Latest Version|ServiceNow |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.6-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.6.tar.7z.001)[and 1.1.6-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.6.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.4-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.4.tar.7z.001)[and 1.1.4-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.4.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All plug-ins](../../index.md)|[Velocity plug-ins](../README.md)|[1.1.6-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-plug-inS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.6.tar.7z.001)[and 1.1.6-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-plug-inS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.6.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All plug-ins](../../index.md)|[Velocity plug-ins](../README.md)|[1.1.4-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-plug-inS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.4.tar.7z.001)[and 1.1.4-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-plug-inS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.4.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
