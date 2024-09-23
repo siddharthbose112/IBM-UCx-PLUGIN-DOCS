@@ -391,7 +391,7 @@ The ServiceNow plug-in for IBM DevOps Velocity automates the importing of Servic
 
 |Back to ...||ServiceNow |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-servicenow/README.md)|[1.1.6-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.6.tar.7z.001)[and 1.1.6-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.6.tar.7z.002)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-servicenow/README.md)|[1.1.8-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.8.tar.7z.001)[and 1.1.8-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.8.tar.7z.002)|
 
 ## Shell
 
