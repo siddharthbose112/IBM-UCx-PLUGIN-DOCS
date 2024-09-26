@@ -1,15 +1,21 @@
 
 # Cypress - Usage
 
-To use the Cypress plugin, the plugin must be loaded and an instance created. Load the plugin into the IBM DevOps Velocity container if necessary. From the user interface, click **Settings** > **Integrations** > **Plugins**. On the Plugins page, locate the plugin and click Load Plugin. To create an instance, locate the plugin and click **Install**. The plugin is now listed below those plugins to be installed and available for invoking.
+To use the Cypress plug-in, you must load the plug-in and create an instance. If necessary, you can load the plug-in into the IBM DevOps Velocity container. 
 
 ## Integration type
 
 The Cypress plugin is a parser type plugin. It parses XML and JSON data.
 
+## Integration steps 
+
+* In IBM DevOps Velocity, click **Settings** > **Integrations** > **Available**. 
+* In the Action column for the Cypreuss plug-in, click **Install**. 
+* The plug-in is now listed in the **Installed** tab and available for invoking. 
+
 ## Invoking the plugin 
 
-To gather data from the Cypress server, send an HTTP Post request with the data to parse. Whenever there is a hit to the endpoint, the data is parsed and displayed as metrics in IBM DevOps Velocity. You can use various methods such as Postman, REST calls, CURL to invoke the plugin endpoints.
+To gather data from the Cypress server, you must send an HTTP Post request with the data to parse. Whenever there is a hit to the endpoint, the data is parsed and displayed as metrics in IBM DevOps Velocity. You can use various methods such as Postman, REST calls, CURL to invoke the plug-in endpoints.
 
 ## Invoke the plugin using a Rest call 
 
@@ -22,7 +28,7 @@ The BODY of the call is multipart/form data. It includes information about the p
 
 ```
 METHOD: POST  
-URL: https://<url_urbancodevelocity_server>/reporting-consumer/metrics  
+URL: https://<url_devopsvelocity_server>/reporting-consumer/metrics  
 BODY (multipart/form-data): 
  { 
   payload: <payload_json_object_string> // See below for schema format 
@@ -30,11 +36,11 @@ BODY (multipart/form-data):
  } 
 ```
 
-Invoke using Curl
+## Invoke the plug-in using Curl request 
 
 ```
 curl --request POST \ 
-  --url https://url_urbancodevelocity_server>/reporting-consumer/metrics \ 
+  --url https://url_devopsvelocity_server>/reporting-consumer/metrics \ 
   --form 'payload={ 
   "tenant_id": "", 
   "application": { 
@@ -42,15 +48,15 @@ curl --request POST \
   }, 
   "record": { 
      "pluginType": "cypress", 
-     "dataFormat": "XML/JSON", // for xml use XML and for json use JSON
+     "dataFormat": "XML", // for xml use XML and for json use JSON
      “metricDefinitionId”: “Functional Tests” // Optional: If metricDefinitionId is blank then by default graph will display under Unit Tests.
   } 
 }
 ' \ 
-  --form testArtifact=@test-result/mocha.xml 
+  --form testArtifact=@test-result/cypress.xml 
 ```
 
-Payload schema 
+## Payload schema
 
 The following shows the schema for the payload. Replace the angle brackets with your values for the parameters.
 

@@ -1,11 +1,11 @@
 
 # Cypress - Overview
 
-Effortlessly explore your functional test results with dynamic graphs on the Insight page. Filter by applications, value streams, or teams to instantly reveal performance trends and drive better decisions across your organization. 
+You can now easily explore the functional test results in IBM DevOps Velocity with charts on the Insights page. Filter by applications, value streams, or teams to instantly identify performance trends and make data-driven decisions across the organization.
 
 ## Versions
 
-DevOps Velocity plug-in images are located in DockerHub. To
+IBM DevOps Velocity plug-in images are located in DockerHub. To
 view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-cypress/tags).
 
 
@@ -13,7 +13,7 @@ view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/
 
 ### Version 1.0.1
 
-* Initial Release with Implementation of XML/JSON parsing support for cypress.
+* Initial release with implementation of XML/JSON parsing support for Cypress testing framework.
 
 |Back to ...||Latest Version|Cypress |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
