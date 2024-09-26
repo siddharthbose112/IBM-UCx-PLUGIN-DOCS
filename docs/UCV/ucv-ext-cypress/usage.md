@@ -10,7 +10,7 @@ The Cypress plugin is a parser type plugin. It parses XML and JSON data.
 ## Integration steps 
 
 * In IBM DevOps Velocity, click **Settings** > **Integrations** > **Available**. 
-* In the Action column for the Cypreuss plug-in, click **Install**. 
+* In the Action column for the Cypress plug-in, click **Install**. 
 * The plug-in is now listed in the **Installed** tab and available for invoking. 
 
 ## Invoking the plugin 
