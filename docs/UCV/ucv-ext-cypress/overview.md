@@ -3,6 +3,10 @@
 
 You can now easily explore the functional test results in IBM DevOps Velocity with charts on the Insights page. Filter by applications, value streams, or teams to instantly identify performance trends and make data-driven decisions across the organization.
 
+## Business UseCase
+
+Cypress plug-in helps in visualizing the functional test results in intuitive graphs, enabling rapid feedback, trend analysis, and informed decision-making for development teams.
+
 ## Versions
 
 IBM DevOps Velocity plug-in images are located in DockerHub. To
