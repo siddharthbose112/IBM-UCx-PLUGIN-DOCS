@@ -9,7 +9,7 @@
 
 ### Offline Installation
 1.  Pull release summary docker image
-2.  In HCL DevOps Velocity, click **Settings > Integrations > Available**.
+2.  In IBM DevOps Velocity, click **Settings > Integrations > Available**.
 2.  Click **Load Plugin**, and enter `[RELEASE SUMMARY IMAGE NAME]:[LATEST_TAG]`. For example `ucv-ext-release-summary-ibm:1.0.3`
 3. On the Add Integration page enter values for the fields used to configure the integration and define communication.
 4. Click **Save**.
