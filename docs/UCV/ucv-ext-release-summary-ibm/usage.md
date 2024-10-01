@@ -3,7 +3,7 @@
 ##  Install Release Summary Plug-in
 
 ### Prerequisites
-1. DevOps Velocity 5.0.8 or Higher
+1. IBM DevOps Velocity 5.0.8 or Higher
 2. Release Summary docker image (IBM plug-in)
 
 ### Offline Installation
