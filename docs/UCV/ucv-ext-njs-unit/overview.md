@@ -3,6 +3,10 @@
 
 The Njs-Unit plugin helps you to upload the unit test results data to the IBM DevOps Velocity server using an HTTP Post request.
 
+## Business UseCase
+
+This visualization will help you to understand passed or failed trends and analyze for further better quality assurance in a unit test level.
+
 ## Versions
 
 IBM DevOps Velocity plug-in images are located in DockerHub. To
