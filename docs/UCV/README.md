@@ -174,7 +174,7 @@ Fortify Software security center (SSC) enables teams with the application securi
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-fortify-ssc/README.md)|[1.0.19](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-fortify-ssc/ucv-ext-fortify-ssc%3A1.0.19.tar.7z.001)|
 
-## GenAI-summary-release-IBM
+## GenAI summary release IBM
 
 The GenAI Summary Release - IBM plugin for DevOps Velocity is designed to streamline and enhance your workflow by automatically generating concise business value summaries for candidate releases. Leveraging cutting-edge generative AI technology, this plugin interprets issue data to provide meaningful summaries that can be directly used in your business communications. 
 
@@ -182,7 +182,7 @@ The GenAI Summary Release - IBM plugin for DevOps Velocity is designed to stream
 | :---: | :---: | :---: | :---: | 
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-release-summary-ibm/README.md)|[1.0.3](https://hub.docker.com/r/urbancode/ucv-ext-release-summary-ibm/tags)|
 
-## GenAI-summary-release-OpenAI
+## GenAI summary release OpenAI
 
 The GenAI Summary Release - OpenAI plugin for DevOps Velocity is designed to streamline and enhance your workflow by automatically generating concise business value summaries for candidate releases. Leveraging cutting-edge generative AI technology, this plugin interprets issue data to provide meaningful summaries that can be directly used in your business communications. 
 
