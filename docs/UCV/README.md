@@ -18,7 +18,7 @@
 	- [Cypress](#cypress)
 	- [Digital.ai Agility](#digitalai-agility)
 	- [Fortify SSC](#fortify-ssc)
- 	- [GenAi summary release - IBM](#GenAi-Summary-release-IBM) 
+	- [GenAi summary release - IBM](#GenAi-Summary-release-IBM) 
 	- [GenAi summary release - openai](#GenAi-summary-release-OpenAi)
 	- [GitHub](#github)
 	- [GitHub Dependabot](#github-dependabot)
@@ -431,7 +431,7 @@ SonarQube is an open source tool suite to measure and analyze the quality of sou
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](testcomplete-ucv/README.md)|[0]()|
 
-## GenAi-summary-release-IBM
+## GenAI-summary-release-IBM
 
 The GenAI Summary Release - IBM plugin for DevOps Velocity is designed to streamline and enhance your workflow by automatically generating concise business value summaries for candidate releases. Leveraging cutting-edge generative AI technology, this plugin interprets issue data to provide meaningful summaries that can be directly used in your business communications. 
 
@@ -439,11 +439,11 @@ The GenAI Summary Release - IBM plugin for DevOps Velocity is designed to stream
 | :---: | :---: | :---: | :---: | 
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-release-summary-ibm/README.md)|[1.0.3](https://hub.docker.com/r/urbancode/ucv-ext-release-summary-ibm/tags)|
 
-## GenAi-summary-release-OpenAi
+## GenAI-summary-release-OpenAI
 
-The GenAI Summary Release - OpenAi plugin for DevOps Velocity is designed to streamline and enhance your workflow by automatically generating concise business value summaries for candidate releases. Leveraging cutting-edge generative AI technology, this plugin interprets issue data to provide meaningful summaries that can be directly used in your business communications. 
+The GenAI Summary Release - OpenAI plugin for DevOps Velocity is designed to streamline and enhance your workflow by automatically generating concise business value summaries for candidate releases. Leveraging cutting-edge generative AI technology, this plugin interprets issue data to provide meaningful summaries that can be directly used in your business communications. 
 
-|Back to ...||GenAi summary release - OpenAi|Latest Version|
+|Back to ...||GenAI summary release - OpenAI|Latest Version|
 | :---: | :---: | :---: | :---: | 
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-release-summary-openai/README.md)|[1.0.1](https://hub.docker.com/r/urbancode/ucv-ext-release-summary-openai/tags)|
 
