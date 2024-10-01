@@ -3,7 +3,7 @@ The GenAI Summary Release - OpenAI plug-in for IBM DevOps Velocity is designed t
 
 ## Overview
 
-Ucv-ext-release-summary-OpenAI plug-in for IBM DevOps Velocity is designed to streamline and enhance your workflow by automatically generating concise business value summaries for candidate releases. Leveraging cutting-edge generative AI technology, this plug-in interprets issue data to provide meaningful summaries that can be directly used in your business communications. 
+The GenAI Summary Release - OpenAI for IBM DevOps Velocity is designed to streamline and enhance your workflow by automatically generating concise business value summaries for candidate releases. Leveraging cutting-edge generative AI technology, this plug-in interprets issue data to provide meaningful summaries that can be directly used in your business communications. 
 
 ## Compatability
 
@@ -19,7 +19,7 @@ view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/
 
 ### Version 1.0.1
 
-* Initial release of ucv-ext-release-summary-OpenAI
+* Initial release of the GenAI Summary Release - OpenAI plug-in
 
 |Back to ...||Latest Version|GenAI Summary Release - OpenAI ||
 | :---: | :---: | :---: | :---: | :---: | :---: |
