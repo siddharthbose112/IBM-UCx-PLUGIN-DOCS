@@ -10,18 +10,30 @@ To use the GenAI Summary Release–OpenAI plug-in, the plug-in must be loaded an
 
 
 ### Offline Integration
-1.  Pull release summary docker image
-2.  In IBM DevOps Velocity, click **Settings > Integrations > Available**.
-2.  Click **Load Plugin**, and enter `[RELEASE SUMMARY IMAGE NAME]:[LATEST_TAG]`. For example `ucv-ext-release-summary-ibm:1.0.3`
+
+The table in the Configuration properties section describe the properties used to define the integration.
+
+1. Pull release summary docker image
+2. In IBM DevOps Velocity, click **Settings > Integrations > Available**.
+2. Click **Load Plugin**, and enter `[RELEASE SUMMARY IMAGE NAME]:[LATEST_TAG]`. For example `ucv-ext-release-summary-openai:1.0.1`
 3. On the Add Integration page enter values for the fields used to configure the integration and define communication.
-4. Click **Save**.
+4. Click **Add**.
 
 ### Online Integration
 
-1. From the Plug-ins page, click **Settings > Integrations > Plug-ins**.
-2. Under the Action column for the plug-in, click **Add Integration**.
+The table in the Configuration properties section describe the properties used to define the integration.
+
+To install the plug-in, perform the following steps:
+
+1. In IBM DevOps Velocity, click **Settings > Integrations > Available**.
+2. In the Action column for the GenAI Summary Release-OpenAI plug-in, click **Install**.
+
+To integrate the plug-in, perform the following steps:
+
+1. In IBM DevOps Velocity, click **Settings > Integrations > Installed**.
+2. In the Action column for the GenAI Summary Release-OpenAI plug-in, click **Add Integration**.
 3. On the Add Integration page enter values for the fields used to configure the integration and define communication.
-4. Click **Save**.
+4. Click **Add**.
 
 ### LLM Service Configuration
 Provide the following plug-in configuration options:
