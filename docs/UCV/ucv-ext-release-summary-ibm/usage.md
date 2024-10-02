@@ -88,7 +88,17 @@ Generated summary will be stored as a field of the `release` document. The follo
                 }
         }
 
+## Configuration Properties
 
+The following tables describe the properties used to configure the integration. Each table contains the field name when using the user interface and the property name when using a JSON file.
+
+|Name|	Type|	Description|	Required|	Property Name|
+|----|----|----|----|----|
+|Integration Name|	string|	The name for plug-in integration|	Yes	|Name|
+|LLM-Drop-Down	|array	|The LLM Provider	|Yes	|llmDropdown|
+|WATSONX_APIKEY	|string	|The Api-key for WATSONX X	|Yes	|WATSONX_APIKEY|
+|WATSONX_PROJECT_ID|	integer	|The ID of the project in WATSONX	|Yes	|WATSONX_PROJECT_ID|
+|WATSONX_URL	|string	|URL for WARSONX	|Yes	|WATSONX_URL|
 
 |Back to ...||Latest Version||||
 | :---: | :---: | :---: | :---: | :---: | :---: |

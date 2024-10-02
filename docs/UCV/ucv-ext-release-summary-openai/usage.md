@@ -87,7 +87,15 @@ Generated summary will be stored as a field of the `release` document. The follo
                 }
         }
 
+## Configuration Properties
 
+The following tables describe the properties used to configure the integration. Each table contains the field name when using the user interface and the property name when using a JSON file.
+
+|Name|	Type|	Description|	Required|	Property Name|
+|----|----|----|----|----|
+|Integration Name	|string	|The name for plug-in integration	|Yes	|name|
+|LLM-Drop-Down|	array	|LLM provider	|Yes	|llmDropdown|
+|OPENAI_APIKEY|	string	|The Api-key for OPENAI|	Yes	|OPENAI_APIKEY|
 
 |Back to ...||Latest Version||||
 | :---: | :---: | :---: | :---: | :---: | :---: |
