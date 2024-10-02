@@ -1,4 +1,6 @@
-# GenAI Summary Release - OpenAI
+# GenAI Summary Release-OpenAI - Usage
+
+To use the GenAI Summary Release–OpenAI plug-in, the plug-in must be loaded and an instance created before you can configure the plug-in integration. You can define configuration properties in the user interface.
 
 ## Integration
 
@@ -28,7 +30,7 @@ Provide the following plug-in configuration options:
 
 ## Invoking the plug-in
 
-The plug-in is invoked when you generate the Release Readiness Report after integrating with the Handlebar reporter plug-in. The data from the GenAI Summary Release – OpenAI plug-in is displayed in a section called Release Summary within the Release Readiness Report.
+The plug-in is invoked when you generate the Release Readiness Report after integrating with the Handlebar reporter plug-in. The data from the GenAI Summary Release–OpenAI plug-in is displayed in a section called Release Summary within the Release Readiness Report.
 
 The plug-in exposes the following endpoints:
 1. `/reporting-consumer/pluginEndpoint/[INTEGRATION ID]/generate` This endpoint starts the generation of release summary. It expect to provide as part of the body the following parameter:
@@ -87,8 +89,16 @@ Generated summary will be stored as a field of the `release` document. The follo
                 }
         }
 
+## Configuration Properties
 
+The following tables describe the properties used to configure the integration. Each table contains the field name when using the user interface and the property name when using a JSON file.
 
-|Back to ...||Latest Version||||
+|Name|	Type|	Description|	Required|	Property Name|
+|----|----|----|----|----|
+|Integration Name	|string	|The name for plug-in integration	|Yes	|name|
+|LLM-Drop-Down|	array	|LLM provider	|Yes	|llmDropdown|
+|OPENAI_APIKEY|	string	|The Api-key for OPENAI|	Yes	|OPENAI_APIKEY|
+
+|Back to ...||Latest Version|GenAI Summary Release-OpenAI|||
 | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.1](https://hub.docker.com/r/urbancode/ucv-ext-release-summary-openai/tags)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)

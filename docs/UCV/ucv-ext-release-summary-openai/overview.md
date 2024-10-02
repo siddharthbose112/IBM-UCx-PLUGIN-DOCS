@@ -1,9 +1,14 @@
-#  GenAI Summary Release - OpenAI - Overview
-The GenAI Summary Release - OpenAI plug-in for IBM DevOps Velocity is designed to streamline and enhance your workflow by automatically generating concise business value summaries for candidate releases. Leveraging cutting-edge generative AI technology, this plug-in interprets issue data to provide meaningful summaries that can be directly used in your business communications. 
+#  GenAI Summary Release-OpenAI - Overview
 
-## Overview
+The GenAI Summary Release-OpenAI plug-in for IBM DevOps Velocity automatically generates concise business value summaries for releases using advanced AI. The generated summary is displayed in the Release readiness report generated using the Handlebar reporter plug-in in IBM DevOps Velocity.
 
-The GenAI Summary Release - OpenAI for IBM DevOps Velocity is designed to streamline and enhance your workflow by automatically generating concise business value summaries for candidate releases. Leveraging cutting-edge generative AI technology, this plug-in interprets issue data to provide meaningful summaries that can be directly used in your business communications. 
+The AI summary provides real-time updates as issue data changes, enhancing productivity and ensuring consistent messaging. This tool aids in improved decision-making and transparency by clearly communicating the impact of each release.
+
+Note: The plug-in currently supports only English language and may not provide accurate summary for the poorly documented issues that are part of the release.
+
+## Business Use Case
+
+GenAI Summary Release-OpenAI plug-in enhances the release candidate phase by automatically generating clear, concise summaries based on detailed issue descriptions. This accelerates decision-making and improves efficiency by translating complex issue details into actionable insights. With real-time, contextually relevant summaries, the plug-in ensures consistent communication, helping teams quickly prioritize and resolve critical issues, ultimately leading to a smoother release process and higher-quality software.
 
 ## Compatability
 
@@ -21,6 +26,6 @@ view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/
 
 * Initial release of the GenAI Summary Release - OpenAI plug-in
 
-|Back to ...||Latest Version|GenAI Summary Release - OpenAI ||
+|Back to ...||Latest Version|GenAI Summary Release-OpenAI ||
 | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.2](https://hub.docker.com/r/urbancode/ucv-ext-release-summary-openai/tags)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)

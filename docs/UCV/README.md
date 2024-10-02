@@ -18,8 +18,8 @@
 	- [Cypress](#cypress)
 	- [Digital.ai Agility](#digitalai-agility)
 	- [Fortify SSC](#fortify-ssc)
-	- [GenAI summary release - IBM](#genai-summary-release-ibm) 
-	- [GenAI summary release - OpenAI](#genai-summary-release-openai)
+	- [GenAI summary release-IBM](#genai-summary-release-ibm) 
+	- [GenAI summary release-OpenAI](#genai-summary-release-openai)
 	- [GitHub](#github)
 	- [GitHub Dependabot](#github-dependabot)
 	- [GitLab](#gitlab)
@@ -176,17 +176,17 @@ Fortify Software security center (SSC) enables teams with the application securi
 
 ## GenAI summary release IBM
 
-The GenAI Summary Release - IBM plugin for DevOps Velocity is designed to streamline and enhance your workflow by automatically generating concise business value summaries for candidate releases. Leveraging cutting-edge generative AI technology, this plugin interprets issue data to provide meaningful summaries that can be directly used in your business communications. 
+The GenAI Summary Release - IBM plugin for IBM DevOps Velocity is designed to streamline and enhance your workflow by automatically generating concise business value summaries for candidate releases. Leveraging cutting-edge generative AI technology, this plugin interprets issue data to provide meaningful summaries that can be directly used in your business communications. 
 
-|Back to ...||GenAI summary release -IBM|Latest Version|
+|Back to ...||GenAI summary release-IBM|Latest Version|
 | :---: | :---: | :---: | :---: | 
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-release-summary-ibm/README.md)|[1.0.3](https://hub.docker.com/r/urbancode/ucv-ext-release-summary-ibm/tags)|
 
 ## GenAI summary release OpenAI
 
-The GenAI Summary Release - OpenAI plugin for DevOps Velocity is designed to streamline and enhance your workflow by automatically generating concise business value summaries for candidate releases. Leveraging cutting-edge generative AI technology, this plugin interprets issue data to provide meaningful summaries that can be directly used in your business communications. 
+The GenAI Summary Release - OpenAI plugin for IBM DevOps Velocity is designed to streamline and enhance your workflow by automatically generating concise business value summaries for candidate releases. Leveraging cutting-edge generative AI technology, this plugin interprets issue data to provide meaningful summaries that can be directly used in your business communications. 
 
-|Back to ...||GenAI summary release - OpenAI|Latest Version|
+|Back to ...||GenAI summary release-OpenAI|Latest Version|
 | :---: | :---: | :---: | :---: | 
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-release-summary-openai/README.md)|[1.0.1](https://hub.docker.com/r/urbancode/ucv-ext-release-summary-openai/tags)|
 

@@ -1,4 +1,4 @@
-# GenAI Summary Release - OpenAI - Downloads
+# GenAI Summary Release-OpenAI - Downloads
 
 To pull plug-in from docker hub, use the following version specific image names:
 
@@ -23,6 +23,6 @@ To download tar files directly (use below links)
 - Go to **IBM DevOps Velocity** > **Settings** > **Integrations** > **Installed** > **Load plugin**.
 - Add the image name and click **Submit**.
 
-|Back to ...||Latest Version|GenAI Summary Release - OpenAI |||
+|Back to ...||Latest Version|GenAI Summary Release-OpenAI |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.1](https://hub.docker.com/r/urbancode/ucv-ext-release-summary-openai/tags)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|
