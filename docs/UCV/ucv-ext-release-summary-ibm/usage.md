@@ -9,16 +9,16 @@ To use the GenAI Summary Release–IBM plug-in, the plug-in must be loaded and a
 The GenAI Summary Release–IBM plug-in is an end-point type plug-in. It analyzes the issues which are ongoing to Release after latest prod Release.
 
 ### Prerequisites
-1. IBM DevOps Velocity 5.0.8 or Higher
+1. IBM DevOps Velocity 5.0.8 or later
 2. Release Summary docker image (IBM plug-in)
 
 ### Offline Integration
 
 The table in the Configuration properties section describe the properties used to define the integration.
 
-1. Pull release summary docker image
+1. Pull release summary docker image.
 2. In IBM DevOps Velocity, click **Settings > Integrations > Available**.
-2. Click **Load Plugin**, and enter `[RELEASE SUMMARY IMAGE NAME]:[LATEST_TAG]`. For example `ucv-ext-release-summary-ibm:1.0.3`
+2. Click **Load Plugin**, and enter `[RELEASE SUMMARY IMAGE NAME]:[LATEST_TAG]`. For example `ucv-ext-release-summary-ibm:1.0.3`.
 3. On the Add Integration page enter values for the fields used to configure the integration and define communication.
 4. Click **Add**.
 
