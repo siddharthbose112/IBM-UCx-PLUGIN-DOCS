@@ -4,23 +4,39 @@ To use the GenAI Summary Release–IBM plug-in, the plug-in must be loaded and a
 
 ##  Integration
 
+### Integration type
+
+The GenAI Summary Release–IBM plug-in is an end-point type plug-in. It analyzes the issues which are ongoing to Release after latest prod Release.
+
 ### Prerequisites
-1. IBM DevOps Velocity 5.0.8 or Higher
+1. IBM DevOps Velocity 5.0.8 or later
 2. Release Summary docker image (IBM plug-in)
 
 ### Offline Integration
-1. Pull release summary docker image
+
+The table in the Configuration properties section describe the properties used to define the integration.
+
+1. Pull release summary docker image.
 2. In IBM DevOps Velocity, click **Settings > Integrations > Available**.
-2. Click **Load Plugin**, and enter `[RELEASE SUMMARY IMAGE NAME]:[LATEST_TAG]`. For example `ucv-ext-release-summary-ibm:1.0.3`
+2. Click **Load Plugin**, and enter `[RELEASE SUMMARY IMAGE NAME]:[LATEST_TAG]`. For example `ucv-ext-release-summary-ibm:1.0.3`.
 3. On the Add Integration page enter values for the fields used to configure the integration and define communication.
-4. Click **Save**.
+4. Click **Add**.
 
 ### Online Integration
 
-1. From the Plug-ins page, click **Settings > Integrations > Plug-ins**.
-2. Under the Action column for the plug-in, click **Add Integration**.
+The table in the Configuration properties section describe the properties used to define the integration.
+
+To install the plug-in, perform the following steps:
+
+1. In IBM DevOps Velocity, click **Settings > Integrations > Available**.
+2. In the Action column for the GenAI Summary Release-IBM plug-in, click **Install**.
+
+To integrate the plug-in, perform the following steps:
+
+1. In IBM DevOps Velocity, click **Settings > Integrations > Installed**.
+2. In the Action column for the GenAI Summary Release-IBM plug-in, click **Add Integration**.
 3. On the Add Integration page enter values for the fields used to configure the integration and define communication.
-4. Click **Save**.
+4. Click **Add**.
 
 ### LLM Service Configuration
 Provide the following plug-in configuration options:
@@ -102,6 +118,7 @@ The following tables describe the properties used to configure the integration. 
 |WATSONX_PROJECT_ID|	integer	|The ID of the project in WATSONX	|Yes	|WATSONX_PROJECT_ID|
 |WATSONX_URL	|string	|URL for WARSONX	|Yes	|WATSONX_URL|
 
+
 |Back to ...||Latest Version|GenAI Summary Release-IBM|||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.3](https://hub.docker.com/r/urbancode/ucv-ext-release-summary-ibm/tags)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.3](https://hub.docker.com/r/urbancode/ucv-ext-release-summary-ibm/tags)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

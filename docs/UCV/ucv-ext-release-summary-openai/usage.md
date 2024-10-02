@@ -4,24 +4,40 @@ To use the GenAI Summary Release–OpenAI plug-in, the plug-in must be loaded an
 
 ## Integration
 
+### Integration type
+
+The GenAI Summary Release–OpenAI plug-in is an end-point type plug-in. It analyzes the issues which are ongoing to Release after latest prod Release.
+
 ### Prerequisites
-1. IBM DevOps Velocity 5.0.8 or higher
+1. IBM DevOps Velocity 5.0.8 or later
 2. Release Summary docker image 
 
 
 ### Offline Integration
-1.  Pull release summary docker image
-2.  In IBM DevOps Velocity, click **Settings > Integrations > Available**.
-2.  Click **Load Plugin**, and enter `[RELEASE SUMMARY IMAGE NAME]:[LATEST_TAG]`. For example `ucv-ext-release-summary-ibm:1.0.3`
+
+The table in the Configuration properties section describe the properties used to define the integration.
+
+1. Pull release summary docker image.
+2. In IBM DevOps Velocity, click **Settings > Integrations > Available**.
+2. Click **Load Plugin**, and enter `[RELEASE SUMMARY IMAGE NAME]:[LATEST_TAG]`. For example `ucv-ext-release-summary-openai:1.0.1`.
 3. On the Add Integration page enter values for the fields used to configure the integration and define communication.
-4. Click **Save**.
+4. Click **Add**.
 
 ### Online Integration
 
-1. From the Plug-ins page, click **Settings > Integrations > Plug-ins**.
-2. Under the Action column for the plug-in, click **Add Integration**.
+The table in the Configuration properties section describe the properties used to define the integration.
+
+To install the plug-in, perform the following steps:
+
+1. In IBM DevOps Velocity, click **Settings > Integrations > Available**.
+2. In the Action column for the GenAI Summary Release-OpenAI plug-in, click **Install**.
+
+To integrate the plug-in, perform the following steps:
+
+1. In IBM DevOps Velocity, click **Settings > Integrations > Installed**.
+2. In the Action column for the GenAI Summary Release-OpenAI plug-in, click **Add Integration**.
 3. On the Add Integration page enter values for the fields used to configure the integration and define communication.
-4. Click **Save**.
+4. Click **Add**.
 
 ### LLM Service Configuration
 Provide the following plug-in configuration options:
@@ -99,6 +115,7 @@ The following tables describe the properties used to configure the integration. 
 |LLM-Drop-Down|	array	|LLM provider	|Yes	|llmDropdown|
 |OPENAI_APIKEY|	string	|The Api-key for OPENAI|	Yes	|OPENAI_APIKEY|
 
+
 |Back to ...||Latest Version|GenAI Summary Release-OpenAI|||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.1](https://hub.docker.com/r/urbancode/ucv-ext-release-summary-openai/tags)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.1](https://hub.docker.com/r/urbancode/ucv-ext-release-summary-openai/tags)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
