@@ -26,6 +26,6 @@ view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/
 
 * Initial release of the GenAI Summary Release - IBM plug-in
 
-|Back to ...||Latest Version|GenAI Summary Release - IBM |||
+|Back to ...||Latest Version|GenAI Summary Release-IBM |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.3](https://hub.docker.com/r/urbancode/ucv-ext-release-summary-ibm/tags)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

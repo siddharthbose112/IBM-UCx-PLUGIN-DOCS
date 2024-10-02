@@ -1,4 +1,6 @@
-# GenAI Summary Release - IBM
+# GenAI Summary Release-IBM - Usage
+
+To use the GenAI Summary Release–IBM plug-in, the plug-in must be loaded and an instance created before you can configure the plug-in integration. You can define configuration properties in the user interface.
 
 ##  Integration
 
@@ -29,7 +31,7 @@ Provide the following plug-in configuration options:
 
 ## Invoking the plug-in
 
-The plug-in is invoked when you generate the Release Readiness Report after integrating with the Handlebar reporter plug-in. The data from the GenAI Summary Release – OpenAI plug-in is displayed in a section called Release Summary within the Release Readiness Report.
+The plug-in is invoked when you generate the Release Readiness Report after integrating with the Handlebar reporter plug-in. The data from the GenAI Summary Release-IBM plug-in is displayed in a section called Release Summary within the Release Readiness Report.
 
 The plug-in exposes the following endpoints:
 1. `/reporting-consumer/pluginEndpoint/[INTEGRATION ID]/generate` This endpoint starts the generation of release summary. It expect to provide as part of the body the following parameter:
@@ -100,6 +102,6 @@ The following tables describe the properties used to configure the integration. 
 |WATSONX_PROJECT_ID|	integer	|The ID of the project in WATSONX	|Yes	|WATSONX_PROJECT_ID|
 |WATSONX_URL	|string	|URL for WARSONX	|Yes	|WATSONX_URL|
 
-|Back to ...||Latest Version||||
+|Back to ...||Latest Version|GenAI Summary Release-IBM|||
 | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.3](https://hub.docker.com/r/urbancode/ucv-ext-release-summary-ibm/tags)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)
