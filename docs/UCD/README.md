@@ -33,7 +33,7 @@
 	- [CICS TS](#cics-ts)
 	- [Chef](#chef)
 	- [Citrix NetScaler](#citrix-netscaler)
-	- [Cloud Foundry \[community plugin\]](#cloud-foundry--community-plugin)
+	- [Cloud Foundry \[community plugin\]](#Cloud-Foundry--community-plugin)
 	- [Cloudant  \[community plugin\]](#cloudant--community-plugin)
 	- [CyberArk  \[partner plugin\]](#cyberark--partner-plugin)
 	- [DBmaestro \[partner plugin\]](#dbmaestro-partner-plugin)
