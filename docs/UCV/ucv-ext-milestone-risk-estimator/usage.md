@@ -35,7 +35,7 @@ Once the Milestone Risk Estimator plug-in has been executed successfully, it is 
 2. Click required Value Stream.
 2. Click the **Metric Bar**, them click **+** button.
 3. In **Delivery Flow** category, click **+** button next to **P.R.E Risk** and **P.R.E Deadline** to add these metrics.
-4. Hover over the **P.R.E Risk** metric on the value stream page to view the insights from the the Milestone Risk Estimator plug-in as a tool tip.
+4. Hover over the **P.R.E Risk** metric on the value stream page to view the insights from the Milestone Risk Estimator plug-in as a tool tip.
 
 ## Metrics Result In Insights
 
