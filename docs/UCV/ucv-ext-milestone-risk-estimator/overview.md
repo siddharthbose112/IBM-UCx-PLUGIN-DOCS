@@ -6,7 +6,7 @@ Milestone risk estimator plug-in for IBM DevOps Velocity estimates value stream 
 
 ## Compatability
 
-Must be running **IBM DevOps Velocity** version 5.0.0 and later to use the plug-in.
+Must be running IBM DevOps Velocity version 5.0.0 and later to use the plug-in.
 
 
 ## Versions
