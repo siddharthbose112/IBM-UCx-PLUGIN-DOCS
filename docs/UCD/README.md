@@ -33,7 +33,7 @@
 	- [CICS TS](#cics-ts)
 	- [Chef](#chef)
 	- [Citrix NetScaler](#citrix-netscaler)
-	- [Cloud Foundry](#cloud-foundry)
+	- [Cloud Foundry \[community plugin\]](#Cloud-Foundry--community-plugin)
 	- [Cloudant  \[community plugin\]](#cloudant--community-plugin)
 	- [CyberArk  \[partner plugin\]](#cyberark--partner-plugin)
 	- [DBmaestro \[partner plugin\]](#dbmaestro-partner-plugin)
@@ -521,7 +521,7 @@ Citrix NetScaler is a platform that includes the following features: load balanc
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](Netscaler/README.md)|[8.858051](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Netscaler/Netscaler-8.858051.zip)|
 
-## Cloud Foundry
+## Cloud Foundry [community plugin]
 
 The Cloud Foundry plug-in uses the CloudFoundry command line utility to interact with applications in a target Cloud Foundry system.
 
