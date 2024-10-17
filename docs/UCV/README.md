@@ -329,7 +329,7 @@ The Milestone Risk Estimator plug-in represents an innovative Machine Learning(M
 
 |Back to ...||Milestone Risk Estimator |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-milestone-risk-estimator/README.md)|[2.0.1](https://hub.docker.com/r/urbancode/ucv-ext-milestone-risk-estimator/tags)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-milestone-risk-estimator/README.md)|[2.0.2](https://hub.docker.com/r/urbancode/ucv-ext-milestone-risk-estimator/tags)|
 
 ## Njs-Unit
 

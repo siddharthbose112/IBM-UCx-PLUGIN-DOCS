@@ -10,7 +10,7 @@ The GenAI Summary Release–IBM plug-in is an end-point type plug-in. It analyze
 
 ### Prerequisites
 1. IBM DevOps Velocity 5.0.8 or later
-2. Release Summary docker image (IBM plug-in)
+2. Release Summary docker image (GenAI Summary Release–IBM plug-in)
 
 ### Offline Integration
 
