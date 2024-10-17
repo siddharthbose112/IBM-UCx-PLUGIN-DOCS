@@ -14,7 +14,7 @@ To pull plug-in from docker hub, use the following version specific image names:
 - For example: ```docker pull urbancode/ucv-ext-milestone-risk-estimator:2.0.2```
 
 **Instructions to load plugin image**
-- Go to **Velocity** > **Settings** > **Integrations** > **Installed** > **Load plugin**.
+- Go to **IBM DevOps Velocity** > **Settings** > **Integrations** > **Installed** > **Load plugin**.
 - Add the image name and click **Submit**.
 
 |Back to ...||Latest Version|Milestone Risk Estimator |||
