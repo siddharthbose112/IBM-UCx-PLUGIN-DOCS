@@ -14,6 +14,7 @@
 	- [CircleCI](#circleci)
 	- [Code Coverage](#code-coverage)
 	- [CollabNet VersionOne](#collabnet-versionone)
+	- [Control](#control)
 	- [Cucumber](#cucumber)
 	- [Cypress](#cypress)
 	- [Digital.ai Agility](#digitalai-agility)
@@ -133,6 +134,16 @@ CollabNet VersionOne is a web-based project management tool. It manages the enti
 |Back to ...||CollabNet VersionOne |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-versionone/README.md)|[1.0.11](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-versionone/ucv-ext-versionone-1.0.11.tar.zip)|
+
+## Control
+
+Control is a Git repository hosting service. The Control plugin enables users to import Git artifacts by querying pull requests and commit, facilitating seamless integration and management of project resources. 
+
+---
+
+|Back to ...||Control |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-control/README.md)|[1.0.2-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-control/ucv-ext-control%3A1.0.2.tar.7z.001)[and 1.0.2-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-control/ucv-ext-control%3A1.0.2.tar.7z.002)|
 
 ## Cucumber
 
