@@ -26,6 +26,7 @@
 	- [GitLab](#gitlab)
 	- [HCL AppScan Enterprise (ASE)](#hcl-appscan-enterprise-ase)
 	- [HCL AppScan on Cloud (ASoC)](#hcl-appscan-on-cloud-asoc)
+	- [DevOps Plan](#devops-plan)
 	- [HCL OneTest](#hcl-onetest)
 	- [HCL OneTest Server](#hcl-onetest-server)
 	- [Handlebar Reporter](#handlebar-reporter)
@@ -251,6 +252,16 @@ HCL AppScan on Cloud (ASoC) is an application security offering that allows you 
 |Back to ...||HCL AppScan on Cloud (ASoC) |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-asoc/README.md)|[3.0.19](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-asoc/ucv-ext-asoc%3A3.0.19.tar.7z.001)|
+
+## DevOps Plan
+
+Plan is an issue tracking product. The Plan plug-in provides an integration with Plan to import and work with Plan work items.
+
+---
+
+|Back to ...||Plan |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-compass/README.md)|[1.1.52-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-compass/ucv-ext-compass%3A1.1.55.tar.7z.001)[and 1.1.52-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-compass/ucv-ext-compass%3A1.1.55.tar.7z.002)|
 
 ## HCL OneTest
 
