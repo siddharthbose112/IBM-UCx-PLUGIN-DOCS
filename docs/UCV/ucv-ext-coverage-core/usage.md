@@ -1,18 +1,17 @@
 
 # Code Coverage - Usage
 
-To use the Code Coverage plug-in, the plug-in must be loaded and an instance created. Load the plug-in into the DevOps Velocity container if necessary using the below steps: 
-1. From the user interface, click **Settings** > **Integrations** > **Plugins**. 
-2. On the Plugins page, locate the plug-in and click **Load Plugin**. 
-3. To create an instance, locate the plug-in and click **Install**. 
+To use the Code Coverage plug-in, the plug-in must be loaded, and an instance created. Load the plug-in into the IBM DevOps Velocity container if necessary.
 
-The plug-in is now listed below those plug-ins to be installed and available for invoking.
+## Integration steps 
 
-To invoke the plug-in, send an HTTP Post request with the data to parse. Whenever a there is a hit to the endpoint, the data is parsed and displayed as metrics in DevOps Velocity.
+  1. In IBM DevOps Velocity, click **Settings** > **Integrations** > **Available**.
+  2. In the **Action** column for the Code Coverage plug-in, click **Install**. 
+  3. The plug-in is now listed in the **Installed** tab and available for invoking.  
 
 ## Integration type
 
-The Code Coverage plug-in parses data from test tools including the following:
+The Code Coverage plug-in is a parser type plugin and it parses data from the following test tools:
 
 * LCOV
 * Cobertura
@@ -54,19 +53,19 @@ step([$class: 'UploadMetricsFile',  appName: 'My Code-Coverage Test', dataFormat
 
 ### Invoke the plug-in using a Rest call
 
-When using a REST call to invoke the Code Coverage plug-in, it must be a POST method and include the location of the DevOps Velocity quality data endpoint.
+When using a REST call to invoke the Code Coverage plug-in, it must be a POST method and include the location of the IBM DevOps Velocity quality data endpoint.
 
 The following request sample shows a REST call that you can copy and update as necessary. Key points
 about the snippet:
 
-* The URL points to the DevOps Velocity quality data endpoint. Update with the server location for your installation of DevOps Velocity.
+* The URL points to the IBM DevOps Velocity quality data endpoint. Update with the server location for your installation of IBM DevOps Velocity.
 * The BODY of the call is a multipart/form data. It includes information about the payload.
 
 
 ```
 
 METHOD: POST
-URL: https://<url_DevOpsvelocity_server>/reporting-consumer/metrics
+URL: https://<url_devopsvelocity_server>/reporting-consumer/metrics
 BODY
 (multipart/form-data):
 {
@@ -144,4 +143,4 @@ Application"
 
 |Back to ...||Latest Version|Code Coverage |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.42-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-coverage-core/ucv-ext-coverage-core%3A1.0.42.tar.7z.001)[and 1.0.42-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-coverage-core/ucv-ext-coverage-core%3A1.0.42.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.44-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-coverage-core/ucv-ext-coverage-core%3A1.0.44.tar.7z.001)[and 1.0.44-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-coverage-core/ucv-ext-coverage-core%3A1.0.44.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
