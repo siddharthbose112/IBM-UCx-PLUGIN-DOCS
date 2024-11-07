@@ -7,6 +7,13 @@ The Njs-Unit plugin helps you to upload the unit test results data to the IBM De
 
 This visualization will help you to understand passed or failed trends and analyze for further better quality assurance in a unit test level.
 
+## Compatibility
+
+The plugin is compatible with following versions:
+
+- IBM UrbanCode Velocity 2.0.x to IBM UrbanCode Velocity 4.0.x
+- IBM DevOps Velocity 5.0.x or later
+
 ## Versions
 
 IBM DevOps Velocity plug-in images are located in DockerHub. To

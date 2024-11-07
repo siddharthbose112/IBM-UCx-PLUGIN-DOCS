@@ -6,6 +6,12 @@ The AI summary provides real-time updates as issue data changes, enhancing produ
 
 Note: The plug-in currently supports only English language and may not provide accurate summary for the poorly documented issues that are part of the release.
 
+## Compatibility
+
+The plugin is compatible with following versions:
+
+IBM DevOps Velocity 5.0.8 or later
+
 ## Business Use Case
 
 GenAI Summary Release–IBM plug-in enhances the release candidate phase by automatically generating clear, concise summaries based on detailed issue descriptions. This accelerates decision-making and improves efficiency by translating complex issue details into actionable insights. With real-time, contextually relevant summaries, the plug-in ensures consistent communication, helping teams quickly prioritize and resolve critical issues, ultimately leading to a smoother release process and higher-quality software.

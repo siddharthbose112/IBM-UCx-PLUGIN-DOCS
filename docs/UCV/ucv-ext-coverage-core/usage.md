@@ -11,7 +11,7 @@ To use the Code Coverage plug-in, the plug-in must be loaded, and an instance cr
 
 ## Integration type
 
-The Code Coverage plug-in is a parser type plugin and it parses data from the following test tools:
+The Code Coverage plug-in is a parser type plug-in and it parses data from the following test tools:
 
 * LCOV
 * Cobertura
@@ -20,13 +20,13 @@ The Code Coverage plug-in is a parser type plugin and it parses data from the fo
 
 ## Invoking the plug-in
 
-You can invoke the plug-in manually using a REST Call or by [using a Jenkins plug-in](#invokejenkins) to integrate DevOps Velocity in a Jenkins environment.
+You can invoke the plug-in manually using a REST Call or by [using a Jenkins plug-in](#invokejenkins) to integrate IBM DevOps Velocity in a Jenkins environment.
 
 ### Invoke using Jenkins plug-in
 
-Install the [DevOps Velocity plug-in](https://plugins.jenkins.io/urbancode-velocity) into
-your Jenkins server. In your freestyle job or pipeline use the **UCV-Upload Metrics File to DevOps Velocity** step
-and provide the required fields. This step allows your build job to upload generated coverage results files to UrbanCode
+Install the [IBM DevOps Velocity plug-in](https://plugins.jenkins.io/urbancode-velocity) into
+your Jenkins server. In your freestyle job or pipeline use the **UCV-Upload Metrics File to IBM DevOps Velocity** step
+and provide the required fields. This step allows your build job to upload generated coverage results files to IBM DevOps
 Velocity.
 
 #### Example
