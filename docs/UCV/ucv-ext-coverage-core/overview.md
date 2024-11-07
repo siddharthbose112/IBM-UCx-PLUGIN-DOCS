@@ -8,7 +8,7 @@ request.
 
 ## Compatibility
 
-Must be running IBM DevOps Velocity version 1.2.1 and later to use this plug-in.
+IBM DevOps Velocity 5.0.0 or later; IBM UrbanCode Velocity 2.0 to IBM UrbanCode Velocity 4.0.x
 
 
 ## Versions
