@@ -8,7 +8,10 @@ request.
 
 ## Compatibility
 
-IBM DevOps Velocity 5.0.0 or later; IBM UrbanCode Velocity 2.0 to IBM UrbanCode Velocity 4.0.x
+The plugin is compatible with following versions:
+
+- IBM UrbanCode Velocity 2.0.x to IBM UrbanCode Velocity 4.0.x
+- IBM DevOps Velocity 5.0.x or later
 
 
 ## Versions

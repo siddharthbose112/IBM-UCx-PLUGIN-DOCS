@@ -7,6 +7,13 @@ You can now easily explore the functional test results in IBM DevOps Velocity wi
 
 Cypress plug-in helps in visualizing the functional test results in intuitive graphs, enabling rapid feedback, trend analysis, and informed decision-making for development teams.
 
+## Compatibility
+
+The plugin is compatible with following versions:
+
+IBM UrbanCode Velocity 2.0.x to IBM UrbanCode Velocity 4.0.x
+IBM DevOps Velocity 5.0.x or later
+
 ## Versions
 
 IBM DevOps Velocity plug-in images are located in DockerHub. To
