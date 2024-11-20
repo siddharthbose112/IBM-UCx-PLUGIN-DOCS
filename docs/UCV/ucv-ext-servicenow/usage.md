@@ -11,8 +11,7 @@ You must provide the following details during integration of service now plug-in
 
 * client_id
 * client_secret
-* username
-* Password
+* refreshToken
 
 ### Generating the OAuth credentials in ServiceNow 
 
@@ -22,7 +21,15 @@ To obtain the client_id and client_secret from your ServiceNow instance, perform
 * On the left-hand navigation pane, search for OAuth, and then select Application Registry.
 * Click New, and then select Create an OAuth API endpoint for external clients.
 * Fill in the required details, and then click Submit.
-* Navigate to the newly created OAuth record, and then click on it to view the client_id and client_secret. 
+* Navigate to the newly created OAuth record, and then click on it to view the client_id and client_secret.
+
+* For refreshToken use <https://instanceURL/oauth_token.do>
+* select body x-www-form-urlencoded -> select BulkEdit
+* `grant_type:password
+client_id:'yourclientId'
+client_secret:'yourClientSecret'
+username:'yourUsername'
+password:'yourPassword`
 
 ## Integration type
 
@@ -30,11 +37,7 @@ The ServiceNow plug-in supports scheduled events integration which are listed in
 
 | Name | Description |
 | --- | --- |
-| syncIncidentData | Queries the ServiceNow repository for Incidents |
-| syncChangeData | Queries the ServiceNow repository for Change request |
-| syncProblemData | Queries the ServiceNow repository for Problems |
-| ServiceNowWaitChangeTask | Checking all release Event task waiting field status |
-| ServiceNowWaitRequests | Checking all release Event task waiting field status |
+| snowAllResources | Queries the ServiceNow repository for Incidents, Change request, Problems, ServiceNowWaitChangeTask, ServiceNowWaitRequests  |
 
 ## Integration
 
@@ -154,15 +157,16 @@ Some properties might not be displayed in the user interface, to see all propert
 | Name | Type | Description | Required | Property Name |
 | --- | --- | --- | --- | --- |
 | Access Token | Secure | The access token used to authenticate with the ServiceNow server. You can use either this property or the Password property for authentication. NOTE: When using OAuth 2.0, the Access Token will be ignored. | No | accessToken |
-| Password | Secure | The password used to authenticate with the ServiceNow server. NOTE: The password is required even when using OAuth 2.0. | No | password |
+| Password | Secure | The password used to authenticate with the ServiceNow server. | No | password |
 | URL | String | The URL of the ServiceNow server. | Yes | baseUrl |
-| User Name | String | The username used to authenticate with the ServiceNow server. NOTE: The username is required even when using OAuth 2.0. | Yes | username |
+| User Name | String | The username used to authenticate with the ServiceNow server. | No | username |
 | Proxy Server | String | The URL of the proxy server including the port number. | No | proxyServer |
 | Proxy User Name | String | The user name used to authenticate with the proxy server. | No | proxyUsername |
 | Proxy Password | String | The password used to authenticate with the proxy server. | No | proxyPassword |
 | Page Size | String | The number of issues retrieved per page. | No | pageSize |
 | Client Id | String | The client ID used to authenticate with the ServiceNow server using OAuth2.0. | No | client_id |
 | Client Secret | Secure | The client secret used for authentication with the ServiceNow server using OAuth2.0. | No | client_secret |
+| Refresh Token | Secure | The refresh token used for authentication with the ServiceNow server using OAuth2.0. | No | refresh_token |
 | Resource types and sys_params | String | The type/parameters of events to be synced from ServiceNow. Example:[{"table": "change_request", "sys_params": { "category": "Software" }},...] | Yes | resourceTypesAndSys_params
 
 ## Example
@@ -182,7 +186,8 @@ integrations": [
         "username": "user_name", 
         "password": "pass_word",
         "client_id": "client_Id", 
-        "client_secret": "client_secret", 
+        "client_secret": "client_secret",
+        "refresh_token": "refresh_token",
         "resourceTypesAndSys_params": "[   
              { "table": "table_name"}, 
          ]" 
@@ -235,7 +240,7 @@ integrations": [
         "baseUrl": "url_servicenow_server",
         "client_id": "client_Id", 
         "client_secret": "client_secret",
-        "username": "user_name",
+        "refresh_token": "refresh_token",
         "resourceTypesAndSys_params": "[   
              { "table": "table_name"}, 
          ]"
@@ -250,4 +255,4 @@ integrations": [
 
 |Back to ...|  |Latest Version|ServiceNow |  |   |   |
 |----| ---- | ---- | --- | --- | ---- |----|
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.8-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.8.tar.7z.001)[and 1.1.8-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.8.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.10-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.10.tar.7z.001)[and 1.1.10-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.10.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

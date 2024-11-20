@@ -16,6 +16,10 @@ IBM DevOps Velocity plug-in images are located in DockerHub and the IBM DevOps V
 
 ## History
 
+### Version 1.1.10
+
+* All scheduled events have been combined into a single unified event, improving performance. This reduces redundancy and simplifies configuration for users.
+
 ### Version 1.1.8
 
 OAuth 2.0 Authentication: 
@@ -98,4 +102,4 @@ Implemented OAuth 2.0 authentication for secure communication with third-party s
 
 |Back to ...||Latest Version|ServiceNow |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All plug-ins](../../index.md)|[Velocity plug-ins](../README.md)|[1.1.8-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-plug-inS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.8.tar.7z.001)[and 1.1.8-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-plug-inS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.8.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All plug-ins](../../index.md)|[Velocity plug-ins](../README.md)|[1.1.10-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-plug-inS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.10.tar.7z.001)[and 1.1.10-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-plug-inS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.10.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
