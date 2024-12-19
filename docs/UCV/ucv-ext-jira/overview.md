@@ -19,6 +19,10 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 ### History
 
+### Version 2.3.24
+
+* **Fix for Custom Field Mapping field**: The update fixes a bug that prevented users from mapping custom field names for Epic Link, Sprint, and Story Points in Jira, ensuring custom names now work correctly. For instance, if the field on your issue in Jira for story points is called Story Point Estimate instead of Story Points, you had no way to import story points. The bug was that the custom mapping did not work and it always assumed the fields were as is (called Epic Link, Sprint, and Story Points) and you could not change this.
+
 ### Version 2.3.20
 
 * **Bug Fix**: Active Sprint Field Mapping in JIRA Cloud. 
@@ -134,4 +138,4 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 |Back to ...||Latest Version|Jira |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.3.20-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira%3A2.3.20.tar.7z.001)[and 2.3.20-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira%3A2.3.20.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.3.24-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira%3A2.3.24.tar.7z.001)[and 2.3.24-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira%3A2.3.24.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
