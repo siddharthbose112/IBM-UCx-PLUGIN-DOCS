@@ -30,7 +30,7 @@ stages {
 stage('oneTestMetrics') {
 steps {
 step([$class: 'UploadMetricsFile',  appName:
-'My Onetest Test', dataFormat: 'onetestFTJSON', filePath: '<location of the onetest report>', name: 'my-onetest-test',
+'My DevOps Test', dataFormat: 'onetestFTJSON', filePath: '<location of the DevOps Test report>', name: 'my-devops-test',
 pluginType: 'onetest', tenantId: '<tenant Id>', testSetName: 'onetest', metricsRecordUrl: "``${env.BUILD_URL}``"])
 
 }``
@@ -59,7 +59,7 @@ BODY
 {
 payload: <json_object_string> // See below for schema format
 testArtifact:
-<HCL_OneTest_JSON_file>
+<HCL_DevOps_Test_JSON_file>
 }``
 
 ```
