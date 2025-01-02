@@ -7,8 +7,8 @@ The Jira plug-in provides for integration with a Jira server. This plug-in impor
 
 ## Compatibility
 
-Must be running IBM DevOps Velocity version 1.2.1 and later to use the plug-in.
-
+IBM UrbanCode Velocity 2.0.x to 4.0.x; IBM Devops Velocity 5.0.0 or later.
+ 
 ## Upgrade notes
 
 Beginning with IBM DevOps Velocity version 2.4.0 users must enter a user access key is required to connect with the IBM DevOps Velocity server. If you are upgrading from a previous version, you must obtain and add the key to the IBM DevOps Velocity configuration property. If the user access key is not added, the integration fails. A proper JQL query must be provided while integration.

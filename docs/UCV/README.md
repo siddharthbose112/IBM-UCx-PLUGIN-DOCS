@@ -14,7 +14,7 @@
 	- [CircleCI](#circleci)
 	- [Code Coverage](#code-coverage)
 	- [CollabNet VersionOne](#collabnet-versionone)
-	- [DevOps Control](#devops-control)
+	- [IBM DevOps Control](#ibm-devops-control)
 	- [Cucumber](#cucumber)
 	- [Cypress](#cypress)
 	- [Digital.ai Agility](#digitalai-agility)
@@ -136,13 +136,13 @@ CollabNet VersionOne is a web-based project management tool. It manages the enti
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-versionone/README.md)|[1.0.11](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-versionone/ucv-ext-versionone-1.0.11.tar.zip)|
 
-## DevOps Control
+## IBM DevOps Control
 
-DevOps Control is a Git repository hosting service. The DevOps Control plug-in enables users to import Git artifacts by querying pull requests and commit, facilitating seamless integration and management of project resources.
+IBM DevOps Control is a Git repository hosting service. The IBM DevOps Control plug-in enables users to import Git artifacts by querying pull requests and commit, facilitating seamless integration and management of project resources.
 
 ---
 
-|Back to ...||DevOps Control |Latest Version|
+|Back to ...||IBM DevOps Control |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-control/README.md)|[1.0.4-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-control/ucv-ext-control%3A1.0.4.tar.7z.001)[and 1.0.4-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-control/ucv-ext-control%3A1.0.4.tar.7z.002)|
 
