@@ -41,4 +41,4 @@ Unarchive
 
 |Back to ...||Latest Version|
 | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[0]()|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[54.aaf961a](https://github.com/UrbanCode/Ansible-Toolkit-UCD/releases/download/54.aaf961a/Ansible-Toolkit-UCD-v54.aaf961a.zip)|
