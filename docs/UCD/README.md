@@ -297,7 +297,7 @@ The Ansible plug-in enables IBM UrbanCode Deploy to run various commands. Any mi
 
 |Back to ...||Ansible |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ansible/README.md)|[0]()|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ansible/README.md)|[54.aaf961a](https://github.com/UrbanCode/Ansible-Toolkit-UCD/releases/download/54.aaf961a/Ansible-Toolkit-UCD-v54.aaf961a.zip)|
 
 ## Apache Ant
 
