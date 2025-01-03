@@ -46,10 +46,10 @@ To integrate the plug-in using a JSON, perform the following steps:
 1. Navigate to **value stream page**, and then click the necessary **value stream**.
 2. Click  **wrench icon**, and then Select **Edit value stream** to modify the JSON file in the code or tree view editors.
 Alternatively, you can also click Download JSON option to download the JSON file, and then select the Import JSON option to upload the revised JSON file.
-3. Edit the integration information in the JSON file to add the plug-in configuration properties. Refer to JSON sample code in the Configuration Properties section more details.
+3. Edit the integration information in the JSON file to add the plug-in configuration properties. Refer to JSON sample code in the Configuration Properties for more details.
 4. Click **Save**.
 
-## Minimum permission to integrate with GitHub
+## Minimum permission to integrate with IBM DevOps Control
 
 The access token generated from IBM DevOps Control server requires the full control of repositories permission to connect to the Control.
 ## Configuration properties

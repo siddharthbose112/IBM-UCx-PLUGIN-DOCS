@@ -90,7 +90,7 @@ The following tables describe the properties used to configure the integration. 
 | Custom Field Mapping | Multiline | Map Jira fields to the fields expected by this server as a Name Value pair, eg: "Epic Link": "Epic field in Jira", "Sprint": "Sprint field in Jira", "Story Points": "Story field in Jira". | No | fieldMapping |
 
 
-## Example
+## JSON sample code
 
 The following example can be used as a template to include the Jira plug-in integration into the JSON file. Copy and paste the template into the JSON file
 and make the appropriate changes.

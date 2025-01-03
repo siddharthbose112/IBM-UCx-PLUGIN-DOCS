@@ -27,8 +27,7 @@ There are two methods to integrate the plug-in:
 1. Using the user interface
 2. Using a JSON file
 
-The tables in the Configuration properties topic describe the properties used to define the integration.
-
+The tables in the Configuration properties describe the properties used to define the integration.
 ### Integrating the plug-in by using user interface
 
 To integrate the plug-in using the user interface, perform the following steps:

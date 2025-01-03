@@ -25,7 +25,7 @@ IBM DevOps Velocity plug-in images are located in DockerHub. To view available v
 
 ### Version 2.3.24
 
-* **Fix for Custom Field Mapping field**: The update fixes a bug that prevented users from mapping custom field names for Epic Link, Sprint, and Story Points in Jira, ensuring custom names now work correctly. For instance, if the field on your issue in Jira for story points is called Story Point Estimate instead of Story Points, you had no way to import story points. The bug was that the custom mapping did not work and it always assumed the fields were as is (called Epic Link, Sprint, and Story Points) and you could not change this.
+* **Bug fix**: Fixed the issue that prevented users from mapping custom field names for Epic Link, Sprint, and Story Points in Jira. Previously, if your Jira instance used custom field names such as "Story Point Estimate" instead of "Story Points", then the system not allowing you to import story points. This fix now ensures that custom field names are mapped correctly during import.
 
 ### Version 2.3.20
 

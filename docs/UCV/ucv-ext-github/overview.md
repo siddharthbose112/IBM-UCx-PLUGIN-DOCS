@@ -5,7 +5,7 @@ The GitHub plug-in provides for integration with a GitHub server. This plug-in i
 
 ## Compatibility
 
-Must be running IBM DevOps Velocity version 1.2.1 and later to use the plug-in.
+This plugin supports Cloud and On-Premises platform
 
 **Note:** For integrations created before upgrading to version 2.4.0 of IBM DevOps Velocity, Auto-generated User Access Key is not present, so the integration will fail after upgrading. In this case, you have to manually add a new User Access Key in the hidden property named ***DevOps Velocity User Access Key.***
 
@@ -21,8 +21,8 @@ IBM DevOps Velocity plug-in images are located in DockerHub. To view available v
 
 ### Version 1.5.1
 
-* **Add description field to Pull Request**: Updated GitHub plugin to sync over PR description. In GitHubMapper function under mapGitPullRequests added description field (description: pr.bodyText).
-* **Support version 5.0.11**: Our current version of GitHub Integration, only supports IBM DevOps Velocity versions 5.0.11 and later.
+* **Added description for Pull Request**: Updated GitHub plugin to sync over PR description. In GitHubMapper function under mapGitPullRequests added description field (description: pr.bodyText).
+* **Compatibility information**: This version of plug-in is compatible only with the IBM DevOps Velocity 5.0.11 and later.
 
 ### Version 1.4.18
 
