@@ -27,8 +27,8 @@
 	- [HCL AppScan Enterprise (ASE)](#hcl-appscan-enterprise-ase)
 	- [HCL AppScan on Cloud (ASoC)](#hcl-appscan-on-cloud-asoc)
 	- [DevOps Plan](#devops-plan)
-	- [HCL DevOps Test](#hcl-devops-test)
-	- [HCL DevOps Test Server](#hcl-devops-test-server)
+	- [HCL OneTest](#hcl-onetest)
+	- [HCL OneTest Server](#hcl-onetest-server)
 	- [Handlebar Reporter](#handlebar-reporter)
 	- [IBM Engineering Workflow Management (EWM)](#ibm-engineering-workflow-management-ewm)
 	- [Jenkins](#jenkins)
@@ -263,23 +263,23 @@ Plan is an issue tracking product. The Plan plug-in provides an integration with
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-plan/README.md)|[1.1.52-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-compass/ucv-ext-compass%3A1.1.55.tar.7z.001)[and 1.1.52-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-compass/ucv-ext-compass%3A1.1.55.tar.7z.002)|
 
-## HCL DevOps Test
+## HCL OneTest
 
-The HCL DevOps Test tool provides automated software testing tools. This plug-in provides integration of Functional,  Performance and Web UI testing results (JSON) into the DevOps Velocity server.
+The HCL OneTest tool provides automated software testing tools. This plug-in provides integration of Functional,  Performance and Web UI testing results (JSON) into the DevOps Velocity server.
 
 ---
 
-|Back to ...||HCL DevOps Test |Latest Version|
+|Back to ...||HCL OneTest |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-onetest/README.md)|[1.0.37-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest/ucv-ext-onetest%3A1.0.37.tar.7z.001)[and 1.0.37-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest/ucv-ext-onetest%3A1.0.37.tar.7z.002)|
 
-## HCL DevOps Test Server
+## HCL OneTest Server
 
-The HCL DevOps Test Server plug-in imports test results as metrics into the DevOps Velocity server.
+The HCL OneTest Server plug-in imports test results as metrics into the DevOps Velocity server.
 
 ---
 
-|Back to ...||HCL DevOps Test Server |Latest Version|
+|Back to ...||HCL OneTest Server |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-onetest-server/README.md)|[1.0.26-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.26.tar.7z.001)[and 1.0.26-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.26.tar.7z.002)|
 

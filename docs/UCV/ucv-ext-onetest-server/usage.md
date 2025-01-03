@@ -24,7 +24,7 @@ You will need to "install" the plugin in DevOps Velocity (UCV). You can do this 
 
     ```
     * In the above example, provide all of your own values for the values inside of < > brackets.
-    * The buildRegExp field can be used to map a build to a metric. The tags on the HCL DevOps Test Server test will be evaluated against the regular expression.
+    * The buildRegExp field can be used to map a build to a metric. The tags on the HCL OneTest Server test will be evaluated against the regular expression.
     * For instance, if your buildRegExp is defined as "([A-Z]+-[0-9]+)" and you tag your test with "BUILD-123" this will map the build with ID BUILD-123 in the Velocity server to the newly created metric.
     * For help forming a regular expression based on your build ID, you can test out patterns at the following web page: https://regexr.com
 * Another option for creating is to hit the https://<velocity-url>/integration url with the integration definition as your payload:
@@ -45,7 +45,7 @@ You will need to "install" the plugin in DevOps Velocity (UCV). You can do this 
     }
 
     ```
-* Either option will allow you to create an HCL DevOps Test Server integration instance.
+* Either option will allow you to create an HCL OneTest Server integration instance.
 
 ## usage
 
@@ -69,8 +69,8 @@ After going through the "Set Up" portion above, you can send an HTTP POST reques
 
 {
   "project": {
-    "name":"<name of HCL DevOps Test Server project>",
-    "id": "<id of HCL DevOps Test Server project>"
+    "name":"<name of HCL OneTest Server project>",
+    "id": "<id of HCL OneTest Server project>"
     (either project name or project id must be specified)
   },
   "test": {
