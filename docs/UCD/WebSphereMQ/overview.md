@@ -1,5 +1,7 @@
 
-# IBM-MQ - Overview
+# IBM-MQ
+
+## Overview
 
 The WebSphere MQ plug-in enables you to interact directly with the messaging system.
 
