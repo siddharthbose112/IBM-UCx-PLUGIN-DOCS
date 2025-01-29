@@ -15,7 +15,8 @@ There is no install process for this plug-in. The Azure DevOps plug-in is identi
 
 ### Version 4.0.45
 
-* Implemented context-less application, enhanced performance, and removed unnecessary VSM history for improved efficiency.
+* Performance Improvements: Implemented context-less application, enhanced performance,
+and removed unnecessary VSM history for improved efficiency.
 
 ### Version 4.0.44
 

@@ -11,34 +11,75 @@ The Azure DevOps plug-in supports scheduled events integration which are listed 
 | ---- | --------------------------------------------------------------------------------------------------- |
 | SyncAzureIssuesEvent | Queries the Query Azure DevOps server for new or updated pull requests and commits. |
 | SyncAzureGitDataEvent | Queries the Azure DevOps server for new or updated work items. |
-| SyncAzureBuildsEvent | Queries the Query Azure DevOps server for build data. |
+| SyncAzureReleaseStatus | Queries the Azure DevOps server for Sync Azure Release Status. |
 | SyncAzurePipelines | Queries the Azure DevOps server for deployment data. |
-| syncAzureReleaseStatus | Sync Azure Release Status. |
+
+## Minimum permission to integrate with Azure DevOps
+The Azure Devops Account used to generate the token must have the below permission:
+* Build – Read Permission
+* Code – Read Permission
+* Project and Team – Read Permission
+* Release – Read Permission
+* Work Items – Read Permission
+
+### How to use Build Tags Field
+A new hidden field named as Build Tags is added to Azure Plugin for version 4.0.29 and
+later.
+
+![Build Tag Image](./images/buildtag.png)
+
+This field can take the comma-separated list to tags that have been added to a pipeline run.
+If you provide such tags, only the pipeline runs with these specific tags will be pulled to IBM
+DevOps Velocity as part of SyncAzureBuildsEvent.
+
+```
+stages:
+  - stage: PreBuild
+    jobs:
+      - job: Tagging
+        steps:
+          - task: PowerShell@2
+            inputs:
+              targetType: 'inline'
+              script: Write-Host "##vso[build.addbuildtag]IBM DevOps Velocity"
+
+```
+Here, IBM DevOps Velocity is the tag that has been added to the pipeline run.
 
 ## Integration
 
-There are two methods to integrate the plug-in:
+To install the plug-in, perform the following steps:
+1. In IBM DevOps Velocity, **click Settings** > **Integrations** > **Available**.
+2. In the Action column for the Azure DevOps plug-in, click Install.
 
+There are two methods to integrate the plug-in:
 * Using the user interface
 * Using a JSON file
 
-The tables in the Configuration properties topic describe the properties used to define the integration.
+### Integrating the plug-in by using user interface.
 
-### Using the user interface
+To integrate the plug-in using the user interface, perform the following steps:
+1. In IBM DevOps Velocity, **click Settings** > **Integrations** > **Installed**.
+2. In the Action column for the Azure DevOps plug-in, click Add Integration.
+3. On the Add Integration dialog, enter the values for the fields to configure the
+integration and define communication.
+4. Click Add.
 
-1. From the Plugins page, click **Settings** > **Integrations** > **Plugins**.
-2. Under the **Action** column for the plug-in, click **Add Integration**.
-3. On the Add Integration page enter values for the fields used to configure the integration and define communication.
-4. Click **Save**.
+### Integrating the plug-in by using JSON file
+The JSON file contains the information for creating a value stream. Within the JSON file is a
+section for integrations. It is in this section that plugin properties can be defined. Refer to the
+JSON sample code in Configuration Properties section.
 
-### Using a JSON file
-
-The JSON file contains the information for creating a value stream. Within the JSON file is a section for integrations. It is in this section that plug-in properties can be defined.
-
-1. From a value stream page, download the value stream map. The value stream map is a JSON file used to define integrations.
-2. Edit the JSON file to include the plug-in configuration properties.
-3. Save and upload the JSON file. This replaces the current JSON file with the new content.
-4. View the new integration on the Integrations page.
+To integrate the plug-in using a JSON, perform the following steps:
+1. Navigate to value stream page, and then click the necessary value stream.
+2. Click  icon, and then Select Edit value stream to modify the JSON file in the
+code or tree view editors.
+3. Alternatively, you can also click Download JSON option to download the JSON file,
+and then select the Import JSON option to upload the revised JSON file.
+4. Edit the integration information in the JSON file to add the plug-in configuration
+properties. Refer to JSON sample code in the Configuration Properties
+section more details.
+5. Click Save.
 
 ## Configuration properties
 
@@ -74,11 +115,81 @@ The following tables describe the properties used to configure the integration. 
 | Repositories | Array | A list of repositories from which to import pull request, commit, and build data. | No | No | repositories |
 | URL | String | The URL of the Azure DevOps server. | Yes | No | baseUrl |
 | User Name | String | The user name to authenticate with the Azure DevOps server. | No | No | username |
+| Release Definition Names (Comma Separated Values) | Array | A comma separated list of release names to fetch specific release resources ex: deployments. Note: This field is only applicable for plug-in version 4.0.45 or later | Yes | No| releaseDefinitionNames
 | DevOps Velocity User AccessKey | Secure | The user access key to authenticate with the DevOps Velocity server. | No | No | ucvAccessKey |
 | Build Tags (Comma Separated List) | Array | Comma separated list of tags for pushing pipeline runs as build to this server. If kept empty all the pipeline runs will be pushed as builds. | No | No | tags |
 | API Limits | String | Maximum number of Azure Devops REST API calls that will be made by the plugin in a single execution. Making too many call in a short duration might result in a connection timeout at Azure Devops server. | No | No | apiLimits |
 | Additional Branches (Comma Separated List) | Array | A comma separated list of additional branches to collect commits from besides the main one, leave blank if not needed. | No | No | otherBranches |
 
+## Release orchestration
+This plugin can be used to orchestrate releases in Azure Devops.
+Compatibility
+* IBM DevOps Velocity version 2.4.0 and later is required to support release orchestration in
+Azure Devops.
+* Azure Devops plugin version 3.0.1 and later supports release orchestration of Azure
+Devops release pipelines.
+* Azure Devops plugin version 4.0.1 and later supports release orchestration using
+Azure Devops yaml pipelines.
+
+## Orchestrating Azure release pipelines from Accelerate
+The Azure DevOps plug-in syncs the repositories, builds, pipelines, releases definitions,
+environments, pipeline runs, and release executions for every five minutes with to IBM
+DevOps Velocity. An application is created in IBM DevOps Velocity pipeline. A pipeline
+application is created in IBM DevOps Velocity and map the application in IBM DevOps
+Velocity. The build that is created after mapping the application appears as version in
+the Input column of the IBM DevOps Velocity pipeline.
+In the following graphic,
+* App1 is the application created in IBM DevOps Velocity.
+* DevShopSphere is release created for the Azure Project.
+* Order Service is the primary artifact in the releases in Azure project.
+* V2.0.69 is the latest build number of the primary artifact created in Azure DevOps.
+
+![App1](./images/App1.png)
+
+The application environment can be added in the IBM DevOps Velocity pipeline. For
+example, DevShopSphere is the application environment added to DEV environment for the
+release as shown in the following graphic.
+
+![App2](./images/App2.png)
+
+* Stage 1 is the release environment in Azure Devops for the above release definition. The
+following graphic shows the mapping the Azure Devops environment in the IBM DevOps
+Velocity pipeline.
+
+![App3](./images/App3.png)
+
+To orchestrate the deployment from IBM DevOps Velocity, select the version using the
+deploy option as show in the below picture.
+
+![App5](./images/App5.png)
+
+![App6](./images/App6.png)
+
+A new release is created in Azure Devops. The deployed version is synced with IBM
+DevOps Velocity within 5 minutes of deployment as show in the below picture.
+
+![App7](./images/App7.png)
+
+### Notes
+Plugin supports the release orchestration of:
+* Scripted yaml pipeline for build and deployment
+* Scripted yaml pipeline for build and release pipeline for deployment
+* Designer UI yaml pipeline for build and deployment
+* Designer UI yaml pipeline for build and Release pipeline for deployment
+Plugin does not support release orchestration if the source code is not in Azure, i.e, if the
+source code is in GitHub or BitBucket, release orchestration from IBM DevOps Velocity is
+not possible.
+
+## Automation Tasks
+You can create an automation task within a release to build and deploy the applications in Azure DevOps.
+
+### Adding automation tasks to a release
+After the plugin is integrated automated tasks are available to add as a task within a release.
+
+* Verify that the Azure Devops server is connected to the IBM DevOps Velocity.
+* On the Create Task page, select the automation task from the Type field drop-down list.
+* Complete the properties required for the task.
+* Click Save.
 
 |Back to ...||Latest Version|Azure DevOps |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
