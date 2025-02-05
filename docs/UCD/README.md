@@ -73,7 +73,7 @@
 	- [IBM BigFix](#ibm-bigfix)
 	- [IBM Bluemix Auto-Scaling](#ibm-bluemix-auto-scaling)
 	- [IBM Business Process Manager (WebSphere BPM)](#ibm-business-process-manager-websphere-bpm)
-	- [IBM Business Process Manager (WebSphere BPM) for IBM UrbanCode Deploy](#ibm-business-process-manager-websphere-bpm-for-ibm-urbancode-deploy)
+	- [IBM Business Process Manager (WebSphere BPM) for IBM DevOps Deploy](#ibm-business-process-manager-websphere-bpm-for-ibm-devops-deploy)
 	- [IBM Cognos](#ibm-cognos)
 	- [IBM Cognos Analytics](#ibm-cognos-analytics)
 	- [IBM Containers](#ibm-containers)
@@ -100,7 +100,7 @@
 	- [IBM Operational Decision Manager (ODM)](#ibm-operational-decision-manager-odm)
 	- [IBM Operational Decision Manager (ODM) Source Config](#ibm-operational-decision-manager-odm-source-config)
 	- [IBM Rational Asset Manager](#ibm-rational-asset-manager)
-	- [IBM Rational Asset Manager for IBM UrbanCode Deploy](#ibm-rational-asset-manager-for-ibm-urbancode-deploy)
+	- [IBM Rational Asset Manager for IBM DevOps Deploy](#ibm-rational-asset-manager-for-ibm-devops-deploy)
 	- [IBM Rational Automation Framework for WebSphere  \[community plugin\]](#ibm-rational-automation-framework-for-websphere--community-plugin)
 	- [IBM Rational ClearCase](#ibm-rational-clearcase)
 	- [IBM Rational ClearQuest  \[community plugin\]](#ibm-rational-clearquest--community-plugin)
@@ -116,24 +116,24 @@
 	- [IBM Rational Test Workbench Web UI Tester](#ibm-rational-test-workbench-web-ui-tester)
 	- [IBM Security Access Manager (WebSEAL)  \[community plugin\]](#ibm-security-access-manager-webseal--community-plugin)
 	- [IBM Sterling B2B Integrator  \[community plugin\]](#ibm-sterling-b2b-integrator--community-plugin)
-	- [IBM UrbanCode Build](#ibm-urbancode-build)
-	- [IBM UrbanCode DBUpgrader](#ibm-urbancode-dbupgrader)
-	- [IBM UrbanCode Deploy Agent Package for Dynamic Cloud Environments](#ibm-urbancode-deploy-agent-package-for-dynamic-cloud-environments)
-	- [IBM UrbanCode Deploy Applications](#ibm-urbancode-deploy-applications)
-	- [IBM UrbanCode Deploy Components](#ibm-urbancode-deploy-components)
-	- [IBM UrbanCode Deploy Configuration Management](#ibm-urbancode-deploy-configuration-management)
-	- [IBM UrbanCode Deploy Environments](#ibm-urbancode-deploy-environments)
-	- [IBM UrbanCode Deploy General Utilites](#ibm-urbancode-deploy-general-utilites)
-	- [IBM UrbanCode Deploy Process](#ibm-urbancode-deploy-process)
-	- [IBM UrbanCode Deploy Resources](#ibm-urbancode-deploy-resources)
-	- [IBM UrbanCode Deploy System](#ibm-urbancode-deploy-system)
-	- [IBM UrbanCode Deploy Tools](#ibm-urbancode-deploy-tools)
-	- [IBM UrbanCode Deploy Versioned File Storage](#ibm-urbancode-deploy-versioned-file-storage)
-	- [IBM UrbanCode Deploy Versions](#ibm-urbancode-deploy-versions)
-	- [IBM UrbanCode PHP CLI Tool  \[community plugin\]](#ibm-urbancode-php-cli-tool--community-plugin)
-	- [IBM UrbanCode Package Manager](#ibm-urbancode-package-manager)
-	- [IBM UrbanCode Release](#ibm-urbancode-release)
-	- [IBM UrbanCode uBuild](#ibm-urbancode-ubuild)
+	- [IBM DevOps Build](#ibm-devops-build)
+	- [IBM DevOps DBUpgrader](#ibm-devops-dbupgrader)
+	- [IBM DevOps Deploy Agent Package for Dynamic Cloud Environments](#ibm-devops-deploy-agent-package-for-dynamic-cloud-environments)
+	- [IBM DevOps Deploy Applications](#ibm-devops-deploy-applications)
+	- [IBM DevOps Deploy Components](#ibm-devops-deploy-components)
+	- [IBM DevOps Deploy Configuration Management](#ibm-devops-deploy-configuration-management)
+	- [IBM DevOps Deploy Environments](#ibm-devops-deploy-environments)
+	- [IBM DevOps Deploy General Utilites](#ibm-devops-deploy-general-utilites)
+	- [IBM DevOps Deploy Process](#ibm-devops-deploy-process)
+	- [IBM DevOps Deploy Resources](#ibm-devops-deploy-resources)
+	- [IBM DevOps Deploy System](#ibm-devops-deploy-system)
+	- [IBM DevOps Deploy Tools](#ibm-devops-deploy-tools)
+	- [IBM DevOps Deploy Versioned File Storage](#ibm-devops-deploy-versioned-file-storage)
+	- [IBM DevOps Deploy Versions](#ibm-devops-deploy-versions)
+	- [IBM DevOps PHP CLI Tool  \[community plugin\]](#ibm-devops-php-cli-tool--community-plugin)
+	- [IBM DevOps Package Manager](#ibm-devops-package-manager)
+	- [IBM DevOps Release](#ibm-devops-release)
+	- [IBM DevOps uBuild](#ibm-devops-ubuild)
 	- [IBM VDP  \[partner plugin\]](#ibm-vdp--partner-plugin)
 	- [IBM WebSphere Commerce](#ibm-websphere-commerce)
 	- [IBM WebSphere Liberty](#ibm-websphere-liberty)
@@ -145,7 +145,7 @@
 	- [Informatica  \[community plugin\]](#informatica--community-plugin)
 	- [JBoss Application Server](#jboss-application-server)
 	- [JBoss-ON  \[community plugin\]](#jboss-on--community-plugin)
-	- [JIRA for IBM UrbanCode Deploy](#jira-for-ibm-urbancode-deploy)
+	- [JIRA for IBM DevOps Deploy](#jira-for-ibm-devops-deploy)
 	- [Jenkins Job Manager  \[community plugin\]](#jenkins-job-manager--community-plugin)
 	- [Jenkins Pipeline](#jenkins-pipeline)
 	- [Jenkins Publisher](#jenkins-publisher)
@@ -183,7 +183,7 @@
 	- [Node.js  \[community plugin\]](#nodejs--community-plugin)
 	- [NuGet](#nuget)
 	- [OpenShift](#openshift)
-	- [OpenShift for IBM UrbanCode Deploy](#openshift-for-ibm-urbancode-deploy)
+	- [OpenShift for IBM DevOps Deploy](#openshift-for-ibm-devops-deploy)
 	- [Oracle SQLPlus](#oracle-sqlplus)
 	- [Oracle Service Bus Configuration Management](#oracle-service-bus-configuration-management)
 	- [Oracle WebLogic Application Deployment](#oracle-weblogic-application-deployment)
@@ -198,7 +198,7 @@
 	- [Property Utils  \[community plugin\]](#property-utils--community-plugin)
 	- [Puppet  \[community plugin\]](#puppet--community-plugin)
 	- [RPM](#rpm)
-	- [Rally for IBM UrbanCode Deploy](#rally-for-ibm-urbancode-deploy)
+	- [Rally for IBM DevOps Deploy](#rally-for-ibm-devops-deploy)
 	- [Resource Utilities](#resource-utilities)
 	- [SAP Change and Transport System (CTS)](#sap-change-and-transport-system-cts)
 	- [SQL-JDBC](#sql-jdbc)
@@ -242,7 +242,7 @@
 
 ## 7-Zip  [community plugin]
 
-The 7-Zip plug-in is a community plug-in. Community plug-ins are open source projects that are developed and supported by the IBM UrbanCode development community.
+The 7-Zip plug-in is a community plug-in. Community plug-ins are open source projects that are developed and supported by the IBM DevOps development community.
 
 ---
 
@@ -272,7 +272,7 @@ This plugin allows process steps to be created that leverage the instant mount c
 
 ## Amazon EC2
 
-Amazon Elastic Compute Cloud (EC2) provides virtual compute resources to users for running their own applications and allows scalable deployments. This plug-in provides steps for launching instances, terminating instances, associating IP addresses, waiting for instances, creating a security group, and getting the public DNS for the Amazon EC2 tool. The Amazon [AWS SDK](http://aws.amazon.com/sdkforjava/) is required and must be downloaded from Amazon separately. The[UrbanCode Deploy Blueprint Designer](/product/deploy/blueprint-designer/) can interact with AWS in a more declarative manner, and should be considered as a possible alternative to this plugin.
+Amazon Elastic Compute Cloud (EC2) provides virtual compute resources to users for running their own applications and allows scalable deployments. This plug-in provides steps for launching instances, terminating instances, associating IP addresses, waiting for instances, creating a security group, and getting the public DNS for the Amazon EC2 tool. The Amazon [AWS SDK](http://aws.amazon.com/sdkforjava/) is required and must be downloaded from Amazon separately. The[DevOps Deploy Blueprint Designer](/product/deploy/blueprint-designer/) can interact with AWS in a more declarative manner, and should be considered as a possible alternative to this plugin.
 
 ---
 
@@ -302,7 +302,7 @@ The Ansible plugin enables seamless integration of Ansible environment into the 
 
 ## Apache Ant
 
-Apache Ant is a command line tool that is used to automate the build and deployment of applications. This plug-in calls the Ant executable to run one or more targets defined in a specified Ant script file, and is very useful for quickly integrating legacy automation into your UrbanCode Deploy Processes. IBM UrbanCode Deploy agents include a distribution of Ant, which is used by default, but other versions can be used by providing the path to the Ant installation directory in your Process Step.
+Apache Ant is a command line tool that is used to automate the build and deployment of applications. This plug-in calls the Ant executable to run one or more targets defined in a specified Ant script file, and is very useful for quickly integrating legacy automation into your DevOps Deploy Processes. IBM DevOps Deploy agents include a distribution of Ant, which is used by default, but other versions can be used by providing the path to the Ant installation directory in your Process Step.
 
 ---
 
@@ -312,7 +312,7 @@ Apache Ant is a command line tool that is used to automate the build and deploym
 
 ## Apache HTTP Server
 
-The Apache HTTP Server is an open-source HTTP server that can be used on UNIX and Microsoft Windows operating systems. The Apache HTTP Server was developed by the Apache Software Foundation. The Apache HTTP Server provides a secure, efficient and extensible server that provides HTTP services that are compatible with the current HTTP standards. With the steps that this plug-in provides IBM UrbanCode Deploy processes can start and stop the Apache web servers.
+The Apache HTTP Server is an open-source HTTP server that can be used on UNIX and Microsoft Windows operating systems. The Apache HTTP Server was developed by the Apache Software Foundation. The Apache HTTP Server provides a secure, efficient and extensible server that provides HTTP services that are compatible with the current HTTP standards. With the steps that this plug-in provides IBM DevOps Deploy processes can start and stop the Apache web servers.
 
 ---
 
@@ -322,7 +322,7 @@ The Apache HTTP Server is an open-source HTTP server that can be used on UNIX an
 
 ## Apache Hadoop  [community plugin]
 
-The Apache Hadoop software library is a framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models. It is designed to scale up from single servers to thousands of machines, each offering local computation and storage. Rather than rely on hardware to deliver high-availability, the library itself is designed to detect and handle failures at the application layer, so delivering a highly-available service on top of a cluster of computers, each of which may be prone to failures. This plug-in enables you to run a Hadoop application on a NamedNode as part of an UrbanCode Deploy process.
+The Apache Hadoop software library is a framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models. It is designed to scale up from single servers to thousands of machines, each offering local computation and storage. Rather than rely on hardware to deliver high-availability, the library itself is designed to detect and handle failures at the application layer, so delivering a highly-available service on top of a cluster of computers, each of which may be prone to failures. This plug-in enables you to run a Hadoop application on a NamedNode as part of an DevOps Deploy process.
 
 ---
 
@@ -363,7 +363,7 @@ Overview The Apple Xcode plug-in includes steps that manage the continuous deliv
 
 ## Apprenda  [partner plugin]
 
-The Apprenda plugin for IBM UrbanCode Deploy enables deployment of applications to Apprenda private PaaS and binding of Bluemix applications and services for Hybrid Cloud deployments. The plugin can be obtained on the releases tab of the GitHub project.
+The Apprenda plugin for IBM DevOps Deploy enables deployment of applications to Apprenda private PaaS and binding of Bluemix applications and services for Hybrid Cloud deployments. The plugin can be obtained on the releases tab of the GitHub project.
 
 ---
 
@@ -435,7 +435,7 @@ CA Workload Automation AutoSys Edition is a workload automation tool. Previous v
 
 ## Avnet Talos  [partner plugin]
 
-Talos is a middleware configuration automation tool that integrates with a variety of cloud providers as well as IBM UrbanCode Deploy and is intended to automate configuration changes and application deployments across both commercial and open source middleware platforms and appliances eliminating the need to write custom scripts for each type of middleware. Talos includes:
+Talos is a middleware configuration automation tool that integrates with a variety of cloud providers as well as IBM DevOps Deploy and is intended to automate configuration changes and application deployments across both commercial and open source middleware platforms and appliances eliminating the need to write custom scripts for each type of middleware. Talos includes:
 
 ---
 
@@ -465,7 +465,7 @@ Create, update, and check entries in BMC Remedy Action Request System. The plug-
 
 ## Box  [community plugin]
 
-Box is a file sharing and management cloud service. Using Box you can create, edit, review, and securely share documents and files on any device. This plug-in is developed and supported by the UrbanCode Deploy Community on the IBM® DevOps Services platform. Click **Visit Project** at the top of the page to navigate to the project for further information.
+Box is a file sharing and management cloud service. Using Box you can create, edit, review, and securely share documents and files on any device. This plug-in is developed and supported by the DevOps Deploy Community on the IBM® DevOps Services platform. Click **Visit Project** at the top of the page to navigate to the project for further information.
 
 ---
 
@@ -475,7 +475,7 @@ Box is a file sharing and management cloud service. Using Box you can create, ed
 
 ## CA SCM (formerly Harvest)
 
-The CA SCM plug-in enables you to import artifacts as component version This UrbanCode Deploy plug-in works with all current supported versions of CA Harvest SCM.
+The CA SCM plug-in enables you to import artifacts as component version This DevOps Deploy plug-in works with all current supported versions of CA Harvest SCM.
 
 ---
 
@@ -505,7 +505,7 @@ CICS® Transaction Server for z/OS provides scalable, general-purpose, transacti
 
 ## Chef
 
-This plug-in provides steps that enable you to integrate existing automation for Chef into your IBM UrbanCode Deploy Processes. The plug-in ships with an embedded version of Chef Solo (11.16.4-1), which can be installed and used to execute a node or you can specify a different installation of Chef to use, but the plug-in step must execute on a system where Chef is accessible locally.
+This plug-in provides steps that enable you to integrate existing automation for Chef into your IBM DevOps Deploy Processes. The plug-in ships with an embedded version of Chef Solo (11.16.4-1), which can be installed and used to execute a node or you can specify a different installation of Chef to use, but the plug-in step must execute on a system where Chef is accessible locally.
 
 ---
 
@@ -535,7 +535,7 @@ The Cloud Foundry plug-in uses the CloudFoundry command line utility to interact
 
 ## Cloudant  [community plugin]
 
-The Cloudant Plugin is an automation based plugin. It is used to manage documents stored in Cloudant. This plug-in is developed and supported by the UrbanCode Deploy Community on the IBM DevOps Services platform. Click the “Visit Project” button at the top of the page to navigate to the project for further information.
+The Cloudant Plugin is an automation based plugin. It is used to manage documents stored in Cloudant. This plug-in is developed and supported by the DevOps Deploy Community on the IBM DevOps Services platform. Click the “Visit Project” button at the top of the page to navigate to the project for further information.
 
 ---
 
@@ -555,7 +555,7 @@ CyberArk Application Identity Manager, part of the CyberArk Privileged Account 
 
 ## DBmaestro [partner plugin]
 
-![DBmaetro Logo](logo-300x74.png)DBmaestro TeamWork is the leading DevOps for Database solution that brings true continuous delivery – complete with the best practices proven effective for application development – to the database. DBmaestro TeamWork integration with IBM UrbanCode Deploy, can help your team to safely include the database component within the existing deployment processes of the application tiers from building (generating the upgrade SQL scripts) to verifying the environments are identical (no drifts) to deploying (executing the planned upgrade SQL scripts) while documenting the changes. Benefits:
+![DBmaetro Logo](logo-300x74.png)DBmaestro TeamWork is the leading DevOps for Database solution that brings true continuous delivery – complete with the best practices proven effective for application development – to the database. DBmaestro TeamWork integration with IBM DevOps Deploy, can help your team to safely include the database component within the existing deployment processes of the application tiers from building (generating the upgrade SQL scripts) to verifying the environments are identical (no drifts) to deploying (executing the planned upgrade SQL scripts) while documenting the changes. Benefits:
 
 ---
 
@@ -575,7 +575,7 @@ Datical DB automates and simplifies deployment and configuration of database sch
 
 ## Dimensions
 
-The Dimensions Source Config plug-in enables you to manually or automatically import artifacts from a Dimensions CM into an IBM UrbanCode Deploy Component version.
+The Dimensions Source Config plug-in enables you to manually or automatically import artifacts from a Dimensions CM into an IBM DevOps Deploy Component version.
 
 ---
 
@@ -585,7 +585,7 @@ The Dimensions Source Config plug-in enables you to manually or automatically im
 
 ## Docker
 
-Docker automates the deployment of applications inside Linux containers. This plug-in maps Docker images to components in IBM UrbanCode Deploy. The included component template provides a process for running Docker containers. This automation plug-in requires the Docker source configuration plug-in. The IBM-supported source config plug-in is available [here](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/DockerSourceConfig/ "Docker Source Config Plugin").
+Docker automates the deployment of applications inside Linux containers. This plug-in maps Docker images to components in IBM DevOps Deploy. The included component template provides a process for running Docker containers. This automation plug-in requires the Docker source configuration plug-in. The IBM-supported source config plug-in is available [here](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/DockerSourceConfig/ "Docker Source Config Plugin").
 
 ---
 
@@ -595,7 +595,7 @@ Docker automates the deployment of applications inside Linux containers. This pl
 
 ## Docker Compose
 
-The Docker Compose plug-in for IBM UrbanCode Deploy automates deployment and resource creation for services. Unsure where to begin? Visit [Getting Started with IBM UrbanCode Deploy and Containers](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2022/07/22/getting-started-with-urbancode-deploy-and-containe/).
+The Docker Compose plug-in for IBM DevOps Deploy automates deployment and resource creation for services. Unsure where to begin? Visit [Getting Started with IBM DevOps Deploy and Containers](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2022/07/22/getting-started-with-devops-deploy-and-containe/).
 
 ---
 
@@ -605,7 +605,7 @@ The Docker Compose plug-in for IBM UrbanCode Deploy automates deployment and res
 
 ## Docker Registry
 
-Use the Docker source configuration plug-in to manually or automatically create component versions from a Docker registry or the IBM Container Service. The plug-in works by detecting Docker registry image tags and creating associated component versions for the tag. Unsure where to begin? Visit [Getting Started with IBM UrbanCode Deploy and Containers](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2022/07/22/getting-started-with-urbancode-deploy-and-containe/).
+Use the Docker source configuration plug-in to manually or automatically create component versions from a Docker registry or the IBM Container Service. The plug-in works by detecting Docker registry image tags and creating associated component versions for the tag. Unsure where to begin? Visit [Getting Started with IBM DevOps Deploy and Containers](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2022/07/22/getting-started-with-devops-deploy-and-containe/).
 
 ---
 
@@ -655,7 +655,7 @@ The File Utils plug-in provides useful steps for manipulating files and director
 
 ## FileNet - IBM Case Manager
 
-IBM Case Manager simplifies the job of designing and building a case management system and provides a graphical user interface for case workers to easily manage cases. IBM Case Manager is deployed in an application server, and uses FileNet P8 to access and store content and solution assets. The IBM Case Manager plug-in for UrbanCode deploy utilizes the configmgr\_cl command-line interface to automate the tasks normally completed via the configmgr UI.All of the steps were tested with IBM Case Manager version 5.3.1. In order for all commands to function properly, version 5.2.1 or later is required.
+IBM Case Manager simplifies the job of designing and building a case management system and provides a graphical user interface for case workers to easily manage cases. IBM Case Manager is deployed in an application server, and uses FileNet P8 to access and store content and solution assets. The IBM Case Manager plug-in for DevOps deploy utilizes the configmgr\_cl command-line interface to automate the tasks normally completed via the configmgr UI.All of the steps were tested with IBM Case Manager version 5.3.1. In order for all commands to function properly, version 5.2.1 or later is required.
 
 ---
 
@@ -665,7 +665,7 @@ IBM Case Manager simplifies the job of designing and building a case management 
 
 ## Git
 
-The Git source config plug-in enables you to manually or automatically import artifacts from a Git source-code management (SCM) repository into an IBM UrbanCode Deploy Component version. This plug-in interacts with Git by using the git command line interface, which must be available locally.
+The Git source config plug-in enables you to manually or automatically import artifacts from a Git source-code management (SCM) repository into an IBM DevOps Deploy Component version. This plug-in interacts with Git by using the git command line interface, which must be available locally.
 
 ---
 
@@ -708,7 +708,7 @@ Initial release of this plugin.
 
 ## GitHub-Release
 
-The GitHub Release plug-in is a source configuration plug-in that creates a component version on the UrbanCode Deploy server for a specified GitHub repository release being imported. The plug-in can be used to import ZIP and TAR artifacts from GitHub.
+The GitHub Release plug-in is a source configuration plug-in that creates a component version on the DevOps Deploy server for a specified GitHub repository release being imported. The plug-in can be used to import ZIP and TAR artifacts from GitHub.
 
 ---
 
@@ -729,7 +729,7 @@ View a demo of this plug-in [here](https://www.youtube.com/watch?v=Qrw8hz8Jv9c) 
 
 ## Groovy
 
-Groovy is an object-oriented programming language for the Java platform and the language of choice for writing IBM UrbanCode Deploy plug-ins. The UrbanCode Deploy agent comes with a version of Groovy that is preinstalled, which can be used to run your script or you can specify a different installation to use. Platform Support
+Groovy is an object-oriented programming language for the Java platform and the language of choice for writing IBM DevOps Deploy plug-ins. The DevOps Deploy agent comes with a version of Groovy that is preinstalled, which can be used to run your script or you can specify a different installation to use. Platform Support
 
 ---
 
@@ -749,7 +749,7 @@ HCL DevOps Test Hub (Test Hub) brings together test data, test environments, and
 
 ## HCL DevOps Test Performance
 
-HCL DevOps Test Performance is a performance testing solution that validates the scalability of web and server applications. Test Performance identifies the presence and cause of system performance bottlenecks and reduces load testing complexity. The HCL DevOps Test Performance plug-in for UrbanCode Deploy provides a step to run performance tests on the same system in which Test Performance is installed.
+HCL DevOps Test Performance is a performance testing solution that validates the scalability of web and server applications. Test Performance identifies the presence and cause of system performance bottlenecks and reduces load testing complexity. The HCL DevOps Test Performance plug-in for DevOps Deploy provides a step to run performance tests on the same system in which Test Performance is installed.
 
 ---
 
@@ -760,7 +760,7 @@ HCL DevOps Test Performance is a performance testing solution that validates the
 ## HCL DevOps Test UI
 
 HCL DevOps Test UI (Test UI) is an automated functional testing and regression testing tool. This software provides automated testing capabilities for functional, regression, GUI, and data-driven testing. You can use the Functional Test perspective to test the Java, SAP, and other HTML applications.
-The IBM UrbanCode Deploy plug-in for Test UI includes process steps for running the Functional test scripts on UrbanCode Deploy agent computers remotely.
+The IBM DevOps Deploy plug-in for Test UI includes process steps for running the Functional test scripts on DevOps Deploy agent computers remotely.
 
 ---
 
@@ -771,7 +771,7 @@ The IBM UrbanCode Deploy plug-in for Test UI includes process steps for running 
 ## HCL DevOps Test UI-WebUI
 
 HCL DevOps Test UI is an automated functional testing and regression testing tool. This software provides automated testing capabilities for functional, regression, GUI, and data-driven testing. You can use the Functional Test perspective to test the Java, SAP, and other HTML applications.
-The IBM UrbanCode Deploy plug-in for HCL DevOps Test UI - WebUI includes process steps for running the Web UI tests on UrbanCode Deploy agent computers remotely.
+The IBM DevOps Deploy plug-in for HCL DevOps Test UI - WebUI includes process steps for running the Web UI tests on DevOps Deploy agent computers remotely.
 
 ---
 
@@ -782,7 +782,7 @@ The IBM UrbanCode Deploy plug-in for HCL DevOps Test UI - WebUI includes process
 ## HCL DevOps Test Virtualization
 
 HCL DevOps Test Virtualization is a software that is used for creating, maintaining, publishing, and running message-based stubs and database stubs.
-You can use this plug-in to integrate DevOps Test Vitualization server with UrbanCode Deploy to execute virtual services from the UrbanCode Deploy server.
+You can use this plug-in to integrate DevOps Test Vitualization server with DevOps Deploy to execute virtual services from the DevOps Deploy server.
 
 ---
 
@@ -792,7 +792,7 @@ You can use this plug-in to integrate DevOps Test Vitualization server with Urba
 
 ## HCL OneTest API
 
-The HCL OneTest API plug-in for UrbanCode Deploy provides a step to run integration tests on the same system in which HCL OneTest API is installed.
+The HCL OneTest API plug-in for DevOps Deploy provides a step to run integration tests on the same system in which HCL OneTest API is installed.
 
 ---
 
@@ -802,7 +802,7 @@ The HCL OneTest API plug-in for UrbanCode Deploy provides a step to run integrat
 
 ## HCL OneTest Performance
 
-The HCL OneTest Performance plug-in for UrbanCode Deploy provides a step to run performance tests on the same system in which HCL OneTest Performance is installed.
+The HCL OneTest Performance plug-in for DevOps Deploy provides a step to run performance tests on the same system in which HCL OneTest Performance is installed.
 
 ---
 
@@ -812,7 +812,7 @@ The HCL OneTest Performance plug-in for UrbanCode Deploy provides a step to run 
 
 ## HCL OneTest Server
 
-The HCL OneTest Server plug-in for UrbanCode Deploy provides a step to Run HCL OneTest Server test.
+The HCL OneTest Server plug-in for DevOps Deploy provides a step to Run HCL OneTest Server test.
 
 ---
 
@@ -822,7 +822,7 @@ The HCL OneTest Server plug-in for UrbanCode Deploy provides a step to Run HCL O
 
 ## HCL OneTest UI
 
-The HCL OneTest UI plug-in for UrbanCode Deploy provides a step to run functional tests on the same system in which HCL OneTest UI is installed.
+The HCL OneTest UI plug-in for DevOps Deploy provides a step to run functional tests on the same system in which HCL OneTest UI is installed.
 
 ---
 
@@ -832,7 +832,7 @@ The HCL OneTest UI plug-in for UrbanCode Deploy provides a step to run functiona
 
 ## HCL OneTest Virtualization
 
-The HCL OneTest Virtualization plug-in for UrbanCode Deploy provides a step to Run HCL OneTest virtualization.
+The HCL OneTest Virtualization plug-in for DevOps Deploy provides a step to Run HCL OneTest virtualization.
 
 ---
 
@@ -842,7 +842,7 @@ The HCL OneTest Virtualization plug-in for UrbanCode Deploy provides a step to R
 
 ## HCL OneTest WebUI
 
-The HCL OneTest WebUI plug-in for UrbanCode Deploy provides a step to run functional tests on the same system in which HCL OneTest WebUI is installed.
+The HCL OneTest WebUI plug-in for DevOps Deploy provides a step to run functional tests on the same system in which HCL OneTest WebUI is installed.
 
 ---
 
@@ -882,7 +882,7 @@ IBM API Connection is an application programming interface (API) management plat
 
 ## IBM AppScan Enterprise
 
-IBM AppScan Enterprise enables organizations to mitigate application security risk and achieve regulatory compliance. This plug-in includes steps to run AppScan Enterprise scans and retrieve scan results in IBM UrbanCode Deploy processes.
+IBM AppScan Enterprise enables organizations to mitigate application security risk and achieve regulatory compliance. This plug-in includes steps to run AppScan Enterprise scans and retrieve scan results in IBM DevOps Deploy processes.
 
 ---
 
@@ -892,7 +892,7 @@ IBM AppScan Enterprise enables organizations to mitigate application security ri
 
 ## IBM BigFix
 
-IBM BigFix helps reduce the time, cost and risk of managing virtually any mix of endpoints leveraging out-of-the-box automation scripts. It streamlines asset discovery, software distribution, and power management. It also provides the critical capability to manage and secure servers–whether they’re physical, virtual or remotely located. Use the IBM BigFix plug-in to start BigFix actions from IBM UrbanCode Deploy processes.
+IBM BigFix helps reduce the time, cost and risk of managing virtually any mix of endpoints leveraging out-of-the-box automation scripts. It streamlines asset discovery, software distribution, and power management. It also provides the critical capability to manage and secure servers–whether they’re physical, virtual or remotely located. Use the IBM BigFix plug-in to start BigFix actions from IBM DevOps Deploy processes.
 
 ---
 
@@ -920,13 +920,13 @@ IBM Business Process Manager is a comprehensive business process management plat
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](WebSphereBPMSourceConfig/README.md)|[8.1056527](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereBPMSourceConfig/WebSphereBPMSourceConfig-8.1056527.zip)|
 
-## IBM Business Process Manager (WebSphere BPM) for IBM UrbanCode Deploy
+## IBM Business Process Manager (WebSphere BPM) for IBM DevOps Deploy
 
 IBM Business Process Manager is a comprehensive business process management platform, providing full visibility and insight to managing business processes. It provides tooling and a runtime environment for process design, execution, monitoring and optimization, along with basic system integration support. The product can be configured to support various levels of complexity and involvement with business process management. Plugin to deploy process application snapshots on an online or offline Process Server. Refer to the Documentation Usage page for walkthroughs.
 
 ---
 
-|Back to ...||IBM Business Process Manager (WebSphere BPM) for IBM UrbanCode Deploy |Latest Version|
+|Back to ...||IBM Business Process Manager (WebSphere BPM) for IBM DevOps Deploy |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](WebSphereBPM/README.md)|[13.1100894](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereBPM/WebSphereBPM-13.1100894.zip)|
 
@@ -962,7 +962,7 @@ The IBM Containers plug-in uses the Cloud Foundry IBM® Containers command-line 
 
 ## IBM DataPower Configuration Manager
 
-The IBM UrbanCode Deploy plugin for DataPower Configuration Manager provides the ability to automate updates to DataPower configuration as part of the software delivery process. Configuration information is stored in DataPower export files, which contain the “golden” version of services or objects, along with simple XML files that define the changes necessary for each service in each environment. These XML files can be created or modified using an XML editor. The plugin also allows easy upload of files, including keys and certificates, as well as easy customization of validation credential objects and load balancer groups, among others. The component-level and application-level processes provided by Deploy fit naturally into the requirements for DataPower configuration management:
+The IBM DevOps Deploy plugin for DataPower Configuration Manager provides the ability to automate updates to DataPower configuration as part of the software delivery process. Configuration information is stored in DataPower export files, which contain the “golden” version of services or objects, along with simple XML files that define the changes necessary for each service in each environment. These XML files can be created or modified using an XML editor. The plugin also allows easy upload of files, including keys and certificates, as well as easy customization of validation credential objects and load balancer groups, among others. The component-level and application-level processes provided by Deploy fit naturally into the requirements for DataPower configuration management:
 
 ---
 
@@ -992,7 +992,7 @@ IBM DevOps Test Hub (Test Hub) brings together test data, test environments, and
 
 ## IBM DevOps Test Performance
 
-IBM DevOps Test Performance is a performance testing solution that validates the scalability of web and server applications. Test Performance identifies the presence and cause of system performance bottlenecks and reduces load testing complexity. The IBM DevOps Test Performance plug-in for UrbanCode Deploy provides a step to run performance tests on the same system in which Test Performance is installed.
+IBM DevOps Test Performance is a performance testing solution that validates the scalability of web and server applications. Test Performance identifies the presence and cause of system performance bottlenecks and reduces load testing complexity. The IBM DevOps Test Performance plug-in for DevOps Deploy provides a step to run performance tests on the same system in which Test Performance is installed.
 
 ---
 
@@ -1003,7 +1003,7 @@ IBM DevOps Test Performance is a performance testing solution that validates the
 ## IBM DevOps Test UI
 
 IBM DevOps Test UI (Test UI) is an automated functional testing and regression testing tool. This software provides automated testing capabilities for functional, regression, GUI, and data-driven testing. You can use the Functional Test perspective to test the Java, SAP, and other HTML applications.
-The IBM UrbanCode Deploy plug-in for Test UI includes process steps for running the Functional test scripts on UrbanCode Deploy agent computers remotely.
+The IBM DevOps Deploy plug-in for Test UI includes process steps for running the Functional test scripts on DevOps Deploy agent computers remotely.
 
 ---
 
@@ -1014,7 +1014,7 @@ The IBM UrbanCode Deploy plug-in for Test UI includes process steps for running 
 ## IBM DevOps Test UI-WebUI
 
 IBM DevOps Test UI is an automated functional testing and regression testing tool. This software provides automated testing capabilities for functional, regression, GUI, and data-driven testing. You can use the Functional Test perspective to test the Java, SAP, and other HTML applications.
-The IBM UrbanCode Deploy plug-in for IBM DevOps Test UI - WebUI includes process steps for running the Web UI tests on UrbanCode Deploy agent computers remotely.
+The IBM DevOps Deploy plug-in for IBM DevOps Test UI - WebUI includes process steps for running the Web UI tests on DevOps Deploy agent computers remotely.
 
 ---
 
@@ -1025,7 +1025,7 @@ The IBM UrbanCode Deploy plug-in for IBM DevOps Test UI - WebUI includes process
 ## IBM DevOps Test Virtualization
 
 IBM DevOps Test Virtualization is a software that is used for creating, maintaining, publishing, and running message-based stubs and database stubs.
-You can use this plug-in to integrate DevOps Test Vitualization server with UrbanCode Deploy to execute virtual services from the UrbanCode Deploy server.
+You can use this plug-in to integrate DevOps Test Vitualization server with DevOps Deploy to execute virtual services from the DevOps Deploy server.
 
 ---
 
@@ -1035,7 +1035,7 @@ You can use this plug-in to integrate DevOps Test Vitualization server with Urba
 
 ## IBM Globalization Pipeline  [community plugin]
 
-IBM Globalization Pipeline is an IBM Bluemix service that provides rapid machine translation for application developers. IBM Globalization Pipeline plugin for UrbanCode Deploy is a component for you to integrate IBM Globalization Pipeline into your build and deploy process. It takes English resource files as input, and provides real time machine translation for the following languages: Simplified Chinese, Traditional Chinese, French, German, Italian, Japanese, Korean, Portuguese, Spanish, and Arabic. It allows application developers to leverage the machine translation output by invoking the restful API or downloading the translation.
+IBM Globalization Pipeline is an IBM Bluemix service that provides rapid machine translation for application developers. IBM Globalization Pipeline plugin for DevOps Deploy is a component for you to integrate IBM Globalization Pipeline into your build and deploy process. It takes English resource files as input, and provides real time machine translation for the following languages: Simplified Chinese, Traditional Chinese, French, German, Italian, Japanese, Korean, Portuguese, Spanish, and Arabic. It allows application developers to leverage the machine translation output by invoking the restful API or downloading the translation.
 
 ---
 
@@ -1045,7 +1045,7 @@ IBM Globalization Pipeline is an IBM Bluemix service that provides rapid machine
 
 ## IBM IMS
 
-IBM Information Management System (IMS), built on IBM System z, is the lowest cost transaction and hierarchical database management system for mission critical OLTP. This plug-in facilitates the simplification of IMS-related operations and automation of IMS application deployment, ultimately allowing you to take advantage of the design process, versioning, and approvals support in IBM UrbanCode Deploy for continuous delivery in an agile environment.
+IBM Information Management System (IMS), built on IBM System z, is the lowest cost transaction and hierarchical database management system for mission critical OLTP. This plug-in facilitates the simplification of IMS-related operations and automation of IMS application deployment, ultimately allowing you to take advantage of the design process, versioning, and approvals support in IBM DevOps Deploy for continuous delivery in an agile environment.
 
 ---
 
@@ -1106,7 +1106,7 @@ IBM Integration Bus, from the WebSphere product family, enables business informa
 
 ## IBM Integration Bus (formerly WebSphere Message Broker) - CMP
 
-IBM Integration Bus, from the WebSphere product family, enables business information to flow between disparate applications across multiple hardware and software platforms. The plug-in includes steps that can be used when designing a component process to deploy broker archives and to start, stop or delete message flows by using the IBM Integration API. For information on usage, including a sample of how to install IBM Integration Bus using IBM UrbanCode Deploy, see [How to automate IBM Integration Bus installation and deployments using IBM UrbanCode Deploy and Chef](https://www.urbancode.com/resource/how-to-automate-ibm-integration-bus-installation-and-deployments-using-ibm-urbancode-deploy-and-chef/). This plugin supports versions 9 & 10 of IBM Integration Bus (IIB). We no longer support WebSphere Message Broker (Versions 7 & 8). If you are looking for support for WebSphere Message Broker, please download a version of this plugin that is less than version 40.
+IBM Integration Bus, from the WebSphere product family, enables business information to flow between disparate applications across multiple hardware and software platforms. The plug-in includes steps that can be used when designing a component process to deploy broker archives and to start, stop or delete message flows by using the IBM Integration API. For information on usage, including a sample of how to install IBM Integration Bus using IBM DevOps Deploy, see [How to automate IBM Integration Bus installation and deployments using IBM DevOps Deploy and Chef](https://www.urbancode.com/resource/how-to-automate-ibm-integration-bus-installation-and-deployments-using-ibm-devops-deploy-and-chef/). This plugin supports versions 9 & 10 of IBM Integration Bus (IIB). We no longer support WebSphere Message Broker (Versions 7 & 8). If you are looking for support for WebSphere Message Broker, please download a version of this plugin that is less than version 40.
 
 ---
 
@@ -1126,7 +1126,7 @@ IBM MQ for z/OS – Generate MQSC Commands
 
 ## IBM MaaS360  [community plugin]
 
-This plug-in provides access to utilities that are related to integrating with IBM MaaS360 via web services. For example, you can use this plug-in to request an authentication token. This plug-in is developed and supported by the UrbanCode Deploy Community on the IBM® DevOps Services platform. Click **Visit Project** at the top of the page to navigate to the project for further information.
+This plug-in provides access to utilities that are related to integrating with IBM MaaS360 via web services. For example, you can use this plug-in to request an authentication token. This plug-in is developed and supported by the DevOps Deploy Community on the IBM® DevOps Services platform. Click **Visit Project** at the top of the page to navigate to the project for further information.
 
 ---
 
@@ -1146,7 +1146,7 @@ The Maximo plugin allows the user to upload and deploy configuration using migra
 
 ## IBM MobileFirst Platform (formerly Worklight)
 
-The IBM MobileFirst Platform plug-in provides functionality for deploying artifacts to an IBM MobileFirst Platform Server. Provides support for deploying mobile application artifacts to an IBM MobileFirst Platform Server. You can use IBM UrbanCode Deploy to define a DevOps deployment solution for IBM MobileFirst mobile artifacts. By defining a deployment using IBM UrbanCode Deploy with the IBM MobileFirst Platform plugin, mobile teams can respond to feedback faster and have a repeatable process with reduced risk. Check out how to go from manual to continuous automated deployment of mobile MobileFirst Platform applications in this [article](http://www.ibm.com/developerworks/rational/library/worklight-mobile-devops/index.html).
+The IBM MobileFirst Platform plug-in provides functionality for deploying artifacts to an IBM MobileFirst Platform Server. Provides support for deploying mobile application artifacts to an IBM MobileFirst Platform Server. You can use IBM DevOps Deploy to define a DevOps deployment solution for IBM MobileFirst mobile artifacts. By defining a deployment using IBM DevOps Deploy with the IBM MobileFirst Platform plugin, mobile teams can respond to feedback faster and have a repeatable process with reduced risk. Check out how to go from manual to continuous automated deployment of mobile MobileFirst Platform applications in this [article](http://www.ibm.com/developerworks/rational/library/worklight-mobile-devops/index.html).
 
 ---
 
@@ -1156,7 +1156,7 @@ The IBM MobileFirst Platform plug-in provides functionality for deploying artifa
 
 ## IBM MobileFirst Platform Foundation on IBM Containers
 
-The IBM MobileFirst Platform Foundation on IBM Containers plug-in includes steps to create database dependencies, build containers, run containers, and deploy artifacts to an IBM MobileFirst Server that is running in a container. You can use IBM UrbanCode Deploy to define a DevOps deployment solution for your MobileFirst Platform Foundation artifacts. Using this type of solution, mobile teams can typically respond to feedback faster and have a repeatable process with reduced risk.
+The IBM MobileFirst Platform Foundation on IBM Containers plug-in includes steps to create database dependencies, build containers, run containers, and deploy artifacts to an IBM MobileFirst Server that is running in a container. You can use IBM DevOps Deploy to define a DevOps deployment solution for your MobileFirst Platform Foundation artifacts. Using this type of solution, mobile teams can typically respond to feedback faster and have a repeatable process with reduced risk.
 
 ---
 
@@ -1186,7 +1186,7 @@ The IBM Operational Decision Manager (ODM) source configuration plug-in includes
 
 ## IBM Rational Asset Manager
 
-This plug-in provides steps that enable you to work with Rational Asset Manager assets in your IBM UrbanCode Deploy Processes.
+This plug-in provides steps that enable you to work with Rational Asset Manager assets in your IBM DevOps Deploy Processes.
 
 ---
 
@@ -1194,13 +1194,13 @@ This plug-in provides steps that enable you to work with Rational Asset Manager 
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](RAM/README.md)|[0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RAM/com.ibm.udeploy.plugin.ram.zip)|
 
-## IBM Rational Asset Manager for IBM UrbanCode Deploy
+## IBM Rational Asset Manager for IBM DevOps Deploy
 
 IBM Rational Asset Manager (RAM) is a collaborative software development asset management tool used to identify, manage and govern the design, development and consumption of software assets. The IBM Rational Asset Manager plug-in automates importing artifacts from Rational Asset Manager projects.
 
 ---
 
-|Back to ...||IBM Rational Asset Manager for IBM UrbanCode Deploy |Latest Version|
+|Back to ...||IBM Rational Asset Manager for IBM DevOps Deploy |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](RAMSourceConfig/README.md)|[14.1153919](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RAMSourceConfig/ucd-RAMSourceConfig-14.1153919.zip)|
 
@@ -1216,7 +1216,7 @@ IBM Rational Automation Framework for WebSphere provides capabilities to accompl
 
 ## IBM Rational ClearCase
 
-The IBM Rational Clearcase plug-in enables you to manually or automatically import artifacts from a ClearCase respository into an IBM UrbanCode Deploy Component version, using either Dynamic or Snapshot Views. The plug-in supports both Base ClearCase and Unified Change Management (UCM) source-code management system.
+The IBM Rational Clearcase plug-in enables you to manually or automatically import artifacts from a ClearCase respository into an IBM DevOps Deploy Component version, using either Dynamic or Snapshot Views. The plug-in supports both Base ClearCase and Unified Change Management (UCM) source-code management system.
 
 ---
 
@@ -1246,7 +1246,7 @@ IBM Rational Functional Tester is an automated functional testing and regression
 
 ## IBM Rational Integration Tester (RIT)
 
-The Green Hat plug-in for IBM UrbanCode Deploy that was shipped earlier has been split into the following two parts in the current release:
+The Green Hat plug-in for IBM DevOps Deploy that was shipped earlier has been split into the following two parts in the current release:
 
 ---
 
@@ -1256,7 +1256,7 @@ The Green Hat plug-in for IBM UrbanCode Deploy that was shipped earlier has been
 
 ## IBM Rational Performance Tester (RPT)
 
-IBM® Rational® Performance Tester is a performance testing solution that validates the scalability of web and server applications. Rational Performance Tester identifies the presence and cause of system performance bottlenecks and reduces load testing complexity. With the IBM Rational Test Workbench – Performance Tester plugin for UrbanCode Deploy, you can automate the execution of tests, compound tests, and schedules.
+IBM® Rational® Performance Tester is a performance testing solution that validates the scalability of web and server applications. Rational Performance Tester identifies the presence and cause of system performance bottlenecks and reduces load testing complexity. With the IBM Rational Test Workbench – Performance Tester plugin for DevOps Deploy, you can automate the execution of tests, compound tests, and schedules.
 
 ---
 
@@ -1276,7 +1276,7 @@ The Rational Quality Manager plugin invokes Rational Quality Manager test suites
 
 ## IBM Rational Team Concert - Build
 
-No source configuration plug-in is required to use Rational Team Concert builds in IBM UrbanCode Deploy.  View a demo of this capability [here](https://youtu.be/1WSpLKsekr0). Read about a full deployment architecture and process using WAS, BPM, and RTC [here](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/07/20/bpserver).
+No source configuration plug-in is required to use Rational Team Concert builds in IBM DevOps Deploy.  View a demo of this capability [here](https://youtu.be/1WSpLKsekr0). Read about a full deployment architecture and process using WAS, BPM, and RTC [here](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/07/20/bpserver).
 
 ---
 
@@ -1286,7 +1286,7 @@ No source configuration plug-in is required to use Rational Team Concert builds 
 
 ## IBM Rational Team Concert - SCM
 
-The Rational Team Concert SCM source configuration extracts files from the Rational Team Concert SCM into an UrbanCode Deploy component version. The source files can be pulled from a snapshot or live stream. For supported platforms, and additional information, refer to the plug-in documentation link on the right.
+The Rational Team Concert SCM source configuration extracts files from the Rational Team Concert SCM into an DevOps Deploy component version. The source files can be pulled from a snapshot or live stream. For supported platforms, and additional information, refer to the plug-in documentation link on the right.
 
 ---
 
@@ -1306,7 +1306,7 @@ The RTC Work Items plugin provides steps for the build to comment and change the
 
 ## IBM Rational Test Automation Server (RTAS)
 
-The Rational Test Automation Server plug-in provides for integration with an Rational Test Automation Server server to automate tests within a deployment process using UrbanCode Deploy.
+The Rational Test Automation Server plug-in provides for integration with an Rational Test Automation Server server to automate tests within a deployment process using DevOps Deploy.
 
 ---
 
@@ -1316,7 +1316,7 @@ The Rational Test Automation Server plug-in provides for integration with an Rat
 
 ## IBM Rational Test Virtualization Server (RTVS)
 
-The Green Hat plug-in for UrbanCode Deploy that was shipped earlier has been split into the following two parts in the current release:
+The Green Hat plug-in for DevOps Deploy that was shipped earlier has been split into the following two parts in the current release:
 
 ---
 
@@ -1326,7 +1326,7 @@ The Green Hat plug-in for UrbanCode Deploy that was shipped earlier has been spl
 
 ## IBM Rational Test Workbench Web UI Tester
 
-IBM® Rational® Test Workbench provides a comprehensive test automation solution for functional testing, regression testing, integration technologies and performance and scalability testing. It helps you build intelligent and interconnected enterprise applications that can be deployed on traditional and cloud infrastructures.  With the IBM Rational Test Workbench Web UI Tester plugin for UrbanCode Deploy, you can automate the execution of functional tests and compound tests. This plugin cannot be used with the Rational Test Workbench Web UI Tester Starter Edition.
+IBM® Rational® Test Workbench provides a comprehensive test automation solution for functional testing, regression testing, integration technologies and performance and scalability testing. It helps you build intelligent and interconnected enterprise applications that can be deployed on traditional and cloud infrastructures.  With the IBM Rational Test Workbench Web UI Tester plugin for DevOps Deploy, you can automate the execution of functional tests and compound tests. This plugin cannot be used with the Rational Test Workbench Web UI Tester Starter Edition.
 
 ---
 
@@ -1354,183 +1354,183 @@ IBM Sterling B2B Integrator integrates critical B2B processes, transactions, and
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ibm-sterling-b2b-integrator/README.md)|[0]()|
 
-## IBM UrbanCode Build
+## IBM DevOps Build
 
-Get artifacts from IBM UrbanCode Build.
+Get artifacts from IBM DevOps Build.
 
 ---
 
-|Back to ...||IBM UrbanCode Build |Latest Version|
+|Back to ...||IBM DevOps Build |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](uBuildSourceConfig/README.md)|[12.1131550](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uBuildSourceConfig/ucd-uBuildSourceConfig-12.1131550.zip)|
 
-## IBM UrbanCode DBUpgrader
+## IBM DevOps DBUpgrader
 
-The DBUpgrader plug-in helps to manage database changes including schema updates and rollbacks. The plug-in uses a proprietary formatted XML file in conjunction with a version table in your database that tracks what changes have been applied. This plug-in is used when performing upgrades of IBM UrbanCode Deploy Applications.
+The DBUpgrader plug-in helps to manage database changes including schema updates and rollbacks. The plug-in uses a proprietary formatted XML file in conjunction with a version table in your database that tracks what changes have been applied. This plug-in is used when performing upgrades of IBM DevOps Deploy Applications.
 
 ---
 
-|Back to ...||IBM UrbanCode DBUpgrader |Latest Version|
+|Back to ...||IBM DevOps DBUpgrader |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](DBUpgrader/README.md)|[5.1151802](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DBUpgrader/ucd-DBUpgrader-5.1151802.zip)|
 
-## IBM UrbanCode Deploy Agent Package for Dynamic Cloud Environments
+## IBM DevOps Deploy Agent Package for Dynamic Cloud Environments
 
-The Install IBM® UrbanCode Deploy Agent package automatically installs agents on cloud resources. When you provision an environment from the cloud system, this script package installs an agent on each node in the cloud resource request. Then, these agents contact the IBM UrbanCode Deploy server and the server adds them to the environment.
+The Install IBM® DevOps Deploy Agent package automatically installs agents on cloud resources. When you provision an environment from the cloud system, this script package installs an agent on each node in the cloud resource request. Then, these agents contact the IBM DevOps Deploy server and the server adds them to the environment.
 
 ---
 
-|Back to ...||IBM UrbanCode Deploy Agent Package for Dynamic Cloud Environments |Latest Version|
+|Back to ...||IBM DevOps Deploy Agent Package for Dynamic Cloud Environments |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](AgentScript/README.md)|[6.2.0.2](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/AgentScript/ibm-ucd-agent-script-package-6.2.0.2.zip)|
 
-## IBM UrbanCode Deploy Applications
+## IBM DevOps Deploy Applications
 
-IBM UrbanCode Deploy is an *Application Deployment Automation* tool that provides facilities for modeling your applications, including its components, run-time environments and automated processes. Applications are the central point of focus of IBM UrbanCode Deploy and this plug-in provides steps for interacting with Applications on the Deploy server.  **Platform Support:**
+IBM DevOps Deploy is an *Application Deployment Automation* tool that provides facilities for modeling your applications, including its components, run-time environments and automated processes. Applications are the central point of focus of IBM DevOps Deploy and this plug-in provides steps for interacting with Applications on the Deploy server.  **Platform Support:**
 
 ---
 
-|Back to ...||IBM UrbanCode Deploy Applications |Latest Version|
+|Back to ...||IBM DevOps Deploy Applications |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](uDeploy-Application/README.md)|[84.1132353](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Application/ucd-uDeploy-Application-84.1132353.zip)|
 
-## IBM UrbanCode Deploy Components
+## IBM DevOps Deploy Components
 
-uDeploy is Urbancode’s application release automation tool. For more information, see [UrbanCode Deploy](https://www.ibm.com/cloud/urbancode) Component for creating and managing IBM UrbanCode Deploy components.
+uDeploy is Urbancode’s application release automation tool. For more information, see [UrbanCode Deploy](https://www.ibm.com/cloud/urbancode) Component for creating and managing IBM DevOps Deploy components.
 
 ---
 
-|Back to ...||IBM UrbanCode Deploy Components |Latest Version|
+|Back to ...||IBM DevOps Deploy Components |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](uDeploy-Component/README.md)|[78.1132354](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Component/ucd-uDeploy-Component-78.1132354.zip)|
 
-## IBM UrbanCode Deploy Configuration Management
+## IBM DevOps Deploy Configuration Management
 
-Configuration templating system built into UrbanCode Deploy. Configuration Templates are text files held within UrbanCode Deploy that have placeholders for variable configuration. This plugin writes out these configuration files at deployment time substituting in environment or target specific properties. This plugin will also read in properties from a file.
+Configuration templating system built into DevOps Deploy. Configuration Templates are text files held within DevOps Deploy that have placeholders for variable configuration. This plugin writes out these configuration files at deployment time substituting in environment or target specific properties. This plugin will also read in properties from a file.
 
 ---
 
-|Back to ...||IBM UrbanCode Deploy Configuration Management |Latest Version|
+|Back to ...||IBM DevOps Deploy Configuration Management |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](uDeployConfigManagement/README.md)|[17.1132359](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeployConfigManagement/ucd-uDeployConfigManagement-17.1132359.zip)|
 
-## IBM UrbanCode Deploy Environments
+## IBM DevOps Deploy Environments
 
-IBM UrbanCode Deploy is an application release automation tool. For more information, see [UrbanCode Deploy](https://www.ibm.com/cloud/urbancode). Plugin for creating and managing IBM UrbanCode Deploy environments.
+IBM DevOps Deploy is an application release automation tool. For more information, see [UrbanCode Deploy](https://www.ibm.com/cloud/urbancode). Plugin for creating and managing IBM DevOps Deploy environments.
 
 ---
 
-|Back to ...||IBM UrbanCode Deploy Environments |Latest Version|
+|Back to ...||IBM DevOps Deploy Environments |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](uDeploy-Environment/README.md)|[89.1159271](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Environment/ucd-uDeploy-Environment-89.1159271.zip)|
 
-## IBM UrbanCode Deploy General Utilites
+## IBM DevOps Deploy General Utilites
 
-This plugin provides various utilities for use in your UrbanCode Deploy process.
+This plugin provides various utilities for use in your DevOps Deploy process.
 
 ---
 
-|Back to ...||IBM UrbanCode Deploy General Utilites |Latest Version|
+|Back to ...||IBM DevOps Deploy General Utilites |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](general-utilities/README.md)|[2.1056692](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/general-utilities/general-utilities-2.1056692.zip)|
 
-## IBM UrbanCode Deploy Process
+## IBM DevOps Deploy Process
 
-This IBM® UrbanCode™ Deploy Process plug-in supports interaction with processes and process requests within IBM UrbanCode Deploy. Using this plug-in, you can create or remove a link on a process request that can direct users to supplementary information related to the process execution.
+This IBM® UrbanCode™ Deploy Process plug-in supports interaction with processes and process requests within IBM DevOps Deploy. Using this plug-in, you can create or remove a link on a process request that can direct users to supplementary information related to the process execution.
 
 ---
 
-|Back to ...||IBM UrbanCode Deploy Process |Latest Version|
+|Back to ...||IBM DevOps Deploy Process |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](uDeploy-Process/README.md)|[11.1132356](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Process/ucd-uDeploy-Process-11.1132356.zip)|
 
-## IBM UrbanCode Deploy Resources
+## IBM DevOps Deploy Resources
 
-IBM UrbanCode Deploy is an application release automation tool. For more information, see [UrbanCode Deploy](https://www.ibm.com/cloud/urbancode). This plug-in manages resources in IBM UrbanCode Deploy.
+IBM DevOps Deploy is an application release automation tool. For more information, see [UrbanCode Deploy](https://www.ibm.com/cloud/urbancode). This plug-in manages resources in IBM DevOps Deploy.
 
 ---
 
-|Back to ...||IBM UrbanCode Deploy Resources |Latest Version|
+|Back to ...||IBM DevOps Deploy Resources |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](uDeploy-Resource/README.md)|[83.1133534](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Resource/ucd-uDeploy-Resource-83.1133534.zip)|
 
-## IBM UrbanCode Deploy System
+## IBM DevOps Deploy System
 
-uDeploy is Urbancode’s application release automation tool. For more information, see [UrbanCode Deploy](https://www.ibm.com/cloud/urbancode) Plugin for managing IBM UrbanCode Deploy system properties and global settings.
+uDeploy is Urbancode’s application release automation tool. For more information, see [UrbanCode Deploy](https://www.ibm.com/cloud/urbancode) Plugin for managing IBM DevOps Deploy system properties and global settings.
 
 ---
 
-|Back to ...||IBM UrbanCode Deploy System |Latest Version|
+|Back to ...||IBM DevOps Deploy System |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](uDeploy-System/README.md)|[65.1102020](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-System/uDeploy-System-65.1102020.zip)|
 
-## IBM UrbanCode Deploy Tools
+## IBM DevOps Deploy Tools
 
 The Deploy Tools plug-in provides several steps that help verify the successful deployment of an application.
 
 ---
 
-|Back to ...||IBM UrbanCode Deploy Tools |Latest Version|
+|Back to ...||IBM DevOps Deploy Tools |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](DeployTools/README.md)|[9.1056566](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DeployTools/DeployTools-9.1056566.zip)|
 
-## IBM UrbanCode Deploy Versioned File Storage
+## IBM DevOps Deploy Versioned File Storage
 
-The IBM UrbanCode Versioned File Storage plug-in includes steps to upload and download artifacts. Use this plug-in with IBM UrbanCode Deploy to upload artifacts to an UrbanCode Deploy versioned file storage repository.
+The IBM DevOps Versioned File Storage plug-in includes steps to upload and download artifacts. Use this plug-in with IBM DevOps Deploy to upload artifacts to an DevOps Deploy versioned file storage repository.
 
 ---
 
-|Back to ...||IBM UrbanCode Deploy Versioned File Storage |Latest Version|
+|Back to ...||IBM DevOps Deploy Versioned File Storage |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](UrbancodeVFS/README.md)|[48.1172096](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/ucd-UrbancodeVFS-48.1172096.zip)|
 
-## IBM UrbanCode Deploy Versions
+## IBM DevOps Deploy Versions
 
-This plugin provides capabilities for editing Component Versions in IBM UrbanCode Deploy.
+This plugin provides capabilities for editing Component Versions in IBM DevOps Deploy.
 
 ---
 
-|Back to ...||IBM UrbanCode Deploy Versions |Latest Version|
+|Back to ...||IBM DevOps Deploy Versions |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](uDeploy-Version/README.md)|[71.1132358](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Version/ucd-uDeploy-Version-71.1132358.zip)|
 
-## IBM UrbanCode PHP CLI Tool  [community plugin]
+## IBM DevOps PHP CLI Tool  [community plugin]
 
 The IBM Urban Code PHP CLI tool provides the following capabilities:
 
 ---
 
-|Back to ...||IBM UrbanCode PHP CLI Tool |Latest Version|
+|Back to ...||IBM DevOps PHP CLI Tool |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](PHPCLI/README.md)|[6.714879](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/PHPCLI/SubversionSourceConfig-6.714879.zip)|
 
-## IBM UrbanCode Package Manager
+## IBM DevOps Package Manager
 
-Plugin integration for Urbancode Package Manager.
+Plugin integration for DevOps Package Manager.
 
 ---
 
-|Back to ...||IBM UrbanCode Package Manager |Latest Version|
+|Back to ...||IBM DevOps Package Manager |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](UrbanCodePackageManager/README.md)|[3.455115](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbanCodePackageManager/Urbancode_Package_Manager-3.455115.zip)|
 
-## IBM UrbanCode Release
+## IBM DevOps Release
 
-This plug-in provides several steps for retrieving and updating information in IBM UrbanCode Release from your IBM UrbanCode Deploy processes, allowing for tighter integration and easier tracking of release status.
+This plug-in provides several steps for retrieving and updating information in IBM DevOps Release from your IBM DevOps Deploy processes, allowing for tighter integration and easier tracking of release status.
 
 ---
 
-|Back to ...||IBM UrbanCode Release |Latest Version|
+|Back to ...||IBM DevOps Release |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucr-plugin/README.md)|[9.1056530](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ucr-plugin/ucr-plugin-9.1056530.zip)|
 
-## IBM UrbanCode uBuild
+## IBM DevOps uBuild
 
-The IBM UrbanCode Build plugin for Deploy provides steps to download artifacts from UrbanCode Build and run uBuild workflows.
+The IBM DevOps Build plugin for Deploy provides steps to download artifacts from DevOps Build and run uBuild workflows.
 
 ---
 
-|Back to ...||IBM UrbanCode uBuild |Latest Version|
+|Back to ...||IBM DevOps uBuild |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](uBuild/README.md)|[8.1056531](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uBuild/uBuild-8.1056531.zip)|
 
@@ -1586,7 +1586,7 @@ This WSRR (WebSphere Service Registry and Repository) plug-in enables you to do 
 
 ## IBM Workload Automation  [community plugin]
 
-The IBM Workload Automation plug-in is a facility provided to help you moving workload automation definitions from one environment to another, in a distributed or z/OS environment. You can download a job stream definition from the Dynamic Workload Console, then IBM UrbanCode Deploy applies the appropriate environment parameters for the importing process that is performed by the plug-in’s steps. The IBM Workload Automation plug-in is a community plug-in. Community plug-ins are open source projects that are developed and supported by the IBM UrbanCode Development Community. Click Visit Project at the top of the page to go to the project for further information.
+The IBM Workload Automation plug-in is a facility provided to help you moving workload automation definitions from one environment to another, in a distributed or z/OS environment. You can download a job stream definition from the Dynamic Workload Console, then IBM DevOps Deploy applies the appropriate environment parameters for the importing process that is performed by the plug-in’s steps. The IBM Workload Automation plug-in is a community plug-in. Community plug-ins are open source projects that are developed and supported by the IBM DevOps Development Community. Click Visit Project at the top of the page to go to the project for further information.
 
 ---
 
@@ -1626,7 +1626,7 @@ Overview Informatica PowerCenter is an enterprise data integration platform. Thi
 
 ## JBoss Application Server
 
-JBoss Application Server is a open-source application server for Java EE. This plug-in interacts with the jboss-cli command line tool to provide access to JBoss operational and configuration tasks through the IBM UrbanCode Deploy process designer.
+JBoss Application Server is a open-source application server for Java EE. This plug-in interacts with the jboss-cli command line tool to provide access to JBoss operational and configuration tasks through the IBM DevOps Deploy process designer.
 
 ---
 
@@ -1644,19 +1644,19 @@ JBoss Operations Network (JBoss ON) is network management software for deploying
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](jboss-on/README.md)|[0]()|
 
-## JIRA for IBM UrbanCode Deploy
+## JIRA for IBM DevOps Deploy
 
 JIRA is an issue tracking tool. You can use the tool to capture and organize issues, assign work, and track activities. Issues can be anything from development tasks, code errors, project tasks, help-desk tickets, or human resource request forms. The JIRA product is developed by Atlassian. For JIRA version older than v5.0, please use plugin v5. The JIRA plug-in provides integrations with JIRA. You can create and update issues, add comments to an issue, and create reports.
 
 ---
 
-|Back to ...||JIRA for IBM UrbanCode Deploy |Latest Version|
+|Back to ...||JIRA for IBM DevOps Deploy |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](JIRA/README.md)|[19.1167047](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/JIRA/ucd-JIRA-19.1167047.zip)|
 
 ## Jenkins Job Manager  [community plugin]
 
-This IBM UrbanCode Deploy Jenkins Job Manager plug-in provides support to manage Jenkins Jobs.
+This IBM DevOps Deploy Jenkins Job Manager plug-in provides support to manage Jenkins Jobs.
 
 ---
 
@@ -1666,7 +1666,7 @@ This IBM UrbanCode Deploy Jenkins Job Manager plug-in provides support to manage
 
 ## Jenkins Pipeline
 
-The Jenkins Pipeline plug-in allows for interaction with UrbanCode Deploy components, such as creating a component and publish artifacts to version.
+The Jenkins Pipeline plug-in allows for interaction with DevOps Deploy components, such as creating a component and publish artifacts to version.
 
 ---
 
@@ -1676,7 +1676,7 @@ The Jenkins Pipeline plug-in allows for interaction with UrbanCode Deploy compon
 
 ## Jenkins Publisher
 
-Jenkins is a continuous integration server that supports interactions with other technologies by using a plug-in model. This plug-in is installed into the Jenkins server and provides the ability to publish artifacts into an IBM UrbanCode Deploy component as a post-build action.
+Jenkins is a continuous integration server that supports interactions with other technologies by using a plug-in model. This plug-in is installed into the Jenkins server and provides the ability to publish artifacts into an IBM DevOps Deploy component as a post-build action.
 
 ---
 
@@ -1686,7 +1686,7 @@ Jenkins is a continuous integration server that supports interactions with other
 
 ## Kubernetes
 
-Kubernetes is an open-source system for automating deployment, operations, and scaling of containerized applications. The Kubernetes plug-in provides the ability to interact with Kubernetes resources within IBM UrbanCode Deploy.
+Kubernetes is an open-source system for automating deployment, operations, and scaling of containerized applications. The Kubernetes plug-in provides the ability to interact with Kubernetes resources within IBM DevOps Deploy.
 
 ---
 
@@ -1706,7 +1706,7 @@ Developed by UrbanCode, the Linux Tools plugin allows Urban CodeDeploy to automa
 
 ## Liquibase  [community plugin]
 
-Liquibase is an open source tool that brings source control for tracking, managing and applying database schema changes. This plug-in is developed and supported by the UrbanCode Deploy Community on IBM-UrbanCode’s GitHub organization. Click the “Visit Project” button at the top of the page to navigate to the project for source code, the plug-in distributable, and further information.
+Liquibase is an open source tool that brings source control for tracking, managing and applying database schema changes. This plug-in is developed and supported by the DevOps Deploy Community on IBM-UrbanCode’s GitHub organization. Click the “Visit Project” button at the top of the page to navigate to the project for source code, the plug-in distributable, and further information.
 
 ---
 
@@ -1716,7 +1716,7 @@ Liquibase is an open source tool that brings source control for tracking, managi
 
 ## LogiGear TestArchitect  [community plugin]
 
-The LogiGear TestArchitect plug-in for IBM UrbanCode Deploy and Build provides steps to run tests using the TestArchitect command line interface.
+The LogiGear TestArchitect plug-in for IBM DevOps Deploy and Build provides steps to run tests using the TestArchitect command line interface.
 
 ---
 
@@ -1756,7 +1756,7 @@ The Mesos Marathon plug-in uses the Marathon REST API to interact with and manip
 
 ## MicroFocus ALM (formerly HP Quality Center)
 
-The HP Quality Center Plugin enables you to add interactions with an HP Quality Center server into your IBM UrbanCode Deploy Processes. Typically, this is for the purpose of running tests and adding a status to a Component Version that will either allow or deny it from being promoted to the next Environment in your SDLC. This plug-in uses Visual Basic scripts to connect to the HP Quality Center server and must run on a system that has access to OTAClient.dll.
+The HP Quality Center Plugin enables you to add interactions with an HP Quality Center server into your IBM DevOps Deploy Processes. Typically, this is for the purpose of running tests and adding a status to a Component Version that will either allow or deny it from being promoted to the next Environment in your SDLC. This plug-in uses Visual Basic scripts to connect to the HP Quality Center server and must run on a system that has access to OTAClient.dll.
 
 ---
 
@@ -1786,7 +1786,7 @@ To get started with the plug-in, read the [plug-in documentation](https://urbanc
 
 ## Microsoft IIS AdminScripts
 
-Microsoft’s IIS 6 is a web server application packaged with Windows server 2003. The IIS-AdminScripts plugin allows IBM UrbanCode Deploy to automate IIS6 configuration changes during a deployment.
+Microsoft’s IIS 6 is a web server application packaged with Windows server 2003. The IIS-AdminScripts plugin allows IBM DevOps Deploy to automate IIS6 configuration changes during a deployment.
 
 ---
 
@@ -1826,7 +1826,7 @@ With the sqlcmd utility, you can enter Transact-SQL statements, system procedure
 
 ## Microsoft SSIS
 
-The Microsoft SSIS plug-in provides deployment automation of packages to SQL database servers that can work alone or with other deployed packages to provide solutions to complex business needs. The testing was done using UrbanCode Deploy 6.1.0.1.
+The Microsoft SSIS plug-in provides deployment automation of packages to SQL database servers that can work alone or with other deployed packages to provide solutions to complex business needs. The testing was done using DevOps Deploy 6.1.0.1.
 
 ---
 
@@ -1836,7 +1836,7 @@ The Microsoft SSIS plug-in provides deployment automation of packages to SQL dat
 
 ## Microsoft SharePoint
 
-Microsoft SharePoint is a web application platform for common enterprise web requirements. The Microsoft SharePoint plug-in for IBM UrbanCode Deploy includes steps to deploy .wsp and .cmp files. It is compatible with SharePoint Server 2007, 2010, 2013, and 2016.
+Microsoft SharePoint is a web application platform for common enterprise web requirements. The Microsoft SharePoint plug-in for IBM DevOps Deploy includes steps to deploy .wsp and .cmp files. It is compatible with SharePoint Server 2007, 2010, 2013, and 2016.
 
 ---
 
@@ -1866,7 +1866,7 @@ Microsoft Team Foundation Server (TFS) is a software development collaboration t
 
 ## Microsoft TFS Work Items
 
-This plug-in provides steps that enable one to create and update work items in a Microsoft Team Foundation Server from within an IBM UrbanCode Deploy process. Typically, one would add a comment, update the status, or even open a new work item depending on the outcome of a deploy (i.e. success of failure). The plug-in must be run on an agent where the Microsoft Visual Studio and Team Foundation Server plug-in for Visual Studio have been installed.
+This plug-in provides steps that enable one to create and update work items in a Microsoft Team Foundation Server from within an IBM DevOps Deploy process. Typically, one would add a comment, update the status, or even open a new work item depending on the outcome of a deploy (i.e. success of failure). The plug-in must be run on an agent where the Microsoft Visual Studio and Team Foundation Server plug-in for Visual Studio have been installed.
 
 ---
 
@@ -1886,7 +1886,7 @@ The Microsoft TFS\_SCM plug-in imports version artifacts from a Team Foundation 
 
 ## Microsoft Visual Studio Team Services (VSTS)  [partner plugin]
 
-The Microsoft Visual Studio Team Services (VSTS) extension provides the ability to import artifacts into IBM UrbanCode Deploy from Team Foundation Server (TFS). This extension is installed into TFS or VSO, not IBM UrbanCode Deploy.
+The Microsoft Visual Studio Team Services (VSTS) extension provides the ability to import artifacts into IBM DevOps Deploy from Team Foundation Server (TFS). This extension is installed into TFS or VSO, not IBM DevOps Deploy.
 
 ---
 
@@ -1916,7 +1916,7 @@ This plugin manipulates Windows Services. On Microsoft Windows operating systems
 
 ## Microsoft Windows System Tools
 
-This is an UrbanCode developed plugin for performing various Windows tasks. The Windows System Tools Plugin automates various Windows system tasks.
+This is an DevOps developed plugin for performing various Windows tasks. The Windows System Tools Plugin automates various Windows system tasks.
 
 ---
 
@@ -1946,7 +1946,7 @@ NPM (Node Package Manager) is a package manager for the JavaScript programming l
 
 ## New Relic  [community plugin]
 
-New Relic provides application performance management, allowing you to monitor, troubleshoot, and configure applications. This plugin sends deployment notifications to New Relic. This plug-in is developed and supported by the UrbanCode Deploy Community on the IBM DevOps Services platform. Click the “Visit Project” button at the top of the page to navigate to the project for further information.
+New Relic provides application performance management, allowing you to monitor, troubleshoot, and configure applications. This plugin sends deployment notifications to New Relic. This plug-in is developed and supported by the DevOps Deploy Community on the IBM DevOps Services platform. Click the “Visit Project” button at the top of the page to navigate to the project for further information.
 
 ---
 
@@ -1966,7 +1966,7 @@ Nexus is a repository manager, developed by SonaType, designed to store artifact
 
 ## Nexus Repository Manager V3
 
-Nexus is a repository manager, developed by SonaType, designed to store artifacts and cache remote repositories while providing universal package support. This plug-in integrates with Nexus to retrieve artifacts hosted in a Maven repository using IBM UrbanCode Deploy’s import mechanism.
+Nexus is a repository manager, developed by SonaType, designed to store artifacts and cache remote repositories while providing universal package support. This plug-in integrates with Nexus to retrieve artifacts hosted in a Maven repository using IBM DevOps Deploy’s import mechanism.
 
 ---
 
@@ -1976,7 +1976,7 @@ Nexus is a repository manager, developed by SonaType, designed to store artifact
 
 ## Nexus Source Config
 
-Nexus is a repository manager, developed by SonaType, designed to store artifacts and cache remote repositories while providing universal package support. This plug-in integrates with Nexus to retrieve artifacts hosted in a Maven repository using IBM UrbanCode Deploy’s import mechanism.
+Nexus is a repository manager, developed by SonaType, designed to store artifacts and cache remote repositories while providing universal package support. This plug-in integrates with Nexus to retrieve artifacts hosted in a Maven repository using IBM DevOps Deploy’s import mechanism.
 
 ---
 
@@ -1996,7 +1996,7 @@ Node-RED provides a browser-based flow editor that makes it easy to wire togethe
 
 ## Node.js  [community plugin]
 
-Node.js is a platform built on Chrome’s JavaScript runtime for easily building fast, scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices. Upload this plugin to IBM UrbanCode Deploy to install and configure Nodejs.
+Node.js is a platform built on Chrome’s JavaScript runtime for easily building fast, scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices. Upload this plugin to IBM DevOps Deploy to install and configure Nodejs.
 
 ---
 
@@ -2024,9 +2024,9 @@ Use the OpenShift source configuration plug-in to manually or automatically crea
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](OpenShiftSourceConfig/README.md)|[6.1034331](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/OpenShiftSourceConfig/OpenShiftSourceConfig-6.1034331.zip)|
 
-## OpenShift for IBM UrbanCode Deploy
+## OpenShift for IBM DevOps Deploy
 
-OpenShift provides application lifecycle management functionality and DevOps tooling, and is built around a core of Docker container packaging and Kubernetes container cluster management. Origin provides a complete open source application container platform. This plug-in provides the ability to interact with OpenShift applications within IBM UrbanCode Deploy.
+OpenShift provides application lifecycle management functionality and DevOps tooling, and is built around a core of Docker container packaging and Kubernetes container cluster management. Origin provides a complete open source application container platform. This plug-in provides the ability to interact with OpenShift applications within IBM DevOps Deploy.
 
 ---
 
@@ -2126,7 +2126,7 @@ Serena PVCS is a version management tool that provides a built-in file server an
 
 ## Perforce Helix
 
-Perforce is a commercial, proprietary, centralized revision control system developed by Perforce Software, Inc. Use this source configuration plug-in to manually or automatically import artifacts from the Perforce Helix server into an IBM UrbanCode Deploy component version.
+Perforce is a commercial, proprietary, centralized revision control system developed by Perforce Software, Inc. Use this source configuration plug-in to manually or automatically import artifacts from the Perforce Helix server into an IBM DevOps Deploy component version.
 
 ---
 
@@ -2146,7 +2146,7 @@ The PowerShell plug-in provides a step for running user-defined PowerShell scrip
 
 ## Property Utils  [community plugin]
 
-The Property Utils plug-in is an automation based plugin that provides steps for collecting IBM UrbanCode properties. The Property Utils plug-in is a community plug-in. Community plug-ins are open source projects that are developed and supported by the IBM UrbanCode development community. Click **Visit Project** at the top of the page to go to the project for further information.
+The Property Utils plug-in is an automation based plugin that provides steps for collecting IBM DevOps properties. The Property Utils plug-in is a community plug-in. Community plug-ins are open source projects that are developed and supported by the IBM DevOps development community. Click **Visit Project** at the top of the page to go to the project for further information.
 
 ---
 
@@ -2174,19 +2174,19 @@ The RPM Package Manager (RPM) is a toolset used to install a single package, tra
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](RPM/README.md)|[4.1100816](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RPM/RPM-4.1100816.zip)|
 
-## Rally for IBM UrbanCode Deploy
+## Rally for IBM DevOps Deploy
 
 Rally is an agile project management tool for the enterprise. This plug-in includes steps to update Rally issues for bug or feature tracking.
 
 ---
 
-|Back to ...||Rally for IBM UrbanCode Deploy |Latest Version|
+|Back to ...||Rally for IBM DevOps Deploy |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](Rally/README.md)|[6.1056546](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Rally/Rally-6.1056546.zip)|
 
 ## Resource Utilities
 
-The Resource Utilities plug-in supplements the existing IBM UrbanCode Deploy resources plugin with additional steps to help manage large resource trees and the properties on resources in large trees. This is an open source plug-in and is developed and supported by the IBM UrbanCode Deploy Community on GitHub. At this time, not all the required jars are available for public use and therefore, are missing from the GitHub repository. To retrieve a working plugin, please use the ‘download’ link at the top of this page.
+The Resource Utilities plug-in supplements the existing IBM DevOps Deploy resources plugin with additional steps to help manage large resource trees and the properties on resources in large trees. This is an open source plug-in and is developed and supported by the IBM DevOps Deploy Community on GitHub. At this time, not all the required jars are available for public use and therefore, are missing from the GitHub repository. To retrieve a working plugin, please use the ‘download’ link at the top of this page.
 
 ---
 
@@ -2216,7 +2216,7 @@ The SQL-JDBC plugin is a database-independent plug-in. It allows users to run SQ
 
 ## Salesforce
 
-The Salesforce plug-in for IBM UrbanCode Deploy uses the Force.com Migration Tool to perform file-based deployment of metadata changes and Apex classes. These artifacts typically progress through a lifecycle in which IBM UrbanCode Deploy environments are mapped to Salesforce.com organizations.
+The Salesforce plug-in for IBM DevOps Deploy uses the Force.com Migration Tool to perform file-based deployment of metadata changes and Apex classes. These artifacts typically progress through a lifecycle in which IBM DevOps Deploy environments are mapped to Salesforce.com organizations.
 
 ---
 
@@ -2267,7 +2267,7 @@ A shell is software that provides an interface for users of an operating system 
 
 ## Siebel  [community plugin]
 
-Siebel is a customer relationship management (CRM) system that is produced by Oracle. The Siebel plug-in is a community supported plug-in. Community plug-ins are open source projects that are developed and supported by the IBM UrbanCode development community. Click **Visit Project** at the top of the page to go to the project for further information.
+Siebel is a customer relationship management (CRM) system that is produced by Oracle. The Siebel plug-in is a community supported plug-in. Community plug-ins are open source projects that are developed and supported by the IBM DevOps development community. Click **Visit Project** at the top of the page to go to the project for further information.
 
 ---
 
@@ -2277,7 +2277,7 @@ Siebel is a customer relationship management (CRM) system that is produced by Or
 
 ## Skytap Automation Pack  [partner plugin]
 
-Skytap expands the devops flexibility of IBM UrbanCode Deploy with the Skytap Automation Pack for UrbanCode Deploy. The integration with IBM UrbanCode Deploy enables customers to use scalable, elastic, on-demand cloud resources to meet fluctuating and unpredictable demand for IBM UrbanCode Deploy workflows.
+Skytap expands the devops flexibility of IBM DevOps Deploy with the Skytap Automation Pack for DevOps Deploy. The integration with IBM DevOps Deploy enables customers to use scalable, elastic, on-demand cloud resources to meet fluctuating and unpredictable demand for IBM DevOps Deploy workflows.
 
 ---
 
@@ -2307,7 +2307,7 @@ Subversion is an open source version control software. It is used to maintain cu
 
 ## Subversion-Export
 
-Subversion is an open source version control system. Developers use Subversion to maintain current and historical versions of files such as source code, web pages, and documentation. This plug-in allows IBM UrbanCode Deploy to checkout and export code from Subversion.
+Subversion is an open source version control system. Developers use Subversion to maintain current and historical versions of files such as source code, web pages, and documentation. This plug-in allows IBM DevOps Deploy to checkout and export code from Subversion.
 
 ---
 
@@ -2337,7 +2337,7 @@ The System Information plugin includes a variety of checks to perform against th
 
 ## TIBCO  [partner plugin]
 
-A plugin for management of TIBCO applications – includes steps for deployment, configuration, export etc. The plugin to provides smooth and transparent interaction between TIBCO Administrator and IBM UrbanCode Deploy tool. It automates the app management process for TIBCO applications by providing simplified process.
+A plugin for management of TIBCO applications – includes steps for deployment, configuration, export etc. The plugin to provides smooth and transparent interaction between TIBCO Administrator and IBM DevOps Deploy tool. It automates the app management process for TIBCO applications by providing simplified process.
 
 ---
 
@@ -2357,7 +2357,7 @@ TeamCity is a build management and continuous integration tool which supports a 
 
 ## Text Utility  [community plugin]
 
-The Text-Utils plug-in for IBM UrbanCode Deploy offers various ways to modify files.
+The Text-Utils plug-in for IBM DevOps Deploy offers various ways to modify files.
 
 ---
 
@@ -2367,7 +2367,7 @@ The Text-Utils plug-in for IBM UrbanCode Deploy offers various ways to modify fi
 
 ## VMware AirWatch  [community plugin]
 
-The VMWare AirWatch allows a user to access work applications and data from a mobile phone. This plug-in enables IBM UrbanCode Deploy to deploy an IPA to an AirWatch instance and assign an IPA to a group.
+The VMWare AirWatch allows a user to access work applications and data from a mobile phone. This plug-in enables IBM DevOps Deploy to deploy an IPA to an AirWatch instance and assign an IPA to a group.
 
 ---
 
@@ -2377,7 +2377,7 @@ The VMWare AirWatch allows a user to access work applications and data from a mo
 
 ## Venafi  [community plugin]
 
-The Venafi Trust Protection Platform provides continuous monitoring and control over keys and certificates across different devices. The Venafi plug-in for IBM UrbanCode Deploy contains various steps to control Venafi certificates.
+The Venafi Trust Protection Platform provides continuous monitoring and control over keys and certificates across different devices. The Venafi plug-in for IBM DevOps Deploy contains various steps to control Venafi certificates.
 
 ---
 
@@ -2397,7 +2397,7 @@ The Web Utilities plug-in includes steps for interacting with web sites and web 
 
 ## WebSphere Application Server - Configure
 
-To learn more about different solutions for WebSphere Application Server, see [Frequently Asked Questions about IBM UrbanCode Deploy solutions for WebSphere Application Server](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2023/03/03/frequently-asked-questions-about-ibm-urbancode-dep/ "Frequently Asked Questions about IBM UrbanCode Deploy solutions for WebSphere Application Server").  Starting with version 14 of the WebSphere Application Server – Configure plug-in for IBM UrbanCode Deploy, you can use JSON files to manage WebSphere Application Server configuration.
+To learn more about different solutions for WebSphere Application Server, see [Frequently Asked Questions about IBM DevOps Deploy solutions for WebSphere Application Server](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2023/03/03/frequently-asked-questions-about-ibm-devops-dep/ "Frequently Asked Questions about IBM DevOps Deploy solutions for WebSphere Application Server").  Starting with version 14 of the WebSphere Application Server – Configure plug-in for IBM DevOps Deploy, you can use JSON files to manage WebSphere Application Server configuration.
 
 ---
 
@@ -2407,7 +2407,7 @@ To learn more about different solutions for WebSphere Application Server, see [F
 
 ## WebSphere Application Server - Deployment
 
-The WebSphere Application Server – Deployment plug-in provides a number of steps for deploying application files to and performing administrative tasks for WebSphere Application Server. The plug-in also contains a number of steps that are related to configuration management, such as creating data sources and JMS requests. These configuration steps are deprecated; instead, use the WebSphere Application Server – Configure plug-in for all configuration-related activities. To learn more about different solutions for WebSphere Application Server, see [Frequently Asked Questions about IBM UrbanCode Deploy solutions for WebSphere Application Server](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2023/03/03/frequently-asked-questions-about-ibm-urbancode-dep/ "Frequently Asked Questions about IBM UrbanCode Deploy solutions for WebSphere Application Server").
+The WebSphere Application Server – Deployment plug-in provides a number of steps for deploying application files to and performing administrative tasks for WebSphere Application Server. The plug-in also contains a number of steps that are related to configuration management, such as creating data sources and JMS requests. These configuration steps are deprecated; instead, use the WebSphere Application Server – Configure plug-in for all configuration-related activities. To learn more about different solutions for WebSphere Application Server, see [Frequently Asked Questions about IBM DevOps Deploy solutions for WebSphere Application Server](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2023/03/03/frequently-asked-questions-about-ibm-devops-dep/ "Frequently Asked Questions about IBM DevOps Deploy solutions for WebSphere Application Server").
 
 ---
 
@@ -2450,7 +2450,7 @@ This is a partner plugin.
 
 ## eggPlant  [partner plugin]
 
-The eggPlant Functional test tool from TestPlant enables you to execute synthetic transactions or functional tests from an IBM UrbanCode Deploy Process
+The eggPlant Functional test tool from TestPlant enables you to execute synthetic transactions or functional tests from an IBM DevOps Deploy Process
 
 ---
 
@@ -2470,7 +2470,7 @@ Apart from copying content to a mainframe dataset, this plug-in provides the fol
 
 ## z/OS External Artifact Repository
 
-The External Artifact Repository plug-in includes the step to download artifacts from a Nexus or JFrog Artifactory repository into an UrbanCode z/OS type component.
+The External Artifact Repository plug-in includes the step to download artifacts from a Nexus or JFrog Artifactory repository into an DevOps z/OS type component.
 
 ---
 
@@ -2523,7 +2523,7 @@ The z/OS Multi Generate Artifact Information plug-in scans version artifacts and
 > **Deprecation Notice**: The z/OS Shell plugin is deprecated. It is recommended to use the [Shell plugin](#Shell) instead.
 To download the plug-in, click the following version-specific links.
 
-The z/OS Shell plug-in is for the z/OS only operating system. It performs the same functions as the [Shell plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Shell/) for UrbanCode Deploy. The plug-in reduces the CPU consumption in the z/OS environment by using Java code instead of Groovy code.
+The z/OS Shell plug-in is for the z/OS only operating system. It performs the same functions as the [Shell plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Shell/) for DevOps Deploy. The plug-in reduces the CPU consumption in the z/OS environment by using Java code instead of Groovy code.
 
 ---
 
@@ -2533,7 +2533,7 @@ The z/OS Shell plug-in is for the z/OS only operating system. It performs the sa
 
 ## z/OS USS Utility
 
-The z/OS USS Utility plug-in automates working with USS files on the z/OS operating system. This plug-in supports working with the IBM z/OS version 2.2 and later and requires UrbanCode Deploy agent on the z/OS server.
+The z/OS USS Utility plug-in automates working with USS files on the z/OS operating system. This plug-in supports working with the IBM z/OS version 2.2 and later and requires DevOps Deploy agent on the z/OS server.
 
 ---
 
@@ -2543,7 +2543,7 @@ The z/OS USS Utility plug-in automates working with USS files on the z/OS operat
 
 ## z/OS Utility
 
-The z/OS Utility plug-in includes steps for retrieving and deploying IBM z/OS artifacts. It is installed and upgraded as part of the IBM UrbanCode Deploy server. This plugin will work with all the supported versions of UCD server/agents. There are some new features that are only supported if the agent is upgraded to those versions. If you attempt to use the feature that is not enabled for a version, process might fail with the message to upgrade the agent.  This plug-in requires agents that run on the z/OS platform.
+The z/OS Utility plug-in includes steps for retrieving and deploying IBM z/OS artifacts. It is installed and upgraded as part of the IBM DevOps Deploy server. This plugin will work with all the supported versions of UCD server/agents. There are some new features that are only supported if the agent is upgraded to those versions. If you attempt to use the feature that is not enabled for a version, process might fail with the message to upgrade the agent.  This plug-in requires agents that run on the z/OS platform.
 
 ---
 
