@@ -1,7 +1,7 @@
 
 # Docker - Overview
 
-The Docker plug-in includes steps that map Docker images to components in IBM UrbanCode Deploy.
+The Docker plug-in includes steps that map Docker images to components in IBM DevOps Deploy.
 
 To add the Docker plug-in steps to processes, click **Cloud > Docker** in the step palette of the process editor.
 
@@ -11,15 +11,15 @@ The Docker automation plug-in requires the [Docker source-configuration plug-in]
 
 ## Compatibility
 
-The IBM UrbanCode Deploy automation plug-in for Docker works with Docker Version 1.0 and later.
+The IBM DevOps Deploy automation plug-in for Docker works with Docker Version 1.0 and later.
 
-This plug-in requires IBM UrbanCode Deploy version 6.1.1 or later.
+This plug-in requires IBM DevOps Deploy version 6.1.1 or later.
 
-This plug-in supports agents on any operating system that is supported by IBM UrbanCode Deploy. This plug-in also supports agents on Linux OS on z Systems.
+This plug-in supports agents on any operating system that is supported by IBM DevOps Deploy. This plug-in also supports agents on Linux OS on z Systems.
 
 ## Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode products").
+No special steps are required for installation. See [Installing plug-ins in DevOps products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps products").
 
 ## History
 

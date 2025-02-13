@@ -1,5 +1,5 @@
 
-# IBM UrbanCode PHP CLI Tool - Usage
+# IBM DevOps PHP CLI Tool - Usage
 
 
 ### Run an application process
@@ -19,7 +19,7 @@ This entry point will print in the console the ID and link of the process reques
 
 php uCommand.php run application\_process.json
 
-################################## # UrbanCode PHP CLI # # Urban Code Deploy PHP CLI Tool # # by SalesConnectDublin # ##################################
+################################## # DevOps PHP CLI # # Urban Code Deploy PHP CLI Tool # # by SalesConnectDublin # ##################################
 
 [INFO] Default output to: /home/csitadmin/Documents/uCommand/backups
 
@@ -31,9 +31,9 @@ php uCommand.php run application\_process.json
 
 
 
-The promotion of a snapshot is the process of copying a snapshot from an origin UrbanCode Deploy server to a destination UrbanCode Deploy server, including all component versions and artifacts, specified in the snapshot to be promoted.
+The promotion of a snapshot is the process of copying a snapshot from an origin DevOps Deploy server to a destination DevOps Deploy server, including all component versions and artifacts, specified in the snapshot to be promoted.
 
-***Prerequisites*** In order to successfully promote a snapshot, on the destination UrbanCode Deploy server all the followings are needed:
+***Prerequisites*** In order to successfully promote a snapshot, on the destination DevOps Deploy server all the followings are needed:
 
 * All components listed in the snapshot
 * The target application for the snapshot should have the same name of the origins one
@@ -42,7 +42,7 @@ The promotion of a snapshot is the process of copying a snapshot from an origin 
 
 If any of the cases listed above fails, the promotion of the snapshot wont be able to continue.
 
-***Setup configuration for promotion*** A valid ucd configuration is needed. Please check Required configuration for setting up UrbanCode PHP CLI basic configuration.
+***Setup configuration for promotion*** A valid ucd configuration is needed. Please check Required configuration for setting up DevOps PHP CLI basic configuration.
 
 Edit your servers.config.php file
 
@@ -70,7 +70,7 @@ php uCommand.php promoteSnapshot [snapshot name]
 
 ***Walkthrough of the promotion process*** Promotion starts retrieving the snapshot from origin server
 
-UrbanCode PHP CLI will then verify that all prerequisites are in place (list of prerequisites)]
+DevOps PHP CLI will then verify that all prerequisites are in place (list of prerequisites)]
 
 Artifacts are exported from origin server
 
@@ -78,19 +78,19 @@ A new snapshot configuration is set up
 
 Component versions are created. If correctly created, component version will be marked with tag [SUCCESS]; if the component version already exists on destination server, it will be marked with the tag [SKIPPING]. In case of failure, component version will be marked with tag [FAILURE].
 
-If a component version has artifacts, they are uploaded on the destination UrbanCode Deploy server during this process.
+If a component version has artifacts, they are uploaded on the destination DevOps Deploy server during this process.
 
 User will then be notified of the success or failure. In case of success, a link to the just created snapshot will be displayed in the console.
 
 
-### Promote UrbanCode Deploy configuration
+### Promote DevOps Deploy configuration
 
 
 
 
-The promotion of UrbanCode Deploy configuration is the process of upgrading UrbanCode Deploy configuration in a destination server using the configuration taken from another UrbanCode Deploy server. This includes upgrade of processes, components and applications.
+The promotion of DevOps Deploy configuration is the process of upgrading DevOps Deploy configuration in a destination server using the configuration taken from another DevOps Deploy server. This includes upgrade of processes, components and applications.
 
-**Promote from UrbanCode Deploy server** When promoting the configuration directly from an origin server, UrbanCode PHP CLI is automatically downloading the configuration from the origin server, so to pick up the latest changes. Then it will proceeed to the upgrade process against the destination server.
+**Promote from DevOps Deploy server** When promoting the configuration directly from an origin server, DevOps PHP CLI is automatically downloading the configuration from the origin server, so to pick up the latest changes. Then it will proceeed to the upgrade process against the destination server.
 
 Edit your servers.config.php file
 
@@ -100,7 +100,7 @@ and fill in the information for the origin and destination server. Then run the 
 
 php uCommand.php *promoteConfig*
 
-**Promote from a source configuration directory** When promoting the configuration from a source directoy, UrbanCode PHP CLI is using the configuration saved in the directory to perform an upgrade against the destination server.
+**Promote from a source configuration directory** When promoting the configuration from a source directoy, DevOps PHP CLI is using the configuration saved in the directory to perform an upgrade against the destination server.
 
 Edit your servers.config.php file
 
@@ -155,6 +155,6 @@ Then run the backup:
 php uCommand.php **backup**
 
 
-|Back to ...||Latest Version|IBM UrbanCode PHP CLI Tool |||||
+|Back to ...||Latest Version|IBM DevOps PHP CLI Tool |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.714879](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/PHPCLI/SubversionSourceConfig-6.714879.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Setup](setup.md)|[Downloads](downloads.md)|

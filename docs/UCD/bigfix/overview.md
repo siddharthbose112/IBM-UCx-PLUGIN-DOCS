@@ -9,13 +9,13 @@ To add the IBM BigFix plug-in steps to processes, click **IT Management > BigFix
 
 This plug-in works with IBM BigFix version 9.0 and later.
 
-The IBM BigFix server must be accessible from the IBM UrbanCode Deploy agent.
+The IBM BigFix server must be accessible from the IBM DevOps Deploy agent.
 
-This plug-in requires version 6.0.1 or later of IBM UrbanCode Deploy.
+This plug-in requires version 6.0.1 or later of IBM DevOps Deploy.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 ### History
 

@@ -10,16 +10,16 @@ To use this plug-in, first run the Install Chef step. Then, run the Install Chef
 
 ### Compatibility
 
-Version 1 of this plug-in requires version 6.0.0 of IBM UrbanCode Deploy.
+Version 1 of this plug-in requires version 6.0.0 of IBM DevOps Deploy.
 
-This plug-in is supported to run on all operating systems that are supported by both the IBM UrbanCode Deploy agent (except for z/OS).
+This plug-in is supported to run on all operating systems that are supported by both the IBM DevOps Deploy agent (except for z/OS).
 
 This plug-in is supported to run against Chef v11.6.0-1 or higher.
 
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 
 |Back to ...||Latest Version|Chef ||||

@@ -15,7 +15,7 @@ This is a community plug-in
 If you encounter issues with the plug-in, or want to send feedback:
 
 * Search the [GitHub Issues](https://github.com/UrbanCode/JBoss-ON-UCD/issues) page for JBoss ON plug-in specific questions.
-* If there are no search results, submit your issue as a question to our [answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: urbancode | ucdev | plugins | jboss-on
+* If there are no search results, submit your issue as a question to our [answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: DevOps | ucdev | plugins | jboss-on
 
 ## Available Steps
 

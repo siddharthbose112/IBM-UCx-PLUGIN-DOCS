@@ -98,7 +98,7 @@ There are default input parameters that are available for all CICS CM Beta plug-
 
 
 
-### Output properties in the UrbanCode Deploy CICSConfiguration Manager Beta plug-in.
+### Output properties in the DevOps Deploy CICSConfiguration Manager Beta plug-in.
 
 * [Overview of CICS CM output properties](#overview_cicscm_output_properties)
 * [Create Migration Scheme step output property](#create_migration_scheme_output_property)
@@ -107,7 +107,7 @@ There are default input parameters that are available for all CICS CM Beta plug-
 
 ### Overview of CICS CM output properties
 
-Two of the CICS CM UrbanCode Deploy steps have output properties.
+Two of the CICS CM DevOps Deploy steps have output properties.
 
 ### Create migration scheme
 

@@ -1,7 +1,7 @@
 
 # IBM IMS - Troubleshooting
 
-**Tip:** For more questions and answers, see the [UrbanCode forum on IBM developerWorks.](https://community.ibm.com/community/user/wasdevops/urbancode-discussion)
+**Tip:** For more questions and answers, see the [DevOps forum on IBM developerWorks.](https://community.ibm.com/community/user/wasdevops/urbancode-discussion)
 
 ### Error messages and reason codes
 

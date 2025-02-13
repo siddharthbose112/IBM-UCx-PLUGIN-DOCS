@@ -1,11 +1,11 @@
 
-# IBM UrbanCode Deploy Tools
+# IBM DevOps Deploy Tools
 
 The Deploy Tools plug-in provides several steps that help verify the successful deployment of an application.
 
 **Platform Support:**
 
-* This plug-in is supported to run on all operating systems that are supported by the IBM UrbanCode Deploy agent, except for z/OS.
+* This plug-in is supported to run on all operating systems that are supported by the IBM DevOps Deploy agent, except for z/OS.
 
 
 ### Available Steps

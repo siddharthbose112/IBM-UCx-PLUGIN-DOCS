@@ -8,15 +8,15 @@ To add the F5 BIG-IP plug-in steps to processes, click **Infrastructure > Load B
 
 ### Compatibility
 
-The IBM UrbanCode Deploy automation plug-in for F5 BIG-IP works with all versions of F5 BIG-IP that support version 11.1 of the iControl Java client. Version 11.1 of the iControl Java client is included with the plug-in. To use the plug-in with newer versions of F5 products, in the hidden **iControl Jar Location** property specify the complete path to the iControl Java client that is installed on your F5 server. If you have not yet upgraded to F5 BIG-IP version 11.0 or greater, use version 10 or version 8 of the plugin.
+The IBM DevOps Deploy automation plug-in for F5 BIG-IP works with all versions of F5 BIG-IP that support version 11.1 of the iControl Java client. Version 11.1 of the iControl Java client is included with the plug-in. To use the plug-in with newer versions of F5 products, in the hidden **iControl Jar Location** property specify the complete path to the iControl Java client that is installed on your F5 server. If you have not yet upgraded to F5 BIG-IP version 11.0 or greater, use version 10 or version 8 of the plugin.
 
-This plug-in requires version 6.0.1 or later of IBM UrbanCode Deploy.
+This plug-in requires version 6.0.1 or later of IBM DevOps Deploy.
 
-This plug-in is compatible with agents running on operating systems that are supported by both IBM UrbanCode Deploy and the iControl Java client. This plug-in does not support agents running on z/OS.
+This plug-in is compatible with agents running on operating systems that are supported by both IBM DevOps Deploy and the iControl Java client. This plug-in does not support agents running on z/OS.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 ### History
 
@@ -67,7 +67,7 @@ Version 14 includes multiple updates:
 
 #### Version 10
 
-Version 10 includes a fix for a compatibility defect with IBM UrbanCode Deploy version 6.1.0.4 and later.
+Version 10 includes a fix for a compatibility defect with IBM DevOps Deploy version 6.1.0.4 and later.
 
 #### Version 9
 

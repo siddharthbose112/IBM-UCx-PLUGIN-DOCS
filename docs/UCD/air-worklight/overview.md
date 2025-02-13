@@ -8,17 +8,17 @@ To add the IBM MobileFirst Platform plug-in steps to processes, click **Mobile >
 
 ### Compatibility
 
-The IBM UrbanCode Deploy automation plug-in for IBM MobileFirst Platform is compatible with IBM MobileFirst Platform Foundation versions 6.3, 7.0, 7.1, 8.0, Bluemix-Hosted and with IBM Worklight versions 6.0 through 6.2.
+The IBM DevOps Deploy automation plug-in for IBM MobileFirst Platform is compatible with IBM MobileFirst Platform Foundation versions 6.3, 7.0, 7.1, 8.0, Bluemix-Hosted and with IBM Worklight versions 6.0 through 6.2.
 
 IBM Worklight prior to version 8 require the [worklight-ant-deploy.jar](https://www.ibm.com/support/knowledgecenter/SSZH4A_6.1.0/com.ibm.worklight.deploy.doc/devref/r_ant_tasks_buld_deploy_adapters.html). Follow the link to find the jar on your on-premise Worklight server. This is required and must be available for the agent to use.
 
-This plug-in requires version 6.0.1 or later of IBM UrbanCode Deploy.
+This plug-in requires version 6.0.1 or later of IBM DevOps Deploy.
 
-This plug-in is supported to run on all operating systems that are supported by the IBM UrbanCode Deploy agent.
+This plug-in is supported to run on all operating systems that are supported by the IBM DevOps Deploy agent.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 ### History
 
@@ -53,7 +53,7 @@ Version 6 of the plug-in adds support for IBM MobileFirst Platform Foundation ve
 
 #### Version 5
 
-Version 5 of the plug-in includes a fix for a compatibility defect with IBM Urbancode Deploy version 6.1.0.4 and later.
+Version 5 of the plug-in includes a fix for a compatibility defect with IBM DevOps Deploy version 6.1.0.4 and later.
 
 
 |Back to ...||Latest Version|IBM MobileFirst Platform (formerly Worklight) |||||

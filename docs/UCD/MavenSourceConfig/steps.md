@@ -49,7 +49,7 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | Snapshot version suffix | String | Optional: When above is a SNAPSHOT string to fetch a specific SNAPSHOT (e.g. 20181224.151710-4), leave blank to default to the latest snapshot |
 | Specific version | String | Optional: The maven version or SNAPSHOT string to import (e.g. 1.0.1 or 1.0-SNAPSHOT), leave blank for LATEST |
 | Translate Snapshot | Boolean | Select this check box to translate snapshot version to latest datetime string. |
-| Version Description | String | An optional description to add to the versions that are imported into UrbanCode Deploy. |
+| Version Description | String | An optional description to add to the versions that are imported into DevOps Deploy. |
 
 
 

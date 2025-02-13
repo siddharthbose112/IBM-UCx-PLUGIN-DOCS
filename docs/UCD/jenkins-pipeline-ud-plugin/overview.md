@@ -1,7 +1,7 @@
 
 # Jenkins Pipeline - Overview
 
-Jenkins is a continuous integration server that supports interactions with other technologies by using a plug-in model. The Jenkins Pipeline plug-in orchestrates UrbanCode Deploy deployments as part of a pipeline in Jenkins. You can complete the following tasks with this plug-in.
+Jenkins is a continuous integration server that supports interactions with other technologies by using a plug-in model. The Jenkins Pipeline plug-in orchestrates DevOps Deploy deployments as part of a pipeline in Jenkins. You can complete the following tasks with this plug-in.
 
 * Create components
 * Publish artifacts to a version
@@ -14,7 +14,7 @@ Jenkins is a continuous integration server that supports interactions with other
 
 This plug-in is supported to run against Jenkins Server 2.0 or later.
 
-This plug-in runs on UrbanCode Deploy 6.1 or later. For previous versions of IBM UrbanCode Deploy, download version 1.0.2 of the plug-in.
+This plug-in runs on DevOps Deploy 6.1 or later. For previous versions of IBM DevOps Deploy, download version 1.0.2 of the plug-in.
 
 ### Installation
 
@@ -34,7 +34,7 @@ The [Jenkins Pipeline Plug-in Tutorial](https://community.ibm.com/community/user
 
 #### Version 2.27
 
-* Fixed : 401 unauthorised error while pushing artifacts to IBM UrbanCode Deploy server.
+* Fixed : 401 unauthorised error while pushing artifacts to IBM DevOps Deploy server.
 * Added Global Fields for Skip Application Properties Import and Always Create New Client.
 * Added fields for Extensions of files to Convert field and Charset to push artifacts to component version step.
 

@@ -3,14 +3,14 @@
 
 Amazon Elastic Compute Cloud (EC2) provides virtual compute resources to users for running their own applications and allows scalable deployments. This plug-in provides steps for launching instances, terminating instances, associating IP addresses, waiting for instances, creating a security group, and getting the public DNS for the Amazon EC2 tool. The Amazon [AWS SDK](http://aws.amazon.com/sdkforjava/) is required and must be downloaded from Amazon separately.
 
-The[UrbanCode Deploy Blueprint Designer](/product/deploy/blueprint-designer/) can interact with AWS in a more declarative manner, and should be considered as a possible alternative to this plugin.
+The[DevOps Deploy Blueprint Designer](/product/deploy/blueprint-designer/) can interact with AWS in a more declarative manner, and should be considered as a possible alternative to this plugin.
 
 **Platform Support:**
 
-* This plug-in is supported to run on all operating systems that are supported by the IBM UrbanCode Deploy agent, except for z/OS.
+* This plug-in is supported to run on all operating systems that are supported by the IBM DevOps Deploy agent, except for z/OS.
 * This plug-in is supported to run against Amazon AWS SDK v1.3.7 or higher.
 
-**Note:** The IBM UrbanCode Deploy blueprint designer also provides an integration with Amazon EC2. For more information, see the [IBM UrbanCode Deploy product help](https://www-01.ibm.com/support/knowledgecenter/#!/SS4GSP_6.2.0/com.ibm.edt.doc/topics/cloud_connect_amazon_server.html).
+**Note:** The IBM DevOps Deploy blueprint designer also provides an integration with Amazon EC2. For more information, see the [IBM DevOps Deploy product help](https://www-01.ibm.com/support/knowledgecenter/#!/SS4GSP_6.2.0/com.ibm.edt.doc/topics/cloud_connect_amazon_server.html).
 
 
 ### Available Steps

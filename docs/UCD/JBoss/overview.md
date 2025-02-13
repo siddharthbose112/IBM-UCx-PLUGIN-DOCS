@@ -20,15 +20,15 @@ The plug-in also includes steps that are related to configuring and maintaining 
 
 ### Compatibility
 
-This plug-in requires version 6.0.1 of IBM UrbanCode Deploy.
+This plug-in requires version 6.0.1 of IBM DevOps Deploy.
 
 This plug-in supports JBoss Application Server version 6.1 or later.
 
-The steps in this plug-in do not run on IBM z/OS agents. This plug-in runs on all other operating systems that are supported by both IBM UrbanCode Deploy and by the JBoss Application Server jboss-cli tool.
+The steps in this plug-in do not run on IBM z/OS agents. This plug-in runs on all other operating systems that are supported by both IBM DevOps Deploy and by the JBoss Application Server jboss-cli tool.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 ### History
 
@@ -90,7 +90,7 @@ Version 9.596950 includes additional output for the Deploy Application and Deplo
 
 #### Version 9.554208
 
-Version 9.554208 supports IBM UrbanCode Deploy version 6.0.1 and later. This release includes support for username/password authentication.
+Version 9.554208 supports IBM DevOps Deploy version 6.0.1 and later. This release includes support for username/password authentication.
 
 
 |Back to ...||Latest Version|JBoss Application Server ||||

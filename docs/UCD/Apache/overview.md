@@ -11,7 +11,7 @@ This plug-in includes these steps.
 
 ### Compatibility
 
-This plug-in requires IBM UrbanCode Deploy version 6.0 or later.
+This plug-in requires IBM DevOps Deploy version 6.0 or later.
 
 This plug-in works with Apache Tomcat version 6.0 or later.
 

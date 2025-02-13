@@ -7,13 +7,13 @@ To add the File Utils plug-in steps to processes, click **Utilities > FileUtils*
 
 ### Compatibility
 
-This plug-in is supported to run on all operating systems that are supported by the IBM UrbanCode Deploy agent, including z/OS with UNIX System Services.
+This plug-in is supported to run on all operating systems that are supported by the IBM DevOps Deploy agent, including z/OS with UNIX System Services.
 
-This plug-in requires version 6.1 of IBM UrbanCode Deploy.
+This plug-in requires version 6.1 of IBM DevOps Deploy.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 ### History
 

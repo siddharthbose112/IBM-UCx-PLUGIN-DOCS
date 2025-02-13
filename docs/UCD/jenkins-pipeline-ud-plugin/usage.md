@@ -1,7 +1,7 @@
 
 # Jenkins Pipeline - Usage
 
-To use the Jenkins Pipeline plug-in both the UrbanCode Deploy and Jenkins serves must be started. After installing the plug-in on the Jenkins server, you must then configure the integration with the UrbanCode Deploy server. While the integration is defined on the Jenkins server, you must install and start an UrbanCode Deploy agent.Below are the overall setup tasks for using the plug-in.
+To use the Jenkins Pipeline plug-in both the DevOps Deploy and Jenkins serves must be started. After installing the plug-in on the Jenkins server, you must then configure the integration with the DevOps Deploy server. While the integration is defined on the Jenkins server, you must install and start an DevOps Deploy agent.Below are the overall setup tasks for using the plug-in.
 
 * Install and start the Jenkins server.
 * Start the Jenkins nodes and connect the nodes to the Jenkins server.
@@ -11,33 +11,33 @@ To use the Jenkins Pipeline plug-in both the UrbanCode Deploy and Jenkins serves
 
 ## Integration process
 
-After all the necessary parts are in place to use the plug-in, you can define the integration. You can define one or more UrbanCode Deploy servers where the Jenkins artifacts are to be pushed.
+After all the necessary parts are in place to use the plug-in, you can define the integration. You can define one or more DevOps Deploy servers where the Jenkins artifacts are to be pushed.
 
 1. Open the Jenkins user interface.
 2. Click **Manage Jenkins** > **Global Settings**
-3. Locate the UrbanCode Deploy section
-4. Complete the configuration settings to the UrbanCode Deploy server.[![jenkins7](media/jenkins-servers1.png)](media/jenkins-servers1.png)
+3. Locate the DevOps Deploy section
+4. Complete the configuration settings to the DevOps Deploy server.[![jenkins7](media/jenkins-servers1.png)](media/jenkins-servers1.png)
 
 | Name | Description |
 | --- | --- |
 | Profile name | The name of the integration, used for reference only. |
-| UrbanCode Deploy URL | The URL of the UrbanCode Deploy servers to push artifacts to from the Jenkins server. More than one can be specified. |
-| Username | The user name to authenticate with the UrbanCode server. |
-| Password | The password to authenticate with the UrbanCode server. |
+| DevOps Deploy URL | The URL of the DevOps Deploy servers to push artifacts to from the Jenkins server. More than one can be specified. |
+| Username | The user name to authenticate with the DevOps server. |
+| Password | The password to authenticate with the DevOps server. |
 | Trust All Certificates | Enable to accept all certificates. |
 
-* Click **Test Connection** to confirm the UrbanCode Deploy server can be reached.
+* Click **Test Connection** to confirm the DevOps Deploy server can be reached.
 
-**Note:** You can add additional UrbanCode Deploy configurations by clicking **Add**.
+**Note:** You can add additional DevOps Deploy configurations by clicking **Add**.
 
-On the UrbanCode Deploy server:
+On the DevOps Deploy server:
 
-1. Create a resource group and add the UrbanCode Deploy agent to the resource group. [![jenkins1](media/jenkins-resources1.png)](media/jenkins-resources1.png)
+1. Create a resource group and add the DevOps Deploy agent to the resource group. [![jenkins1](media/jenkins-resources1.png)](media/jenkins-resources1.png)
 2. Create the Jenkins application and environment.[![jenkins4](media/jenkins-app-env1.png)](media/jenkins-app-env1.png)
 
 ## Using the Jenkins plug-in
 
-After the setup is complete, you can use the plug-in to perform several tasks. There are two ways you can implement the plug-in into your UrbanCode Deploy pipeline:
+After the setup is complete, you can use the plug-in to perform several tasks. There are two ways you can implement the plug-in into your DevOps Deploy pipeline:
 
 1. Jenkins user interface
 2. Pipeline script
@@ -47,7 +47,7 @@ In the following usage scenarios both methods are described.
 * [Create a component version](#createversion)
 * [Deploy a component](#deploycomponent)
 * [Trigger Version Import](#triggerversionimport)
-* [Import into UrbanCode Deploy](#import2ucd)
+* [Import into DevOps Deploy](#import2ucd)
 * [Adding an Alternative User](#addaltuser)
 * [In-Process Script Approval](#scriptapproval)
 
@@ -59,8 +59,8 @@ To create a component version, create and configure a Jenkins job. In the Jenkin
 
 1. Specify the URL for the Git repository on the Source Code Management page. [![jenkins1](media/jenkins-source-control1.png)](media/jenkins-source-control1.png)
 2. The Build Management section. For example, run a Gradle build. [![jenkins1](media/jenkins-build1.png)](media/jenkins-build1.png)
-3. Add the Publish Artifacts to IBM UrbanCode Deploy build step. Configure the build step by completing the following steps:
-   1. Select the IBM UrbanCode Deploy Server that you configured previously.
+3. Add the Publish Artifacts to IBM DevOps Deploy build step. Configure the build step by completing the following steps:
+   1. Select the IBM DevOps Deploy Server that you configured previously.
    2. Select **Create Component Version**.
    3. In the drop-down list, enter an appropriate value for **Component Name**.
    4. Select **Create as New Component**.
@@ -77,7 +77,7 @@ The following pipeline script example defines a new component named Jenkins and 
 ```jenkins
 node {
 step([$class: 'UCDeployPublisher', // Class name of the Jenkins pipeline
-siteName: 'local',// Name of UrbanCode Deploy server
+siteName: 'local',// Name of DevOps Deploy server
 component: [// Actions to perform
 $class: 'com.urbancode.jenkins.plugins.ucdeploy.VersionHelper$VersionBlock',
 componentName: 'Jenkins',// Component name
@@ -110,7 +110,7 @@ After you create a component with a version, you can deploy the component from J
 1. Add the new component to the resource tree. [![jenkins1](media/jenkins-comp-env1.png)](media/jenkins-comp-env1.png)
 2. Add the base resource to the environment. [![jenkins1](media/jenkins-base-env1.png)](media/jenkins-base-env1.png)
 3. Create a process on the new component. [![jenkins1](media/jenkins-process1.png)](media/jenkins-process1.png)
-4. Go back to the Jenkins job that you configured when you created a component version and examine the Publish Artifacts to IBM UrbanCode Deploy build step. Modify the configuration by completing the following steps:
+4. Go back to the Jenkins job that you configured when you created a component version and examine the Publish Artifacts to IBM DevOps Deploy build step. Modify the configuration by completing the following steps:
    1. Select **Deploy**.
    2. In the drop-down list, enter the appropriate values for **Application Name** and **Component Name** that you created previously.
    3. Enter an appropriate value for **Application Process Name**.
@@ -129,7 +129,7 @@ The following pipeline script automatically starts a deploy process for a succes
 
 node {
 step([$class: 'UCDeployPublisher',//Class name of the Jenkins pipeline
-siteName: 'local', //Name of the UrbanCode Deploy server
+siteName: 'local', //Name of the DevOps Deploy server
 deploy: [//Actions to perform
 $class: 'com.urbancode.jenkins.plugins.ucdeploy.DeployHelper$DeployBlock',//Deploy action
 createSnapshot: [
@@ -159,8 +159,8 @@ deployOnlyChanged: false
 This user case demonstrates using Jenkins to create a component source configurations and trigger component imports.
 
 1. Follow the steps in the [Create a component version](#createversion) section.
-2. Add another `Publish Artifacts to IBM UrbanCode Deploy` build step. Configure the build step by completing the following steps:
-   1. Select the UrbanCode Deploy server that you previously configured.
+2. Add another `Publish Artifacts to IBM DevOps Deploy` build step. Configure the build step by completing the following steps:
+   1. Select the DevOps Deploy server that you previously configured.
    2. Select **Create Component Version**.
    3. In the drop-down list, enter an appropriate value for **Component Name**.
    4. Select **Create as New Component**.
@@ -176,7 +176,7 @@ This user case demonstrates using Jenkins to create a component source configura
 
 node {
 step([$class: 'UCDeployPublisher', //Class name of the Jenkins pipeline
-siteName: 'local',//Name of UrbanCode Deploy server
+siteName: 'local',//Name of DevOps Deploy server
 component: [ //Actions to perform
 $class: 'com.urbancode.jenkins.plugins.ucdeploy.VersionHelper$VersionBlock', //
 componentName: 'Jenkins',
@@ -198,14 +198,14 @@ pullIncremental: false
 
 ```
 
-### Import into UrbanCode Deploy
+### Import into DevOps Deploy
 
-You can use the Jenkins Pipeline plug-in to push or pull artifacts to and from UrbanCode Deploy. Pulling is also called importing. Note that this is completely different than pushing artifacts from Jenkins.
+You can use the Jenkins Pipeline plug-in to push or pull artifacts to and from DevOps Deploy. Pulling is also called importing. Note that this is completely different than pushing artifacts from Jenkins.
 
-* When you push an artifact, a new version is created in UrbanCode Deploy and the artifact is added to the new version.
-* When you pull (import), most of the task is handled by UrbanCode Deploy.
+* When you push an artifact, a new version is created in DevOps Deploy and the artifact is added to the new version.
+* When you pull (import), most of the task is handled by DevOps Deploy.
 
-When creating a component in UrbanCode Deploy, you select a source configuration type plug-in to use for importing new component versions into an UrbanCode Deploy component. Each source configuration plug-in has different properties that must be provided. These properties are called component properties and are saved. They are available every time yourun a version import. The following graphic shows the properties for the Nexus Repository Manager V3 source configuration plug-in.
+When creating a component in DevOps Deploy, you select a source configuration type plug-in to use for importing new component versions into an DevOps Deploy component. Each source configuration plug-in has different properties that must be provided. These properties are called component properties and are saved. They are available every time yourun a version import. The following graphic shows the properties for the Nexus Repository Manager V3 source configuration plug-in.
 
 ![Nexus Configuration Properties](media/nexusconfigproperties.jpg)
 
@@ -220,7 +220,7 @@ After the properties are configured, you can use the Jenkins Pipeline plug-in to
 ```jenkins
 {
 step([$class: 'UCDeployPublisher', // Class name of the Jenkins pipeline
-siteName: 'UCD', // Name of UrbanCode Deploy server
+siteName: 'UCD', // Name of DevOps Deploy server
 component: [ // Actions to perform
 $class:'com.urbancode.jenkins.plugins.ucdeploy.VersionHelper$VersionBlock',
 componentName: 'Nexus Nuget',

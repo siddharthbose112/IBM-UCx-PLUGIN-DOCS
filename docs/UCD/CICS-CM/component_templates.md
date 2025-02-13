@@ -29,7 +29,7 @@ You can bind your component to a specific version of the template to avoid autom
 
 ### More information
 
-For more information about creating, using, and editing component templates, see the [Component Templates](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=components-component-templates "Component Templates") section of the UrbanCode Deploy documentation or watch the introductory video, [Component Templates in IBM UrbanCode Deploy v6.0](https://www.youtube.com/watch?v=5qPBIayu-0E "Component Templates in IBM UrbanCode Deploy v6.0").
+For more information about creating, using, and editing component templates, see the [Component Templates](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=components-component-templates "Component Templates") section of the DevOps Deploy documentation or watch the introductory video, [Component Templates in IBM DevOps Deploy v6.0](https://www.youtube.com/watch?v=5qPBIayu-0E "Component Templates in IBM DevOps Deploy v6.0").
 
 ### CICS CM template
 

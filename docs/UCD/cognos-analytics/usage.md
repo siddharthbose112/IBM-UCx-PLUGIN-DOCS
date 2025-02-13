@@ -26,7 +26,7 @@ Below are the steps for a typical export process.
 
 Below are the steps for a typical import process.
 
-1. Download component artifacts from the UrbanCode Deploy server to the agent working directory.
+1. Download component artifacts from the DevOps Deploy server to the agent working directory.
 2. Use a shell command step to copy the ZIP file to the `deployment` directory.
 3. Use the **Import** step to import the content from the zip archive into the specified Cognos content store.
 

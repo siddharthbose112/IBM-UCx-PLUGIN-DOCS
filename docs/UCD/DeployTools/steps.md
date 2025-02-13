@@ -1,5 +1,5 @@
 
-# IBM UrbanCode Deploy Tools - Process Steps
+# IBM DevOps Deploy Tools - Process Steps
 
 * [Check Total Application Process Execution Time](#check_total_application_process_execution_time)
 * [Check Total Component Process Execution Time](#check_total_component_process_execution_time)
@@ -66,6 +66,6 @@ Wait for a web page to become accessible and to contain specified text.
 
 
 
-|Back to ...||Latest Version|IBM UrbanCode Deploy Tools |||
+|Back to ...||Latest Version|IBM DevOps Deploy Tools |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.1056566](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DeployTools/DeployTools-9.1056566.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

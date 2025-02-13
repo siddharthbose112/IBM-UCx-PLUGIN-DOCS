@@ -223,12 +223,12 @@ Update field(s) of a resource using strategic merge patch
 
 ### Process YAML File
 
-Reads a Kubernetes YAML file, creates UrbanCode Deploy components and resources representing container images found in the YAML file, and creates a updated YAML file with dynamically updated container image versions.
+Reads a Kubernetes YAML file, creates DevOps Deploy components and resources representing container images found in the YAML file, and creates a updated YAML file with dynamically updated container image versions.
 
 
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
-| Always Apply Image Tags from YAML | String | If set to true, the container image tags specified in the YAML file(s) will always be applied. If set to false, container image tags specified by the user through the UrbanCode Deploy user interface will be applied (or the current container image tags in the UrbanCode Deploy inventory will be applied if none are selected). | No |
+| Always Apply Image Tags from YAML | String | If set to true, the container image tags specified in the YAML file(s) will always be applied. If set to false, container image tags specified by the user through the DevOps Deploy user interface will be applied (or the current container image tags in the DevOps Deploy inventory will be applied if none are selected). | No |
 | Component Template | String | The template to use when creating components from Kubernetes application resources. You can use component templates to store different sets of registry credentials. | No |
 | YAML File(s) | String | Path and name of your Kubernetes yaml file or a directory containing multiple yaml files. If left blank, all .yaml and .yml files in the working directory will be processed. | No |
 

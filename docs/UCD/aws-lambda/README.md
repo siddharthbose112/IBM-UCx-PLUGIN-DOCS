@@ -11,7 +11,7 @@ This plug-in is a community plug-in
 If you encounter issues with the plug-in, or want to send feedback:
 
 * Ask AWS Lambda plug-in specific questions on the [GitHub Issues](https://github.com/UrbanCode/AWS-Lambda-UCD/issues) page.
-* For general plug-in issues, submit questions to our [Community discussions page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: ucdev | urbancode | plugins
+* For general plug-in issues, submit questions to our [Community discussions page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: ucdev | DevOps | plugins
 
 ## Available Steps
 

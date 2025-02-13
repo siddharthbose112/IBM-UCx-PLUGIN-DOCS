@@ -7,7 +7,7 @@ This plug-in integrates with Nexus to interact with artifacts hosted in the Nexu
 
 ### Compatibility
 
-The Nexus automation plug-in works with IBM UrbanCode Deploy 6.0+ and Nexus version 2.x.
+The Nexus automation plug-in works with IBM DevOps Deploy 6.0+ and Nexus version 2.x.
 
 
 ### Available Steps

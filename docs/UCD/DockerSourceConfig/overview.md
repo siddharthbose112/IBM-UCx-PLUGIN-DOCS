@@ -14,13 +14,13 @@ To access this plug-in in the palette, click **Source and Repositories** > **Doc
 
 ### Compatibility
 
-This plug-in requires version 6.0 or later of IBM UrbanCode Deploy.
+This plug-in requires version 6.0 or later of IBM DevOps Deploy.
 
 To use this plug-in with the IBM Containers service, you must install the Cloud Foundry cf command-line tool, and then log in from the command line using the cf login command. Download the cf command-line tool from the [CLI and dev tools page](https://console.ng.bluemix.net/docs/cli/index.html#downloads) on the IBM Bluemix website. To learn more about the cf command-line tool, see [Cloud Foundry (cf) commands](https://console.ng.bluemix.net/docs/cli/reference/cfcommands/index.html).
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode products").
+No special steps are required for installation. See [Installing plug-ins in DevOps products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps products").
 
 ### History
 

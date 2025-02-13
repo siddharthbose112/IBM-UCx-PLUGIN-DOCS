@@ -5,7 +5,7 @@
 #### Overview
 
 
-The Nexus Source Configuration plug-in allows IBM UrbanCode Deploy to retrieve artifacts from Maven Release or Snapshot repositories in Sonatypes Nexus version 2. If you are using Nexus version 3, use the Maven Source Configuration plug-in.
+The Nexus Source Configuration plug-in allows IBM DevOps Deploy to retrieve artifacts from Maven Release or Snapshot repositories in Sonatypes Nexus version 2. If you are using Nexus version 3, use the Maven Source Configuration plug-in.
 
 
 The configuration requirements for this plug-in are very similar to the Maven Source Configuration. However, a few fields allow for enhanced functionality.

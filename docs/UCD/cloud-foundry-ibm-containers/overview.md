@@ -8,15 +8,15 @@ To add the IBM Containers plug-in steps to processes, click **Cloud > Cloud Foun
 
 ### Compatibility
 
-The IBM UrbanCode Deploy automation plug-in for IBM Containers works with the Cloud Foundry command-line utility versions 6.14.0 through 6.16.0.
+The IBM DevOps Deploy automation plug-in for IBM Containers works with the Cloud Foundry command-line utility versions 6.14.0 through 6.16.0.
 
-This plug-in requires version 6.1 or later of IBM UrbanCode Deploy.
+This plug-in requires version 6.1 or later of IBM DevOps Deploy.
 
 This plug-in supports agents running Microsoft Windows, Linux, and Mac OS.
 
 ### Installation
 
-The Cloud Foundry command-line utility must be installed on the agent computer. Install the Cloud Foundry command-line utility from the [GitHub repository](https://github.com/cloudfoundry/cli/releases). No other special steps are required for installing the plug-in in IBM UrbanCode Deploy. See [Installing plug-ins in IBM UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in IBM UrbanCode Deploy").
+The Cloud Foundry command-line utility must be installed on the agent computer. Install the Cloud Foundry command-line utility from the [GitHub repository](https://github.com/cloudfoundry/cli/releases). No other special steps are required for installing the plug-in in IBM DevOps Deploy. See [Installing plug-ins in IBM DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in IBM DevOps Deploy").
 
 ### History
 

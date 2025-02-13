@@ -5,19 +5,19 @@ The Maven Resolve plug-in includes a step that resolves artifacts from a Maven r
 
 * [Maven Resolve](#maven_resolve "Maven Resolve")
 
-You can use the Maven Resolve plug-in if you already have a Maven repository in use as the definitive source for artifacts. In this scenario, your build automation tool stores new builds in the Maven repository and creates a corresponding empty component version in IBM UrbanCode Deploy, where the name of the component version matches the Maven identifier. Then, instead of using the Download Artifacts step, you use the Maven Resolve plug-in to retrieve the artifacts from the Maven repository and deploy them on the agent computer.
+You can use the Maven Resolve plug-in if you already have a Maven repository in use as the definitive source for artifacts. In this scenario, your build automation tool stores new builds in the Maven repository and creates a corresponding empty component version in IBM DevOps Deploy, where the name of the component version matches the Maven identifier. Then, instead of using the Download Artifacts step, you use the Maven Resolve plug-in to retrieve the artifacts from the Maven repository and deploy them on the agent computer.
 
 To add the Maven Resolve plug-in steps to processes, click **Repositories > Artifact > Maven** in the step palette of the process editor.
 
-To use a Maven repository with the Codestation repository in IBM UrbanCode Deploy, see the [Maven source configuration plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/MavenSourceConfig/).
+To use a Maven repository with the Codestation repository in IBM DevOps Deploy, see the [Maven source configuration plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/MavenSourceConfig/).
 
 ### Compatibility
 
-This plug-in requires version 6.0.1 or later of IBM UrbanCode Deploy.
+This plug-in requires version 6.0.1 or later of IBM DevOps Deploy.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 ### History
 

@@ -4,7 +4,7 @@
 
 To understand how to use the API Connect plug-in this topic uses two component templates that are available. The information in this topic is also available through a video, to watch the video, go to the [Using the API Connect plug-in](#video-walkthrough).
 
-The two available templates are located in the [UrbanCode Templates](https://github.com/UrbanCode/Templates-UCD) GitHub repository under IBM API Connect/Component.
+The two available templates are located in the [DevOps Templates](https://github.com/UrbanCode/Templates-UCD) GitHub repository under IBM API Connect/Component.
 
 * Publish Loopback Application
 * Release API Product Definitions from Drafts
@@ -15,7 +15,7 @@ The templates use the online version of BlueMix and requires a valid BlueMix acc
 
 To use the plug-in, the apiconnect (apic) command line toolkit must be installed. For installation information, see [Installing the toolkit](https://www.ibm.com/support/knowledgecenter/SSMNED_5.0.0/com.ibm.apic.toolkit.doc/tapim_cli_install.html) topic in the product documentation.
 
-The directions below to demonstrate how to deploy your applications through UrbanCode Deploy.
+The directions below to demonstrate how to deploy your applications through DevOps Deploy.
 
 ### API ConnectPublish Loopback Application
 
@@ -32,14 +32,14 @@ The following prerequisites must be completed.
 * The name of the Catalog is Sandbox, with an ID of sb
 * The name of the Application is Acme Bank, with an ID of acme-bank**Note:** Do not follow any steps that point to using the command line.
 
-#### UrbanCode Deploy steps
+#### DevOps Deploy steps
 
 
-After the prerequisites are completed, the following tasks are done in UrbanCode Deploy.
+After the prerequisites are completed, the following tasks are done in DevOps Deploy.
 
 [![loopbackProc](media/loopbackproc1.png)](media/loopbackproc1.png)
 
-1. In the UrbanCode Deplpoy interface install the IBM API Connect plug-in. Click **tt>Components** and then the **Templates** tab. The **API ConnectPublish Loopback Application** template should be in the template list. Open the template.
+1. In the DevOps Deplpoy interface install the IBM API Connect plug-in. Click **tt>Components** and then the **Templates** tab. The **API ConnectPublish Loopback Application** template should be in the template list. Open the template.
 2. Click **Create Component**.
 3. Fill out the form. If the prerequisite steps were followed, many of the required fields can be ignored or require minimal modifications. Specifically,  refers to the path leading up to the required folder or definition. This is the location where the application was created in the create application prerequisite step. The Organization is a modification of your user name. If you are unsure, it can be found in the API Manager console. Update the username and password with your credentials. If the prerequisite steps were not followed, all of the required fields must be edited.
 **Note:** While the **Version Source Configuration** is required, it is ignored in this template process.
@@ -77,14 +77,14 @@ The following prerequisites steps prepare a definition for deployment. If the pr
 3. `apic create --type product --title "Banking Services" --apis loans.yaml` to create the final product definition named: banking-services.yaml. Record the location of this file, this information is needed later.
 3. Create a catalog on API Connect. Follow the first set of steps one through four [here](https://www.ibm.com/support/knowledgecenter/SSMNED_5.0.0/com.ibm.apic.toolkit.doc/tutorial_cli_project_stage_command.html?cp=SSMNED_5.0.0%2F1-2-0-1-4&lang=en). It is not necessary to save the catalog and application identifiers. When completed, the name of the Catalog is Sandbox, with an ID of sb. The same Sandbox catalog may be reused if it has been previously created.
 
-#### UrbanCode Deploy steps
+#### DevOps Deploy steps
 
 
-After the prerequisites are completed, the following tasks are done in UrbanCode Deploy.
+After the prerequisites are completed, the following tasks are done in DevOps Deploy.
 
 [![publishDefinition](media/publishdefinition1.png)](media/publishdefinition1.png)
 
-1. In the UrbanCode Deploy user interface, install the IBM API Connect plug-in, click the **Components**, and then the **Templates** tab. The **API ConnectRelease API Product Definitions from Drafts** template should be in the template list. Enter the template.
+1. In the DevOps Deploy user interface, install the IBM API Connect plug-in, click the **Components**, and then the **Templates** tab. The **API ConnectRelease API Product Definitions from Drafts** template should be in the template list. Enter the template.
 2. Click the **Create Component**.
 3. Fill out the form. If the prerequisite steps were followed, many of the required fields can be ignored or require minimal modifications. Specifically,  refers to the path leading up to the API product definition. This is the location where the product was created in the prerequisite steps. The Organization is a modification of your username. If you are unsure, it can be found in the API Manager console. Lastly, update the username and password with your credentials. If the prerequisite steps were not followed, all of the required will need to be edited.
 **Note:** While the Version Source Configuration is required, it is ignored in this template process.

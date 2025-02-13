@@ -5,7 +5,7 @@ The File System source config plug-in enables one to manually import artifacts f
 
 # Compatibility
 
-This plug-in is supported to run on all operating systems supported by the IBM UrbanCode Deploy agent, except for z/OS.
+This plug-in is supported to run on all operating systems supported by the IBM DevOps Deploy agent, except for z/OS.
 
 
 |Back to ...||Latest Version|||||

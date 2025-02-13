@@ -47,7 +47,7 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | --- | --- | --- |
 | NuGet Version | String | The version of the NuGet artifacts to import. |
 | Rename Version | String | If a version is specified on the NuGet Version property, replace the version with the value specified in this property for the imported artifacts. |
-| Version Description | String | An optional description to add to the versions that are imported into UrbanCode Deploy. |
+| Version Description | String | An optional description to add to the versions that are imported into DevOps Deploy. |
 
 
 

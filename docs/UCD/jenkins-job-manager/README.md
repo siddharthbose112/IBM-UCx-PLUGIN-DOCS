@@ -1,7 +1,7 @@
 
 # Jenkins Job Manager
 
-This IBM UrbanCode Deploy Jenkins Job Manager plug-in provides support to manage Jenkins Jobs. This is a community plug-in
+This IBM DevOps Deploy Jenkins Job Manager plug-in provides support to manage Jenkins Jobs. This is a community plug-in
 
 ## Downloads
 

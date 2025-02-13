@@ -13,7 +13,7 @@ This is a partner provided plugin.
 If you encounter issues with the plug-in, or want to send feedback:
 
 * Ask IBM VDP plug-in specific questions on the [GitHub Issues](https://github.com/Actifio/vdp-ucd-plugin/issues) page.
-* For general plug-in issues, submit questions to the [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: urbancode | ucdev | plugins
+* For general plug-in issues, submit questions to the [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: DevOps | ucdev | plugins
 
 ## Available Steps
 

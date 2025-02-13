@@ -1,23 +1,23 @@
 
 # IBM IMS - Usage
 
-### Using the IMS plug-in in UrbanCode Deploy
+### Using the IMS plug-in in DevOps Deploy
 
-This IMS plug-in allows execution of IMS type-1 and type-2 commands. You can use this plug-in for various scenarios where IMS commands are traditionally used, but a common scenario that takes advantage of UrbanCode Deploy is IMS application deployment. See [Deploying IMS application programs](#deploy_application) below for an example.
+This IMS plug-in allows execution of IMS type-1 and type-2 commands. You can use this plug-in for various scenarios where IMS commands are traditionally used, but a common scenario that takes advantage of DevOps Deploy is IMS application deployment. See [Deploying IMS application programs](#deploy_application) below for an example.
 
 
-The following information assumes basic knowledge of UrbanCode Deploy and its user interface.
+The following information assumes basic knowledge of DevOps Deploy and its user interface.
 
 
 ### Before you begin
 
-* Ensure the IBM UrbanCode Deploy server and the z/OS deployment tools are installed.
+* Ensure the IBM DevOps Deploy server and the z/OS deployment tools are installed.
 * Ensure the IMS plug-in is installed.
 
 
 ### Setting up resources for IMS application programs
 
-In UrbanCode Deploy:
+In DevOps Deploy:
 
 1. In the **Resources** tab, create a top-level group.
 2. Within the top-level group, create agents for each IMS subsystem.
@@ -26,7 +26,7 @@ In UrbanCode Deploy:
 
 ### Process development using the IMS plug-in
 
-To start using the IMS plug-in, create a new or edit an existing UrbanCode Deploy process.
+To start using the IMS plug-in, create a new or edit an existing DevOps Deploy process.
 
 In order to include IMS plug-in steps in the process, locate the IMS entry in the Steps Palette:
 
@@ -62,9 +62,9 @@ When the Execute IMS Command step is added to a process, the Edit Properties dia
 
 ### Deploying IMS application programs
 
-For the deployment processes to work, it is assumed that the UrbanCode Deploy agents are installed in the UNIX System Services side of IMS.
+For the deployment processes to work, it is assumed that the DevOps Deploy agents are installed in the UNIX System Services side of IMS.
 
-There are many possible ways to create processes for IMS application deployment. Process steps may differ depending on IMS environment setup, application details, and others. For example, under certain conditions, an existing application can be redeployed by a process that stops the run-time application, deploys a new version of application data sets, and restarts the application. The following example demonstrates how an UrbanCode Deploy process might look like for such a scenario:
+There are many possible ways to create processes for IMS application deployment. Process steps may differ depending on IMS environment setup, application details, and others. For example, under certain conditions, an existing application can be redeployed by a process that stops the run-time application, deploys a new version of application data sets, and restarts the application. The following example demonstrates how an DevOps Deploy process might look like for such a scenario:
 
 [![ims5](media/ims5.png)](media/ims5.png)
 

@@ -5,7 +5,7 @@ Git is a free and open source distributed version control system designed to han
 
 Leverage this plugin to install Git on a target server.
 
-This plug-in is developed and supported by the UrbanCode Deploy Community on the IBM DevOps Services platform. Click the “Visit Project” button at the top of the page to navigate to the project for further information.
+This plug-in is developed and supported by the DevOps Deploy Community on the IBM DevOps Services platform. Click the “Visit Project” button at the top of the page to navigate to the project for further information.
 
 Downloads:
 
@@ -15,7 +15,7 @@ Downloads:
 If you encounter issues with the plug-in, or want to send feedback:
 
 * Ask Git Install plug-in specific questions on the [GitHub Issues](https://github.com/UrbanCode/Git-Install-UCD/issues) page.
-* For general plug-in issues, submit questions to our [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: urbancode | ucdev | plugins
+* For general plug-in issues, submit questions to our [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: DevOps | ucdev | plugins
 
 ## Available Steps
 

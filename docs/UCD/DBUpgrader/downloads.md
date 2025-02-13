@@ -1,5 +1,5 @@
 
-# IBM UrbanCode DBUpgrader - Downloads
+# IBM DevOps DBUpgrader - Downloads
 
 To download the plug-in, click the following version-specific links.
 
@@ -12,6 +12,6 @@ To download the plug-in, click the following version-specific links.
 - [DBUpgrader-1.530255.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DBUpgrader/DBUpgrader-1.530255.zip)
 - [DBUpgrader-1.423703.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DBUpgrader/DBUpgrader-1.423703.zip)
 
-|Back to ...||Latest Version|IBM UrbanCode DBUpgrader ||||
+|Back to ...||Latest Version|IBM DevOps DBUpgrader ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[5.1151802](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DBUpgrader/ucd-DBUpgrader-5.1151802.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|

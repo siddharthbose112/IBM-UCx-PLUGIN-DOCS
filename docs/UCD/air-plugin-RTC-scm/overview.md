@@ -13,14 +13,14 @@ The IBM Rational Team Concert SCM source plug-in supports creating components fr
 
 ### Compatibility
 
-* IBM UrbanCode Deploy version 6.0.1 or later
+* IBM DevOps Deploy version 6.0.1 or later
 * Rational Team Concert version 4.0.3 or later
 
-This plug-in supports all operating systems that are supported by the IBM UrbanCode Deploy agent.
+This plug-in supports all operating systems that are supported by the IBM DevOps Deploy agent.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy"). The Rational Team Concert scm tool must be installed and available on the IBM UrbanCode Deploy agent that is used to import from Rational Team Concert.
+No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy"). The Rational Team Concert scm tool must be installed and available on the IBM DevOps Deploy agent that is used to import from Rational Team Concert.
 
 To learn more about using and installing the Rational Team Concert scm tool, see [Source control command line reference](http://www-01.ibm.com/support/knowledgecenter/SSCP65_4.0.3/com.ibm.team.scm.doc/topics/c_scm_cli.html "Rational Team Concert help") in the Rational Team Concert help.
 
@@ -28,7 +28,7 @@ To learn more about importing components by using agents, see [Creating componen
 
 To learn more about the Rational Team Concert `scm` tool, see [Getting started with the Jazz SCM command line in Rational Team Concert](https://jazz.net/library/article/620 "Jazz.net article").
 
-To learn more about using Rational Team Concert source control with IBM UrbanCode Deploy, see [Achieving continuous deployment with UrbanCode Deploy by integrating with Rational Team Concert](https://jazz.net/library/article/1480 "Jazz.net article 2").
+To learn more about using Rational Team Concert source control with IBM DevOps Deploy, see [Achieving continuous deployment with DevOps Deploy by integrating with Rational Team Concert](https://jazz.net/library/article/1480 "Jazz.net article 2").
 
 ### History
 

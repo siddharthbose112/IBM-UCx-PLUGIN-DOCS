@@ -18,15 +18,15 @@ This plug-in includes these steps:
 
 ### Compatibility
 
-This plug-in requires IBM UrbanCode Deploy version 6.0 or later.
+This plug-in requires IBM DevOps Deploy version 6.0 or later.
 
-This plug-in runs on all operating systems that UrbanCode Deploy supports.
+This plug-in runs on all operating systems that DevOps Deploy supports.
 
 This plug-in requires the Amazon AWS SDK v1.3.7 or later.
 
 ### Installation
 
-No special steps are required for installation. This plug-in is included with the installation of IBM Urban Code Deploy. If you have to install the plug-in again, see [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. This plug-in is included with the installation of IBM Urban Code Deploy. If you have to install the plug-in again, see [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 
 |Back to ...||Latest Version|Amazon EC2 ||||

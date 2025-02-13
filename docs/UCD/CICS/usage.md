@@ -13,7 +13,7 @@ Before you begin, ensure the following:
 
 #### About this task
 
-You can use Resources in UrbanCode Deploy to reduce the manual configuration needed in each of your deployment processes. Resources contain properties that you can use within the steps of your processes. The properties defined within a given resource are inherited by their descendants.
+You can use Resources in DevOps Deploy to reduce the manual configuration needed in each of your deployment processes. Resources contain properties that you can use within the steps of your processes. The properties defined within a given resource are inherited by their descendants.
 
 The following diagram represents a suggested CICS resource tree, which shows a sysplex with two agents running on different logical partitions. One of these logical partitions contains two CICSplexes managed by a single WUI Server. One of the CICSplexes contains a number of CICS regions and system groups.The *Core Banking System* component is assigned to the *AOR* system group, and the  *Catalog Back-End* component is assigned to the *TORs* system group. Properties that are defined for a higher-level resource (for example, a sysplex) are inherited by the contained components and resources (for example, several CICSplexes).
 
@@ -113,7 +113,7 @@ The following properties are required by **Deploy application** and **Undeploy a
 
 #### Overview
 
-You can use SSL to provide additional security when connecting between the UrbanCode Deploy agent on z/OS and CICS. Connecting with SSL is available using client certificates or HTTP basic authentication. Connecting with client certificates stored on z/OS in a security manager such as RACF or zFS has the benefit of avoiding the storage and maintenance of user IDs and passwords on the UrbanCode Deploy server.
+You can use SSL to provide additional security when connecting between the DevOps Deploy agent on z/OS and CICS. Connecting with SSL is available using client certificates or HTTP basic authentication. Connecting with client certificates stored on z/OS in a security manager such as RACF or zFS has the benefit of avoiding the storage and maintenance of user IDs and passwords on the DevOps Deploy server.
 
 * For SSL with HTTP basic authentication, skip to [Configuring SSL in CICS](#configuring-ssl-in-cics).
 * For SSL with certificates, start with [Configuring a keystore and truststore.](#configuring-a-keystore-and-truststore)

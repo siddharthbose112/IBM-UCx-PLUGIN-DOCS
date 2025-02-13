@@ -1,5 +1,5 @@
 
-# OpenShift for IBM UrbanCode Deploy - Usage
+# OpenShift for IBM DevOps Deploy - Usage
 
 Use the Create New-App step to generate OpenShift Container Platform objects that build, deploy, and run the application being created. For more information, see the [Openshift](https://docs.openshift.com/container-platform/3.11/dev_guide/application_lifecycle/new_app.html) documentation.
 
@@ -30,6 +30,6 @@ The Set Env step updates environment variables on a pod template or a build conf
 ![](media/openshift_set_env_properties.jpg)
 
 
-|Back to ...||Latest Version|OpenShift for IBM UrbanCode Deploy ||||
+|Back to ...||Latest Version|OpenShift for IBM DevOps Deploy ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[23.1168147](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/openshift/ucd-openshift-23.1168147.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

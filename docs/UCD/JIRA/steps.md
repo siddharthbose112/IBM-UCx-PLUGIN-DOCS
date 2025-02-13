@@ -1,5 +1,5 @@
 
-# JIRA for IBM UrbanCode Deploy - Process Steps
+# JIRA for IBM DevOps Deploy - Process Steps
 
 
 * [Add Comments](#add_comments)
@@ -174,6 +174,6 @@ Use this step to perform JIRA issue transitions.
 
 
 
-|Back to ...||Latest Version|JIRA for IBM UrbanCode Deploy ||||
+|Back to ...||Latest Version|JIRA for IBM DevOps Deploy ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[19.1167047](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/JIRA/ucd-JIRA-19.1167047.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

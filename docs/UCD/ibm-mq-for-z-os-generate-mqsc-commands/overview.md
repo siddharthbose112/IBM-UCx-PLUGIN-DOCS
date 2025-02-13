@@ -13,11 +13,11 @@ Please view [IBM MQ for zOSGenerate MQSC Commands](https://github.com/IBM-UrbanC
 
 This plug-in is supported to run with IBM z/OS V2.1 (and above) and IBM MQ for z/OS V7.1 (and above). However, as the end of service (EOS) date for IBM MQ for z/OS V7.1 is 6th Nov, 2017, it is recommended that IBM MQ for z/OS V8 (and above) be used. As the plugin generates MQSC commands from the REST form resource representations, it is important to ensure that the generated MQSC is supported by the version of IBM MQ for z/OS in use. The list of supported MQSC attributes for queue and/or channel resources can be found in the IBM MQ for z/OS Knowledge Center specific to the version of IBM MQ for z/OS in use. Attempts to use unsupported MQSC attributes will result in a failure of the MQSC command on the target MQ for z/OS queue manager environment.
 
-This plug-in requires version 6.2.2 or later of IBM UrbanCode Deploy.
+This plug-in requires version 6.2.2 or later of IBM DevOps Deploy.
 
 ## Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 ## History
 

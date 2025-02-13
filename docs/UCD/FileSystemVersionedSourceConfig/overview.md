@@ -15,11 +15,11 @@ To access this plug-in in the palette, click **Source and Repositories** > **Fil
 
 ### Compatibility
 
-This plug-in is supported to run on all operating systems supported by the IBM UrbanCode Deploy agent, except for z/OS.
+This plug-in is supported to run on all operating systems supported by the IBM DevOps Deploy agent, except for z/OS.
 
 ### Installation
 
-This plug-in is installed when installing IBM UrbanCode Deploy. When new plug-in versions are available, follow the [installation instructions](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy") to update the plug-in.
+This plug-in is installed when installing IBM DevOps Deploy. When new plug-in versions are available, follow the [installation instructions](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy") to update the plug-in.
 
 ### History
 

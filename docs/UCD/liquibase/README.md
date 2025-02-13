@@ -3,7 +3,7 @@
 
 Liquibase is an open source tool that brings source control for tracking, managing and applying database schema changes.
 
-This plug-in is developed and supported by the UrbanCode Deploy Community on IBM-UrbanCode’s GitHub organization. 
+This plug-in is developed and supported by the DevOps Deploy Community on IBM-DevOps GitHub organization. 
 
 ## Downloads
 
@@ -14,7 +14,7 @@ If you encounter issues with the plug-in, or want to send feedback:
 
 * See the [plug-in documentation](https://github.com/UrbanCode/Liquibase-UCD/tree/master/doc).
 * Ask Liquibase plug-in specific questions on the [GitHub Issues](https://github.com/UrbanCode/Liquibase-UCD/issues) page.
-* For general plug-in issues, submit questions to the [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: urbancode | ucdev | plugins
+* For general plug-in issues, submit questions to the [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: DevOps | ucdev | plugins
 
 ## Available Steps
 

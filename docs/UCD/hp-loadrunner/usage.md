@@ -11,7 +11,7 @@
 
 
 
-After the Run Test Scenario step successfully executes you can utilize the IBM UrbanCode Deploy Versions plugin to upload the results to code station. This plugin is installed by default in the UrbanCode Deploy server, so theres not need to install it separately.
+After the Run Test Scenario step successfully executes you can utilize the IBM DevOps Deploy Versions plugin to upload the results to code station. This plugin is installed by default in the DevOps Deploy server, so theres not need to install it separately.
 
 When the HP LoadRunner plugin runs analysis on the test results it creates a folder inside of the steps working directory. This folder holds all of the reports generated during analysis. It also holds the files used to run the analysis, including the LRR (LoadRunner Results) file. The name for this directory will be determined by the value specified in the LoadRunner Results Name field of the plugin step.
 
@@ -23,7 +23,7 @@ Using this default configuration youll find the analysis results in the UCD\_LR\
 
 Note that if you were to provide a different working directory, the folder would be created there instead of in the <agent\_install\_dir>/var/work/ directory.
 
-To upload the report generated in this folder to codestation, you can utilize the Create Version step of the IBM UrbanCode Deploy Versions plugin. Further documentation on this step can be found in the [IBM UrbanCode Deploy Versions steps document](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/uDeploy-Version/steps.html#create_version).
+To upload the report generated in this folder to codestation, you can utilize the Create Version step of the IBM DevOps Deploy Versions plugin. Further documentation on this step can be found in the [IBM DevOps Deploy Versions steps document](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/uDeploy-Version/steps.html#create_version).
 
 [![](media/screen-shot-2018-11-15-at-2.55.41-pm.png)](media/screen-shot-2018-11-15-at-2.55.41-pm.png)
 

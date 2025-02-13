@@ -1,15 +1,15 @@
 
 # Perforce Helix - Overview
 
-The Perforce Helix source configuration plug-in includes a step to import artifacts from a Perforce server as component versions in IBM UrbanCode Deploy.
+The Perforce Helix source configuration plug-in includes a step to import artifacts from a Perforce server as component versions in IBM DevOps Deploy.
 
 ### Compatibility
 
-This plug-in requires version 6.1.0.3 or later of IBM UrbanCode Deploy.
+This plug-in requires version 6.1.0.3 or later of IBM DevOps Deploy.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 ### History
 

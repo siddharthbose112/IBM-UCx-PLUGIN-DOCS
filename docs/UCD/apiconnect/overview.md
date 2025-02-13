@@ -21,15 +21,15 @@ To access this plug-in in the palette, click **IBM API Management** > **IBM API 
 
 ### Compatibility
 
-This plug-in is supported to run on all operating systems that are supported by both the IBM UrbanCode Deploy agent (except for z/OS) and the apic toolkit. This plug-in supports apic v10.0.x and higher. If you are using apic v5 or apic v2018 please use the Version 7 plugin available on the [Download Page](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/apiconnect/downloads.html) . Authentication issues exist within the apic toolkit. See [Troubleshooting](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/apiconnect/troubleshooting.html) for a workaround.
+This plug-in is supported to run on all operating systems that are supported by both the IBM DevOps Deploy agent (except for z/OS) and the apic toolkit. This plug-in supports apic v10.0.x and higher. If you are using apic v5 or apic v2018 please use the Version 7 plugin available on the [Download Page](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/apiconnect/downloads.html) . Authentication issues exist within the apic toolkit. See [Troubleshooting](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/apiconnect/troubleshooting.html) for a workaround.
 
-This plug-in requires version 6.0.1 or later of IBM UrbanCode Deploy.
+This plug-in requires version 6.0.1 or later of IBM DevOps Deploy.
 
-This plug-in is compatible with agents running on operating systems that are supported by both IBM UrbanCode Deploy and the apiconnect (apic) command line toolkit. This plug-in does not support agents running on z/OS.
+This plug-in is compatible with agents running on operating systems that are supported by both IBM DevOps Deploy and the apiconnect (apic) command line toolkit. This plug-in does not support agents running on z/OS.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 The apic toolkit must be downloaded and installed separately. Directions can be found [Installing the toolkit](https://www.ibm.com/support/knowledgecenter/SSMNED_5.0.0/com.ibm.apic.toolkit.doc/tapim_cli_install.html) topic in the product documentation.
 

@@ -24,15 +24,15 @@ The plug-in also includes a component template as an aid in setting up deploymen
 
 This plug-in requires Oracle WebLogic Server.
 
-This plug-in requires IBM UrbanCode Deploy version 6.0.1.
+This plug-in requires IBM DevOps Deploy version 6.0.1.
 
 This plug-in supports WebLogic Server versions 10g or later.
 
-The steps in this plug-in run on any agents that the IBM UrbanCode Deploy server supports.
+The steps in this plug-in run on any agents that the IBM DevOps Deploy server supports.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in DevOps products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 ### History
 
@@ -52,7 +52,7 @@ Version 6.657204 includes the following features and fixes:
 
 Version 5.640918 includes the following features and fixes:
 
-* Fixes a compatibility problem with IBM UrbanCode Deploy version 6.1.0.4 and later.
+* Fixes a compatibility problem with IBM DevOps Deploy version 6.1.0.4 and later.
 
 #### Version 4.596018
 
