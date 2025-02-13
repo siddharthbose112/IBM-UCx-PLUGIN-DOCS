@@ -23,7 +23,7 @@ To expedite process design and execution, store frequently used values for the H
 * The domain in which the HP Quality Center project is saved, which is defined in the **Domain** field.
 * The name of the HP Quality Center project, which is defined in the **Project** field.
 
-Ensure that the HP Quality Center client files are located on the same system that the UrbanCode Deploy agent is installed on.
+Ensure that the HP Quality Center client files are located on the same system that the DevOps Deploy agent is installed on.
 
 ### Register an Agent with HP ALM
 

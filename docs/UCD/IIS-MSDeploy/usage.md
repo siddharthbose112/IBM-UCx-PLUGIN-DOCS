@@ -13,7 +13,7 @@ To use the plug-in with an Azure App Service website, complete the following ste
 The following example describes deploying a website from the local file system to an Azure Web App:
 
 1. Download the publish profile of the Azure Web App as described previously.
-2. Add the msdeploy step from the Microsoft IIS MS-Deploy plug-in to your deployment process in IBM UrbanCode Deploy.
+2. Add the msdeploy step from the Microsoft IIS MS-Deploy plug-in to your deployment process in IBM DevOps Deploy.
 1. In the **Verb** field, enter `sync`.
 2. In the **Source Provider Type** field, enter `IisApp`.
 3. In the **Provider Source** field, enter the path to the website on your local computer. For example, enter `C:\www\ContosBooks`.

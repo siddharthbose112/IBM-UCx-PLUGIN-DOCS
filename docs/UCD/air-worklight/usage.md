@@ -1,7 +1,7 @@
 
 # IBM MobileFirst Platform (formerly Worklight) - Usage
 
-The IBM MobileFirst Platform plug-in for IBM UrbanCode Deploy is part of a complete process for building and deploying mobile applications.
+The IBM MobileFirst Platform plug-in for IBM DevOps Deploy is part of a complete process for building and deploying mobile applications.
 
 
 ### Important properties in plug-in steps
@@ -75,7 +75,7 @@ To manually roll back a mobile application deployment:
 
 1. Delete the native application from the Worklight Application Center.
 2. In the Worklight Console, delete the adapters and applications. For details, see the topics in the section [Administering adapters and apps in Worklight Console](http://www-01.ibm.com/support/knowledgecenter/api/content/SSZH4A_6.1.0/com.ibm.worklight.deploy.doc/devref/t_working_with_the_ibm_worklight1.html) in the Worklight Information Center.
-3. Redeploy the previous version of the mobile application from UrbanCode Deploy.
+3. Redeploy the previous version of the mobile application from DevOps Deploy.
 
 ### Deploying mobile applications
 
@@ -146,7 +146,7 @@ You can use any of the following methods to configure the Worklight Server:
 
 * Use Ant tasks to configure the server:
 + Use the command line to run the Ant script.
-+ Use the Ant process step within UrbanCode Deploy to run the Ant script with the Worklight Ant tasks. To use the Ant process step, you must download and install the Ant plug-in for UrbanCode Deploy.
++ Use the Ant process step within DevOps Deploy to run the Ant script with the Worklight Ant tasks. To use the Ant process step, you must download and install the Ant plug-in for DevOps Deploy.
 
 * Use the Server Configuration Tool to configure the server.
 * Manually configure the server.
@@ -184,32 +184,32 @@ To configure the Worklight Server for a Worklight project:To configure the Workl
 **Note:**  The Worklight project WAR file deployment that is described in this step is a one time configuration. When you deploy your mobile application, update the WAR file on the application server by using the plug-in process steps.
 
 
-### Adding mobile artifacts to UrbanCode Deploy
+### Adding mobile artifacts to DevOps Deploy
 
 
 
 
-You can use the build scripts to add your build artifacts to IBM UrbanCode Deploy for deployment to the IBM Worklight Server.
+You can use the build scripts to add your build artifacts to IBM DevOps Deploy for deployment to the IBM Worklight Server.
 
 ###
 Procedure
 
 
-You can use any of the following methods to add your build artifacts to UrbanCode Deploy:
+You can use any of the following methods to add your build artifacts to DevOps Deploy:
 
 
 ***Copy the files into a user-defined file system***
-Copy the build artifacts to a location on the UrbanCode Deploy servers file system for a versioned file.
-***Push the files to the UrbanCode Deploy server***
-Use the Command-line client (CLI) to push the build artifacts to the UrbanCode Deploy server. The CLI is a command-line interface that provides access to the UrbanCode Deploy server.
+Copy the build artifacts to a location on the DevOps Deploy servers file system for a versioned file.
+***Push the files to the DevOps Deploy server***
+Use the Command-line client (CLI) to push the build artifacts to the DevOps Deploy server. The CLI is a command-line interface that provides access to the DevOps Deploy server.
 
-You can use the CLI to push the build artifacts to the UrbanCode Deploy server in the following scenarios:
+You can use the CLI to push the build artifacts to the DevOps Deploy server in the following scenarios:
 
-* When the Jazz Build Engine and the UrbanCode Deploy server are not installed on the same build computer.
-* To support running the UrbanCode Deploy server on different operating systems.
+* When the Jazz Build Engine and the DevOps Deploy server are not installed on the same build computer.
+* To support running the DevOps Deploy server on different operating systems.
 
 
-**Tip:** You can use the following commands to deploy binary files to the UrbanCode Deploy server:
+**Tip:** You can use the following commands to deploy binary files to the DevOps Deploy server:
 
 
 **createVersion**
@@ -225,7 +225,7 @@ Copy the build artifacts into a source-code management system, such as:
 
 
 
-**Tip:** Assign a version to the mobile application that is deployed to the Application Center. This version must match the version that is assigned in UrbanCode Deploy. For example, if the mobile application has a commercial version of 1.0 on the Application Center and the internal version from the latest build is 16, assign version 1.0.16 to the application in UrbanCode Deploy. Keeping the version numbers synchronized helps you to recover if you encounter a problem. For example, if the latest version of the mobile application was not deployed successfully to the Application Center.
+**Tip:** Assign a version to the mobile application that is deployed to the Application Center. This version must match the version that is assigned in DevOps Deploy. For example, if the mobile application has a commercial version of 1.0 on the Application Center and the internal version from the latest build is 16, assign version 1.0.16 to the application in DevOps Deploy. Keeping the version numbers synchronized helps you to recover if you encounter a problem. For example, if the latest version of the mobile application was not deployed successfully to the Application Center.
 
 
 **Related information:**
@@ -247,7 +247,7 @@ Copy the build artifacts into a source-code management system, such as:
 
 
 
-To set up a continuous integration and delivery cycle for your mobile applications, you must build the mobile application artifacts before you deploy them to the IBM Worklight Server. The IBM Rational solution for Collaborative Lifecycle Management (CLM), IBM Worklight Studio, and IBM UrbanCode Deploy integrate to help automate the build and deployment of mobile applications.
+To set up a continuous integration and delivery cycle for your mobile applications, you must build the mobile application artifacts before you deploy them to the IBM Worklight Server. The IBM Rational solution for Collaborative Lifecycle Management (CLM), IBM Worklight Studio, and IBM DevOps Deploy integrate to help automate the build and deployment of mobile applications.
 
 CLM contains the Rational Team Concert product that is delivered as an application together with a Jazz Team Server. Rational Team Concert and the Build System Toolkit work together to build your mobile applications. When Rational Team Concert is installed on the Jazz Team Server, it manages the workspaces, projects, source files, and builds of your mobile applications. The Build System Toolkit runs the actual build tasks.
 
@@ -385,7 +385,7 @@ You can create build scripts for Worklight projects that contain different numbe
 1. Run the **`xcodebuild`** command-line tool from the Xcode SDK to build the iOS application.
 2. Run the `**xcrun**` command-line tools from the Xcode SDK to package the iOS application into an IPA file.
 3. Optional. Publish the iOS IPA file to the location where you store your build output. For example, if you use Rational Team Concert, publish the IPA file to the Rational Team Concert build results.
-5. Add your Worklight application, adapter, Worklight web archive project (WAR file), and native application (Android APK file or iOS IPA file) to UrbanCode Deploy as a new version.**Tip:** You can have multiple Worklight applications and adapters. If you have more than one Worklight application or adapter, repeat calls to tasks to build the mobile artifacts, add new property values, and then add the new artifacts to UrbanCode Deploy.
+5. Add your Worklight application, adapter, Worklight web archive project (WAR file), and native application (Android APK file or iOS IPA file) to DevOps Deploy as a new version.**Tip:** You can have multiple Worklight applications and adapters. If you have more than one Worklight application or adapter, repeat calls to tasks to build the mobile artifacts, add new property values, and then add the new artifacts to DevOps Deploy.
 
 **Related information:**
 
@@ -504,7 +504,7 @@ The parameters are defined as follows:
 
 
 
-You can set up your development environment so that you can build your mobile applications and, by using the IBM MobileFirst Platform plug-in for IBM UrbanCode Deploy, deploy the build results to the IBM Worklight Server.
+You can set up your development environment so that you can build your mobile applications and, by using the IBM MobileFirst Platform plug-in for IBM DevOps Deploy, deploy the build results to the IBM Worklight Server.
 
 ###
 Before you begin
@@ -512,7 +512,7 @@ Before you begin
 
 Ensure that the following software is installed and running:
 
-* IBM UrbanCode Deploy
+* IBM DevOps Deploy
 * IBM Worklight Server with the Application Center and Console running
 * IBM Worklight Studio
 
@@ -529,7 +529,7 @@ About this task
 Before you can build and deploy mobile applications to the Worklight Server, you must complete the following configuration steps:
 
 1. Configure the build system.
-2. Configure UrbanCode Deploy, including the following steps:
+2. Configure DevOps Deploy, including the following steps:
 * Create components.
 * Create component processes or application processes that include steps from the IBM MobileFirst Platform plug-in to deploy the mobile application.
 3. Configure Worklight Server Console, including the following steps:
@@ -540,13 +540,13 @@ Before you can build and deploy mobile applications to the Worklight Server, you
 Procedure
 
 
-After you set up the build, UrbanCode Deploy and Worklight Server console, you can build and deploy mobile applications by using the following high-level steps:
+After you set up the build, DevOps Deploy and Worklight Server console, you can build and deploy mobile applications by using the following high-level steps:
 
 1. Check in (commit) changes from IBM Worklight Studio into a source control management (SCM) system.
-2. Build the application and add a new version to UrbanCode Deploy.
+2. Build the application and add a new version to DevOps Deploy.
 
-**Tip:** Assign a version to the mobile application that is deployed to the Application Center. This version must match the version that is assigned in UrbanCode Deploy. For example, if the mobile application has a commercial version of 1.0 on the Application Center and the internal version from the latest build is 16, assign version 1.0.16 to the application in UrbanCode Deploy. Keeping the version numbers synchronized helps you to recover if you encounter a problem. For example, if the latest version of the mobile application was not deployed successfully to the Application Center.
-3. Request deployment in UrbanCode Deploy.
+**Tip:** Assign a version to the mobile application that is deployed to the Application Center. This version must match the version that is assigned in DevOps Deploy. For example, if the mobile application has a commercial version of 1.0 on the Application Center and the internal version from the latest build is 16, assign version 1.0.16 to the application in DevOps Deploy. Keeping the version numbers synchronized helps you to recover if you encounter a problem. For example, if the latest version of the mobile application was not deployed successfully to the Application Center.
+3. Request deployment in DevOps Deploy.
 4. View the mobile artifacts in the Worklight Console, install, and test the application from the Application Center.
 
 ###
@@ -559,7 +559,7 @@ The mobile application artifacts are deployed to the Worklight Server and can be
 What to do next
 
 
-Optionally, create extra component and application processes in UrbanCode Deploy to roll back deployments (for example, to recover from an error condition or an incomplete deployment.) See [Rolling back mobile applications](#rolling-back-mobile-applications).
+Optionally, create extra component and application processes in DevOps Deploy to roll back deployments (for example, to recover from an error condition or an incomplete deployment.) See [Rolling back mobile applications](#rolling-back-mobile-applications).
 
 
 |Back to ...||Latest Version|IBM MobileFirst Platform (formerly Worklight) |||||

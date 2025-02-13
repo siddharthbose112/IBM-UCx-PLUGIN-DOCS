@@ -7,19 +7,19 @@ To add the Docker Compose plug-in steps to processes, click **Cloud > Docker** i
 
 ### Compatibility
 
-The IBM UrbanCode Deploy automation plug-in for Docker Compose works with Docker Compose Version 4.0 and later.
+The IBM DevOps Deploy automation plug-in for Docker Compose works with Docker Compose Version 4.0 and later.
 
-This plug-in requires version 6.2 or later of IBM UrbanCode Deploy.
+This plug-in requires version 6.2 or later of IBM DevOps Deploy.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 ### History
 
 #### Version 23
 
-* Add dependency on version 30 of the UrbanCode Versioned File Storage plug-in.
+* Add dependency on version 30 of the DevOps Versioned File Storage plug-in.
 
 #### Version 22
 
@@ -33,7 +33,7 @@ Create a compose.service.scale component environment property on the Docker Comp
 
 #### Version 19
 
-Error discovered when trying to update a deployed version in the Create Child Resources step. Added catch in Create Child Resources step for unsupported IBM UrbanCode Deploy versions.
+Error discovered when trying to update a deployed version in the Create Child Resources step. Added catch in Create Child Resources step for unsupported IBM DevOps Deploy versions.
 
 #### Version 18
 

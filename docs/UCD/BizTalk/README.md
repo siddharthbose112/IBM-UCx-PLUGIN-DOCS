@@ -8,8 +8,8 @@ The BizTalk Plugin is an automation based plugin. It is used during deployment t
 If you encounter issues with the plug-in and want to send feedback:
 
 * See the plug-in documentation.
-* Search on our answers page: [dW Answers: urbancode | deploy | plugins | biztalk](https://developer.ibm.com/answers/search.html?f=&type=question&redirect=search%2Fsearch&sort=relevance&smartspace=urbancode&q=%2B[deploy]+%2B[plugins]+%2B[biztalk]+%20%2B[urbancode])  Note: You might need to click the link twice.
-* If there are no search results, submit your issue as a question to our [answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: urbancode | deploy | plugins | biztalk
+* Search on our answers page: [dW Answers: DevOps | deploy | plugins | biztalk](https://developer.ibm.com/answers/search.html?f=&type=question&redirect=search%2Fsearch&sort=relevance&smartspace=urbancode&q=%2B[deploy]+%2B[plugins]+%2B[biztalk]+%20%2B[urbancode])  Note: You might need to click the link twice.
+* If there are no search results, submit your issue as a question to our [answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: DevOps | deploy | plugins | biztalk
 
 
 ### Available Steps

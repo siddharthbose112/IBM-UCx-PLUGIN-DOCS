@@ -13,21 +13,21 @@ To add the FileNetIBM Case Manager plug-in steps to processes, click **FileNet >
 
 ### Compatibility
 
-The IBM UrbanCode Deploy automation plug-in for IBM Case Manager requires version 5.2.1 or later for all plug-in steps to be available.
+The IBM DevOps Deploy automation plug-in for IBM Case Manager requires version 5.2.1 or later for all plug-in steps to be available.
 
-This plug-in requires version 6.0 or later of IBM UrbanCode Deploy.
+This plug-in requires version 6.0 or later of IBM DevOps Deploy.
 
-This plug-in is supported to run on all operating systems that are supported by the IBM UrbanCode Deploy agent.
+This plug-in is supported to run on all operating systems that are supported by the IBM DevOps Deploy agent.
 
 ### Installation
 
 #### Plug-in
 
-No special steps are required for installation. See [Installing plug-ins in IBM UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in IBM DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 #### Agent
 
-The UrbanCode Deploy agent running the Case Manager plug-in steps must be installed on the same server as the Case Manager application. See [Installing agents in IBM UrbanCode Deploy](https://www.ibm.com/support/knowledgecenter/en/SS4GSP_6.2.6/com.ibm.udeploy.install.doc/topics/agent_install_ov.html "Installing agents").
+The DevOps Deploy agent running the Case Manager plug-in steps must be installed on the same server as the Case Manager application. See [Installing agents in IBM DevOps Deploy](https://www.ibm.com/support/knowledgecenter/en/SS4GSP_6.2.6/com.ibm.udeploy.install.doc/topics/agent_install_ov.html "Installing agents").
 
 ### History
 

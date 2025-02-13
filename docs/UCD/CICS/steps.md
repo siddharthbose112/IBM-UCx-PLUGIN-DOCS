@@ -313,7 +313,7 @@ Undeploy CICS bundles. Requires CICS TS V5.1 or V5.2 with APAR PI56706, or V5.3 
 
 ### Overview of output properties
 
-A step in UrbanCode Deploy is able to return output properties. These can be used in the step post-processing script and to pass information between steps. For an example workflow using output properties, see [Properties](http://www.ibm.com/support/knowledgecenter/SS4GSP_7.2.0/com.ibm.udeploy.doc/topics/ud_properties_overview.html "Properties") in the UrbanCode Deploy documentation.
+A step in DevOps Deploy is able to return output properties. These can be used in the step post-processing script and to pass information between steps. For an example workflow using output properties, see [Properties](http://www.ibm.com/support/knowledgecenter/SS4GSP_7.2.0/com.ibm.udeploy.doc/topics/ud_properties_overview.html "Properties") in the DevOps Deploy documentation.
 
 ### The cics.response.errors output property
 
@@ -421,7 +421,7 @@ In the following example, DFHCSDUP is run with replace tokens @CICSHLQ@,@CSD@, a
 Image showing the Submit Job step configured to define some CICS resources
 **Replace tokens** allow you to customize values in your JCL templates, in order to use the same JCL in different deployment scenarios.
 
-For example, a token such as *@CSD@* can be linked to a matching UrbanCode Deploy property, *cics.jcl.csd*. This property is then assigned a value, such as *CICSTS53.CICS.DFHCSD*, which can be set at the environment level, or wherever is most suitable.
+For example, a token such as *@CSD@* can be linked to a matching DevOps Deploy property, *cics.jcl.csd*. This property is then assigned a value, such as *CICSTS53.CICS.DFHCSD*, which can be set at the environment level, or wherever is most suitable.
 
 For more details on the **Submit Job** and **Wait For Job** steps, see the Steps page for the [z/OS Utility plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-deploy/).
 
@@ -431,7 +431,7 @@ The following properties are present on all CICS TS plug-in steps. You can view 
 
 These properties are typically environment or component-specific. To reduce manual configuration, you can define properties at an application, environment, or resource level.
 
-For an example of how to set up a CICS installation as an UrbanCode Deploy resource, see the *Setting up resources for simple management of properties* on the Usage page. More information on usage of properties, see the [Properties](http://www-01.ibm.com/support/knowledgecenter/SS4GSP_7.2.0/com.ibm.udeploy.doc/topics/ud_properties_overview.html) topic in the UrbanCode Deploy documentation.
+For an example of how to set up a CICS installation as an DevOps Deploy resource, see the *Setting up resources for simple management of properties* on the Usage page. More information on usage of properties, see the [Properties](http://www-01.ibm.com/support/knowledgecenter/SS4GSP_7.2.0/com.ibm.udeploy.doc/topics/ud_properties_overview.html) topic in the DevOps Deploy documentation.
 
 | Name                | Default value             | Description                                                                                                                                                                                                                                                                                                                          |
 |---------------------|---------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

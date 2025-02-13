@@ -3,9 +3,9 @@
 
 Node.js is a platform built on Chrome’s JavaScript runtime for easily building fast, scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.
 
-Upload this plugin to IBM UrbanCode Deploy to install and configure Nodejs.
+Upload this plugin to IBM DevOps Deploy to install and configure Nodejs.
 
-This plug-in is developed and supported by the UrbanCode Deploy Community on the IBM DevOps Services platform. Click the “Visit Project” button at the top of the page to navigate to the project for further information.
+This plug-in is developed and supported by the DevOps Deploy Community on the IBM DevOps Services platform. Click the “Visit Project” button at the top of the page to navigate to the project for further information.
 
 For details on how the plug-in is constructed, how it works internally, or how to extend it yourself, see the README.md file that is contained in the project.
 
@@ -17,7 +17,7 @@ For details on how the plug-in is constructed, how it works internally, or how t
 If you encounter issues with the plug-in, or want to send feedback:
 
 * Ask Node.js plug-in specific questions on the [GitHub Issues](https://github.com/UrbanCode/Node.js-UCD/issues) page.
-* For general plug-in issues, submit questions to our [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: urbancode | ucdev | plugins
+* For general plug-in issues, submit questions to our [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: DevOps | ucdev | plugins
 
 ## Available Steps
 

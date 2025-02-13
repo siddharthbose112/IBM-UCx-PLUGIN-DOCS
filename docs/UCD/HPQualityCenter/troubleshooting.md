@@ -15,7 +15,7 @@ Review the console and log of the process that is failing for details about the 
 ### **Known problems**
 
 
-A number of issues that users have encountered with this plug-in are caused by this issue: the HP Quality Center client files are not downloaded on the same system as the UrbanCode Deploy agent. Ensure that you are logged into the HP Quality Center server that uses a supported Internet Explorer version from the system that contains the UrbanCode Deploy agent. Supported browser versions are Internet Exploxer 7 and Internet Explorer 8. Launch Internet Explorer as Administrator to avoid Windows user account control issues.
+A number of issues that users have encountered with this plug-in are caused by this issue: the HP Quality Center client files are not downloaded on the same system as the DevOps Deploy agent. Ensure that you are logged into the HP Quality Center server that uses a supported Internet Explorer version from the system that contains the DevOps Deploy agent. Supported browser versions are Internet Exploxer 7 and Internet Explorer 8. Launch Internet Explorer as Administrator to avoid Windows user account control issues.
 
 
 You might encounter the following error when running plug-in steps:

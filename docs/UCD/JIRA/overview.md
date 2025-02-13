@@ -1,5 +1,5 @@
 
-# JIRA for IBM UrbanCode Deploy - Overview
+# JIRA for IBM DevOps Deploy - Overview
 
 The JIRA plug-in includes steps to automate working with JIRA issues as a process step.
 
@@ -14,15 +14,15 @@ This plug-in includes these steps.
 
 ### Compatibility
 
-This plug-in requires IBM UrbanCode Deploy version 6.0 or later.
+This plug-in requires IBM DevOps Deploy version 6.0 or later.
 
-This plug-in runs on all operating systems that UrbanCode Deploy supports.
+This plug-in runs on all operating systems that DevOps Deploy supports.
 
 For JIRA version older than v5.0, please use plugin v5 which uses the SOAP API.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 ### History
 
@@ -93,13 +93,13 @@ Fixes APAR PI37115Steps failing with Assertion Error
 
 #### Version 4
 
-Fixes APAR PI35342compatibility defect with IBM Urbancode Deploy version 6.1.0.4 and later.
+Fixes APAR PI35342compatibility defect with IBM DevOps Deploy version 6.1.0.4 and later.
 
 #### Version 3
 
 The JIRA integration provides component process steps to create, comment and resolve issues found in JIRA and publish a list of issues that were addressed in the deployment.
 
 
-|Back to ...||Latest Version|JIRA for IBM UrbanCode Deploy ||||
+|Back to ...||Latest Version|JIRA for IBM DevOps Deploy ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[19.1167047](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/JIRA/ucd-JIRA-19.1167047.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

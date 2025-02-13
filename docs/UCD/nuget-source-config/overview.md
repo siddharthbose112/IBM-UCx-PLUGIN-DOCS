@@ -14,7 +14,7 @@ To access this plug-in in the palette, click **Source and Repositories** > **NuG
 
 ### Compatibility
 
-This plug-in requires version 6.0 or later of IBM UrbanCode Deploy.
+This plug-in requires version 6.0 or later of IBM DevOps Deploy.
 
 This plug-in uses the NuGet REST API version 2. For information about the API, see [NuGet API](https://docs.microsoft.com/en-us/nuget/api/overview).
 
@@ -25,7 +25,7 @@ This plug-in supports these servers:
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in IBM UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in IBM UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in IBM DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in IBM DevOps Deploy").
 
 ### History
 

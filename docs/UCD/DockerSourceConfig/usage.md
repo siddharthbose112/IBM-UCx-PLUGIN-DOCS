@@ -44,7 +44,7 @@ The following properties must be specified to configure an Nexus hosted Docker r
 
 ### Amazon EC2 Container Registry
 
-UrbanCode Deploy can be used to import Docker images from an Amazon EC2 Container Registry (ECR) using the Docker Registry source configuration plug-in. Before using this plug-in to create or import versions from Amazon ECR, Docker and AWS CLI must be installed on the UrbanCode Deploy agent used for version imports. See the [Docker](https://docs.docker.com/) and [Amazon ECS](http://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html) documentation for details about how to install these requirements.
+DevOps Deploy can be used to import Docker images from an Amazon EC2 Container Registry (ECR) using the Docker Registry source configuration plug-in. Before using this plug-in to create or import versions from Amazon ECR, Docker and AWS CLI must be installed on the DevOps Deploy agent used for version imports. See the [Docker](https://docs.docker.com/) and [Amazon ECS](http://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html) documentation for details about how to install these requirements.
 
 #### Properties
 
@@ -71,7 +71,7 @@ The following properties are used when connecting to Amazon Elastic Container Se
 
 Support for the latest IBM Cloud container registries was changed in version 20 of the Docker Registry plug-in to remove dependencies on the IBM Cloud (Bluemix) Cloud Foundry plug-in and the depreciated Bluemix IBM Containers plug-in (bx ic). Support for OAuth protected IBM Cloud container registries was also introduced in version 20.
 
-The IBM Cloud (Bluemix) command line interface, the IBM Cloud container registry plug-in, and IBM Cloud container service plug-in are required to be installed on your UrbanCode Deploy agent machine to access IBM Cloud container registries. Docker itself must also be installed on the agent machine.
+The IBM Cloud (Bluemix) command line interface, the IBM Cloud container registry plug-in, and IBM Cloud container service plug-in are required to be installed on your DevOps Deploy agent machine to access IBM Cloud container registries. Docker itself must also be installed on the agent machine.
 
 #### Properties
 
@@ -100,7 +100,7 @@ Running the `bx cr images` command will return something like this:
 
 In the example above, the REPOSITORY column shows a name made of three pieces. Take `registry.ng.bluemix.net/mynamespace2/bgdemohello` as an example. The text `registry.ng.bluemix.net` refers to the container registry. The text `mynamespace2` refers to a namespace which is used for personal or private images for a specific organization or user. The text `bgdemohello` refers to the image name itself.
 
-Following our example, in UrbanCode Deploy, the Image Name field would contain the value `mynamespace2/bgdemohello` and the Registry filed would contain `registry.ng.bluemix.net`.
+Following our example, in DevOps Deploy, the Image Name field would contain the value `mynamespace2/bgdemohello` and the Registry filed would contain `registry.ng.bluemix.net`.
 
 The Registry Type field should be set to IBM Containers, as that instructs the plug-in to connect to an IBM Cloud container registry.
 
@@ -110,7 +110,7 @@ There are several properties used when connecting to IBM Cloud (Bluemix). The IB
 
 ### Bluemix Home
 
-The location of your Bluemix config.json file is needed to pull image tags from the IBM Cloud container registry. After connecting to Bluemix, an IAMRefreshToken is placed in the Bluemix config.json file. This token is required when the Docker registry UrbanCode Deploy plug-in makes a REST call to pull image tags from the container registry.
+The location of your Bluemix config.json file is needed to pull image tags from the IBM Cloud container registry. After connecting to Bluemix, an IAMRefreshToken is placed in the Bluemix config.json file. This token is required when the Docker registry DevOps Deploy plug-in makes a REST call to pull image tags from the container registry.
 
 ### Basic Workflow
 
@@ -123,7 +123,7 @@ Below is the general approach the Docker Registry plug-in takes when connecting 
 
 ### Artifactory Configuration
 
-UrbanCode Deploy began supporting Artifactory hosted Docker registries starting with version 16 of the Docker Registry plug-in.
+DevOps Deploy began supporting Artifactory hosted Docker registries starting with version 16 of the Docker Registry plug-in.
 
 #### Properties
 
@@ -162,7 +162,7 @@ The **Registry Type** property must be set to `Artifactory` otherwise a differen
 
 To create a component by importing from Docker, complete the following steps. For more information, see [Creating components](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=components-creating "Creating components") in the product help.
 
-1. On the **Components** page in IBM UrbanCode Deploy, click **Create New Component**.
+1. On the **Components** page in IBM DevOps Deploy, click **Create New Component**.
 2. In the **Source Config Type** list, select **Docker**.
 3. Provide all of the necessary information, such as the **Image Name**.
 4. Click **Save**.

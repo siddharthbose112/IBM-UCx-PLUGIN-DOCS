@@ -16,11 +16,11 @@ This plug-in includes two steps:
 The Maximo plugin does not support migration of Collections, only supports change and snapshot.
 Compatibility
 
-This plug-in requires IBM UrbanCode Deploy version 6.0.1 or later.
+This plug-in requires IBM DevOps Deploy version 6.0.1 or later.
 
 ## Installation
 
-No special steps are required for installation. See Installing plug-ins in UrbanCode Deploy.
+No special steps are required for installation. See Installing plug-ins in DevOps Deploy.
 
 ## History
 

@@ -1,6 +1,6 @@
 
 # IBM IMS - Overview
-This plug-in simplifies IMS operations in support of application deployment by issuing IMS commands.The plug-in integrates into the IBM UrbanCode Deploy design process, allowing you to automate application deployment for continuous delivery in an agile environment.
+This plug-in simplifies IMS operations in support of application deployment by issuing IMS commands.The plug-in integrates into the IBM DevOps Deploy design process, allowing you to automate application deployment for continuous delivery in an agile environment.
 
 For detailed usage information, including IMS Application Deployment example, see [Usage](#usage "Usage").
 
@@ -13,11 +13,11 @@ The plug-in includes the Execute IMS Command step that can be used to submit IMS
 
 ### Compatibility
 
-This plug-in requires version 6.1 of IBM UrbanCode Deploy.
+This plug-in requires version 6.1 of IBM DevOps Deploy.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 ### Related information
 

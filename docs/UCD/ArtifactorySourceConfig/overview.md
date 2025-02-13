@@ -10,9 +10,9 @@ The Artifactory source configuration plug-in includes steps to complete the foll
 
 This plug-in requires Artifactory versions 2.0 or later. The Artifactory Pro edition is also supported. Some functions of the plug-in steps require Artifactory Pro version, such as recursive download.
 
-This plug-in requires version IBM UrbanCode Deploy 6.0.1 or later.
+This plug-in requires version IBM DevOps Deploy 6.0.1 or later.
 
-This runs on all operating systems that are supported by the IBM UrbanCode Deploy agent.
+This runs on all operating systems that are supported by the IBM DevOps Deploy agent.
 
 ### Upgrade note
 
@@ -20,7 +20,7 @@ When **upgrading to version 18 or later from an earlier version, the **Include F
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 ### History
 

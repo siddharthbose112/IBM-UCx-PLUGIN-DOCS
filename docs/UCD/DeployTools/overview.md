@@ -1,5 +1,5 @@
 
-# IBM UrbanCode Deploy Tools - Overview
+# IBM DevOps Deploy Tools - Overview
 
 
 The Deploy Tools plug-in provides automated post deployment verification steps to verify that applications are deployed to web sites. You can use the plug-in to determine whether a deployment succeeded or failed. You can also specify application and component threshold processing time.
@@ -15,13 +15,13 @@ To add the Deploy Tools plug-in steps to processes, click **Quality > Functional
 
 ### Compatibility
 
-This plug-in requires IBM UrbanCode Deploy version 6.0 or later.
+This plug-in requires IBM DevOps Deploy version 6.0 or later.
 
-This plug-in runs on all operating systems that the UrbanCode Deploy agents supports, except for IBM z/OS.
+This plug-in runs on all operating systems that the DevOps Deploy agents supports, except for IBM z/OS.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 ### History
 
@@ -31,13 +31,13 @@ This version adds proxy compatibility, and includes a fix for a build issue rela
 
 #### Version 7
 
-This version includes a fix for APAR PI35342compatibility defect with IBM Urbancode Deploy version 6.1.0.4 and later.
+This version includes a fix for APAR PI35342compatibility defect with IBM DevOps Deploy version 6.1.0.4 and later.
 
 #### Version 6
 
 This version includes a Character Encoding property for the Verify Deployment Step. This property specifies the character encoding to use when reading the response body from a website.
 
 
-|Back to ...||Latest Version|IBM UrbanCode Deploy Tools |||
+|Back to ...||Latest Version|IBM DevOps Deploy Tools |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.1056566](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DeployTools/DeployTools-9.1056566.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

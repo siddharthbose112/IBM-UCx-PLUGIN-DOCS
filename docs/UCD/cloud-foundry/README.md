@@ -7,7 +7,7 @@ The Cloud Foundry plug-in uses the CloudFoundry command line utility to interact
 
 Bind ServiceBinds a Cloud Foundry service instance onto a Cloud Foundry application.
 
-CF Auto-ConfigureDiscover and configure all organizations and spaces for each organization into a resource tree in Urbancode Deploy.
+CF Auto-ConfigureDiscover and configure all organizations and spaces for each organization into a resource tree in DevOps Deploy.
 
 CF DiscoveryThis step will discover if Cloud Foundry is on an agent by checking common installation paths. If it is, it will assign the role to the resource and set the command path property.
 
@@ -49,7 +49,7 @@ Unbind ServiceUnbinds a Cloud Foundry service from a Cloud Foundry application.
 
 Unmap RouteRemoves a URL route from an application.
 
-There is also an UrbanCode Deploy Community supported plugin for cloud foundry: [UrbanCode Deploy Community Cloud Foundry Plugin](https://github.com/IBM-UrbanCode/Cloud-Foundry-UCD)
+There is also an DevOps Deploy Community supported plugin for cloud foundry: [DevOps Deploy Community Cloud Foundry Plugin](https://github.com/IBM-UrbanCode/Cloud-Foundry-UCD)
 
 Please see the [Troubleshooting Documentation](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/cloud-foundry/troubleshooting.html) for information about migrating properties from the community plugin.
 

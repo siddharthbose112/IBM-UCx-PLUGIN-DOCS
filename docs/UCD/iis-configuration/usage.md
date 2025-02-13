@@ -11,14 +11,14 @@ You can use the live comparison feature of the IIS Configure plug-in to compare 
 
 ### Before you begin
 
-* Discover an existing IIS configuration and store the configuration as component version in IBM UrbanCode Deploy. For more information, see [Discovering and applying configurations](#discovering-and-applying-configurations).
+* Discover an existing IIS configuration and store the configuration as component version in IBM DevOps Deploy. For more information, see [Discovering and applying configurations](#discovering-and-applying-configurations).
 * Change several properties in either the live IIS configuration or in the component version so that the changes can be detected during a comparison.
 
 ### Running the live comparison
 
 Map the relevant component to your application environments resource tree, as shown in **Figure 1**. The comparison process skips the request if you do not have a component that is mapped to the resource tree. The application process iterates through each component in the resource tree. For each component in the resource tree, the version that you select is compared to the live configuration.
 
-In IBM UrbanCode Deploy, go to the Applications page. Click the example IISApp application. Click the deployment push button on the environment where you want to run the live comparison. From the **Process** list, select **Live Compare**. Select the version or versions from multiple components to compare against the live configuration. If you select multiple component versions, they are compared sequentially. Ensure that **Only Changed Versions** is cleared. For an example of the Run Process window, see **Figure 2**. Click **Submit**. The live comparison process runs. Typically, it can take several seconds to run the comparison, depending on how much configuration data is stored.
+In IBM DevOps Deploy, go to the Applications page. Click the example IISApp application. Click the deployment push button on the environment where you want to run the live comparison. From the **Process** list, select **Live Compare**. Select the version or versions from multiple components to compare against the live configuration. If you select multiple component versions, they are compared sequentially. Ensure that **Only Changed Versions** is cleared. For an example of the Run Process window, see **Figure 2**. Click **Submit**. The live comparison process runs. Typically, it can take several seconds to run the comparison, depending on how much configuration data is stored.
 
 [![Figure 1. IIS application component that is mapped to the resource tree.](media/iiscompare1.png)](media/iiscompare1.png)
 Figure 1. IIS application component that is mapped to the resource tree.
@@ -47,12 +47,12 @@ You compared a previously discovered configuration to the live configuration. Yo
 
 ### Discovering and applying configurations
 
-You can use the IISConfigure plug-in to manage IIS configurations with IBM UrbanCode Deploy. The plug-in includes steps to discover configurations and package them into .zip files by using Microsoft Web Deploy, which is integrated into the plug-in. You can modify the configuration file in the .zip archive file by using tokenization steps that the plug-in provides. After you modify a configuration, you can apply it to the original environment or to a different environment. You can work with entire IIS configurations, or at a specific scope such as Sites, Apps, or App Pools.
+You can use the IISConfigure plug-in to manage IIS configurations with IBM DevOps Deploy. The plug-in includes steps to discover configurations and package them into .zip files by using Microsoft Web Deploy, which is integrated into the plug-in. You can modify the configuration file in the .zip archive file by using tokenization steps that the plug-in provides. After you modify a configuration, you can apply it to the original environment or to a different environment. You can work with entire IIS configurations, or at a specific scope such as Sites, Apps, or App Pools.
 
 The following steps describe a standard process of discovery, tokenization, and application.
 
-1. Create a resource topology in IBM UrbanCode Deploy that models the IIS topology.
-2. Discover an existing IIS configuration, and store the configuration as component versions in IBM UrbanCode Deploy.
+1. Create a resource topology in IBM DevOps Deploy that models the IIS topology.
+2. Discover an existing IIS configuration, and store the configuration as component versions in IBM DevOps Deploy.
 3. Tokenize properties in the configuration so that the configuration is specific for your individual environments.
 4. Apply the modified configuration to a new environment and examine the result.
 5. Test the new environment to confirm that the configuration was applied successfully.
@@ -61,14 +61,14 @@ The following steps describe a standard process of discovery, tokenization, and 
 
 * 2 Windows computers that are running IIS and Microsoft Web Deploy.
 * A preconfigured, working application installed on one computer.
-* IBM UrbanCode Deploy agents that are installed and running on both computers and connected to an IBM UrbanCode Deploy server.
-* The IISConfigure plug-in running on the IBM UrbanCode Deploy server. For more information, see [Installing plug-ins in UrbanCode products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins).
+* IBM DevOps Deploy agents that are installed and running on both computers and connected to an IBM DevOps Deploy server.
+* The IISConfigure plug-in running on the IBM DevOps Deploy server. For more information, see [Installing plug-ins in DevOps products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins).
 
 ### Procedure
 
 ### Create a resource tree topology
 
-Create a top-level group in the resource tree in IBM UrbanCode Deploy. The top-level group is the backbone of the resources that represent the IIS environment. In the following example screen capture, the top-level group is called `IIS-Test`.
+Create a top-level group in the resource tree in IBM DevOps Deploy. The top-level group is the backbone of the resources that represent the IIS environment. In the following example screen capture, the top-level group is called `IIS-Test`.
 
 Add the agent that is running on the computer where the preconfigured working application is installed (the computer to discover the configuration from). Hover your mouse over the new top-level group, and then select **Actions > Add Agent**.
 
@@ -79,20 +79,20 @@ Figure 1. The resource tree with top-level group, agent, and discovered webServe
 
 Click the **Edit** icon for the webServer resource role and verify that the properties are set correctly for the computer, and then click **OK**.
 
-For the webServer object, click **Actions > Configure using IIS Configuration Configure**. The Configure step runs and creates the rest of the topology in UrbanCode Deploy. After the Configure step completes, a topology is displayed that matches your IIS topology. An example topology is shown in **Figure 2**.
+For the webServer object, click **Actions > Configure using IIS Configuration Configure**. The Configure step runs and creates the rest of the topology in DevOps Deploy. After the Configure step completes, a topology is displayed that matches your IIS topology. An example topology is shown in **Figure 2**.
 
 [![Full topology](media/fig2.png)](media/fig2.png)
 Figure 2. The resource tree with full topology (left) after the configure step completes. On the right, the topology on IIS Manager for comparison. The topologies should match.
 
 ### Discover an IIS configuration
 
-After you set up the IIS topology on the resource tree in IBM UrbanCode Deploy, you can discover the configuration from your IIS computer. You use a generic process to discover the configuration of an application on the IIS computer. After you discover a configuration, you can use the `Tokenize Configuration File` plug-in step to create variables in the configuration file.
+After you set up the IIS topology on the resource tree in IBM DevOps Deploy, you can discover the configuration from your IIS computer. You use a generic process to discover the configuration of an application on the IIS computer. After you discover a configuration, you can use the `Tokenize Configuration File` plug-in step to create variables in the configuration file.
 
 The plug-in includes two example generic processes. The following example uses the `Example 2: IIS App Discovery (IIS APPS ONLY)` process. This process is designed to first discover the configuration of the application that you choose, then tokenize some values in the configuration file, and then upload the modified configuration package to a component version.
 
 First, go to Processes. Then, click `Example 2: IIS App Discovery (IIS APPS ONLY)`. Click **Set** for the resource, and then select the IIS application to discover from the resource tree. Click **OK**, and then click **Submit** if you do not want to specify other options. After the process completes, your configuration file is uploaded to a component version in the `IIS Application Config` component, which is loaded when you install the plug-in.
 
-The generic process includes the `Tokenize Configuration File` step. If you click the console output icon (at the right of the row), you can see that the applicationPool property was replaced with the @applicationPool@ token. When you deploy this application to a new environment, you can replace that token with an application pool of your choice by using IBM UrbanCode Deploy properties.
+The generic process includes the `Tokenize Configuration File` step. If you click the console output icon (at the right of the row), you can see that the applicationPool property was replaced with the @applicationPool@ token. When you deploy this application to a new environment, you can replace that token with an application pool of your choice by using IBM DevOps Deploy properties.
 
 ### Deploy an application to a new environment
 

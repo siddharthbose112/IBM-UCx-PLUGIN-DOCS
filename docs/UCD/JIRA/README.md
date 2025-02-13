@@ -1,5 +1,5 @@
 
-# JIRA for IBM UrbanCode Deploy
+# JIRA for IBM DevOps Deploy
 
 JIRA is an issue tracking tool. You can use the tool to capture and organize issues, assign work, and track activities. Issues can be anything from development tasks, code errors, project tasks, help-desk tickets, or human resource request forms. The JIRA product is developed by Atlassian. For JIRA version older than v5.0, please use plugin v5.
 

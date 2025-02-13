@@ -1,7 +1,7 @@
 
 # IBM AppScan Enterprise
 
-IBM AppScan Enterprise enables organizations to mitigate application security risk and achieve regulatory compliance. This plug-in includes steps to run AppScan Enterprise scans and retrieve scan results in IBM UrbanCode Deploy processes.
+IBM AppScan Enterprise enables organizations to mitigate application security risk and achieve regulatory compliance. This plug-in includes steps to run AppScan Enterprise scans and retrieve scan results in IBM DevOps Deploy processes.
 
 
 ### Available Steps

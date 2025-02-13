@@ -1,19 +1,19 @@
 
 # Kubernetes - Overview
 
-The Kubernetes plug-in includes steps with interact with Kubernetes resources in IBM UrbanCode Deploy.
+The Kubernetes plug-in includes steps with interact with Kubernetes resources in IBM DevOps Deploy.
 
 This plugin includes one or more steps, click **Steps** for step details and properties.
 
 ### Compatibility
 
-The server that is hosting the Kubernetes cluster must be accessible from the IBM UrbanCode Deploy agent.
+The server that is hosting the Kubernetes cluster must be accessible from the IBM DevOps Deploy agent.
 
-This plug-in requires version 6.0.1 or later of IBM UrbanCode Deploy.
+This plug-in requires version 6.0.1 or later of IBM DevOps Deploy.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode products").
+No special steps are required for installation. See [Installing plug-ins in DevOps products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps products").
 
 ### History
 

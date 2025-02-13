@@ -19,7 +19,7 @@ Both of these utilities are required to run the plugin and must be downloaded di
 ### Installation Directions
 
 
-To download the required jars, start by heading to the [RQM Download Page](https://jazz.net/downloads/rational-quality-manager/). Select your version of RQM and click the All Downloads tab near the top of the page. Scroll down to the Extras section and find Rational Quality Execution Manager Tool and Rational Quality URL Utility. For both files, click the All platform link to download the RQM-Extras-ExecutionTool-X.X.X.zip and RQM-Extras-RQMUrlUtil-X.X.X.zip. The versions of each downloaded zip should match the version of your RQM instance. Extract the zip and place the RQMExecutionTool.jar and RQMURLUtility.jar in a reachable location on the UrbanCode Agents server.
+To download the required jars, start by heading to the [RQM Download Page](https://jazz.net/downloads/rational-quality-manager/). Select your version of RQM and click the All Downloads tab near the top of the page. Scroll down to the Extras section and find Rational Quality Execution Manager Tool and Rational Quality URL Utility. For both files, click the All platform link to download the RQM-Extras-ExecutionTool-X.X.X.zip and RQM-Extras-RQMUrlUtil-X.X.X.zip. The versions of each downloaded zip should match the version of your RQM instance. Extract the zip and place the RQMExecutionTool.jar and RQMURLUtility.jar in a reachable location on the DevOps Agents server.
 
 
 ### Configuration Directions

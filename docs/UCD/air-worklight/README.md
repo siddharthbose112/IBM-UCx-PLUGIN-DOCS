@@ -3,7 +3,7 @@
 
 The IBM MobileFirst Platform plug-in provides functionality for deploying artifacts to an IBM MobileFirst Platform Server. Provides support for deploying mobile application artifacts to an IBM MobileFirst Platform Server.
 
-You can use IBM UrbanCode Deploy to define a DevOps deployment solution for IBM MobileFirst mobile artifacts. By defining a deployment using IBM UrbanCode Deploy with the IBM MobileFirst Platform plugin, mobile teams can respond to feedback faster and have a repeatable process with reduced risk. Check out how to go from manual to continuous automated deployment of mobile MobileFirst Platform applications in this [article](http://www.ibm.com/developerworks/rational/library/worklight-mobile-devops/index.html).
+You can use IBM DevOps Deploy to define a DevOps deployment solution for IBM MobileFirst mobile artifacts. By defining a deployment using IBM DevOps Deploy with the IBM MobileFirst Platform plugin, mobile teams can respond to feedback faster and have a repeatable process with reduced risk. Check out how to go from manual to continuous automated deployment of mobile MobileFirst Platform applications in this [article](http://www.ibm.com/developerworks/rational/library/worklight-mobile-devops/index.html).
 
 
 ### Available Steps

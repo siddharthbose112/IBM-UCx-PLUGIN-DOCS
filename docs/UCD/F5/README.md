@@ -5,7 +5,7 @@ This plug-in provides steps to interact with F5’s BIG-IP family of products. T
 
 **Platform Support:**
 
-* This plug-in is supported to run on all operating systems that are supported by both the IBM UrbanCode Deploy agent (except for z/OS) and the iControl Java client.
+* This plug-in is supported to run on all operating systems that are supported by both the IBM DevOps Deploy agent (except for z/OS) and the iControl Java client.
 * This plug-in packages v11.1 of the iControl Java client and is supported to run against all versions of F5 BIG-IP products of v11+.
 * For newer versions of F5, use the hidden **iControl Jar Location** property to point to the iControl Java client installed with your F5 server.
 * Note: F5 users who have not upgraded to v11+, use F5 plugin version 10. In F5 versions 11.0+, the iControl API changed how to identify Nodes. Nodes are now referenced by their names, instead of IP Addresses.

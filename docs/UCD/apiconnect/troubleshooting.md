@@ -1,7 +1,7 @@
 
 # IBM API Connect - Troubleshooting
 
-**Tip:** For more questions and answers, see the [UrbanCode forum on IBM developerWorks](https://community.ibm.com/community/user/wasdevops/urbancode-discussion "UrbanCode forum").
+**Tip:** For more questions and answers, see the [DevOps forum on IBM developerWorks](https://community.ibm.com/community/user/wasdevops/urbancode-discussion "DevOps forum").
 
 ### Login Step: ERROR {error:invalid\_client,error\_description:Unauthorized grant type: password}``
 

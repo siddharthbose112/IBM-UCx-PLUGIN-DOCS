@@ -9,13 +9,13 @@ To add the IBM MobileFirst Platform Foundation on IBM Containers plug-in steps t
 
 This plug-in works with IBM MobileFirst Platform Foundation version 7.1.
 
-This plug-in requires IBM UrbanCode Deploy version 6.1.1 or later.
+This plug-in requires IBM DevOps Deploy version 6.1.1 or later.
 
 This plug-in is supported to run on agents that are running on Mac OS X or Linux.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 ### History
 

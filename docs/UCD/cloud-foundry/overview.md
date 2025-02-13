@@ -9,15 +9,15 @@ To add the Cloud Foundry plug-in steps to processes, click **Cloud > CloudFoundr
 
 ### Compatibility
 
-The IBM UrbanCode Deploy automation plug-in for Cloud Foundry works with the Cloud Foundry command line interface version 6.0 and later. The cf interface can be downloaded [here](https://github.com/cloudfoundry/cli).
+The IBM DevOps Deploy automation plug-in for Cloud Foundry works with the Cloud Foundry command line interface version 6.0 and later. The cf interface can be downloaded [here](https://github.com/cloudfoundry/cli).
 
-This plug-in requires version 6.0 or later of IBM UrbanCode Deploy.
+This plug-in requires version 6.0 or later of IBM DevOps Deploy.
 
 This plug-in supports agents running on Linux, Microsoft Windows, and Mac OS.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 ### History
 

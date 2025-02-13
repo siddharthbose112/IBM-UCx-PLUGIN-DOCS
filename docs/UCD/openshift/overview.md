@@ -1,20 +1,20 @@
 
-# OpenShift for IBM UrbanCode Deploy - Overview
+# OpenShift for IBM DevOps Deploy - Overview
 
 
-The OpenShift plug-in includes steps to interact with OpenShift applications in IBM UrbanCode Deploy.
+The OpenShift plug-in includes steps to interact with OpenShift applications in IBM DevOps Deploy.
 
 ### Compatibility
 
 This plug-in works with [OpenShift CLI 3.1](https://docs.openshift.com/enterprise/3.1/cli_reference/get_started_cli.html) and later.
 
-The OpenShift server must be accessible from the IBM UrbanCode Deploy agent.
+The OpenShift server must be accessible from the IBM DevOps Deploy agent.
 
-This plug-in requires version 6.0.1 or later of IBM UrbanCode Deploy.
+This plug-in requires version 6.0.1 or later of IBM DevOps Deploy.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in IBM UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in IBM UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in IBM DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in IBM DevOps Deploy").
 
 ### History
 
@@ -112,6 +112,6 @@ Version 13
 * The initial release of the plug-in includes steps to deploy, roll back, scale and tag an application in OpenShift.
 
 
-|Back to ...||Latest Version|OpenShift for IBM UrbanCode Deploy ||||
+|Back to ...||Latest Version|OpenShift for IBM DevOps Deploy ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[23.1168147](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/openshift/ucd-openshift-23.1168147.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

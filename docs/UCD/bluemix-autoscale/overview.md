@@ -13,13 +13,13 @@ You must also download and install the IBM API Connect developer toolkit. For mo
 
 ### Compatibility
 
-This plug-in requires version 6.0.1 or later of IBM UrbanCode Deploy.
+This plug-in requires version 6.0.1 or later of IBM DevOps Deploy.
 
-This plug-in is compatible with agents running on operating systems that are supported by both IBM UrbanCode Deploy and the IBM Containers command-line interface. This plug-in does not support agents running on z/OS.
+This plug-in is compatible with agents running on operating systems that are supported by both IBM DevOps Deploy and the IBM Containers command-line interface. This plug-in does not support agents running on z/OS.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in IBM UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in IBM UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in IBM DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in IBM DevOps Deploy").
 
 ### History
 

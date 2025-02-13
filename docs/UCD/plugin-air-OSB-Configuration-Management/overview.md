@@ -25,15 +25,15 @@ If no errors occur during a step, the plug-in activates the changes made to the 
 
 ### Compatibility
 
-This plug-in requires version 6.0.1 of IBM UrbanCode Deploy.
+This plug-in requires version 6.0.1 of IBM DevOps Deploy.
 
 This plug-in supports Oracle Service Bus versions 10g and 11g.
 
-The steps in this plug-in run on any agents that the IBM UrbanCode Deploy server supports.
+The steps in this plug-in run on any agents that the IBM DevOps Deploy server supports.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in IBM UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in IBM UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in IBM DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in IBM DevOps Deploy").
 
 ### History
 

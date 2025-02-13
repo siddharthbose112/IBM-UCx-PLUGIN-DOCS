@@ -27,14 +27,14 @@ To add the Microsoft BizTalk plug-in steps to processes, click **Middleware > En
 
 ### Compatibility
 
-The IBM UrbanCode Deploy automation plug-in for Microsoft BizTalk works with BizTalk Server 2010.
+The IBM DevOps Deploy automation plug-in for Microsoft BizTalk works with BizTalk Server 2010.
 
-This plug-in requires version 6.1 or later of IBM UrbanCode Deploy.
+This plug-in requires version 6.1 or later of IBM DevOps Deploy.
 
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 ### History
 

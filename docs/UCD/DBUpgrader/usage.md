@@ -1,5 +1,5 @@
 
-# IBM UrbanCode DBUpgrader - Usage
+# IBM DevOps DBUpgrader - Usage
 
 
 The DBUpgrader plug-in helps you manage database changes that include schema changes and rollbacks. Change management is done using a proprietary, formatted XML file in conjunction with a database version table.
@@ -69,7 +69,7 @@ When DB Upgrader runs on Product Version 2, it uses both XML files. Because each
 
 ### **Tutorials**
 
-The Deploying a simple web application tutorial in the UrbanCode Deploy documentation uses the DBUpgrader plug-in [Lesson 2: Creating component processes](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=tutorials-deploying-simple-web-application). Go to the section that is labeled Creating a component process for the database component within the lesson.
+The Deploying a simple web application tutorial in the DevOps Deploy documentation uses the DBUpgrader plug-in [Lesson 2: Creating component processes](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=tutorials-deploying-simple-web-application). Go to the section that is labeled Creating a component process for the database component within the lesson.
 
 
 ### Database Version table and XML file
@@ -133,6 +133,6 @@ Within the <SQL> tags are the SQL statements that are required to apply the chan
 
 Each SQL statement inside a <change> element is run in the order it is provided, as any other SQL script.
 
-|Back to ...||Latest Version|IBM UrbanCode DBUpgrader ||||
+|Back to ...||Latest Version|IBM DevOps DBUpgrader ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[5.1151802](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/DBUpgrader/ucd-DBUpgrader-5.1151802.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

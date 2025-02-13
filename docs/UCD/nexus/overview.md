@@ -1,21 +1,21 @@
 
 # Nexus - Overview
 
-The Nexus plug-in for IBM UrbanCode Deploy includes steps for working with artifacts that are hosted on a Nexus server.
+The Nexus plug-in for IBM DevOps Deploy includes steps for working with artifacts that are hosted on a Nexus server.
 
 To add the Nexus plug-in steps to processes, click **Repositories > Artifact > Nexus** in the step palette of the process editor.
 
 ### Compatibility
 
-The IBM UrbanCode Deploy automation plug-in for Nexus works with Nexus version 2.
+The IBM DevOps Deploy automation plug-in for Nexus works with Nexus version 2.
 
-This plug-in requires version 6.0 or later of IBM UrbanCode Deploy.
+This plug-in requires version 6.0 or later of IBM DevOps Deploy.
 
-This plug-in runs on all operating systems that IBM UrbanCode Deploy supports.
+This plug-in runs on all operating systems that IBM DevOps Deploy supports.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in IBM UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in IBM UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in IBM DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in IBM DevOps Deploy").
 
 ### History
 

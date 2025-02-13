@@ -9,8 +9,8 @@ To deploy specific resource definitions to selected target configurations, compl
 1. Create a migration scheme and specify the Source, Target, and Transformation Rule.
 2. Mark the migration package as ready for use with the specified migration scheme.
 3. Create a change package and add the resources that you want to migrate to this change package.
-4. Send the *change package name* and *source configuration name* by using metadata to the UrbanCode Deploy server. You can use either the UrbanCode Deploy client or the REST API.
-5. Migrate (deploy) the change package to an environment in UrbanCode Deploy.
+4. Send the *change package name* and *source configuration name* by using metadata to the DevOps Deploy server. You can use either the DevOps Deploy client or the REST API.
+5. Migrate (deploy) the change package to an environment in DevOps Deploy.
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 

@@ -1,7 +1,7 @@
 # CICS TS - Troubleshooting
 
 
-For more questions and answers, see the [UrbanCode forum](https://community.ibm.com/community/user/integration/communities/community-home?communitykey=9adfe6b6-2e23-4895-8b27-38b93b5e152c&tab=groupdetails "UrbanCode forum").
+For more questions and answers, see the [DevOps forum](https://community.ibm.com/community/user/integration/communities/community-home?communitykey=9adfe6b6-2e23-4895-8b27-38b93b5e152c&tab=groupdetails "DevOps forum").
 
 ### Troubleshooting sections
 
@@ -23,7 +23,7 @@ The CICS TS plug-in does not provide a specific rollback mechanism for a failed 
 
 ### Using the step logs
 
-Most failures can be detected by inspecting the step output logs in IBM UrbanCode Deploy. If an error occurs within the UCD set up, the step output log typically contains an error message similar to authentication failed, which often indicates an incorrect username and password.
+Most failures can be detected by inspecting the step output logs in IBM DevOps Deploy. If an error occurs within the UCD set up, the step output log typically contains an error message similar to authentication failed, which often indicates an incorrect username and password.
 
 If the problem is more CICS specific, the step output log will contain a message such as the following:
 

@@ -25,7 +25,7 @@ Apply a configuration or application to an IIS instance.
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Options String | String | A list of options, separated by (,) to concatenate to the synchronize command. For example: encryptPassword=mypassword,includeAcls=false | No |
-| Resource Path | String | The path to the resource to configure in IBM UrbanCode Deploy. | Yes |
+| Resource Path | String | The path to the resource to configure in IBM DevOps Deploy. | Yes |
 | Web Deploy Path | String | The full path to the msdeploy.exe executable file. | Yes |
 
 ### IIS Configuration Auto-Discovery

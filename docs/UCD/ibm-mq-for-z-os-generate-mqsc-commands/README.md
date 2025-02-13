@@ -18,7 +18,7 @@ If you encounter issues with the plug-in, or want to send feedback:
 
 * See the [plug-in documentation](https://github.com/IBM-UrbanCode/IBM-MQ-zOS-UCD/tree/master/doc).
 * Ask IBM MQ for z/OS – Generate MQSC Commands plug-in specific questions on the [GitHub Issues](https://github.com/IBM-UrbanCode/IBM-MQ-zOS-UCD/issues) page.
-* For general plug-in issues, submit questions to the [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: urbancode | ucdev | plugins
+* For general plug-in issues, submit questions to the [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: DevOps | ucdev | plugins
 
 ## Available Steps
 

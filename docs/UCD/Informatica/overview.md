@@ -3,7 +3,7 @@
 
 Informatica PowerCenter is an enterprise data integration platform.
 
-The Informatica plug-in for IBM UrbanCode Deploy is an automation plug-in that connects to specific repositories and directly accesses and merges data across remote systems in your organization.
+The Informatica plug-in for IBM DevOps Deploy is an automation plug-in that connects to specific repositories and directly accesses and merges data across remote systems in your organization.
 
 The Informatica plug-in includes the following steps:
 
@@ -20,13 +20,13 @@ The Informatica plug-in includes the following steps:
 
 ## Compatibility
 
-The IBM UrbanCode Deploy automation plug-in works with Informatica Version 9.6 and later and PowerCenter 8.1.1 and later.
+The IBM DevOps Deploy automation plug-in works with Informatica Version 9.6 and later and PowerCenter 8.1.1 and later.
 
-This plug-in requires version 6.1.1 or later of IBM UrbanCode Deploy.
+This plug-in requires version 6.1.1 or later of IBM DevOps Deploy.
 
 ## Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 ## History
 

@@ -1,7 +1,7 @@
 
 # eggPlant
 
-The eggPlant Functional test tool from TestPlant enables you to execute synthetic transactions or functional tests from an IBM UrbanCode Deploy Process
+The eggPlant Functional test tool from TestPlant enables you to execute synthetic transactions or functional tests from an IBM DevOps Deploy Process
 
 This is a partner provided plugin.
 

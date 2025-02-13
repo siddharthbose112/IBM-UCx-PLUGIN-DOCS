@@ -5,7 +5,7 @@
 
 The Apple Xcode plug-in includes steps that manage the continuous delivery of Apple iOS applications by interacting with simulators and devices. These steps include tasks that are related to installing and removing the application on devices and simulators, and running tests as part of a DevOps solution. The plug-in also includes steps for creating and deleting simulators.
 
-This plug-in is developed and supported by the UrbanCode Deploy Community on the IBM® DevOps Services platform.
+This plug-in is developed and supported by the DevOps Deploy Community on the IBM® DevOps Services platform.
 
 ## Downloads
 
@@ -17,7 +17,7 @@ If you encounter issues with the plug-in, or want to send feedback:
 * See the [plug-in documentation](https://developer.ibm.com/urbancode/plugindoc/ibmucd/apple-xcode-plug/1-2/).
 * Watch the [plug-in demo video](http://youtu.be/kHD46_kCvnI).
 * Ask Apple-Xcode plug-in specific questions on the [GitHub Issues](https://github.com/UrbanCode/Apple-Xcode-UCD/issues) page.
-* For general plug-in issues, submit questions to our [Community discussions page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: urbancode | ucdev | plugins
+* For general plug-in issues, submit questions to our [Community discussions page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: DevOps | ucdev | plugins
 
 ## Steps
 
@@ -42,15 +42,15 @@ With the [xcrun](https://developer.ibm.com/urbancode/plugindoc/ibmucd/apple-xcod
 
 * [xcrun](https://developer.ibm.com/urbancode/plugindoc/ibmucd/apple-xcode-plug/1-2/steps/#xcrun "xcrun")
 
-**Important**: When you use steps from the Apple Xcode plug-in for IBM UrbanCode Deploy (either in the same process or separate processes running at the same time), you must acquire and release a lock to prevent these steps from running in parallel since some actions can hang. For more information about the Acquire Lock and Release Lock steps, see [Acquire Lock](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=reference-acquire-lock "Acquire Lock") and [Release Lock](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=reference-release-lock "Release Lock").
+**Important**: When you use steps from the Apple Xcode plug-in for IBM DevOps Deploy (either in the same process or separate processes running at the same time), you must acquire and release a lock to prevent these steps from running in parallel since some actions can hang. For more information about the Acquire Lock and Release Lock steps, see [Acquire Lock](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=reference-acquire-lock "Acquire Lock") and [Release Lock](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=reference-release-lock "Release Lock").
 
 To view a video demonstration of the Apple Xcode 1 plug-in, see [http://youtu.be/kHD46\_kCvnI](http://youtu.be/kHD46_kCvnI "http://youtu.be/kHD46_kCvnI")
 
 **Compatibility**
 
-The UrbanCode Deploy automation plug-in for Apple Xcode works with Xcode version 6.1.0.
+The DevOps Deploy automation plug-in for Apple Xcode works with Xcode version 6.1.0.
 
-This plug-in requires version 6.0.1 or later of IBM UrbanCode Deploy.
+This plug-in requires version 6.0.1 or later of IBM DevOps Deploy.
 
 This plug-in is supported to run only on an agent that is started from and running on Mac OS X. You must install Xcode 6.1.0 on the agent computer.
 
@@ -58,7 +58,7 @@ This plug-in is supported to run only on an agent that is started from and runni
 
 **Installation**
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 |Back to ...||Latest Version|
 | :---: | :---: | :---: |

@@ -1,7 +1,7 @@
 
 # FileNet - IBM Case Manager - Usage
 
-The IBM Case Manager plug-in for UrbanCode Deploy utilizes the Case Manager command-line interface provided [here](https://www.ibm.com/support/knowledgecenter/en/SSCTJ4_5.2.1/com.ibm.casemgmt.design.doc/acmac024.htm).
+The IBM Case Manager plug-in for DevOps Deploy utilizes the Case Manager command-line interface provided [here](https://www.ibm.com/support/knowledgecenter/en/SSCTJ4_5.2.1/com.ibm.casemgmt.design.doc/acmac024.htm).
 
 For a detailed outlining of the step input properties, see the [Steps](#steps) page.
 
@@ -40,7 +40,7 @@ For exporting security configurations, specify each manifestName on a new line a
 
 ### Using Additional Commands
 
-If needed command-line capabilities exist that are not available in the plug-in steps, consider requesting the functionality, or running in an UrbanCode Deploy Shell step.The Shell Step syntax looks similar to the command-line examples.See the following example:
+If needed command-line capabilities exist that are not available in the plug-in steps, consider requesting the functionality, or running in an DevOps Deploy Shell step.The Shell Step syntax looks similar to the command-line examples.See the following example:
 
 
 [![](media/screen-shot-2017-11-02-at-11.21.25-am.png)](media/screen-shot-2017-11-02-at-11.21.25-am.png)

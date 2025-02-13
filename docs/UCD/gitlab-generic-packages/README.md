@@ -4,7 +4,7 @@ The GitLab Generic Packages automation plugin.
 
 **Platform Support:**
 
-This plug-in is supported to run on all operating systems that are supported by the IBM® UrbanCode™ Deploy agent, including z/OS with UNIX System Services.
+This plug-in is supported to run on all operating systems that are supported by the IBM® DevOps Deploy agent, including z/OS with UNIX System Services.
 
 
 ### Available Steps

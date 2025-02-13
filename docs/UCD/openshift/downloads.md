@@ -1,5 +1,5 @@
 
-# OpenShift for IBM UrbanCode Deploy - Downloads
+# OpenShift for IBM DevOps Deploy - Downloads
 
 To download the plug-in, click the following version-specific links.
 
@@ -24,6 +24,6 @@ To download the plug-in, click the following version-specific links.
 - [openshift-2.788584.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/openshift/openshift-2.788584.zip)
 - [openshift-1.769432.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/openshift/openshift-1.769432.zip)
 
-|Back to ...||Latest Version|OpenShift for IBM UrbanCode Deploy ||||
+|Back to ...||Latest Version|OpenShift for IBM DevOps Deploy ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/openshift/ucd-openshift-23.1168147.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Steps](steps.md)|

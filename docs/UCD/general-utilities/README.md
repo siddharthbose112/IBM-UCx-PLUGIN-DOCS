@@ -1,7 +1,7 @@
 
-# IBM UrbanCode Deploy General Utilites
+# IBM DevOps Deploy General Utilites
 
-This plug-in provides various utilities for use in your UrbanCode Deploy process.
+This plug-in provides various utilities for use in your DevOps Deploy process.
 
 
 ### Available Steps

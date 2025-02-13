@@ -14,13 +14,13 @@ To access this plug-in in the palette, click **Source and Repositories** > **Fil
 
 ### Compatibility
 
-This plug-in requires version 6.0 or later of IBM UrbanCode Deploy.
+This plug-in requires version 6.0 or later of IBM DevOps Deploy.
 
-For UrbanCode Deploy 6.0, both the agent and the server must be installed on Microsoft Windows. For UrbanCode Deploy 6.0.1 or later, only the agent is required to be on a system running Microsoft Windows.
+For DevOps Deploy 6.0, both the agent and the server must be installed on Microsoft Windows. For DevOps Deploy 6.0.1 or later, only the agent is required to be on a system running Microsoft Windows.
 
 ### Installation
 
-This plug-in is installed when installing IBM UrbanCode Deploy. When new plug-in versions are available, see [Installing plug-ins in UrbanCode Products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy") to update the plug-in.
+This plug-in is installed when installing IBM DevOps Deploy. When new plug-in versions are available, see [Installing plug-ins in DevOps Products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy") to update the plug-in.
 
 ### History
 

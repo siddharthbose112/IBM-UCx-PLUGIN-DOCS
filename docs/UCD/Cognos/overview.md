@@ -2,7 +2,7 @@
 # IBM Cognos - Overview
 
 
-Cognos software includes business intelligence and performance management solutions. The Cognos plug-in for IBM UrbanCode Deploy includes steps to import and export content to and from the Cognos content store.
+Cognos software includes business intelligence and performance management solutions. The Cognos plug-in for IBM DevOps Deploy includes steps to import and export content to and from the Cognos content store.
 
 To add the Cognos plug-in steps to processes, click **Reporting > Cognos** in the step palette of the process editor.
 
@@ -10,11 +10,11 @@ To add the Cognos plug-in steps to processes, click **Reporting > Cognos** in th
 
 The current version of this plug-in is based on the Cognos 10.2 SDK.
 
-This plug-in requires version 6.1 or later of IBM UrbanCode Deploy.
+This plug-in requires version 6.1 or later of IBM DevOps Deploy.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins).
+No special steps are required for installation. See [Installing plug-ins in DevOps products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins).
 
 ### History
 

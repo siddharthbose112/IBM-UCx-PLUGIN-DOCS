@@ -43,8 +43,8 @@ Bind a CF service instance onto a CF application.
 | Application Name | String | Name of the application to bind the service to. | Yes |
 | CF_HOME | String | Set the CF_HOME variable to explicitly define the location of the config.json file. A new CF_HOME will be used for each step if not specified. | No |
 | Cloud Foundry CLI Path | String | The path to the cf command line script. | No |
-| Cloud Foundry Password | Password | The password of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of UrbanCode Deploy. | No |
-| Cloud Foundry User | String | The user name of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of UrbanCode Deploy. | No |
+| Cloud Foundry Password | Password | The password of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of DevOps Deploy. | No |
+| Cloud Foundry User | String | The user name of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of DevOps Deploy. | No |
 | Organization | String | The name of the organization where the application will be deployed. | No |
 | Service name | String | Name of the service to be bound. | Yes |
 | Skip SSL Validation | Boolean | If checked, SSL validation will be skipped. | No |
@@ -52,7 +52,7 @@ Bind a CF service instance onto a CF application.
 
 ### CF Auto-Configure
 
-Discover and configure all organizations and spaces for each organization into a resource tree in Urbancode Deploy.
+Discover and configure all organizations and spaces for each organization into a resource tree in DevOps Deploy.
 
 | Name | Type | Description                                                                                                          | Required |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
@@ -83,8 +83,8 @@ Create a domain in an org.
 | API | String | A url of the target Cloud Foundry system, such as <http://api.ng.bluemix.net>. | Yes |
 | CF_HOME | String | Set the CF_HOME variable to explicitly define the location of the config.json file. A new CF_HOME will be used for each step if not specified. | No |
 | Cloud Foundry CLI Path | String | The path to the cf command line script. | No |
-| Cloud Foundry Password | Password | The password of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of UrbanCode Deploy. | No |
-| Cloud Foundry User | String | The user name of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of UrbanCode Deploy. | No |
+| Cloud Foundry Password | Password | The password of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of DevOps Deploy. | No |
+| Cloud Foundry User | String | The user name of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of DevOps Deploy. | No |
 | Domain | String | Name of the domain owning the route. | Yes |
 | Organization | String | The name of the organization where the application will be deployed. | Yes |
 | Skip SSL Validation | Boolean | If checked, SSL validation will be skipped. | No |
@@ -99,8 +99,8 @@ Create a url route in a space.
 | API | String | A url of the target Cloud Foundry system, such as <http://api.ng.bluemix.net>. | Yes |
 | CF_HOME | String | Set the CF_HOME variable to explicitly define the location of the config.json file. A new CF_HOME will be used for each step if not specified. | No |
 | Cloud Foundry CLI Path | String | The path to the cf command line script. | No |
-| Cloud Foundry Password | Password | The password of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of UrbanCode Deploy. | No |
-| Cloud Foundry User | String | The user name of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of UrbanCode Deploy. | No |
+| Cloud Foundry Password | Password | The password of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of DevOps Deploy. | No |
+| Cloud Foundry User | String | The user name of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of DevOps Deploy. | No |
 | Domain | String | Name of the domain owning the route. | Yes |
 | Hostname | String | The hostname within the domain for the url route. | No |
 | Organization | String | The name of the organization where the application will be deployed. | No |
@@ -116,8 +116,8 @@ Create a new Cloud Foundry Service.
 | API | String | A url of the target Cloud Foundry system, such as <http://api.ng.bluemix.net>. | Yes |
 | CF_HOME | String | Set the CF_HOME variable to explicitly define the location of the config.json file. A new CF_HOME will be used for each step if not specified. | No |
 | Cloud Foundry CLI Path | String | The path to the cf command line script. | No |
-| Cloud Foundry Password | Password | The password of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of UrbanCode Deploy. | No |
-| Cloud Foundry User | String | The user name of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of UrbanCode Deploy. | No |
+| Cloud Foundry Password | Password | The password of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of DevOps Deploy. | No |
+| Cloud Foundry User | String | The user name of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of DevOps Deploy. | No |
 | Organization | String | The name of the organization where the application will be deployed. | No |
 | Service name | String | Name of the service. | Yes |
 | Service plan | String | Service plan. | Yes |
@@ -134,8 +134,8 @@ Create a subdomain in an org.
 | API | String | A url of the target Cloud Foundry system, such as <http://api.ng.bluemix.net>. | Yes |
 | CF_HOME | String | Set the CF_HOME variable to explicitly define the location of the config.json file. A new CF_HOME will be used for each step if not specified. | No |
 | Cloud Foundry CLI Path | String | The path to the cf command line script. | No |
-| Cloud Foundry Password | Password | The password of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of UrbanCode Deploy. | No |
-| Cloud Foundry User | String | The user name of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of UrbanCode Deploy. | No |
+| Cloud Foundry Password | Password | The password of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of DevOps Deploy. | No |
+| Cloud Foundry User | String | The user name of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of DevOps Deploy. | No |
 | Domain | String | Name of the domain i.e. domain.org of subdomain myapp.domain.org. | Yes |
 | Organization | String | The name of the organization where the application will be deployed. | Yes |
 | Skip SSL Validation | Boolean | If checked, SSL validation will be skipped. | No |
@@ -151,8 +151,8 @@ Create or update a user-provided service instance.
 | API | String | A url of the target Cloud Foundry system, such as <http://api.ng.bluemix.net>. | Yes |
 | CF_HOME | String | Set the CF_HOME variable to explicitly define the location of the config.json file. A new CF_HOME will be used for each step if not specified. | No |
 | Cloud Foundry CLI Path | String | The path to the cf command line script. | No |
-| Cloud Foundry Password | Password | The password of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of UrbanCode Deploy. | No |
-| Cloud Foundry User | String | The user name of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of UrbanCode Deploy. | No |
+| Cloud Foundry Password | Password | The password of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of DevOps Deploy. | No |
+| Cloud Foundry User | String | The user name of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of DevOps Deploy. | No |
 | Credentials | String | Credentials, in JSON format, to be exposed in the VCAP_SERVICES environment variable for bound applications. A full file path may also be specified. Example: {username:admin, password:pa55woRD}`` Windows users must escape each double quote with a backslash. | Yes |
 | Log Drain URL | String | URL to which logs for bound applications will be streamed. | No |
 | Organization | String | The name of the organization where the application will be deployed. | Yes |
@@ -171,8 +171,8 @@ Delete an application.
 | Application name | String | Name of the application. | Yes |
 | CF_HOME | String | Set the CF_HOME variable to explicitly define the location of the config.json file. A new CF_HOME will be used for each step if not specified. | No |
 | Cloud Foundry CLI Path | String | The path to the cf command line script. | No |
-| Cloud Foundry Password | Password | The password of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of UrbanCode Deploy. | No |
-| Cloud Foundry User | String | The user name of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of UrbanCode Deploy. | No |
+| Cloud Foundry Password | Password | The password of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of DevOps Deploy. | No |
+| Cloud Foundry User | String | The user name of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of DevOps Deploy. | No |
 | Delete mapped routes | Boolean | Also delete any mapped routes. | No |
 | Organization | String | The name of the organization where the application will be deployed. | No |
 | Skip SSL Validation | Boolean | If checked, SSL validation will be skipped. | No |
@@ -187,8 +187,8 @@ Delete a domain.
 | API | String | A url of the target Cloud Foundry system, such as <http://api.ng.bluemix.net>. | Yes |
 | CF_HOME | String | Set the CF_HOME variable to explicitly define the location of the config.json file. A new CF_HOME will be used for each step if not specified. | No |
 | Cloud Foundry CLI Path | String | The path to the cf command line script. | No |
-| Cloud Foundry Password | Password | The password of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of UrbanCode Deploy. | No |
-| Cloud Foundry User | String | The user name of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of UrbanCode Deploy. | No |
+| Cloud Foundry Password | Password | The password of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of DevOps Deploy. | No |
+| Cloud Foundry User | String | The user name of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of DevOps Deploy. | No |
 | Domain | String | Name of the domain to remove. | No |
 | Organization | String | The name of the organization where the application will be deployed. | No |
 | Skip SSL Validation | Boolean | If checked, SSL validation will be skipped. | No |
@@ -203,8 +203,8 @@ Delete a route.
 | API | String | A url of the target Cloud Foundry system, such as <http://api.ng.bluemix.net>. | Yes |
 | CF_HOME | String | Set the CF_HOME variable to explicitly define the location of the config.json file. A new CF_HOME will be used for each step if not specified. | No |
 | Cloud Foundry CLI Path | String | The path to the cf command line script. | No |
-| Cloud Foundry Password | Password | The password of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of UrbanCode Deploy. | No |
-| Cloud Foundry User | String | The user name of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of UrbanCode Deploy. | No |
+| Cloud Foundry Password | Password | The password of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of DevOps Deploy. | No |
+| Cloud Foundry User | String | The user name of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of DevOps Deploy. | No |
 | Domain | String | Name of the domain owning the route. | No |
 | Hostname | String | The hostname within the domain for the url route. | No |
 | Organization | String | The name of the organization where the application will be deployed. | No |
@@ -220,8 +220,8 @@ Delete a Cloud Foundry Service.
 | API | String | A url of the target Cloud Foundry system, such as <http://api.ng.bluemix.net>. | Yes |
 | CF_HOME | String | Set the CF_HOME variable to explicitly define the location of the config.json file. A new CF_HOME will be used for each step if not specified. | No |
 | Cloud Foundry CLI Path | String | The path to the cf command line script. | No |
-| Cloud Foundry Password | Password | The password of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of UrbanCode Deploy. | No |
-| Cloud Foundry User | String | The user name of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of UrbanCode Deploy. | No |
+| Cloud Foundry Password | Password | The password of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of DevOps Deploy. | No |
+| Cloud Foundry User | String | The user name of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of DevOps Deploy. | No |
 | Organization | String | The name of the organization where the application will be deployed. | No |
 | Service name | String | Name of the service. | Yes |
 | Skip SSL Validation | Boolean | If checked, SSL validation will be skipped. | No |
@@ -236,8 +236,8 @@ Delete a subdomain.
 | API | String | A url of the target Cloud Foundry system, such as <http://api.ng.bluemix.net>. | Yes |
 | CF_HOME | String | Set the CF_HOME variable to explicitly define the location of the config.json file. A new CF_HOME will be used for each step if not specified. | No |
 | Cloud Foundry CLI Path | String | The path to the cf command line script. | No |
-| Cloud Foundry Password | Password | The password of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of UrbanCode Deploy. | No |
-| Cloud Foundry User | String | The user name of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of UrbanCode Deploy. | No |
+| Cloud Foundry Password | Password | The password of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of DevOps Deploy. | No |
+| Cloud Foundry User | String | The user name of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of DevOps Deploy. | No |
 | Domain | String | Name of the domain i.e. domain.org of myapp.domain.org. | Yes |
 | Organization | String | The name of the organization where the application will be deployed. | No |
 | Skip SSL Validation | Boolean | If checked, SSL validation will be skipped. | No |
@@ -254,8 +254,8 @@ Execute a CF script. The context will be setup with the authenticated user and t
 | Arguments | String | Arguments to be passed to the script, separated by spaces. | No |
 | CF_HOME | String | Set the CF_HOME variable to explicitly define the location of the config.json file. A new CF_HOME will be used for each step if not specified. | No |
 | Cloud Foundry CLI Path | String | The path to the cf command line script. | No |
-| Cloud Foundry Password | Password | The password of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of UrbanCode Deploy. | No |
-| Cloud Foundry User | String | The user name of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of UrbanCode Deploy. | No |
+| Cloud Foundry Password | Password | The password of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of DevOps Deploy. | No |
+| Cloud Foundry User | String | The user name of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of DevOps Deploy. | No |
 | Organization | String | The name of the organization where the application will be deployed. | No |
 | Script | String | Each command needs to be on a new line. | Yes |
 | Skip SSL Validation | Boolean | If checked, SSL validation will be skipped. | No |
@@ -271,8 +271,8 @@ Execute a bash file. The context will be setup with the authenticated user and t
 | Arguments | String | Arguments to be passed to the script, separated by spaces. | No |
 | CF_HOME | String | Set the CF_HOME variable to explicitly define the location of the config.json file. A new CF_HOME will be used for each step if not specified. | No |
 | Cloud Foundry CLI Path | String | The path to the cf command line script. | No |
-| Cloud Foundry Password | Password | The password of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of UrbanCode Deploy. | No |
-| Cloud Foundry User | String | The user name of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of UrbanCode Deploy. | No |
+| Cloud Foundry Password | Password | The password of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of DevOps Deploy. | No |
+| Cloud Foundry User | String | The user name of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of DevOps Deploy. | No |
 | Organization | String | The name of the organization where the application will be deployed. | No |
 | Script | String | Path to the cf.bash file. | Yes |
 | Skip SSL Validation | Boolean | If checked, SSL validation will be skipped. | No |
@@ -288,8 +288,8 @@ Add a url route to an application.
 | Application name | String | Name of the application. | Yes |
 | CF_HOME | String | Set the CF_HOME variable to explicitly define the location of the config.json file. A new CF_HOME will be used for each step if not specified. | No |
 | Cloud Foundry CLI Path | String | The path to the cf command line script. | No |
-| Cloud Foundry Password | Password | The password of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of UrbanCode Deploy. | No |
-| Cloud Foundry User | String | The user name of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of UrbanCode Deploy. | No |
+| Cloud Foundry Password | Password | The password of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of DevOps Deploy. | No |
+| Cloud Foundry User | String | The user name of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of DevOps Deploy. | No |
 | Domain | String | The domain to use. (e.g. example.com). | Yes |
 | Hostname | String | The hostname within the domain for the url route. | No |
 | Organization | String | The name of the organization where the application will be deployed. | No |
@@ -307,8 +307,8 @@ Push application with or without a manifest file. If a manifest file is found th
 | Application Path | String | Name of zip file or other file to push. If this file isnt in your working directory you must specify a full file path. (Otherwise just the name of the file e.g. myApp.zip) | No |
 | CF_HOME | String | Set the CF_HOME variable to explicitly define the location of the config.json file. A new CF_HOME will be used for each step if not specified. | No |
 | Cloud Foundry CLI Path | String | The path to the cf command line script. | No |
-| Cloud Foundry Password | Password | The password of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of UrbanCode Deploy. | No |
-| Cloud Foundry User | String | The user name of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of UrbanCode Deploy. | No |
+| Cloud Foundry Password | Password | The password of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of DevOps Deploy. | No |
+| Cloud Foundry User | String | The user name of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of DevOps Deploy. | No |
 | Custom buildpack | String | Custom buildpack by name (e.g. my-buildpack) or GIT URL (e.g. <https://github.com/heroku/heroku-buildpack-play.git>). | No |
 | Disk limit | String | The disk limit (e.g. 256M, 1024M, 1G). | No |
 | Domain | String | Set a custom domain to be used when deploying the application. | No |
@@ -337,8 +337,8 @@ Restart an application.
 | Application name | String | Name of the application. | Yes |
 | CF_HOME | String | Set the CF_HOME variable to explicitly define the location of the config.json file. A new CF_HOME will be used for each step if not specified. | No |
 | Cloud Foundry CLI Path | String | The path to the cf command line script. | No |
-| Cloud Foundry Password | Password | The password of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of UrbanCode Deploy. | No |
-| Cloud Foundry User | String | The user name of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of UrbanCode Deploy. | No |
+| Cloud Foundry Password | Password | The password of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of DevOps Deploy. | No |
+| Cloud Foundry User | String | The user name of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of DevOps Deploy. | No |
 | Organization | String | The name of the organization where the application will be deployed. | No |
 | Skip SSL Validation | Boolean | If checked, SSL validation will be skipped. | No |
 | Space | String | The name of the space within the organization that the application will be deployed. (e.g some-space) | No |
@@ -353,8 +353,8 @@ Start an application.
 | Application name | String | Name of the application. | Yes |
 | CF_HOME | String | Set the CF_HOME variable to explicitly define the location of the config.json file. A new CF_HOME will be used for each step if not specified. | No |
 | Cloud Foundry CLI Path | String | The path to the cf command line script. | No |
-| Cloud Foundry Password | Password | The password of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of UrbanCode Deploy. | No |
-| Cloud Foundry User | String | The user name of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of UrbanCode Deploy. | No |
+| Cloud Foundry Password | Password | The password of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of DevOps Deploy. | No |
+| Cloud Foundry User | String | The user name of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of DevOps Deploy. | No |
 | Organization | String | The name of the organization where the application will be deployed. | No |
 | Skip SSL Validation | Boolean | If checked, SSL validation will be skipped. | No |
 | Space | String | The name of the space within the organization that the application will be deployed. (e.g some-space) | No |
@@ -369,8 +369,8 @@ Stop an application.
 | Application name | String | Name of the application. | Yes |
 | CF_HOME | String | Set the CF_HOME variable to explicitly define the location of the config.json file. A new CF_HOME will be used for each step if not specified. | No |
 | Cloud Foundry CLI Path | String | The path to the cf command line script. | No |
-| Cloud Foundry Password | Password | The password of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of UrbanCode Deploy. | No |
-| Cloud Foundry User | String | The user name of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of UrbanCode Deploy. | No |
+| Cloud Foundry Password | Password | The password of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of DevOps Deploy. | No |
+| Cloud Foundry User | String | The user name of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of DevOps Deploy. | No |
 | Organization | String | The name of the organization where the application will be deployed. | No |
 | Skip SSL Validation | Boolean | If checked, SSL validation will be skipped. | No |
 | Space | String | The name of the space within the organization that the application will be deployed. (e.g some-space) | No |
@@ -385,8 +385,8 @@ Unbind a CF Service from a cf.application.
 | Application name | String | Name of the application. | Yes |
 | CF_HOME | String | Set the CF_HOME variable to explicitly define the location of the config.json file. A new CF_HOME will be used for each step if not specified. | No |
 | Cloud Foundry CLI Path | String | The path to the cf command line script. | No |
-| Cloud Foundry Password | Password | The password of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of UrbanCode Deploy. | No |
-| Cloud Foundry User | String | The user name of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of UrbanCode Deploy. | No |
+| Cloud Foundry Password | Password | The password of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of DevOps Deploy. | No |
+| Cloud Foundry User | String | The user name of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of DevOps Deploy. | No |
 | Organization | String | The name of the organization where the application will be deployed. | No |
 | Service name | String | Name of the service. | Yes |
 | Skip SSL Validation | Boolean | If checked, SSL validation will be skipped. | No |
@@ -402,8 +402,8 @@ Remove a url route to an application.
 | Application name | String | Name of the application. | Yes |
 | CF_HOME | String | Set the CF_HOME variable to explicitly define the location of the config.json file. A new CF_HOME will be used for each step if not specified. | No |
 | Cloud Foundry CLI Path | String | The path to the cf command line script. | No |
-| Cloud Foundry Password | Password | The password of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of UrbanCode Deploy. | No |
-| Cloud Foundry User | String | The user name of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of UrbanCode Deploy. | No |
+| Cloud Foundry Password | Password | The password of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of DevOps Deploy. | No |
+| Cloud Foundry User | String | The user name of the account that will interact with Cloud Foundry system. Property is required unless authenticated outside of DevOps Deploy. | No |
 | Domain | String | The domain to use. (e.g. example.com). | Yes |
 | Hostname | String | The hostname within the domain for the url route. | No |
 | Organization | String | The name of the organization where the application will be deployed. | No |

@@ -2,7 +2,7 @@
 # Groovy - Usage
 
 
-You can use the Groovy plug-in to run Groovy scripts as IBM UrbanCode Deploy process steps. See the [Groovy website](http://www.groovy-lang.org/) for information about creating a Groovy script.
+You can use the Groovy plug-in to run Groovy scripts as IBM DevOps Deploy process steps. See the [Groovy website](http://www.groovy-lang.org/) for information about creating a Groovy script.
 
 * [Step palette](#palette)
 * [Examples](#examples)

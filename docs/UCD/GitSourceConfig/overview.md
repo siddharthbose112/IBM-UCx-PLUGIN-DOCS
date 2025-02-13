@@ -18,15 +18,15 @@ To access this plug-in in the palette, click **Source and Repositories** > **Git
 
 ### Compatibility
 
-This plug-in requires UrbanCode Deploy version 6.0 or later.
+This plug-in requires DevOps Deploy version 6.0 or later.
 
 This plug-in supports all versions of the Git client.
 
-This plug-in runs on all operating systems that UrbanCode Deploy supports, except the IBM z/OS operating system.
+This plug-in runs on all operating systems that DevOps Deploy supports, except the IBM z/OS operating system.
 
 ### Installation
 
-This plug-in is installed when installing IBM UrbanCode Deploy. When new plug-in versions are available, see [Installing plug-ins in UrbanCode Products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy") to update the plug-in.
+This plug-in is installed when installing IBM DevOps Deploy. When new plug-in versions are available, see [Installing plug-ins in DevOps Products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy") to update the plug-in.
 
 ### History
 #### Version 28

@@ -7,7 +7,7 @@ The NetScaler plug-in includes steps to enable and disable servers, server group
 
 ### Compatibility
 
-Versions 1 through 7 of the Citrix NetScaler plugin support uDeploy 4 and 5. Versions 7 and up of the Citrix NetScaler plugin support IBM UrbanCode Deploy 6.2.1 and up.
+Versions 1 through 7 of the Citrix NetScaler plugin support uDeploy 4 and 5. Versions 7 and up of the Citrix NetScaler plugin support IBM DevOps Deploy 6.2.1 and up.
 
 
 ### Available Steps

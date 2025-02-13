@@ -8,12 +8,12 @@ To add the Rational Quality Manager plug-in steps to processes, click **Quality 
 
 ### Compatibility
 
-This plug-in requires IBM UrbanCode Deploy version 6.0 or later.
+This plug-in requires IBM DevOps Deploy version 6.0 or later.
 
 
 ### Installation
 
-No special steps are required for installing this plug-in. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installing this plug-in. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 The [Rational Quality Manager Command Line Execution tool](https://jazz.net/wiki/bin/view/Main/RQMExecutionTool) and [Rational Quality Manager URL Utility](https://jazz.net/wiki/bin/view/Main/RQMURLUtility) are required to run the RQM plugin. Please view the troubleshooting tab for detailed download and configuration instructions.
 
@@ -72,13 +72,13 @@ Version 5 includes an update to the RQMExecutionTool.jar file to provide support
 #### Version 4
 
 
-Version 4 includes support for specifying adapters by name, and fixes APAR PI54019Error using Rational Quality Manager version 3 in IBM UrbanCode Deploy 6.2.
+Version 4 includes support for specifying adapters by name, and fixes APAR PI54019Error using Rational Quality Manager version 3 in IBM DevOps Deploy 6.2.
 
 
 #### Version 3
 
 
-This release of the plug-in includes a fix for a compatibility defect with IBM UrbanCode Deploy version 6.1.0.4 and later, and a fix for an issue where steps succeed even when the test execution record fails.
+This release of the plug-in includes a fix for a compatibility defect with IBM DevOps Deploy version 6.1.0.4 and later, and a fix for an issue where steps succeed even when the test execution record fails.
 
 
 |Back to ...||Latest Version|IBM Rational Quality Manager (RQM) ||||
