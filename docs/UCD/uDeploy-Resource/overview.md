@@ -1,17 +1,17 @@
 
-# IBM UrbanCode Deploy Resources - Overview
+# IBM DevOps Deploy Resources - Overview
 
 This plug-in contains steps that work with resources, such as agents.
 
 ### Compatibility
 
-This plug-in requires version 6.0 or later of IBM UrbanCode Deploy.
+This plug-in requires version 6.0 or later of IBM DevOps Deploy.
 
-This plug-in is supported to run on all operating systems that are supported by the IBM UrbanCode Deploy agent, including z/OS with UNIX System Services.
+This plug-in is supported to run on all operating systems that are supported by the IBM DevOps Deploy agent, including z/OS with UNIX System Services.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 ### History
 
@@ -68,6 +68,6 @@ The Java Home default value was changed to clarify that shell variables are not 
 The contextual help was updated to reflect the new resource model.
 
 
-|Back to ...||Latest Version|IBM UrbanCode Deploy Resources ||||
+|Back to ...||Latest Version|IBM DevOps Deploy Resources ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[83.1133534](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Resource/ucd-uDeploy-Resource-83.1133534.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

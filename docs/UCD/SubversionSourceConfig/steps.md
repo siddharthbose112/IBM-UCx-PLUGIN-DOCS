@@ -35,7 +35,7 @@ The plug-in adds these roles automatically to resources. You cannot add these ro
 | Proxy Port Number | String | The port number used by the proxy server for client connections. For example: 80. |
 | Proxy Username | String | The user name use to authenticate with the proxy server if authentication is required. |
 | Repository URL | String | The location of the Subversion repository. |
-| SVN Path | String | The path to the svn executable file on the UrbanCode Deploy server. If you added the executable file to the system PATH variable, you can specify the name of the executable file, such as svn. If you have not added the executable file to the system PATH variable, specify the complete path, such as /usr/bin/svn. |
+| SVN Path | String | The path to the svn executable file on the DevOps Deploy server. If you added the executable file to the system PATH variable, you can specify the name of the executable file, such as svn. If you have not added the executable file to the system PATH variable, specify the complete path, such as /usr/bin/svn. |
 | User | String | The user name use to authenticate with the subversion repository. |
 | Watch for tags | Boolean | Use tags as the basis for new component versions. |
 

@@ -1,7 +1,7 @@
 
-# IBM UrbanCode Build - Overview
+# IBM DevOps Build - Overview
 
-The UrbanCode Build plug-in automates uploading artifacts from a UrbanCode Build server.
+The DevOps Build plug-in automates uploading artifacts from a DevOps Build server.
 
 This plug-in includes one step which has no input properties:
 
@@ -14,7 +14,7 @@ To access this plug-in in the palette, click **Source and Repositories** > **uBu
 
 ### Installation
 
-This plug-in is installed when installing IBM UrbanCode Deploy. When new plug-in versions are available, follow the [installation instructions](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy") to update the plug-in.
+This plug-in is installed when installing IBM DevOps Deploy. When new plug-in versions are available, follow the [installation instructions](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy") to update the plug-in.
 
 ### History
 
@@ -46,6 +46,6 @@ This plug-in is installed when installing IBM UrbanCode Deploy. When new plug-in
 
 * Initial release of the uBuild source configuration plugin.
 
-|Back to ...||Latest Version|IBM UrbanCode Build ||||
+|Back to ...||Latest Version|IBM DevOps Build ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[12.1131550](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uBuildSourceConfig/ucd-uBuildSourceConfig-12.1131550.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

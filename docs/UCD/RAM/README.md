@@ -1,11 +1,11 @@
 
 # IBM Rational Asset Manager
 
-This plug-in provides steps that enable you to work with Rational Asset Manager assets in your IBM UrbanCode Deploy Processes.
+This plug-in provides steps that enable you to work with Rational Asset Manager assets in your IBM DevOps Deploy Processes.
 
 **Platform Support:**
 
-* This plug-in is supported to run on all operating systems that are supported by both the IBM UrbanCode Deploy agent
+* This plug-in is supported to run on all operating systems that are supported by both the IBM DevOps Deploy agent
 
 
 ### Available Steps

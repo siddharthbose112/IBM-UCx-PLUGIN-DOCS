@@ -20,7 +20,7 @@ To access this plug-in in the palette, click **Quality** > **Functional Testing*
 ### **Sample Artifacts and Downloads**
 
 
-In this tutorial, we will show how to run a simple Selenium test through the Run Test Suite plug-in step. In the test suite, shown below, we will run a single test called `ucd-selenium-test` which will start at the [IBM UrbanCode Plugins page](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/) and navigate to this Selenium usage page. Along with version 8 of the Selenium plug-in, both below .html files and a browsers matching driver are required for this demo.
+In this tutorial, we will show how to run a simple Selenium test through the Run Test Suite plug-in step. In the test suite, shown below, we will run a single test called `ucd-selenium-test` which will start at the [IBM DevOps Plugins page](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/) and navigate to this Selenium usage page. Along with version 8 of the Selenium plug-in, both below .html files and a browsers matching driver are required for this demo.
 
 
 **Download the tutorials Selenium Test Suite file**: [ucd-selenium-test-suite](ucd-selenium-test-suite.html) `<?xml version="1.0" encoding="UTF-8"?>` `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">` `<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">` `<head>` `<meta content="text/html; charset=UTF-8" http-equiv="content-type" />` `<title>Test Suite</title>` `</head>` `<body>` `<table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>` `<tr><td><b>Test Suite</b></td></tr>` `<tr><td><a href="ucd-selenium-test.html">ucd-selenium-test</a></td></tr>` `</tbody></table>` `</body>` `</html>`
@@ -31,7 +31,7 @@ The appropriate browsers driver must be downloaded and installed the Selenium te
 
 The last artifact is the Selenium standalone or runtime jar. As described above, this jar is the real workhorse of the plug-in. If you do not have a local copy of the Selenium jar, follow the directions above to determine which jar version to download.
 
-Once the jar and .html files have been downloaded, place them in the same folder for simplicity and ensure they are accessible by the IBM UrbanCode Deploy agent.
+Once the jar and .html files have been downloaded, place them in the same folder for simplicity and ensure they are accessible by the IBM DevOps Deploy agent.
 
 
 ### **Configuration**
@@ -57,7 +57,7 @@ The Run Test Suite step has four required properties.
 
 * **Selenium Jar Location**: This is the full path to the `selenium-server-standalone-2.XX.X.jar` or `selenium-html-runner-3.XX.X.jar` files. This file is found on Seleniums download page.
 * **Web Browser**: This is the type of browser the test suite should run against. There are too many browsers to list here, but they all start with a start (\*) character followed by some variation of the browser name. Each browser requires its own separate driver. `*firefox` is a common option that requires the GeckoDriver. Many 3rd party browser drivers can be found on [Seleniums download page](http://www.seleniumhq.org/download/).
-* **Starting URL**: The specified URL is the page where all Selenium tests should start. Because we are running a search test against the IBM UrbanCode Plugins page, we should start at https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/.
+* **Starting URL**: The specified URL is the page where all Selenium tests should start. Because we are running a search test against the IBM DevOps Plugins page, we should start at https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/.
 * **Test Suite**: This file is created and exported using Seleniums IDE. A sample test suite can be found above. Within each suite, is the listing of the tests to run. The full path must be specified.
 
 The Run Test Suite step has three optional properties.
@@ -100,7 +100,7 @@ The Selenium steps runtime command
 
 The command outlined here is the actual Selenium command the plug-in is running. For easy testing, this command can be copied and pasted into a terminal and run on your UCD agent. (The command must still have access to the selenium jar and test .html files.) By running the same command outside of the plug-in, you can confirm quickly if the root of your problem is related to the Selenium plug-in or jar.
 
-Finally, nearly all CLI commands, including Seleniums, can be run through a IBM UrbanCode Deploy Shell step. If there are other configuration settings that the current plug-in does not support, running the command through a Shell step may provide a viable workaround.
+Finally, nearly all CLI commands, including Seleniums, can be run through a IBM DevOps Deploy Shell step. If there are other configuration settings that the current plug-in does not support, running the command through a Shell step may provide a viable workaround.
 
 
 ### Testing In Headless Environments

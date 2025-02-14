@@ -6,11 +6,11 @@ To create resources and define deployment processes for use with commerce server
 
 **Before you begin**
 
-The IBM UrbanCode Deploy agent must be installed on the system that hosts the WebSphere Commerce server.
+The IBM DevOps Deploy agent must be installed on the system that hosts the WebSphere Commerce server.
 
 **Procedure**
 
-1. In IBM UrbanCode Deploy, create a resource that represents the WebSphere Commerce server.
+1. In IBM DevOps Deploy, create a resource that represents the WebSphere Commerce server.
 2. Add the agent that is installed on the system hosting the WebSphere Commerce server to the resource group.
 * Hover over the row for the resource group, and then click **Actions** **> Add agent**.
 3. Create components for the resources. Create one component for each resource to deploy. Specify the **Deployment** type for the component process.

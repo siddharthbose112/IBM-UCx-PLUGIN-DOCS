@@ -16,15 +16,15 @@ The following process steps are available in this plug-in.
 
 ### Compatibility
 
-This plug-in requires IBM UrbanCode Deploy version 6.0 or later.
+This plug-in requires IBM DevOps Deploy version 6.0 or later.
 
 This plug-in works with versions of Apache Tomcat 6.0 or later.
 
-This plug-in runs on all operating systems that UrbanCode Deploy supports.
+This plug-in runs on all operating systems that DevOps Deploy supports.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 ### History
 
@@ -39,7 +39,7 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 #### Version 5.641593
 
-* Version 5 includes a fix for APAR PI35342, a compatibility defect with IBM Urbancode Deploy version 6.1.0.4 and later.
+* Version 5 includes a fix for APAR PI35342, a compatibility defect with IBM DevOps Deploy version 6.1.0.4 and later.
 
 #### Version 4.455075
 

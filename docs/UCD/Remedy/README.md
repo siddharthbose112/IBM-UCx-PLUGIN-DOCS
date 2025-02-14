@@ -5,7 +5,7 @@ Create, update, and check entries in BMC Remedy Action Request System. The plug-
 
 **Platform Support:**
 
-* This plug-in is supported to run on all operating systems supported by the IBM UrbanCode Deploy agent, except for z/OS
+* This plug-in is supported to run on all operating systems supported by the IBM DevOps Deploy agent, except for z/OS
 * This plug-in is supported to run against a BMC Remedy Action Request System v7.1 or higher
 
 

@@ -1,5 +1,5 @@
 
-# Rally for IBM UrbanCode Deploy - Process Steps
+# Rally for IBM DevOps Deploy - Process Steps
 
 * [Add Comments](#add_comments)
 * [Change Rally Artifact Property](#change_rally_artifact_property)
@@ -126,6 +126,6 @@ Create a defect in Rally.
 
 
 
-|Back to ...||Latest Version|Rally for IBM UrbanCode Deploy |||
+|Back to ...||Latest Version|Rally for IBM DevOps Deploy |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.1056546](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/Rally/Rally-6.1056546.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

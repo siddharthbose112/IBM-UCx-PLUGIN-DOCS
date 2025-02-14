@@ -7,13 +7,13 @@ The IBM Rational Test Automation Server plug-in provides the capability for test
 
 This plug-in is compatible with Rational Test Workbench v9.2 or higher.
 
-The plug-in is compatible with IBM UrbanCode Deploy and Rational Test Control Panel Ant client agents.
+The plug-in is compatible with IBM DevOps Deploy and Rational Test Control Panel Ant client agents.
 
 This plug-in is not compatible with agents on z/OS.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 **Note:** You can install this plug-in without migrating or upgrading the last version of the plug-in. The previous plug-in version was called GreenHat.
 

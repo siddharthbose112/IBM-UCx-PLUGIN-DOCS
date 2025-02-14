@@ -1,5 +1,5 @@
 
-# IBM UrbanCode Deploy Environments - Process Steps
+# IBM DevOps Deploy Environments - Process Steps
 
 * [Add Base Resource To Environment](#add_base_resource_to_environment)
 * [Add Environment To Team](#add_environment_to_team)
@@ -188,6 +188,6 @@ Verifies that the environment has a component with a certain version in inventor
 
 
 
-|Back to ...||Latest Version|IBM UrbanCode Deploy Environments ||||
+|Back to ...||Latest Version|IBM DevOps Deploy Environments ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[89.1159271](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Environment/ucd-uDeploy-Environment-89.1159271.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

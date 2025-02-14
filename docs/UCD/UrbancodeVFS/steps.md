@@ -1,5 +1,5 @@
 
-# IBM UrbanCode Deploy Versioned File Storage - Process Steps
+# IBM DevOps Deploy Versioned File Storage - Process Steps
 
 * [Download Artifacts](#download-artifacts)
 * [Download Artifacts for zOS](#download-artifacts-for-zos)
@@ -96,6 +96,6 @@ Compare artifacts on local machine with inventory.
 
 
 
-|          Back to ...          ||         Latest Version         |                                           IBM UrbanCode Deploy Versioned File Storage                                            |||
+|          Back to ...          ||         Latest Version         |                                           IBM DevOps Deploy Versioned File Storage                                            |||
 |:-----------------------------:|:------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------:| :---: | :---: | :---: |
 | [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [48.1172096](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/ucd-UrbancodeVFS-48.1172096.zip) |[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

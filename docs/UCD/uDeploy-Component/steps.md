@@ -1,5 +1,5 @@
 
-# IBM UrbanCode Deploy Components - Process Steps
+# IBM DevOps Deploy Components - Process Steps
 
 * [Add Component To Team](#add_component_to_team)
 * [Check If Component Exists](#check_if_component_exists)
@@ -125,6 +125,6 @@ Creates multiple components.
 
 
 
-|Back to ...||Latest Version|IBM UrbanCode Deploy Components ||||
+|Back to ...||Latest Version|IBM DevOps Deploy Components ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[78.1132354](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Component/ucd-uDeploy-Component-78.1132354.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

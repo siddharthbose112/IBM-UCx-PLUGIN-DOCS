@@ -39,11 +39,11 @@ If the connection fails with connType of SOAP, try using a connType of RMI.
 
 If this command fails, contact IBM Support and request WebSphere Application Support to help troubleshooting the wsadmin scripting problem. Consider the following technote as a starting point:
 
-- [Learning more about wsadmin](http://www-01.ibm.com/support/docview.wss?uid=swg21242693)If this command succeeds, but the step fails, contact IBM Support and request UrbanCode support to help troubleshooting the step. In this case, provide:
+- [Learning more about wsadmin](http://www-01.ibm.com/support/docview.wss?uid=swg21242693)If this command succeeds, but the step fails, contact IBM Support and request DevOps support to help troubleshooting the step. In this case, provide:
 
 - output of the script executed on the command line
-- output of clicking on Download All on the process execution page in UrbanCode Deploy. This action produces a zip file that contains the output of each step in the process.
-- additional information can be found at [MustGather: UrbanCode Deploy WebSphere Deploy and Configure plugins](http://www.ibm.com/support/docview.wss?uid=swg2C1000185)
+- output of clicking on Download All on the process execution page in DevOps Deploy. This action produces a zip file that contains the output of each step in the process.
+- additional information can be found at [MustGather: DevOps Deploy WebSphere Deploy and Configure plugins](http://www.ibm.com/support/docview.wss?uid=swg2C1000185)
 
 ### Start Server step
 

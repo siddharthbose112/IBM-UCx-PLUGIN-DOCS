@@ -1,5 +1,5 @@
 
-# IBM UrbanCode Deploy Configuration Management - Process Steps
+# IBM DevOps Deploy Configuration Management - Process Steps
 
 * [Batch Import Properties](#batch_import_properties)
 * [Import Properties](#import_properties)
@@ -42,7 +42,7 @@ Import Resource Properties from a properties file.
 
 ### Install Template
 
-Install a configuration template from IBM UrbanCode Deploy.
+Install a configuration template from IBM DevOps Deploy.
 
 
 | Name | Type | Description                                                                                                          | Required |
@@ -54,6 +54,6 @@ Install a configuration template from IBM UrbanCode Deploy.
 
 
 
-|Back to ...||Latest Version|IBM UrbanCode Deploy Configuration Management ||||
+|Back to ...||Latest Version|IBM DevOps Deploy Configuration Management ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[17.1132359](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeployConfigManagement/ucd-uDeployConfigManagement-17.1132359.zip)|[Readme](README.md)|[Overview](overview.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|

@@ -10,9 +10,9 @@ To access this plug-in in the palette, click **Source and Repositories** > **Tea
 
 ### Compatibility
 
-The IBM UrbanCode Deploy source configuration plug-in for Microsoft Team Foundation ServerSCM works with Team Foundation Server, Team Explorer Everywhere, and Visual Studio Online. This plug-in supports Team Foundation Server 2010, 2012, 2013, 2015 and 2017.
+The IBM DevOps Deploy source configuration plug-in for Microsoft Team Foundation ServerSCM works with Team Foundation Server, Team Explorer Everywhere, and Visual Studio Online. This plug-in supports Team Foundation Server 2010, 2012, 2013, 2015 and 2017.
 
-This plug-in requires version 6.0.1 or later of IBM UrbanCode Deploy.
+This plug-in requires version 6.0.1 or later of IBM DevOps Deploy.
 
 This plug-in supports agents that are running on Microsoft Windows.
 
@@ -20,7 +20,7 @@ This plug-in supports agents that are running on Microsoft Windows.
 
 Microsoft .NET Framework 3.5 must be installed on the agent computer where the plug-in is installed.
 
-No special steps are required for installing the plug-in. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installing the plug-in. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 ### History
 

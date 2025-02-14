@@ -1,13 +1,13 @@
 
 # Microsoft TFS (Team Foundation Server) - Usage
 
-You will need to define an UrbanCode Deploy component which defines the source and processes for the Microsoft Team Foundation Server repository. The component contains the information for importing the artifacts and any processes to implement on the artifacts.
+You will need to define an DevOps Deploy component which defines the source and processes for the Microsoft Team Foundation Server repository. The component contains the information for importing the artifacts and any processes to implement on the artifacts.
 
 When creating the component, you will supply information described on the [Import Version](#steps) step. After the component is created, use the **Components** page in the user interface to import a version of the artifacts if automatic import is not selected.
 
 To create a component, complete the following steps. For more information about creating a component, see [Creating components](http://www-01.ibm.com/support/knowledgecenter/SS4GSP_7.0.2/com.ibm.udeploy.doc/topics/comp_create.html "Creating components") in the product documentation.
 
-1. In UrbanCode Deploy, click **Components** and then click **Create Component**.
+1. In DevOps Deploy, click **Components** and then click **Create Component**.
 2. In the Create Component window, specify a name and description for the component.
 3. In the **Teams** fields, specify the access information for the new component.
 4. To use a template for the new component, select a template from the Template list. In this case, the component inherits source configuration, properties, and processes from the template.

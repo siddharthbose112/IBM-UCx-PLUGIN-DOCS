@@ -1,9 +1,9 @@
 
-# IBM UrbanCode Release - Overview
+# IBM DevOps Release - Overview
 
-Use the IBM UrbanCode Release plug-in to manage the integration of IBM UrbanCode Deploy with IBM UrbanCode Release. The plug-in includes steps to retrieve the active release for an environment, add comments to tasks, add statuses to snapshots and updating the IBM UrbanCode Release inventory for an application.
+Use the IBM DevOps Release plug-in to manage the integration of IBM DevOps Deploy with IBM DevOps Release. The plug-in includes steps to retrieve the active release for an environment, add comments to tasks, add statuses to snapshots and updating the IBM DevOps Release inventory for an application.
 
-To add the IBM UrbanCode Release plug-in steps to processes, click **IBM UrbanCode Release** in the step palette of the process editor.
+To add the IBM DevOps Release plug-in steps to processes, click **IBM DevOps Release** in the step palette of the process editor.
 
 This plug-in includes these steps:
 
@@ -16,13 +16,13 @@ This plug-in includes these steps:
 
 ### Compatibility
 
-This plug-in requires IBM UrbanCode Deploy version 6.0.1.2 or later.
+This plug-in requires IBM DevOps Deploy version 6.0.1.2 or later.
 
-This plug-in runs on all operating systems that the IBM UrbanCode Deploy agent supports except for IBM z/OS.
+This plug-in runs on all operating systems that the IBM DevOps Deploy agent supports except for IBM z/OS.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 ### History
 
@@ -48,13 +48,13 @@ Version 7 includes the following changes:
 
 #### Version 5
 
-Version 5 includes the Check Gate Status step, which checks lifecycle phase gates when deploying in IBM UrbanCode Deploy.
+Version 5 includes the Check Gate Status step, which checks lifecycle phase gates when deploying in IBM DevOps Deploy.
 
 #### Version 4
 
-Version 4 fixes a defect with compatibility with IBM UrbanCode Deploy 6.1.0.4 and later.
+Version 4 fixes a defect with compatibility with IBM DevOps Deploy 6.1.0.4 and later.
 
 
-|Back to ...||Latest Version|IBM UrbanCode Release ||||
+|Back to ...||Latest Version|IBM DevOps Release ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.1056530](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ucr-plugin/ucr-plugin-9.1056530.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

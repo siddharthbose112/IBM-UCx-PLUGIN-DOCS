@@ -55,8 +55,8 @@ Perform the following:
 * Navigate to the hidden properties.
 * Add -MTA to one of the argument properties.
 
-**Why is script output not displayed in the IBM UrbanCode Deploy log?**
-The IBM UrbanCode Deploy log stores all PowerShell output. You may need to change the PowerShell output preferences. To learn more, refer to the Microsoft documentation here: <https://technet.microsoft.com/en-us/library/hh847796.aspx>.
+**Why is script output not displayed in the IBM DevOps Deploy log?**
+The IBM DevOps Deploy log stores all PowerShell output. You may need to change the PowerShell output preferences. To learn more, refer to the Microsoft documentation here: <https://technet.microsoft.com/en-us/library/hh847796.aspx>.
 
 |Back to ...||Latest Version|PowerShell |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |

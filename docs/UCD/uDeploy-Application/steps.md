@@ -1,5 +1,5 @@
 
-# IBM UrbanCode Deploy Applications - Process Steps
+# IBM DevOps Deploy Applications - Process Steps
 
 * [Add Application To Team](#add_application_to_team)
 * [Add Component To Application](#add_component_to_application)
@@ -232,6 +232,6 @@ Runs an application process.
 
 
 
-|Back to ...||Latest Version|IBM UrbanCode Deploy Applications ||||
+|Back to ...||Latest Version|IBM DevOps Deploy Applications ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[84.1132353](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Application/ucd-uDeploy-Application-84.1132353.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

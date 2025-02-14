@@ -1,7 +1,7 @@
 
-# IBM UrbanCode Deploy Resources - Process Steps
+# IBM DevOps Deploy Resources - Process Steps
 
-### Process steps in the IBM UrbanCode Deploy Resources plug-in
+### Process steps in the IBM DevOps Deploy Resources plug-in
 
 * [Add Resource To Team](#add_resource_to_team)
 * [Add Tag to Resource](#add_tag_to_resource)
@@ -309,6 +309,6 @@ Creates multiple resources using JSON format.
 
 
 
-|Back to ...||Latest Version|IBM UrbanCode Deploy Resources ||||
+|Back to ...||Latest Version|IBM DevOps Deploy Resources ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[83.1133534](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Resource/ucd-uDeploy-Resource-83.1133534.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

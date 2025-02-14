@@ -1,9 +1,9 @@
 
 # Text Utility
 
-The Text-Utils plug-in for IBM UrbanCode Deploy offers various ways to modify files.
+The Text-Utils plug-in for IBM DevOps Deploy offers various ways to modify files.
 
-The Text-Utils plug-in is a community plug-in. Community plug-ins are open source projects that are developed and supported by the IBM UrbanCode development community. 
+The Text-Utils plug-in is a community plug-in. Community plug-ins are open source projects that are developed and supported by the IBM DevOps development community. 
 
 ## Downloads
 
@@ -13,7 +13,7 @@ The Text-Utils plug-in is a community plug-in. Community plug-ins are open sourc
 If you encounter issues with the plug-in, or want to send feedback:
 
 * Ask Text-Utils plug-in specific questions on the [GitHub Issues](https://github.com/UrbanCode/Text-Util-UCD/issues) page.
-* For general plug-in issues, submit questions to the [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: urbancode | ucdev | plugins
+* For general plug-in issues, submit questions to the [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: DevOps | ucdev | plugins
 
 ## Available Steps
 

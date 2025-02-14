@@ -22,15 +22,15 @@ To add the Oracle WebLogic Scripting Tool (WLST) plug-in steps to processes, cli
 This plug-in requires Oracle WebLogic Server versions 11g or later.
 
 
-This plug-in requires IBM UrbanCode Deploy version 6.0.1.
+This plug-in requires IBM DevOps Deploy version 6.0.1.
 
 
-The steps in this plug-in run on any agents that IBM UrbanCode Deploy supports.
+The steps in this plug-in run on any agents that IBM DevOps Deploy supports.
 
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode products").
+No special steps are required for installation. See [Installing plug-ins in DevOps products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps products").
 
 ### History
 

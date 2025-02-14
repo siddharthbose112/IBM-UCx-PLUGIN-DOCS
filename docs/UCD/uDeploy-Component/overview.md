@@ -1,17 +1,17 @@
 
-# IBM UrbanCode Deploy Components - Overview
+# IBM DevOps Deploy Components - Overview
 
-This plug-in manipulates components on the IBM UrbanCode Deploy server. For example, the steps in this plug-in can create components, add components to teams, and add properties to components.
+This plug-in manipulates components on the IBM DevOps Deploy server. For example, the steps in this plug-in can create components, add components to teams, and add properties to components.
 
 ### Compatibility
 
-This plug-in requires version 6.0 or later of IBM UrbanCode Deploy.
+This plug-in requires version 6.0 or later of IBM DevOps Deploy.
 
-This plug-in is supported to run on all operating systems that are supported by the IBM UrbanCode Deploy agent, including z/OS with UNIX System Services.
+This plug-in is supported to run on all operating systems that are supported by the IBM DevOps Deploy agent, including z/OS with UNIX System Services.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 ### History
 
@@ -47,9 +47,9 @@ This release of the plug-in includes steps to delete components and to get compo
 
 #### Version 64
 
-This release of the plug-in includes a fix for a compatibility defect with IBM Urbancode Deploy version 6.1.0.4 and later.
+This release of the plug-in includes a fix for a compatibility defect with IBM DevOps Deploy version 6.1.0.4 and later.
 
 
-|Back to ...||Latest Version|IBM UrbanCode Deploy Components ||||
+|Back to ...||Latest Version|IBM DevOps Deploy Components ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[78.1132354](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Component/ucd-uDeploy-Component-78.1132354.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

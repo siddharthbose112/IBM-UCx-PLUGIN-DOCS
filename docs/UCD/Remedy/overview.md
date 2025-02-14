@@ -7,15 +7,15 @@ To add the BMC Remedy Action Request System plug-in steps to processes, click **
 
 ### Compatibility
 
-The IBM UrbanCode Deploy automation plug-in for BMC Remedy Action Request System works with BMC Remedy Action Request System Version 7.1 and later.
+The IBM DevOps Deploy automation plug-in for BMC Remedy Action Request System works with BMC Remedy Action Request System Version 7.1 and later.
 
-This plug-in requires version 6.0 or later of IBM UrbanCode Deploy.
+This plug-in requires version 6.0 or later of IBM DevOps Deploy.
 
-This plug-in supports agents on all operating systems supported by the IBM UrbanCode Deploy agent, except for z/OS.
+This plug-in supports agents on all operating systems supported by the IBM DevOps Deploy agent, except for z/OS.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 ### History
 
@@ -25,7 +25,7 @@ Version 4 includes updates for compatibility with Rational Quality Manager 6.1.
 
 #### Version 2
 
-Version 2 fixes a compatibility defect with IBM UrbanCode Deploy version 6.1.0.4 and later.
+Version 2 fixes a compatibility defect with IBM DevOps Deploy version 6.1.0.4 and later.
 
 
 |Back to ...||Latest Version|BMC Remedy Action Request System |||

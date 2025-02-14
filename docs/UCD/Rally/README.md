@@ -1,5 +1,5 @@
 
-# Rally for IBM UrbanCode Deploy
+# Rally for IBM DevOps Deploy
 
 Rally is an agile project management tool for the enterprise.
 

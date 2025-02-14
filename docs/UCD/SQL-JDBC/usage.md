@@ -25,10 +25,10 @@ Passticket authentication eliminates the need to store password and send passwor
 #### **RACF Setup for PassTicket Generation and Authentication**
 
 1. Activate the RACF PTKTDATA class if its not already active. Sample RACF commands: ``SETROPTS GENERIC(PTKTDATA) SETROPTS CLASSACT(PTKTDATA) RACLIST(PTKTDATA)``
-2. Define a PTKTDATA profile for a DB2 system. PassTickets are generated and evaluated using a secret key. A PTKTDATA profile defines the secret key and the application ID that it applies to. The application ID for a DB2 system can be found in the LINKNAME column in the SYSIBM.LOCATIONS table. See the Sending RACF PassTickets topic in DB2 for zOS Knowledge Center to learn more. The key is a 64-bit number (16 hex characters). Replace the key16 placeholder with a user-supplied 16 character hex string (characters 0-9 and A-F) in the following sample RACF commands. Sample RACF commands for DB2 system DB2A: `RDEFINE PTKTDATA FEKAPPL UACC(NONE) SSIGNON(KEYMASKED(key16)) APPLDATA('NO REPLAY PROTECTIONDO NOT CHANGE') DATA('URBANCODE DEPLOY')`
+2. Define a PTKTDATA profile for a DB2 system. PassTickets are generated and evaluated using a secret key. A PTKTDATA profile defines the secret key and the application ID that it applies to. The application ID for a DB2 system can be found in the LINKNAME column in the SYSIBM.LOCATIONS table. See the Sending RACF PassTickets topic in DB2 for zOS Knowledge Center to learn more. The key is a 64-bit number (16 hex characters). Replace the key16 placeholder with a user-supplied 16 character hex string (characters 0-9 and A-F) in the following sample RACF commands. Sample RACF commands for DB2 system DB2A: `RDEFINE PTKTDATA FEKAPPL UACC(NONE) SSIGNON(KEYMASKED(key16)) APPLDATA('NO REPLAY PROTECTIONDO NOT CHANGE') DATA('DevOps DEPLOY')`
 The following example shows the command with the key16 value replaced:
 
-`RDEFINE PTKTDATA FEKAPPL UACC(NONE) - DATA('URBANCODE DEPLOY') - APPLDATA('NO REPLAY PROTECTION - DO NOT CHANGE') - SSIGNON(KEYMASKED(0123456789ABCDEF))`
+`RDEFINE PTKTDATA FEKAPPL UACC(NONE) - DATA('DevOps DEPLOY') - APPLDATA('NO REPLAY PROTECTION - DO NOT CHANGE') - SSIGNON(KEYMASKED(0123456789ABCDEF))`
 
 **Notes:**
 
@@ -42,7 +42,7 @@ The following example shows the command with the key16 value replaced:
 | Generate PassTicket | `IRRPTAUTH.application.target-userid` | Update          |
 
 Sample RACF commands: `RDEFINE PTKTDATA IRRPTAUTH.FEKAPPL.USER1 UACC(NONE)`
-4. Permit UrbanCode Deploy Agent to generate a PassTicket. In order for the UrbanCode Deploy Agent to generate a PassTicket, the userid of the agent must be permitted UPDATE access in the PTKTDATA profile that we created in the previous step. Sample RACF commands: `PERMIT IRRPTAUTH.FEKAPPL.USER1 CLASS(PTKTDATA) ID(AGNTUSR) ACCESS(UPDATE)`
+4. Permit DevOps Deploy Agent to generate a PassTicket. In order for the DevOps Deploy Agent to generate a PassTicket, the userid of the agent must be permitted UPDATE access in the PTKTDATA profile that we created in the previous step. Sample RACF commands: `PERMIT IRRPTAUTH.FEKAPPL.USER1 CLASS(PTKTDATA) ID(AGNTUSR) ACCESS(UPDATE)`
 Refresh the PTKTDATA class for the new profiles and permissions to take effect. `SETROPTS RACLIST (PTKTDATA) REFRESH`
 
 **RACF Setup Examples**

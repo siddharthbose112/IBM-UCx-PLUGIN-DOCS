@@ -7,17 +7,17 @@ The IBM Business Process Manager source configuration plug-in imports Process Ap
 ### Compatibility
 
 
-This plug-in requires version 6.0.1 of IBM UrbanCode Deploy.
+This plug-in requires version 6.0.1 of IBM DevOps Deploy.
 
-The IBM UrbanCode Deploy plug-in for WebSphere Business Process Manager supports Business Process Manager versions 8.5 and later. Standard and Advanced editions are supported.
+The IBM DevOps Deploy plug-in for WebSphere Business Process Manager supports Business Process Manager versions 8.5 and later. Standard and Advanced editions are supported.
 
-The steps in this plug-in run on any agents that the IBM UrbanCode Deploy server supports.
+The steps in this plug-in run on any agents that the IBM DevOps Deploy server supports.
 
 
 ### Installation
 
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 
 ### History
