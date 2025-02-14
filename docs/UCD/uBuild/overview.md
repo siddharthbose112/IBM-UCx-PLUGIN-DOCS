@@ -1,5 +1,5 @@
 
-# IBM UrbanCode uBuild - Overview
+# IBM DevOps uBuild - Overview
 
 The uBuild plug-in provides steps to run uBuild processes automatically within the deploy process.
 
@@ -12,13 +12,13 @@ This plug-in includes these steps:
 
 ### Compatibility
 
-This plug-in requires IBM UrbanCode Deploy version 6.0 or later.
+This plug-in requires IBM DevOps Deploy version 6.0 or later.
 
-This plug-in runs on all operating systems that UrbanCode Deploy supports.
+This plug-in runs on all operating systems that DevOps Deploy supports.
 
 ### Installation
 
-No special steps are required for installation. This plug-in is included with the installation of IBM Urban Code Deploy.If you need to install the plug-in again, see [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. This plug-in is included with the installation of IBM Urban Code Deploy.If you need to install the plug-in again, see [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 ### History
 
@@ -32,9 +32,9 @@ Support property file encryption.
 
 #### Version 6
 
-Fixes APAR PI35342Compatibility defect with IBM Urbancode Deploy version 6.1.0.4 and later.
+Fixes APAR PI35342Compatibility defect with IBM DevOps Deploy version 6.1.0.4 and later.
 
 
-|Back to ...||Latest Version|IBM UrbanCode uBuild ||||
+|Back to ...||Latest Version|IBM DevOps uBuild ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[8.1056531](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uBuild/uBuild-8.1056531.zip)|[Readme](README.md)|[Steps](steps.md)|[Usage](usage.md)|[Downloads](downloads.md)|

@@ -10,11 +10,11 @@ This plug-in includes two steps:
 
 ### Compatibility
 
-This plug-in requires IBM UrbanCode Deploy version 6.0.1 or later. As of version 9,Prepared Statements and Stored Procedure Calls are not supported.
+This plug-in requires IBM DevOps Deploy version 6.0.1 or later. As of version 9,Prepared Statements and Stored Procedure Calls are not supported.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 ### History
 

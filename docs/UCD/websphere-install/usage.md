@@ -2,23 +2,23 @@
 # WebSphere Application Server - Install - Usage
 
 
-**Setting up the UrbanCode Deploy application**
+**Setting up the DevOps Deploy application**
 
-An IBM UrbanCode Deploy application and several components are imported when you install the IBM WebSphere Application ServerInstall plug-in. The application includes processes that install and uninstall WebSphere Application Server Network Deployment and IBM HTTP Server. The application is intended as an example. You must create similar applications, by using the provided application as a reference, or customize the application to suit your needs.
+An IBM DevOps Deploy application and several components are imported when you install the IBM WebSphere Application ServerInstall plug-in. The application includes processes that install and uninstall WebSphere Application Server Network Deployment and IBM HTTP Server. The application is intended as an example. You must create similar applications, by using the provided application as a reference, or customize the application to suit your needs.
 
-The provided IBM UrbanCode Deploy application uses IBM Installation Manager to install WebSphere Application Server and IBM HTTP Server. IBM Installation Manager must be installed on the target system. The provided application uses a source repository to install WebSphere Application Server, instead of a response file. You can set up a source repository on a network and access the repository by using a URL of the form http://server.example.com/product/repository. Alternately, install the files on a computer and access the files by using an absolute path, such as C:\installation\_files\repository.config. For more information, see [Repositories](http://www-01.ibm.com/support/knowledgecenter/SSDV2W_1.8.5/com.ibm.silentinstall12.doc/topics/r_repository_types.html) in the IBM Installation Manager help.
+The provided IBM DevOps Deploy application uses IBM Installation Manager to install WebSphere Application Server and IBM HTTP Server. IBM Installation Manager must be installed on the target system. The provided application uses a source repository to install WebSphere Application Server, instead of a response file. You can set up a source repository on a network and access the repository by using a URL of the form http://server.example.com/product/repository. Alternately, install the files on a computer and access the files by using an absolute path, such as C:\installation\_files\repository.config. For more information, see [Repositories](http://www-01.ibm.com/support/knowledgecenter/SSDV2W_1.8.5/com.ibm.silentinstall12.doc/topics/r_repository_types.html) in the IBM Installation Manager help.
 
-The provided IBM UrbanCode Deploy application demonstrates how you can use an IBM Installation Manager response file to install IBM HTTP Server. A response file is an XML file that contains information on how to complete the installation process. You create a response file by recording your responses when you use IBM Installation Manager to install a product. For more information, see [Response files](http://www-01.ibm.com/support/knowledgecenter/SSDV2W_1.8.5/com.ibm.silentinstall12.doc/topics/c_silent_response_files.html) in the IBM Installation Manager documentation.
+The provided IBM DevOps Deploy application demonstrates how you can use an IBM Installation Manager response file to install IBM HTTP Server. A response file is an XML file that contains information on how to complete the installation process. You create a response file by recording your responses when you use IBM Installation Manager to install a product. For more information, see [Response files](http://www-01.ibm.com/support/knowledgecenter/SSDV2W_1.8.5/com.ibm.silentinstall12.doc/topics/c_silent_response_files.html) in the IBM Installation Manager documentation.
 
 To run the sample application, complete the following steps:
 
-1. Set up an IBM UrbanCode Deploy server, version 6.1.1.2 or later.
+1. Set up an IBM DevOps Deploy server, version 6.1.1.2 or later.
 2. Install the IBM WebSphere Application ServerDeploy plug-in, version 76 or later.
 3. Install the IBM Installation Manager plug-in, version 3 or later.
 4. Install the IBM WebSphere Application ServerInstall plug-in.
-5. Install an IBM UrbanCode Deploy agent on the host where you plan to install WebSphere Application Server.
+5. Install an IBM DevOps Deploy agent on the host where you plan to install WebSphere Application Server.
 6. Install IBM Installation Manager on the host where you plan to install WebSphere Application Server.
-7. In IBM UrbanCode Deploy, go to the Settings page, then click **Statuses**. Under Inventory Statuses, click **Add Status**. In the Add Status window, specify the name Installed and then click **Save**.
+7. In IBM DevOps Deploy, go to the Settings page, then click **Statuses**. Under Inventory Statuses, click **Add Status**. In the Add Status window, specify the name Installed and then click **Save**.
 8. Go to the Resources page and then click **Create Top-Level Group** to add a top-level group to the resource tree.
 9. Select the new top-level group and then select **Add Agent** from the **Actions** list.
 10. Under the agent, click **Actions > Add Component** and then add each of the new components:

@@ -9,14 +9,14 @@ IBM Installation Manager must be installed on the target system. The [IBM WebSph
 
 ### Compatibility
 
-* This plug-in requires version 6.1.1.2 or later of IBM UrbanCode Deploy.
+* This plug-in requires version 6.1.1.2 or later of IBM DevOps Deploy.
 * The sample application supports IBM WebSphere Application Server Network Deployment version 8.0 and later.
 
 **Note:** The sample application demonstrates installing IBM WebSphere Application Server Network Deployment on Linux.
 
 ### Installation
 
-No special steps are required for installing the plug-in. See [Installing plug-ins in UrbanCode products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode products").
+No special steps are required for installing the plug-in. See [Installing plug-ins in DevOps products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps products").
 
 ### History
 
@@ -26,7 +26,7 @@ No special steps are required for installing the plug-in. See [Installing plug-i
 
 #### Version 10
 
-* Change dependency on UrbanCode Deploy Versioned File Storage plug-in to version 30 and UrbanCode Deploy Resources plug-in to version 75.
+* Change dependency on DevOps Deploy Versioned File Storage plug-in to version 30 and DevOps Deploy Resources plug-in to version 75.
 
 #### Version 9
 

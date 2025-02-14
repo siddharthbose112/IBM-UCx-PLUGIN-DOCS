@@ -1,12 +1,12 @@
 
-# IBM UrbanCode Release
+# IBM DevOps Release
 
-This plug-in provides several steps for retrieving and updating information in IBM UrbanCode Release from your IBM UrbanCode Deploy processes, allowing for tighter integration and easier tracking of release status.
+This plug-in provides several steps for retrieving and updating information in IBM DevOps Release from your IBM DevOps Deploy processes, allowing for tighter integration and easier tracking of release status.
 
 **Platform Support:**
 
-* This plug-in is supported to run on all operating systems supported by the IBM UrbanCode Deploy agent, except for z/OS
-* This plug-in is supported to run against IBM UrbanCode Release v6.0.1.2 or higher
+* This plug-in is supported to run on all operating systems supported by the IBM DevOps Deploy agent, except for z/OS
+* This plug-in is supported to run against IBM DevOps Release v6.0.1.2 or higher
 
 
 ### Available Steps
@@ -19,9 +19,9 @@ Check Gate Status: Check if a snapshot is passing the gates for a specific lifec
 
 Get Release for Environment: Find the release that is active for the current environment and save its name as an output property.
 
-Sync Snapshot: Create or update a snapshot in IBM UrbanCode Release.
+Sync Snapshot: Create or update a snapshot in IBM DevOps Release.
 
-Update Application: Update the inventory for an application in IBM UrbanCode Release.
+Update Application: Update the inventory for an application in IBM DevOps Release.
 
 
 

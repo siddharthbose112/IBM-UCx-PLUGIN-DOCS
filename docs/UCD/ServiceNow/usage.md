@@ -1,7 +1,7 @@
 
 # ServiceNow - Usage
 
-* [Orchestrating Deployments with ServiceNow Using IBM UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2022/08/02/orchestrating-deployments-with-servicenow-using-ib)
+* [Orchestrating Deployments with ServiceNow Using IBM DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2022/08/02/orchestrating-deployments-with-servicenow-using-ib)
 * [Component and Agent Configuration](#component-and-agent-configuration)
 * [Example: Check the status of a child change task of a change request](#example-check-the-status-of-a-change-request)
 * [Configuring Service Now to Trigger Deployments in UCD](#configuring-service-now-to-trigger-deployments-in-ucd)
@@ -11,7 +11,7 @@
 
 
 
-Service Now can be configured so that making a change to a Change Request, Incident, or any other table can kick off a deployment in UrbanCode Deploy automatically.This can be done by the following steps:
+Service Now can be configured so that making a change to a Change Request, Incident, or any other table can kick off a deployment in DevOps Deploy automatically.This can be done by the following steps:
 
 1. Under **System Web Services** -> **Outbound** -> **REST Message**, Create a new REST Message for calling your UCD Application Process.
 
@@ -19,9 +19,9 @@ Service Now can be configured so that making a change to a Change Request, Incid
 Screenshot showing a new outbound UCD REST Message Object
 
 
-2. Name the message, and set up the Endpoint field to direct to your UrbanCode Deploy server, using the proper path for requesting an Application Process. This can also be used with any other UCD REST Endpoint if desired.
+2. Name the message, and set up the Endpoint field to direct to your DevOps Deploy server, using the proper path for requesting an Application Process. This can also be used with any other UCD REST Endpoint if desired.
 
-3. Create a New HTTP Method. Define the parameters based on the [UrbanCode Deploy REST API reference](https://www.ibm.com/docs/en/urbancode-deploy/7.2.0?topic=function-rest-api-reference) for your rest call. For this case of requesting an application process, the HTTP Method will look something like this using [Run an application process template](https://www.ibm.com/docs/en/urbancode-deploy/7.2.0?topic=resource-run-application-process):
+3. Create a New HTTP Method. Define the parameters based on the [DevOps Deploy REST API reference](https://www.ibm.com/docs/en/urbancode-deploy/7.2.0?topic=function-rest-api-reference) for your rest call. For this case of requesting an application process, the HTTP Method will look something like this using [Run an application process template](https://www.ibm.com/docs/en/urbancode-deploy/7.2.0?topic=resource-run-application-process):
 
 
 [![](media/screen-shot-2017-06-13-at-10.18.23-am.png)](media/screen-shot-2017-06-13-at-10.18.23-am.png)
@@ -36,7 +36,7 @@ Business Rule for Deployment to UCD
 
 5. To reference the REST Message within the Business Rule, ensure that the Advanced box is checked.Now, under the Advanced tab, a Script box can be seen.To retrieve the script required to call our REST Message, we must return to our Http Method, scroll down to Related Links, and select Preview Script Usage.From here, we copy and paste the script as is, and paste it over the `// Add your code here` text.
 
-6. Now our settings are complete.We can go into a Change Request item, change its approval status to Approved using the proper roles, and we can see that our REST call was made and our Deployment started in UrbanCode Deploy.
+6. Now our settings are complete.We can go into a Change Request item, change its approval status to Approved using the proper roles, and we can see that our REST call was made and our Deployment started in DevOps Deploy.
 
 
 ### Example: Check the status of a Change Request

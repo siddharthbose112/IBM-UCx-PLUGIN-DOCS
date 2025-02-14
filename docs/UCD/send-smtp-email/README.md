@@ -5,7 +5,7 @@ This plugin provides a mechanism to send SMTP emails in your deployment process.
 
 [Source project](https://github.com/UrbanCode/Send-SMTP-Email-UCD)
 
-This plug-in is developed and supported by the UrbanCode Deploy Community on GitHub. 
+This plug-in is developed and supported by the DevOps Deploy Community on GitHub. 
 
 To build a local plug-in, follow the short directions at the bottom of the GitHub project’s README.
 

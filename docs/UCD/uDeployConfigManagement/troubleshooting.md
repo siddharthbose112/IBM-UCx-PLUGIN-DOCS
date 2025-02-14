@@ -1,5 +1,5 @@
 
-# IBM UrbanCode Deploy Configuration Management - Troubleshooting
+# IBM DevOps Deploy Configuration Management - Troubleshooting
 
 When using the Batch Import Properties step, you must include the component name in the properties file, as shown in the following example code:
 
@@ -22,6 +22,6 @@ No component for null
 ```
 
 
-|Back to ...||Latest Version|IBM UrbanCode Deploy Configuration Management ||||
+|Back to ...||Latest Version|IBM DevOps Deploy Configuration Management ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[17.1132359](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeployConfigManagement/ucd-uDeployConfigManagement-17.1132359.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

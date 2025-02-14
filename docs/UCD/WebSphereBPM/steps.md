@@ -1,5 +1,5 @@
 
-# IBM Business Process Manager (WebSphere BPM) for IBM UrbanCode Deploy - Process Steps
+# IBM Business Process Manager (WebSphere BPM) for IBM DevOps Deploy - Process Steps
 
 * [Create Generic Install Package](#create_generic_install_package)
 * [Deactivate Snapshot](#deactivate_snapshot)
@@ -224,6 +224,6 @@ Associates an installation package with a specific server, to enable installing 
 
 
 
-|Back to ...||Latest Version|IBM Business Process Manager (WebSphere BPM) for IBM UrbanCode Deploy ||||
+|Back to ...||Latest Version|IBM Business Process Manager (WebSphere BPM) for IBM DevOps Deploy ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[13.1100894](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereBPM/WebSphereBPM-13.1100894.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

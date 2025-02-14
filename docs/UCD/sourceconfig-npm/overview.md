@@ -13,11 +13,11 @@ To access this plug-in in the palette, click **Utilities** > **NPM**.
 
 ### Compatibility
 
-This plug-in requires that NPM be installed on the UrbanCode Deploy agent.
+This plug-in requires that NPM be installed on the DevOps Deploy agent.
 
 ### Installation
 
-See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy") for installation information.
+See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy") for installation information.
 
 ### History
 

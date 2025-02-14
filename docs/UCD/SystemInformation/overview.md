@@ -5,15 +5,15 @@ The steps in this plug-in provide information about the system on which the agen
 
 ### Compatibility
 
-This plug-in requires version 6.0 or later of IBM UrbanCode Deploy.
+This plug-in requires version 6.0 or later of IBM DevOps Deploy.
 
-This plug-in is supported to run on all operating systems that are supported by the IBM UrbanCode Deploy agent.
+This plug-in is supported to run on all operating systems that are supported by the IBM DevOps Deploy agent.
 
 **Note:** The Check Available Disk Space is not supported on the Solaris operating system
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 ### History
 
@@ -27,7 +27,7 @@ Support property file encryption.
 
 #### Version 3
 
-Fixes APAR PI35342compatibility defect with IBM Urbancode Deploy version 6.1.0.4 and later.
+Fixes APAR PI35342compatibility defect with IBM DevOps Deploy version 6.1.0.4 and later.
 
 #### Version 2
 

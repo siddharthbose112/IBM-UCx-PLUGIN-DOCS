@@ -1,19 +1,19 @@
 
 # IBM Rational Test Virtualization Server (RTVS) - Usage
 
-Use the Service Virtualization plug-in to automate the virtualization of services from IBM UrbanCode Deploy.
+Use the Service Virtualization plug-in to automate the virtualization of services from IBM DevOps Deploy.
 
 **Before you begin**
 
-1. Install the UrbanCode Deploy server. For assistance, see [UrbanCode Deploy documentation](http://www.ibm.com/support/knowledgecenter/SS4GSP/ucd_welcome.html).
-2. Install the Service Virtualization plug-in on the UrbanCode Deploy server. For assistance, see  [Installing plug-ins](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins).
-3. Install the UrbanCode Deploy agent and connect it to the UrbanCode Deploy server. For assistance, see [UrbanCode Deploy documentation](http://www.ibm.com/support/knowledgecenter/SS4GSP/ucd_welcome.html).
-4. Install Rational Test Virtualization Server on the UrbanCode Deploy agent computer and apply a valid license. For assistance, see [Installing Rational Test Virtualization Server](http://www-01.ibm.com/support/knowledgecenter/SSBLQQ_8.7.0/com.ibm.rational.rtvs.ref.doc/topics/c_inst_rtvs_overview.html).
+1. Install the DevOps Deploy server. For assistance, see [DevOps Deploy documentation](http://www.ibm.com/support/knowledgecenter/SS4GSP/ucd_welcome.html).
+2. Install the Service Virtualization plug-in on the DevOps Deploy server. For assistance, see  [Installing plug-ins](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins).
+3. Install the DevOps Deploy agent and connect it to the DevOps Deploy server. For assistance, see [DevOps Deploy documentation](http://www.ibm.com/support/knowledgecenter/SS4GSP/ucd_welcome.html).
+4. Install Rational Test Virtualization Server on the DevOps Deploy agent computer and apply a valid license. For assistance, see [Installing Rational Test Virtualization Server](http://www-01.ibm.com/support/knowledgecenter/SSBLQQ_8.7.0/com.ibm.rational.rtvs.ref.doc/topics/c_inst_rtvs_overview.html).
 
 **About the task**
 
 
-As a tester, you might have a large number of services to be virtualized against the latest builds of a software system. Instead of manually virtualizing services against every new build, you can install the latest build on an IBM UrbanCode Deploy Agent computer and use it to automatically virtualize the services for you. After deploying the Service Virtualization plug-in on the UrbanCode Deploy server, create a component and its processes, applications and its processes, environments, and resources. For information about how to create and configure these pieces, see [UrbanCode Deploydocumentation](http://www.ibm.com/support/knowledgecenter/SS4GSP/ucd_welcome.html).
+As a tester, you might have a large number of services to be virtualized against the latest builds of a software system. Instead of manually virtualizing services against every new build, you can install the latest build on an IBM DevOps Deploy Agent computer and use it to automatically virtualize the services for you. After deploying the Service Virtualization plug-in on the DevOps Deploy server, create a component and its processes, applications and its processes, environments, and resources. For information about how to create and configure these pieces, see [DevOps Deploydocumentation](http://www.ibm.com/support/knowledgecenter/SS4GSP/ucd_welcome.html).
 
 **Examples**
 
@@ -32,7 +32,7 @@ This component process creates and updates an environment in IBM Rational Test C
 
 ### Example: Virtualizing services with Rational Test Workbench
 
-The following example describes a scenario that includes a component process that uses virtualized services. In this example, an application in IBM UrbanCode Deploy comprises two components. One component is the user interface for a web application running on an application server. The second component is a virtual representation of a web service.
+The following example describes a scenario that includes a component process that uses virtualized services. In this example, an application in IBM DevOps Deploy comprises two components. One component is the user interface for a web application running on an application server. The second component is a virtual representation of a web service.
 
 #### Before you begin
 
@@ -40,15 +40,15 @@ You must install IBM Rational Test Workbench, including IBM Rational Test Contro
 
 #### About this task
 
-To virtualize the web service, you can use the Green Hat plug-in to create a transient environment that mimics the behavior of the actual web service. The user interface component is deployed as any other component to a node where the IBM UrbanCode Deploy agent is installed, either on a specific host or on the cloud. When the application server is configured on the user interface component, the proxy is installed so that HTTP calls are routed to the IBM Rational Test Control Panel server, which then returns the data from the stub.
+To virtualize the web service, you can use the Green Hat plug-in to create a transient environment that mimics the behavior of the actual web service. The user interface component is deployed as any other component to a node where the IBM DevOps Deploy agent is installed, either on a specific host or on the cloud. When the application server is configured on the user interface component, the proxy is installed so that HTTP calls are routed to the IBM Rational Test Control Panel server, which then returns the data from the stub.
 
 #### Procedure
 
 1. Use IBM Rational Test Control Panel to record and publish the virtual services that you want to emulate. These virtual services are also known as stubs. When you create the stubs, add environment tags to replace the recorded data with dynamic data, such as the host name. To learn more about stubs, see [Stubs](http://www.ibm.com/support/knowledgecenter/SSBLQQ_8.7.0/com.ibm.rational.rtvs.ref.doc/topics/c_virtualization_overview.html) in the Rational Integration Tester documentation.
-2. In IBM UrbanCode Deploy, create an application with two components, one for the user interface component and one for the virtualized service. To learn more about creating applications, see [UrbanCode Deploy documentation](http://www.ibm.com/support/knowledgecenter/SS4GSP/ucd_welcome.html).
+2. In IBM DevOps Deploy, create an application with two components, one for the user interface component and one for the virtualized service. To learn more about creating applications, see [DevOps Deploy documentation](http://www.ibm.com/support/knowledgecenter/SS4GSP/ucd_welcome.html).
 3. Create a component process to install the user interface component. The following steps show an example set of process steps for an application running on Tomcat.
 1. Use the Install Tomcat step in the Tomcat plug-in to install the application server.
-2. Use the Download Artifacts step from a source control plug-in such as the UrbanCode Versioned File Storage plug-in to download the user interface application.
+2. Use the Download Artifacts step from a source control plug-in such as the DevOps Versioned File Storage plug-in to download the user interface application.
 3. Use the Unzip step in the File Utils plug-in to extract the user interface application.
 4. Use the Modify Tomcat Artifacts step in the Tomcat plug-in to update the WSDL host name that the user interface application uses for calls to web services.
 5. Use the Update Config File step in the Tomcat plug-in to add the proxy information for IBM Rational Test Control Panel to the tomcat6 configuration file. For Tomcat, you change the JAVA\_OPTS properties for http.proxyHost and http.proxyPort to point to the host name and port number of the IBM Rational Test Control Panel proxy.

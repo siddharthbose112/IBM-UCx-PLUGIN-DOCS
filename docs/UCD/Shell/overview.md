@@ -10,13 +10,13 @@ To add the Shell plug-in steps to processes, click **Scripting > Shell** in the 
 
 ### Compatibility
 
-This plug-in requires IBM UrbanCode Deploy version 6.0.1 or later.
+This plug-in requires IBM DevOps Deploy version 6.0.1 or later.
 
-The steps in this plug-in run on any agents that the IBM UrbanCode Deploy server supports.
+The steps in this plug-in run on any agents that the IBM DevOps Deploy server supports.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 ### History
 
@@ -78,11 +78,11 @@ Version 7 of the plug-in includes a fix for APAR PI40728. The Shell (with xargs)
 
 #### Version 6.785165
 
-Version 6 includes a fix for APAR PI35342. The plug-in is now compatible with IBM UrbanCode Deploy version 6.1.0.4 and later.
+Version 6 includes a fix for APAR PI35342. The plug-in is now compatible with IBM DevOps Deploy version 6.1.0.4 and later.
 
 #### Version 5.562693
 
-Version 5 includes a fix for a defect where the Shell plug-in was not upgraded when users upgraded to IBM UrbanCode Deploy 6.1.0.2.
+Version 5 includes a fix for a defect where the Shell plug-in was not upgraded when users upgraded to IBM DevOps Deploy 6.1.0.2.
 
 
 |Back to ...||Latest Version|Shell ||||

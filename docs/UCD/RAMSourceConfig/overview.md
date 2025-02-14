@@ -1,5 +1,5 @@
 
-IBM Rational Asset Manager for IBM UrbanCode Deploy - Overview
+IBM Rational Asset Manager for IBM DevOps Deploy - Overview
 ==============================================================
 
 # Overview
@@ -23,13 +23,13 @@ To access this plug-in in the palette, click **Source and Repositories** > **Rat
 
 ### Compatibility
 
-This plug-in requires version 6.0 or later of IBM UrbanCode Deploy.
+This plug-in requires version 6.0 or later of IBM DevOps Deploy.
 
-For UrbanCode Deploy 6.0, both the agent and the server must be installed on Microsoft Windows. For UrbanCode Deploy 6.0.1 or later, only the agent is required to be on a system running Microsoft Windows.
+For DevOps Deploy 6.0, both the agent and the server must be installed on Microsoft Windows. For DevOps Deploy 6.0.1 or later, only the agent is required to be on a system running Microsoft Windows.
 
 ### Installation
 
-This plug-in is installed when installing IBM UrbanCode Deploy. When new plug-in versions are available, see [Installing plug-ins in UrbanCode Products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy") to update the plug-in.
+This plug-in is installed when installing IBM DevOps Deploy. When new plug-in versions are available, see [Installing plug-ins in DevOps Products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy") to update the plug-in.
 
 ### History
 
@@ -65,7 +65,7 @@ This plug-in is installed when installing IBM UrbanCode Deploy. When new plug-in
 
 #### Version 3
 
-* When an error occurs looking for files for a version, the import will fail and the version will be cleaned up in UrbanCode Deploy. Fixes APAR PI43548
+* When an error occurs looking for files for a version, the import will fail and the version will be cleaned up in DevOps Deploy. Fixes APAR PI43548
 
 #### Version 2
 
@@ -74,8 +74,8 @@ This plug-in is installed when installing IBM UrbanCode Deploy. When new plug-in
 
 #### Version 1
 
-* Initial release of Rational Asset Manager source configuration plugin for UrbanCode Deploy
+* Initial release of Rational Asset Manager source configuration plugin for DevOps Deploy
 
-|Back to ...||Latest Version|IBM Rational Asset Manager for IBM UrbanCode Deploy ||||
+|Back to ...||Latest Version|IBM Rational Asset Manager for IBM DevOps Deploy ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[14.1153919](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RAMSourceConfig/ucd-RAMSourceConfig-14.1153919.zip)|[Readme](README.md)|[Usage](usage.md)|[Settings](settings.md)|[Downloads](downloads.md)|

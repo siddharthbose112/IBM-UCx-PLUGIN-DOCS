@@ -7,11 +7,11 @@ To add the IBM Security Access Manager plug-in steps to processes, click **ISAM 
 
 ### Compatibility
 
-The IBM UrbanCode Deploy automation plug-in for IBM Security Access Manager supports versions 8.0 and higher. This plug-in requires version 6.0.1 or later of IBM UrbanCode Deploy.
+The IBM DevOps Deploy automation plug-in for IBM Security Access Manager supports versions 8.0 and higher. This plug-in requires version 6.0.1 or later of IBM DevOps Deploy.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 ### History
 

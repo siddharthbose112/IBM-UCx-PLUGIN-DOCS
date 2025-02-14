@@ -14,7 +14,7 @@ You can use HTTP status codes to troubleshoot issues when using the plug-in. Sta
 6. Click **Save**.
 2. Ensure that the user account has table access. To learn more about table access, see the [REST API topic](https://wiki.servicenow.com/index.php?title=REST_API#Table_Access) in the ServiceNow documentation.
 
-#### IBM UrbanCode Deploy Administrators
+#### IBM DevOps Deploy Administrators
 
 1. Test using the REST API Explorer.
 1. Click **System Web Services > REST API Explorer**.

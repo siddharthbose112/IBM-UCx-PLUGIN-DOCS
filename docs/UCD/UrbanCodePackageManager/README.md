@@ -1,7 +1,7 @@
 
-# IBM UrbanCode Package Manager
+# IBM DevOps Package Manager
 
-Plug-in integration for Urbancode Package Manager.
+Plug-in integration for DevOps Package Manager.
 
 
 ### Available Steps

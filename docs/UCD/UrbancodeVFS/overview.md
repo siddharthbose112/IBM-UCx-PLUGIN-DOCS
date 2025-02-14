@@ -1,22 +1,22 @@
 
-# IBM UrbanCode Deploy Versioned File Storage - Overview
+# IBM DevOps Deploy Versioned File Storage - Overview
 
 
 The steps in this plug-in work with versioned components. For example, the [Download Artifacts](steps.md#download-artifacts) step retrieves the latest version of a component. Most component deployment processes use this step to download the component artifacts to the agent system.
 
-**Note**: For AIX systems, file permissions defined at the operating system level are not supported by the UrbanCode Deploy Versioned File Storage plug-in. The plug-in uses the permissions set by a process or script. The **chmod** command can be used to reset a permission to the value defined at the operating system level.
+**Note**: For AIX systems, file permissions defined at the operating system level are not supported by the DevOps Deploy Versioned File Storage plug-in. The plug-in uses the permissions set by a process or script. The **chmod** command can be used to reset a permission to the value defined at the operating system level.
 
-To add the IBM UrbanCode Deploy Versioned File Storage plug-in steps to processes, click **Repositories > Artifact > IBM UrbanCode Deploy** in the step palette of the process editor.
+To add the IBM DevOps Deploy Versioned File Storage plug-in steps to processes, click **Repositories > Artifact > IBM DevOps Deploy** in the step palette of the process editor.
 
 ### Compatibility
 
-This plug-in requires version 6.1 or later of IBM UrbanCode Deploy.
+This plug-in requires version 6.1 or later of IBM DevOps Deploy.
 
-This plug-in is supported to run on all operating systems that are supported by the IBM UrbanCode Deploy agent.
+This plug-in is supported to run on all operating systems that are supported by the IBM DevOps Deploy agent.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode products").
+No special steps are required for installation. See [Installing plug-ins in DevOps products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps products").
 
 ### History
 
@@ -122,6 +122,6 @@ This release includes functions in the Download Artifacts step for minimal compa
 This release includes a fix for an issue where the initial character in a file name that is specified in the Download Artifacts step is dropped.
 
 
-|          Back to ...          |                                |                                                          Latest Version                                                           | IBM UrbanCode Deploy Versioned File Storage |||
+|          Back to ...          |                                |                                                          Latest Version                                                           | IBM DevOps Deploy Versioned File Storage |||
 |:-----------------------------:|:------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------:| :---: | :---: |
 | [All Plugins](../../index.md) | [Deploy Plugins](../README.md) | [48.1172096](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/UrbancodeVFS/ucd-UrbancodeVFS-48.1172096.zip) |             [Readme](README.md)             |[Steps](steps.md)|[Downloads](downloads.md)|

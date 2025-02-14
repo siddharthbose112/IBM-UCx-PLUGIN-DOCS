@@ -9,8 +9,8 @@ Compatibility
 
 * This plug-in supports Visual Studio Online.
 * This plug-in supports Team Foundation Server 2010 – 2017.
-* This plug-in requires version 6.0 or later of IBM UrbanCode Deploy.
-* For UrbanCode Deploy 6.0, both the agent and the server must be installed on Microsoft Windows. For UrbanCode Deploy 6.0.1 or later, only the agent is required to be on a system that is running Microsoft Windows.
+* This plug-in requires version 6.0 or later of IBM DevOps Deploy.
+* For DevOps Deploy 6.0, both the agent and the server must be installed on Microsoft Windows. For DevOps Deploy 6.0.1 or later, only the agent is required to be on a system that is running Microsoft Windows.
 
 
 |Back to ...||Latest Version||||||

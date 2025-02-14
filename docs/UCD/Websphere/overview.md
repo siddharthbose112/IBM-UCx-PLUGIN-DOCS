@@ -7,7 +7,7 @@ The WebSphere Application Server Deployment plug-in includes steps that manage I
 
 This plug-in requires WebSphere Application Server. Most of the steps include the **Command Path** parameter, which specifies the folder that contains the `wsadmin` command-line tool. Therefore, you must run the steps on an environment that includes an installation of WebSphere Application Server.
 
-Aside from providing steps for processes, this plug-in can import information about a WebSphere Application Server cell as a resource in IBM UrbanCode Deploy. See [Importing resources from WebSphere Application Server](http://www.ibm.com/support/knowledgecenter/SS4GSP_6.2.1/com.ibm.udeploy.doc/topics/resources_import_was.html) in IBM Knowledge Center.
+Aside from providing steps for processes, this plug-in can import information about a WebSphere Application Server cell as a resource in IBM DevOps Deploy. See [Importing resources from WebSphere Application Server](http://www.ibm.com/support/knowledgecenter/SS4GSP_6.2.1/com.ibm.udeploy.doc/topics/resources_import_was.html) in IBM Knowledge Center.
 
 The plug-in includes steps that are related to installing, configuring, and uninstalling applications, such as [Install Application](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Websphere/steps.html#install_application).
 
@@ -36,17 +36,17 @@ To add the WebSphere Application Server Deploy plug-in steps to processes, click
 
 ### Compatibility
 
-This plug-in requires version 6.1.1.2 of IBM UrbanCode Deploy.
+This plug-in requires version 6.1.1.2 of IBM DevOps Deploy.
 
 This plug-in supports WebSphere Application Server version 7 or later. It also supports WebSphere Virtual Environment version 7 or later. This plug-in also supports WebSphere Application Server capabilities that were incorporated from WebSphere Virtual Enterprise, such as application editioning and dynamic clustering.
 
 **Note:** The Start Server step works only with WebSphere Application Server Network Deployment. The Start Server step does not work on WebSphere Application Server Base.
 
-The steps in this plug-in run on any agents that the IBM UrbanCode Deploy server supports.
+The steps in this plug-in run on any agents that the IBM DevOps Deploy server supports.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins).
+No special steps are required for installation. See [Installing plug-ins in DevOps products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins).
 
 ### Limitations
 
@@ -120,7 +120,7 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 #### Version 114
 
-* Change dependency on UrbanCode Deploy Versioned File Storage plug-in to version 30.
+* Change dependency on DevOps Deploy Versioned File Storage plug-in to version 30.
 
 #### Version 113
 
@@ -209,7 +209,7 @@ Version 102 includes the following step, features, and fixes:
 Version 101 includes the following features and fixes:
 
 * Added support for encrypted input/output properties files.
-* A fix for APAR PI74876 Performance problem with UrbanCode Deploy WebSphere Application Server Deploy plug-in when syncnodes is running.
+* A fix for APAR PI74876 Performance problem with DevOps Deploy WebSphere Application Server Deploy plug-in when syncnodes is running.
 * Added a new plug-in step: Delete Server.
 
 #### Version 100.86358

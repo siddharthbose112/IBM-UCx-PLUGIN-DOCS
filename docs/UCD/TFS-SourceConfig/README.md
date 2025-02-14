@@ -6,8 +6,8 @@ Microsoft Team Foundation Server (TFS) is a software development collaboration t
 ### Requirements
 
 * Microsoft .NET Framework 3.5 must be installed on the agent computer where the plug-in is installed. If it is not installed when you attempt to import version artifacts, the following message is displayed: `Error Creating New Version: Error retrieving latest build`
-* This plug-in requires version 6.0 or later of IBM UrbanCode Deploy.
-* For UrbanCode Deploy 6.0, both the agent and the server must be installed on Microsoft Windows. For UrbanCode Deploy 6.0.1 or later, only the agent is required to be on a system running Microsoft Windows.
+* This plug-in requires version 6.0 or later of IBM DevOps Deploy.
+* For DevOps Deploy 6.0, both the agent and the server must be installed on Microsoft Windows. For DevOps Deploy 6.0.1 or later, only the agent is required to be on a system running Microsoft Windows.
 
 ### Compatibility
 

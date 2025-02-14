@@ -11,9 +11,9 @@ This plug-in includes one step.
 ### Compatibility
 
 
-This plug-in requires IBM UrbanCode Deploy version 6.0 or later.
+This plug-in requires IBM DevOps Deploy version 6.0 or later.
 
-This plug-in runs on all operating systems that UrbanCode Deploy supports.
+This plug-in runs on all operating systems that DevOps Deploy supports.
 
 This plug-in requires access to either the Selenium RC (1.0), Selenium Webdriver (2.X) Standalone Server JAR file, or Selenium Html Runner (3.X) JAR file. The `selenium-server-standalone-2.XX.X.jar` and `selenium-html-runner-3.XX.X.jar` files can be found on [Seleniums Download page](http://www.seleniumhq.org/download/) under **previous releases**. Note: Version 3 of the `selenium-server-standalone` JAR will require additional environment set up. For simplicity, we recommend the latest `selenium-html-runner` JAR.
 
@@ -21,7 +21,7 @@ This plug-in requires access to either the Selenium RC (1.0), Selenium Webdriver
 ### Installation
 
 
-No special steps are required for installation. This plug-in is included with the installation of IBM Urban Code Deploy.If you need to install the plug-in again, see [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. This plug-in is included with the installation of IBM Urban Code Deploy.If you need to install the plug-in again, see [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 
 ### History
@@ -52,7 +52,7 @@ Improved error logging.
 
 #### Version 4
 
-Fixes APAR PI35342compatibility defect with IBM Urbancode Deploy version 6.1.0.4 and later.
+Fixes APAR PI35342compatibility defect with IBM DevOps Deploy version 6.1.0.4 and later.
 
 #### Version 3
 

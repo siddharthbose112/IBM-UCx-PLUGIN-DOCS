@@ -3,7 +3,7 @@
 
 Microsoft SharePoint is a web application platform for common enterprise web requirements.
 
-The Microsoft SharePoint plug-in for IBM UrbanCode Deploy includes steps to deploy .wsp and .cmp files. It is compatible with SharePoint Server 2007, 2010, 2013, and 2016.
+The Microsoft SharePoint plug-in for IBM DevOps Deploy includes steps to deploy .wsp and .cmp files. It is compatible with SharePoint Server 2007, 2010, 2013, and 2016.
 
 
 ### Available Steps

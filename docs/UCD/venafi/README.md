@@ -1,9 +1,9 @@
 
 # Venafi
 
-The Venafi Trust Protection Platform provides continuous monitoring and control over keys and certificates across different devices. The Venafi plug-in for IBM UrbanCode Deploy contains various steps to control Venafi certificates.
+The Venafi Trust Protection Platform provides continuous monitoring and control over keys and certificates across different devices. The Venafi plug-in for IBM DevOps Deploy contains various steps to control Venafi certificates.
 
-The Venafi plug-in is a community plug-in. Community plug-ins are open source projects that are developed and supported by the IBM UrbanCode development community. 
+The Venafi plug-in is a community plug-in. Community plug-ins are open source projects that are developed and supported by the IBM DevOps development community. 
 
 ## Downloads
 
@@ -13,7 +13,7 @@ If you encounter issues with the plug-in, or want to send feedback:
 
 * See the [Venafi plug-in documentation](https://github.com/UrbanCode/Venafi-UCD/blob/master/Doc/UrbanCodeVenafiPlugin.pdf).
 * Ask Venafi plug-in specific questions on the [GitHub Issues](https://github.com/UrbanCode/Venafi-UCD/issues) page.
-* For general plug-in issues, submit questions to the [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: urbancode | ucdev | plugins
+* For general plug-in issues, submit questions to the [dW Answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: DevOps | ucdev | plugins
 
 ### Available Steps
 

@@ -14,15 +14,15 @@ To access this plug-in in the palette, click **Application Server** > **WebLogic
 
 ### Compatibility
 
-This plug-in requires IBM UrbanCode Deploy version 6.0.1 or later.
+This plug-in requires IBM DevOps Deploy version 6.0.1 or later.
 
 This plug-in supports Oracle WebLogic server version 10g and later.
 
-This plug-in runs on all operating systems that UrbanCode Deploy supports.
+This plug-in runs on all operating systems that DevOps Deploy supports.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 ### History
 
@@ -30,8 +30,8 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 Version 5.767528 includes the following features and fixes:
 
-* Refactored plug-in for IBM UrbanCode Release. No new steps were added.
-* Fixed APAR PI27734: Errors using the Update JDBC Data Source step in the WebLogic Server Resource Management plug-in with UrbanCode Deploy.
+* Refactored plug-in for IBM DevOps Release. No new steps were added.
+* Fixed APAR PI27734: Errors using the Update JDBC Data Source step in the WebLogic Server Resource Management plug-in with DevOps Deploy.
 * Fixed APAR PI27734: Correction to the bean attributes.
 * Updates to the documentation.
 

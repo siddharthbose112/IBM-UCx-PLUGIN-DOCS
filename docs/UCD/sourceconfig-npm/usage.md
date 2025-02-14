@@ -1,13 +1,13 @@
 
 # NPM - Usage
 
-Youll need to define an UrbanCode Deploy component which defines the source and processes for the NPM repository. The component contains the information for importing the artifacts and any processes to perform on the artifacts.
+Youll need to define an DevOps Deploy component which defines the source and processes for the NPM repository. The component contains the information for importing the artifacts and any processes to perform on the artifacts.
 
 ### Create a component
 
 To create a component, complete the following steps. For more information about components, see [Creating components](http://www-01.ibm.com/support/knowledgecenter/SS4GSP_7.0.2/com.ibm.udeploy.doc/topics/comp_create.html "Creating components") in the product documentation.
 
-1. In UrbanCode Deploy, click **Components** and then click **Create Component**.
+1. In DevOps Deploy, click **Components** and then click **Create Component**.
 2. In the Create Component window, specify a name and description for the component.
 3. In the **Teams** fields, specify the access information for the new component.
 4. To use a template for the new component, select a template from the Template list. In this case, the component inherits source configuration, properties, and processes from the template.

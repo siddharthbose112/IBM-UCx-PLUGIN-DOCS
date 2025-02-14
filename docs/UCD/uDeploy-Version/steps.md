@@ -1,5 +1,5 @@
 
-# IBM UrbanCode Deploy Versions - Process Steps
+# IBM DevOps Deploy Versions - Process Steps
 
 
 * [Add Status to Version](#add_status_to_version)
@@ -67,6 +67,6 @@ Remove a status from a Component Version
 
 
 
-|Back to ...||Latest Version|IBM UrbanCode Deploy Versions |||
+|Back to ...||Latest Version|IBM DevOps Deploy Versions |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[71.1132358](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Version/ucd-uDeploy-Version-71.1132358.zip)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

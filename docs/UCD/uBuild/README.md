@@ -1,18 +1,18 @@
 
-# IBM UrbanCode uBuild
+# IBM DevOps uBuild
 
-The IBM UrbanCode Build plugin for Deploy provides steps to download artifacts from UrbanCode Build and run uBuild workflows.
+The IBM DevOps Build plugin for Deploy provides steps to download artifacts from DevOps Build and run uBuild workflows.
 
 
 ### Available Steps
 
-Assign Label: Assign a label to a BuildLife in UrbanCode Build.
+Assign Label: Assign a label to a BuildLife in DevOps Build.
 
-Assign Status: Assign a status to a BuildLife in UrbanCode Build.
+Assign Status: Assign a status to a BuildLife in DevOps Build.
 
-Download Artifacts: Download artifact set files from UrbanCode Build.
+Download Artifacts: Download artifact set files from DevOps Build.
 
-Run Secondary Process: Run a secondary process in UrbanCode Build.
+Run Secondary Process: Run a secondary process in DevOps Build.
 
 
 

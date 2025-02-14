@@ -17,7 +17,7 @@ The following steps are an overview of the process that you follow:
 * Define components, applications, and environments to automate deployment.
 * Deploy.
 
-The IBM UrbanCode Deploy plug-in for WebSphere Commerce works with WebSphere Commerce versions 7.0 and earlier. All editions, which include Express, Enterprise and Professional, are supported.
+The IBM DevOps Deploy plug-in for WebSphere Commerce works with WebSphere Commerce versions 7.0 and earlier. All editions, which include Express, Enterprise and Professional, are supported.
 
 
 ### Available Steps
@@ -35,7 +35,7 @@ This plug-in provides a sample component template that includes sample processes
 
 **Impersonation:**
 
-+ The impersonating user must have access rights to both the WebSphere Application Server profile directory and the IBM UrbanCode Deploy agent directory. For example, if the WebSphere user is named wasusr with the group wasgrp, and the agent user is named ucdusr with the group ucdrgp, the user wasusr must be a member of the group ucdgrp. You can restrict the WebSphere Application Server profile directory so that only the WebSphere user has read, write, and execute permissions; the group and other users do not need any permissions. In this case, the WebSphere user starts all WebSphere processes.
++ The impersonating user must have access rights to both the WebSphere Application Server profile directory and the IBM DevOps Deploy agent directory. For example, if the WebSphere user is named wasusr with the group wasgrp, and the agent user is named ucdusr with the group ucdrgp, the user wasusr must be a member of the group ucdgrp. You can restrict the WebSphere Application Server profile directory so that only the WebSphere user has read, write, and execute permissions; the group and other users do not need any permissions. In this case, the WebSphere user starts all WebSphere processes.
 
 You can restrict the agent directory in the following ways:
 

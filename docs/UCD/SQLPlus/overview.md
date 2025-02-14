@@ -5,15 +5,15 @@ The Oracle SQL\*Plus plug-in includes steps that run SQL scripts during deployme
 
 ### Compatibility
 
-The UrbanCode Deploy automation plug-in for Oracle SQL\*Plus works with Oracle 11 and later.
+The DevOps Deploy automation plug-in for Oracle SQL\*Plus works with Oracle 11 and later.
 
-This plug-in requires version 6.0.1 or later of IBM UrbanCode Deploy.
+This plug-in requires version 6.0.1 or later of IBM DevOps Deploy.
 
 **Important:** If you use the SYS account to run SQL scripts, add the suffix as sysdba to the Connection ID field.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 ### History
 

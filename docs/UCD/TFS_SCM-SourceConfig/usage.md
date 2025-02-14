@@ -73,7 +73,7 @@ Sample TFS\_SCM Plug-in Configuration
 
 To create a component by importing from Microsoft Team Foundation ServerSCM, complete the following steps. For more information, see [Creating components](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=components-creating "Creating components").
 
-1. On the **Components** page in IBM UrbanCode Deploy, click **Create New Component**.
+1. On the **Components** page in IBM DevOps Deploy, click **Create New Component**.
 2. In the **Source Config Type** list, select **TFS\_SCM**.
 3. Provide all of the necessary information, such as the **Collection URL** and the **Path to TF.exe or TF.cmd**.
 4. Click **Save**.

@@ -11,12 +11,12 @@ Each step is self-contained. That is, connection credentials that are required t
 **Platform Support:**
 
 * This plug-in is supported for use with WebLogic Server version 10.3 or later.
-* This plug-in requires IBM UrbanCode Deploy version 6.0.1 or later.
+* This plug-in requires IBM DevOps Deploy version 6.0.1 or later.
 
 
 ### Available Steps
 
-Refer to the [documentation](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/plugin-air-WLS-Resource-Management/steps.html "Installing plug-ins in UrbanCode Deploy") for a list of available steps.
+Refer to the [documentation](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/plugin-air-WLS-Resource-Management/steps.html "Installing plug-ins in DevOps Deploy") for a list of available steps.
 
 
 

@@ -1,10 +1,10 @@
 
-# IBM Business Process Manager (WebSphere BPM) for IBM UrbanCode Deploy - Usage
+# IBM Business Process Manager (WebSphere BPM) for IBM DevOps Deploy - Usage
 
 * [Deploying to an offline Process Server](https://www.urbancode.com/plugindoc/ibmucd/websphere-bpm/1-2/usage/deployments-offline-process-server/)
 * [Deploying to an online Process Server](https://www.urbancode.com/plugindoc/ibmucd/websphere-bpm/1-2/usage/deployments-online-process-server/)
 * [Creating Versions without a Build or CI Tool](https://www.urbancode.com/docs/creating-versions-without-a-build-or-ci-tool/): Import IBM Business Process Manager artifacts with our suggested approach.
-* [Continuous Integration with UrbanCode Deploy and IBM Business Process Server](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/07/20/bpserver): Sample deployment architecture and process using IBM WebSphere Application Server (WAS), Business Process Manager (BPM), and Rational Team Concert (RTC).
+* [Continuous Integration with DevOps Deploy and IBM Business Process Server](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/07/20/bpserver): Sample deployment architecture and process using IBM WebSphere Application Server (WAS), Business Process Manager (BPM), and Rational Team Concert (RTC).
 
 ### Deploying to an offline Process Server
 
@@ -27,7 +27,7 @@
 * Hover over the row for the resource group, click **Actions**, and then select **Add agent**.
 5. Create components for the resources. Create a component for each resource to deploy. In this case, create two components, one for the Process Center resource and one for the Process Server resource.
 6. Create the deployment process for each component. The Process Center component process must be of the **Operational (without version)** type. The Process Server component process must be of the **Deployment** type.
-7. Include the **Generate offline package** step from this plug-in and the **Create Version** step from the IBM UrbanCode DeployVersions plug-in in the Process Center component process. The **Create Version** step uploads the generated offline process package as a new version to the component created for the Process Server.
+7. Include the **Generate offline package** step from this plug-in and the **Create Version** step from the IBM DevOps DeployVersions plug-in in the Process Center component process. The **Create Version** step uploads the generated offline process package as a new version to the component created for the Process Server.
 8. Include the **Deploy offline package** step from this plug-in in the Process Server component process.
 9. Add the components to the resources.
 * Navigate to the resource.
@@ -89,6 +89,6 @@
 * Click **Save**.
 8. Run the process to test the new component.
 
-|Back to ...||Latest Version|IBM Business Process Manager (WebSphere BPM) for IBM UrbanCode Deploy ||||
+|Back to ...||Latest Version|IBM Business Process Manager (WebSphere BPM) for IBM DevOps Deploy ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[13.1100894](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/WebSphereBPM/WebSphereBPM-13.1100894.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|
