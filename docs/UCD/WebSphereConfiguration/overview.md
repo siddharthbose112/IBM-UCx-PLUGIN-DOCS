@@ -13,7 +13,7 @@ To add the WebSphere Application Server Configure plug-in steps to processes, cl
 
 ### Compatibility
 
-* This plug-in requires version 6.2 or later of IBM UrbanCode Deploy.
+* This plug-in requires version 6.2 or later of IBM DevOps Deploy.
 * IBM WebSphere Application Server versions 6.1, 7.0, 8.0, 8.5 and 9.0 and later are supported.
 * IBM WebSphere Application Server version 9.0.0.7 and later require version 69 or later of the WebSphere Application Server Configure plugin.
 * This plug-in uses the wsadmin tool to manage connections to an IBM WebSphere Application Server profile. Specific user rights are required to run the wsadmin tool. To learn more about the wsadmin tool and the required user rights, see the [WebSphere Application Server Network Deployment help](https://www.ibm.com/support/knowledgecenter/SSAW57_8.5.5/com.ibm.websphere.nd.doc/ae/txml_script.html).
@@ -21,7 +21,7 @@ To add the WebSphere Application Server Configure plug-in steps to processes, cl
 
 ### Installation
 
-No special steps are required for installing the plug-in. See [Installing plug-ins in UrbanCode products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode products").
+No special steps are required for installing the plug-in. See [Installing plug-ins in DevOps products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps products").
 
 ### History
 
@@ -145,7 +145,7 @@ No special steps are required for installing the plug-in. See [Installing plug-i
 
 #### Version 66
 
-* Change dependency on UrbanCode Deploy Versioned File Storage plug-in to version 30, WAS Deploy plug-in to version 114, UrbanCode Deploy Versions plug-in to version 66, and UrbanCode Deploy Components plug-in to version 72.
+* Change dependency on DevOps Deploy Versioned File Storage plug-in to version 30, WAS Deploy plug-in to version 114, DevOps Deploy Versions plug-in to version 66, and DevOps Deploy Components plug-in to version 72.
 * Fixes APAR PI94786 Incorrect tokenization when node name contains node host name.
 
 #### Version 64

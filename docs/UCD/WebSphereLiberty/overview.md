@@ -38,13 +38,13 @@ The following plug-in steps are related to working with the Liberty server confi
 
 ### Compatibility
 
-This plug-in requires version 6.0 or later of IBM UrbanCode Deploy.
+This plug-in requires version 6.0 or later of IBM DevOps Deploy.
 
 This plug-in was tested with WebSphere Liberty profile versions 8.5.5.916.0.0.2.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in IBM UrbanCode products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in IBM UrbanCode products").
+No special steps are required for installation. See [Installing plug-ins in IBM DevOps products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in IBM DevOps products").
 
 To use the [Wait for Application to be STARTED](steps#wait_for_application_to_be_started) step, you must complete the following steps to configure the REST connector for the WebSphere Application Server Liberty profile:
 
@@ -53,7 +53,7 @@ To use the [Wait for Application to be STARTED](steps#wait_for_application_to_be
 
 ### Video
 
-Watch and learn: [Create a WebSphere Liberty collective and deploy applications using UrbanCode Deploy](https://www.youtube.com/watch?v=VaYQE5d96hY&feature=youtu.be). See the related example: [Creating a collective and installing a simple application](usage#example-creating-a-collective-and-installing-a-simple-application).
+Watch and learn: [Create a WebSphere Liberty collective and deploy applications using DevOps Deploy](https://www.youtube.com/watch?v=VaYQE5d96hY&feature=youtu.be). See the related example: [Creating a collective and installing a simple application](usage#example-creating-a-collective-and-installing-a-simple-application).
 
 ### History
 

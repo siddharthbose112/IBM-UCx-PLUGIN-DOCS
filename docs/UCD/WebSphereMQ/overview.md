@@ -7,17 +7,17 @@ The WebSphere MQ plug-in enables you to interact directly with the messaging sys
 
 ### Compatibility
 
-This plug-in requires version 6.0 of IBM UrbanCode Deploy.
+This plug-in requires version 6.0 of IBM DevOps Deploy.
 
-The UrbanCode Deploy plug-in for WebSphere MQ works with WebSphere MQ versions 7.5 and newer.
+The DevOps Deploy plug-in for WebSphere MQ works with WebSphere MQ versions 7.5 and newer.
 
-The steps in this plug-in run on any agents that the IBM UrbanCode Deploy server supports.
+The steps in this plug-in run on any agents that the IBM DevOps Deploy server supports.
 
 Currently, zOS is not supported.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 ### History
 

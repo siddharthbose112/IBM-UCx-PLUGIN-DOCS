@@ -16,11 +16,11 @@ To access this plug-in in the palette, click **Repositories** > **Artifact** > *
 
 ## Compatibility
 
-This plug-in requires 7.0.4 or later of UrbanCode Deploy.
+This plug-in requires 7.0.4 or later of DevOps Deploy.
 
 ## Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode").
+No special steps are required for installation. See [Installing plug-ins in DevOps](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps").
 
 ## History
 

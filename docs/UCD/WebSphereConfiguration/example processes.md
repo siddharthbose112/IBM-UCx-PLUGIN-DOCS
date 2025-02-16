@@ -9,7 +9,7 @@ WebSphere Application Server - Configure - Example Processes
 
 
 
-The WebSphere Application Server Configure plug-in includes several processes that you can use as examples for managing WebSphere Application Server configurations. Some example processes are automatically installed in IBM UrbanCode Deploy when you install the plug-in. Other example processes are available for download. You must manually import the processes that are not included in the plug-in.
+The WebSphere Application Server Configure plug-in includes several processes that you can use as examples for managing WebSphere Application Server configurations. Some example processes are automatically installed in IBM DevOps Deploy when you install the plug-in. Other example processes are available for download. You must manually import the processes that are not included in the plug-in.
 
 These processes are only examples. Tailor these processes for your environment.
 
@@ -64,7 +64,7 @@ This process converts configuration data from a WebSphere Application Server clu
 
 
 
-This process converts configuration data from a WebSphere Application Server cluster into a template that can be applied to other WebSphere Application Server instances. This process is not installed with the WebSphere Application Server Configure plug-in. You must manually import this process into IBM UrbanCode Deploy. [Download the process (JSON file)](https://github.com/UrbanCode/IBM-UCD-PLUGINS/blob/main/files/WebSphereConfiguration/SampleProcesses/GenericProcessSample11.json).
+This process converts configuration data from a WebSphere Application Server cluster into a template that can be applied to other WebSphere Application Server instances. This process is not installed with the WebSphere Application Server Configure plug-in. You must manually import this process into IBM DevOps Deploy. [Download the process (JSON file)](https://github.com/UrbanCode/IBM-UCD-PLUGINS/blob/main/files/WebSphereConfiguration/SampleProcesses/GenericProcessSample11.json).
 
 Use this process if you want to capture and templatize WebSphere Application Server configuration at the cluster scope only.
 
@@ -103,7 +103,7 @@ The steps in this process follow this general flow:
 
 
 
-This process converts configuration data from a WebSphere Application Server server into a template that can be applied to other WebSphere Application Server instances. This process is not installed with the WebSphere Application Server Configure plug-in. You must manually import this process into IBM UrbanCode Deploy. [Download the process (JSON file)](https://github.com/UrbanCode/IBM-UCD-PLUGINS/blob/main/files/WebSphereConfiguration/SampleProcesses/GenericProcessSample10.json).
+This process converts configuration data from a WebSphere Application Server server into a template that can be applied to other WebSphere Application Server instances. This process is not installed with the WebSphere Application Server Configure plug-in. You must manually import this process into IBM DevOps Deploy. [Download the process (JSON file)](https://github.com/UrbanCode/IBM-UCD-PLUGINS/blob/main/files/WebSphereConfiguration/SampleProcesses/GenericProcessSample10.json).
 
 Use this process if you want to capture and templatize WebSphere Application Server configuration at the server scope only.
 
@@ -140,7 +140,7 @@ The steps in this process follow this general flow:
 
 
 
-This process converts configuration data from a WebSphere Application Server node into a template that can be applied to other WebSphere Application Server instances. This process is not installed with the WebSphere Application Server Configure plug-in. You must manually import this process into IBM UrbanCode Deploy. [Download the process (JSON file)](https://github.com/UrbanCode/IBM-UCD-PLUGINS/blob/main/files/WebSphereConfiguration/SampleProcesses/GenericProcessSample9.json).
+This process converts configuration data from a WebSphere Application Server node into a template that can be applied to other WebSphere Application Server instances. This process is not installed with the WebSphere Application Server Configure plug-in. You must manually import this process into IBM DevOps Deploy. [Download the process (JSON file)](https://github.com/UrbanCode/IBM-UCD-PLUGINS/blob/main/files/WebSphereConfiguration/SampleProcesses/GenericProcessSample9.json).
 
 Use this process if you want to capture and templatize WebSphere Application Server configuration at the node scope only.
 
@@ -178,7 +178,7 @@ The steps in this process follow this general flow:
 
 
 
-This process converts configuration data from a WebSphere Application Server cell into a template that can be applied to other WebSphere Application Server instances. This process is not installed with the WebSphere Application Server Configure plug-in. You must manually import this process into IBM UrbanCode Deploy. [Download the process (JSON file)](https://github.com/UrbanCode/IBM-UCD-PLUGINS/blob/main/files/WebSphereConfiguration/SampleProcesses/GenericProcessSample8.json).
+This process converts configuration data from a WebSphere Application Server cell into a template that can be applied to other WebSphere Application Server instances. This process is not installed with the WebSphere Application Server Configure plug-in. You must manually import this process into IBM DevOps Deploy. [Download the process (JSON file)](https://github.com/UrbanCode/IBM-UCD-PLUGINS/blob/main/files/WebSphereConfiguration/SampleProcesses/GenericProcessSample8.json).
 
 Use this process if you want to capture and templatize WebSphere Application Server configuration at the cell scope only.
 
@@ -242,7 +242,7 @@ The following example code shows a node name (`NODE_NAME`) and node host name (`
 
 
 
-This process retrieves configuration data from a WebSphere Application Server Network Deployment instance with a dynamic cluster and converts the data into templates that can be applied to other WebSphere Application Server Network Deployment instances. This process is not installed with the WebSphere Application Server Configure plug-in. You must manually import this process into IBM UrbanCode Deploy. [Download the process (JSON file)](https://github.com/UrbanCode/IBM-UCD-PLUGINS/blob/main/files/WebSphereConfiguration/SampleProcesses/GenericProcessSample7.json).
+This process retrieves configuration data from a WebSphere Application Server Network Deployment instance with a dynamic cluster and converts the data into templates that can be applied to other WebSphere Application Server Network Deployment instances. This process is not installed with the WebSphere Application Server Configure plug-in. You must manually import this process into IBM DevOps Deploy. [Download the process (JSON file)](https://github.com/UrbanCode/IBM-UCD-PLUGINS/blob/main/files/WebSphereConfiguration/SampleProcesses/GenericProcessSample7.json).
 
 Use this process if your WebSphere Application Server Network Deployment environment contains a dynamic cluster.
 
@@ -288,7 +288,7 @@ The steps in this process follow this general flow:
 
 
 
-This process retrieves configuration data of a single cluster from a WebSphere Application Server Network Deployment instance and converts the data into templates that can be applied to other WebSphere Application Server Network Deployment instances. This process is not installed with the WebSphere Application Server Configure plug-in. You must manually import this process into IBM UrbanCode Deploy. [Download the process (JSON file)](https://github.com/UrbanCode/IBM-UCD-PLUGINS/blob/main/files/WebSphereConfiguration/SampleProcesses/GenericProcessSample6.json).
+This process retrieves configuration data of a single cluster from a WebSphere Application Server Network Deployment instance and converts the data into templates that can be applied to other WebSphere Application Server Network Deployment instances. This process is not installed with the WebSphere Application Server Configure plug-in. You must manually import this process into IBM DevOps Deploy. [Download the process (JSON file)](https://github.com/UrbanCode/IBM-UCD-PLUGINS/blob/main/files/WebSphereConfiguration/SampleProcesses/GenericProcessSample6.json).
 
 Use this process if your WebSphere Application Server Network Deployment environment contains clusters, you do not want to use the cluster multiplicity feature, and you want to templatize only configuration information for one cluster. Cells, nodes, and additional servers and clusters are not discovered and templatized. Use this process in large WebSphere Application Server Network Deployment environments where discovering the cell and all nodes, servers, and clusters might take a long time.
 
@@ -355,7 +355,7 @@ The steps in this process follow this general flow:
 
 
 
-This process retrieves configuration data from a single cluster in a WebSphere Application Server Network Deployment instance and converts the data into templates that can be applied to other WebSphere Application Server Network Deployment instances. This process is not installed with the WebSphere Application Server Configure plug-in. You must manually import this process into IBM UrbanCode Deploy. [Download the process (JSON file)](https://github.com/UrbanCode/IBM-UCD-PLUGINS/blob/main/files/WebSphereConfiguration/SampleProcesses/GenericProcessSample5.json).
+This process retrieves configuration data from a single cluster in a WebSphere Application Server Network Deployment instance and converts the data into templates that can be applied to other WebSphere Application Server Network Deployment instances. This process is not installed with the WebSphere Application Server Configure plug-in. You must manually import this process into IBM DevOps Deploy. [Download the process (JSON file)](https://github.com/UrbanCode/IBM-UCD-PLUGINS/blob/main/files/WebSphereConfiguration/SampleProcesses/GenericProcessSample5.json).
 
 Use this process if your WebSphere Application Server Network Deployment environment contains clusters, you want to use the cluster multiplicity feature, and you want to templatize only configuration information for one cluster. Cells, nodes, and additional servers and clusters are not discovered and templatized. Use this process in large WebSphere Application Server Network Deployment environments where discovering the cell and all nodes, servers, and clusters might take a long time.
 

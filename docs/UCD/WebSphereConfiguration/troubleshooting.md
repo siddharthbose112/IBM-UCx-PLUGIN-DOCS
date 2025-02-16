@@ -11,14 +11,14 @@
 
 Database queries are used to create roles when you install this plug-in. If DB2 SQL error messages are logged when you install the plug-in, increase the transaction log size in DB2.
 
-1. Stop the IBM UrbanCode Deploy server.
-2. Log in to the DB2 server with the account that has permissions to administer the IBM UrbanCode Deploy server database. For example, log in with the db2inst1 account.
+1. Stop the IBM DevOps Deploy server.
+2. Log in to the DB2 server with the account that has permissions to administer the IBM DevOps Deploy server database. For example, log in with the db2inst1 account.
 3. From the DB2 command line, type the following commands:
 1. db2 connect to <database>
 2. db2 update db cfg using logfilsiz 30720 logprimary 100
 3. db2stop force
 4. db2start
-4. Start the IBM UrbanCode Deploy server.
+4. Start the IBM DevOps Deploy server.
 5. Install the plug-in again.
 
 ### Null pointer exception during Apply Configuration Processing

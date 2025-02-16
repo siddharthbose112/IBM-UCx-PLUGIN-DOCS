@@ -23,15 +23,15 @@ Refer to plugin documentation for system requirements and a complete list of ste
 
 ### Compatibility
 
-This plug-in requires version 6.1 of IBM UrbanCode Deploy.
+This plug-in requires version 6.1 of IBM DevOps Deploy.
 
-The UrbanCode Deploy plug-in for WSRR works with WebSphere Service Registry and Repository versions 8.0.0.x through 8.5.0.0.
+The DevOps Deploy plug-in for WSRR works with WebSphere Service Registry and Repository versions 8.0.0.x through 8.5.0.0.
 
-The steps in this plug-in run on any agents that the IBM UrbanCode Deploy server supports.
+The steps in this plug-in run on any agents that the IBM DevOps Deploy server supports.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 
 |Back to ...||Latest Version|IBM WebSphere Service Registry and Repository ||||

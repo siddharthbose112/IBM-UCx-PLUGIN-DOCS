@@ -10,8 +10,8 @@ Apart from executing a REXX program, this plug-in provides ability to create out
 
 The plug-in is compatible with:
 
-* UrbanCode Deploy version 7.0.0 or later
-* UrbanCode Deploy agents on z/OS
+* DevOps Deploy version 7.0.0 or later
+* DevOps Deploy agents on z/OS
 * IBM z/OS version 2.1 or later
 * IBM Java 8 or 11
 

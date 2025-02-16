@@ -8,7 +8,7 @@ The zOS Management Facility plug-in includes steps to create and manage z/OSMF w
 **Platform Support:**
 
 * z/OSMF Cloud Provisioning is available on z/OS V2R2 (PTF UI42847, UI46543), V2R1 (PTF UI43814) and later
-* This plug-in requires UrbanCode Deploy 6.2.0 or later.Specific resource icons for z/OS software instances are used in UrbanCode Deploy 6.2.6 and later
+* This plug-in requires DevOps Deploy 6.2.0 or later.Specific resource icons for z/OS software instances are used in DevOps Deploy 6.2.6 and later
 
 
 ### Available Steps

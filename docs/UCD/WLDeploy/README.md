@@ -5,13 +5,13 @@ The **wldeploy** Ant task is used to complete **weblogic.Deployer** functions by
 
 With the Oracle WeblLogic WLDeploy plug-in, you can run a **wldeploy** Ant task as part of a deployment process. This plug-in also provides steps for other deployment actions such as: undeploy, deploy, and redeploy. It also can be used to start and stop WebLogic servers and clusters.
 
-Version 14 and later require UrbanCode Deploy version 6.1.1.2 or later, and versions before 14 require UrbanCode Deploy 6.0.1 or later.
+Version 14 and later require DevOps Deploy version 6.1.1.2 or later, and versions before 14 require DevOps Deploy 6.0.1 or later.
 
 If you encounter issues with the plug-in or want to send feedback, take one of the following steps:
 
 * See the plug-in documentation.
-* Search on the answers page at [dW Answers: urbancode | deploy | plugins | wldeploy.](https://developer.ibm.com/answers/search.html?f=&type=question&redirect=search%2Fsearch&sort=relevance&smartspace=urbancode&q=%2B[deploy]+%2B[plugins]+%2B[wldeploy]+%20%2B[urbancode])  **Note:** You might need to click the link twice.
-* If no search results are found, submit your issue as a question to the [answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: urbancode | deploy | plugins | wldeploy
+* Search on the answers page at [dW Answers: DevOps | deploy | plugins | wldeploy.](https://developer.ibm.com/answers/search.html?f=&type=question&redirect=search%2Fsearch&sort=relevance&smartspace=urbancode&q=%2B[deploy]+%2B[plugins]+%2B[wldeploy]+%20%2B[urbancode])  **Note:** You might need to click the link twice.
+* If no search results are found, submit your issue as a question to the [answers page](https://community.ibm.com/community/user/wasdevops/urbancode-discussion). Use the following tags: DevOps | deploy | plugins | wldeploy
 
 
 # Available Steps
