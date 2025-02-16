@@ -739,7 +739,7 @@ Groovy is an object-oriented programming language for the Java platform and the 
 
 ## HCL DevOps Test Hub
 
-HCL DevOps Test Hub (Test Hub) brings together test data, test environments, and test runs and reports into a single, web-based browser for testers and non-testers. This plug-in integrate Test Hub with UrbanCode™ Deploy to automate the process of test runs.
+HCL DevOps Test Hub (Test Hub) brings together test data, test environments, and test runs and reports into a single, web-based browser for testers and non-testers. This plug-in integrate Test Hub with DevOps Deploy to automate the process of test runs.
 
 ---
 
@@ -982,7 +982,7 @@ This package includes a white paper and an importable sample template that descr
 
 ## IBM DevOps Test Hub
 
-IBM DevOps Test Hub (Test Hub) brings together test data, test environments, and test runs and reports into a single, web-based browser for testers and non-testers. This plug-in integrate Test Hub with UrbanCode™ Deploy to automate the process of test runs.
+IBM DevOps Test Hub (Test Hub) brings together test data, test environments, and test runs and reports into a single, web-based browser for testers and non-testers. This plug-in integrate Test Hub with DevOps Deploy to automate the process of test runs.
 
 ---
 
@@ -1396,7 +1396,7 @@ IBM DevOps Deploy is an *Application Deployment Automation* tool that provides 
 
 ## IBM DevOps Deploy Components
 
-uDeploy is Urbancode’s application release automation tool. For more information, see [UrbanCode Deploy](https://www.ibm.com/cloud/urbancode) Component for creating and managing IBM DevOps Deploy components.
+DevOps Deploy application release automation tool. For more information, see [DevOps Deploy](https://www.ibm.com/cloud/urbancode) Component for creating and managing IBM DevOps Deploy components.
 
 ---
 
@@ -1416,7 +1416,7 @@ Configuration templating system built into DevOps Deploy. Configuration Template
 
 ## IBM DevOps Deploy Environments
 
-IBM DevOps Deploy is an application release automation tool. For more information, see [UrbanCode Deploy](https://www.ibm.com/cloud/urbancode). Plugin for creating and managing IBM DevOps Deploy environments.
+IBM DevOps Deploy is an application release automation tool. For more information, see [DevOps Deploy](https://www.ibm.com/cloud/urbancode). Plugin for creating and managing IBM DevOps Deploy environments.
 
 ---
 
@@ -1436,7 +1436,7 @@ This plugin provides various utilities for use in your DevOps Deploy process.
 
 ## IBM DevOps Deploy Process
 
-This IBM® UrbanCode™ Deploy Process plug-in supports interaction with processes and process requests within IBM DevOps Deploy. Using this plug-in, you can create or remove a link on a process request that can direct users to supplementary information related to the process execution.
+This IBM® DevOps Deploy Process plug-in supports interaction with processes and process requests within IBM DevOps Deploy. Using this plug-in, you can create or remove a link on a process request that can direct users to supplementary information related to the process execution.
 
 ---
 
@@ -1446,7 +1446,7 @@ This IBM® UrbanCode™ Deploy Process plug-in supports interaction with process
 
 ## IBM DevOps Deploy Resources
 
-IBM DevOps Deploy is an application release automation tool. For more information, see [UrbanCode Deploy](https://www.ibm.com/cloud/urbancode). This plug-in manages resources in IBM DevOps Deploy.
+IBM DevOps Deploy is an application release automation tool. For more information, see [DevOps Deploy](https://www.ibm.com/cloud/urbancode). This plug-in manages resources in IBM DevOps Deploy.
 
 ---
 
@@ -1456,7 +1456,7 @@ IBM DevOps Deploy is an application release automation tool. For more informatio
 
 ## IBM DevOps Deploy System
 
-uDeploy is Urbancode’s application release automation tool. For more information, see [UrbanCode Deploy](https://www.ibm.com/cloud/urbancode) Plugin for managing IBM DevOps Deploy system properties and global settings.
+IBM DevOps Deploy application release automation tool. For more information, see [DevOps Deploy](https://www.ibm.com/cloud/urbancode) Plugin for managing IBM DevOps Deploy system properties and global settings.
 
 ---
 
@@ -1696,7 +1696,7 @@ Kubernetes is an open-source system for automating deployment, operations, and s
 
 ## Linux System Tools
 
-Developed by UrbanCode, the Linux Tools plugin allows Urban CodeDeploy to automate various Linux system commands; such as rebooting the operating system and setting file permissions.
+Developed by DevOps deploy, the Linux Tools plugin allows Urban CodeDeploy to automate various Linux system commands; such as rebooting the operating system and setting file permissions.
 
 ---
 
@@ -1706,7 +1706,7 @@ Developed by UrbanCode, the Linux Tools plugin allows Urban CodeDeploy to automa
 
 ## Liquibase  [community plugin]
 
-Liquibase is an open source tool that brings source control for tracking, managing and applying database schema changes. This plug-in is developed and supported by the DevOps Deploy Community on IBM-UrbanCode’s GitHub organization. Click the “Visit Project” button at the top of the page to navigate to the project for source code, the plug-in distributable, and further information.
+Liquibase is an open source tool that brings source control for tracking, managing and applying database schema changes. This plug-in is developed and supported by the DevOps Deploy Community on IBM DevOps GitHub organization. Click the “Visit Project” button at the top of the page to navigate to the project for source code, the plug-in distributable, and further information.
 
 ---
 

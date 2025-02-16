@@ -5,7 +5,7 @@ The z/OS File Source Config plug-in automates uploading data sets, UNIX files an
 
 **Platform Support:** This plug-in is supported to run on z/OS.
 
-**Pre-requisite:** This plug-in requires UrbanCode Deploy 6.2.2 or later.  The UrbanCode Deploy z/OS deployment tools must be installed to the version import agent.
+**Pre-requisite:** This plug-in requires DevOps Deploy 6.2.2 or later.  The DevOps Deploy z/OS deployment tools must be installed to the version import agent.
 
 
 |          Back to ...          |                                |                                                                Latest Version                                                                 ||

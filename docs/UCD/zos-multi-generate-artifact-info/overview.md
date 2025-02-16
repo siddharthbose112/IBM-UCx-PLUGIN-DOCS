@@ -17,7 +17,7 @@ Use the Generate Multiple Artifact Information step to select a set of artifacts
 
 ## Compatibility
 
-This plug-in requires UrbanCode Deploy version 6.1.1 or later and an UrbanCode Deploy agent on z/OS.
+This plug-in requires DevOps Deploy version 6.1.1 or later and an DevOps Deploy agent on z/OS.
 
 This plug-in works with IBM z/OS version 1.9 or later.
 
@@ -27,7 +27,7 @@ To access this plug-in in the palette, click **Utilities** > **zOS Multi Generat
 
 ## Installation
 
-This plug-in is installed when installing IBM UrbanCode Deploy. When new plug-in versions are available, follow the [installation instructions](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy") to update the plug-in.
+This plug-in is installed when installing IBM DevOps Deploy. When new plug-in versions are available, follow the [installation instructions](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy") to update the plug-in.
 
 ## History
 

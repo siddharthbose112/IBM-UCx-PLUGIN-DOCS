@@ -4,7 +4,7 @@
 
 #### Before you begin
 
-* The IBM UrbanCode Deploy agent must be installed on the system that hosts the Portal Node.
+* The IBM DevOps Deploy agent must be installed on the system that hosts the Portal Node.
 * If WebSphere Portal Server is deployed in a directory other than the default directory, you must set a property on the agent before you can run the WebSphere Topology Discovery step.
 1. Go to **Resources > Agents > *agent-name* > Configuration > Agent Properties**.
 2. Add a property that is named `wsadmin.path`.

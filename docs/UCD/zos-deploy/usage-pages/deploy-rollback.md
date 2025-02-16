@@ -17,7 +17,7 @@
 
 For zOS deployment, create a component process with __Process Type__ as __Deployment__.
 
-Following steps are mandatory for deploying a zOS Component version stored on UrbanCode Deploy codestation.
+Following steps are mandatory for deploying a zOS Component version stored on DevOps Deploy codestation.
 
 * [Download Artifacts for zOS](../../UrbancodeVFS/steps.md#download-artifacts-for-zos) step to download the version artifacts
 * [Deploy Data sets](../steps.md#deploy-data-sets) step to deploy datasets to mapped target Dataset/HFS Directory

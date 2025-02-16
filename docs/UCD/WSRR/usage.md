@@ -6,10 +6,10 @@
 Before you begin, you must have
 
 1. Installed and started your WSRR server, you can refer to <http://pic.dhe.ibm.com/infocenter/sr/v8r0/index.jsp>.
-2. Installed and started your UrbanCode Deploy Server, you can refer to <http://coltrane-new.rtp.raleigh.ibm.com/ucdeploy/index.jsp>.
-3. Installed UrbanCode Deploy Agent on the machine which the WSRR server locates.
-4. Started the UrbanCode Deploy Agent which connects to the UrbanCode Deploy Server.
-5. Load the WSRR plug-in into the UrbanCode Deploy Server.
+2. Installed and started your DevOps Deploy Server, you can refer to <http://coltrane-new.rtp.raleigh.ibm.com/ucdeploy/index.jsp>.
+3. Installed DevOps Deploy Agent on the machine which the WSRR server locates.
+4. Started the DevOps Deploy Agent which connects to the DevOps Deploy Server.
+5. Load the WSRR plug-in into the DevOps Deploy Server.
 
 ### Register Web Services to a WebSphere Service Registry and Repository server
 

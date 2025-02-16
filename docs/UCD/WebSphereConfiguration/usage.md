@@ -9,7 +9,7 @@ You can find more information about this plug-in:
 * Blog post: [How to create a new WebSphere Application Server from a process](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2023/01/03/how-to-create-a-new-websphere-application-server-f)
 * Video: [Using Snippets to Manage Configuration Data](https://www.youtube.com/watch?v=iy8D2z6vPQ8)
 * Video: [Partial Apply and Partial Remove Steps](https://youtu.be/Qhf1r8_mljc)
-* Video: [Using UrbanCode Deploy to Migrate to WebSphere Application Server Version 9](https://www.youtube.com/watch?v=Gu5veyk6DUo)
+* Video: [Using DevOps Deploy to Migrate to WebSphere Application Server Version 9](https://www.youtube.com/watch?v=Gu5veyk6DUo)
 * Video: [Scheduling Live Comparison of WebSphere Configuration and Sending Results](https://youtu.be/VjT2VGwdlW4)
 
 These pages provide usage information about this plug-in:
@@ -30,7 +30,7 @@ These pages provide usage information about this plug-in:
 * [Automating live comparisons](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2023/01/03/automating-live-comparisons)
 * [Importing specific configuration types](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2023/01/03/importing-specific-configuration-types)
 * [Managing configuration information in clustered environments](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2023/01/04/managing-configuration-information-in-clustered-en)
-* [Migrating WebSphere Application Server versions with IBM UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2023/01/04/migrating-websphere-application-server-versions-wi)
+* [Migrating WebSphere Application Server versions with IBM DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/osman-burucu/2023/01/04/migrating-websphere-application-server-versions-wi)
 
 ## Configuration Snippets
 

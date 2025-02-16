@@ -8,7 +8,7 @@ When you use the Copy Artifacts step, you can copy only in the same logical part
 
 ## Missing return code for Run TSO or ISPF Command step
 
-If you use the Run TSO or ISPF Command step to run a TSO command, the return code might not be displayed in IBM UrbanCode Deploy because the ISPF gateway does not support passing return codes when in TSO mode. To work around this behavior, in the **TSO Or ISPF** list, select **ISPF** instead of **TSO**.
+If you use the Run TSO or ISPF Command step to run a TSO command, the return code might not be displayed in IBM DevOps Deploy because the ISPF gateway does not support passing return codes when in TSO mode. To work around this behavior, in the **TSO Or ISPF** list, select **ISPF** instead of **TSO**.
 
 ## Repository field for Copy Artifacts and FTP Artifacts steps
 

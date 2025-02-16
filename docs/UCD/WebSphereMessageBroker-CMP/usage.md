@@ -1,9 +1,9 @@
 
 # IBM Integration Bus (formerly WebSphere Message Broker) - CMP - Usage
 
-### IIB Integration With UrbanCode Deploy
+### IIB Integration With DevOps Deploy
 
-The [IIB Integration With UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/07/27/iib-integration-with-urbancode-deploy) blog post contains in depth usage of the IIB plugin.
+The [IIB Integration With DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/07/27/iib-integration-with-urbancode-deploy) blog post contains in depth usage of the IIB plugin.
 
 ### Usage Documentation
 
@@ -110,7 +110,7 @@ In this process example, the broker archive (.bar) file includes overrides as ne
 
 
 
-There is a known issue in the IBM Integration Bus (IIB) plug-in where multiple BAR files cannot be simultaneously deployed when using the Deploy step. The crux of the issue comes from IIBs CMP Java API and its understanding of the brokers current state during deployment. In these multiple deployments scenarios, IIB will look at the destination and confirm whether or not a file (such as a jar file) exists. Based on its existence, it will then know whether or not to overwrite that location. However, IIB will find a conflict and fail when it expects the destination to be empty. In future deployments, you will find that all concurrent deployments complete successfully and this issue no longer exists. While some Deploy users may be able to deal with this inconvenience during the first deployment, IBM UrbanCode Deploy has the capability to work around this issue and make it repeatable for other application deployments.
+There is a known issue in the IBM Integration Bus (IIB) plug-in where multiple BAR files cannot be simultaneously deployed when using the Deploy step. The crux of the issue comes from IIBs CMP Java API and its understanding of the brokers current state during deployment. In these multiple deployments scenarios, IIB will look at the destination and confirm whether or not a file (such as a jar file) exists. Based on its existence, it will then know whether or not to overwrite that location. However, IIB will find a conflict and fail when it expects the destination to be empty. In future deployments, you will find that all concurrent deployments complete successfully and this issue no longer exists. While some Deploy users may be able to deal with this inconvenience during the first deployment, IBM DevOps Deploy has the capability to work around this issue and make it repeatable for other application deployments.
 
 
 Below I have outlined an Application Process example that can mitigate this deployment error. In this approach, we will design a process that will run sequentially the first time, but then will know, due to an application property, to run concurrently for all future deployments. This process can be generalized to first run a process one way due to the nonexistence of a property, but then run differently based on that property change. This design will require:
@@ -137,7 +137,7 @@ The Default, or left, branch is followed the first time the application process 
 Deploy Sequentially and Deploy Concurrently step configurations
 
 
-The Deploy Sequentially and Deploy Concurrently steps are very similar, but contain two major differences in their configuration. Highlighted by the red squares in the above step configuration, the **Max # of Concurrent Components.** and **Max. # of Concurrent Jobs.** have different values. In the Deploy Sequentially step, both of these values are set to 1. This forces IBM UrbanCode Deploy to only run a single deployment at a time. These properties are critical to ensure that there are no conflicts during BAR deployments. The Deploy Concurrently step however, may use the default values. Here IBM UrbanCode Deploy is enabled to run all components simultaneously and drastically decrease future deployment times. Notice that both of these configurations use the same Component Tag and Component Process. In my example, I have tagged my components **iib.bar**.
+The Deploy Sequentially and Deploy Concurrently steps are very similar, but contain two major differences in their configuration. Highlighted by the red squares in the above step configuration, the **Max # of Concurrent Components.** and **Max. # of Concurrent Jobs.** have different values. In the Deploy Sequentially step, both of these values are set to 1. This forces IBM DevOps Deploy to only run a single deployment at a time. These properties are critical to ensure that there are no conflicts during BAR deployments. The Deploy Concurrently step however, may use the default values. Here IBM DevOps Deploy is enabled to run all components simultaneously and drastically decrease future deployment times. Notice that both of these configurations use the same Component Tag and Component Process. In my example, I have tagged my components **iib.bar**.
 
 
 ### Create Application Property: Generic Process
@@ -146,7 +146,7 @@ The Deploy Sequentially and Deploy Concurrently steps are very similar, but cont
 Download JSON: [Create alreadyDeployed Application Property](CreatealreadyDeployedApplicationProperty.txt) process
 
 
-This deployment solution requires the use of a generic process to properly enable the the parallel deployment strategy. The downloadable JSON file above is my configured generic process to give you a jump start in recreating this example. Simply import this process into your IBM UrbanCode Deploy server to have a readily available generic process. (The file may need to be renamed to have the .json extension.) Ensure you set the Default Resource in the **Configuration > Basic Settings** as this will make the following configuration step easier. The **Create Application Property** process will create and set the **alreadyDeployed** application property for a specified application. This process utilizes the [IBM UrbanCode Deploy Applications](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/uDeploy-Application/) plug-ins Create Application Property step.
+This deployment solution requires the use of a generic process to properly enable the the parallel deployment strategy. The downloadable JSON file above is my configured generic process to give you a jump start in recreating this example. Simply import this process into your IBM DevOps Deploy server to have a readily available generic process. (The file may need to be renamed to have the .json extension.) Ensure you set the Default Resource in the **Configuration > Basic Settings** as this will make the following configuration step easier. The **Create Application Property** process will create and set the **alreadyDeployed** application property for a specified application. This process utilizes the [IBM DevOps Deploy Applications](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/uDeploy-Application/) plug-ins Create Application Property step.
 
 
 [![](media/setproperty-2.png)](media/setproperty-2.png)
@@ -159,7 +159,7 @@ The above screenshot shows the application processs step configuration defining 
 ### Example Deployments
 
 
-Below are the UrbanCode deployment logs from two different deployments. In this example, I have deployed two different components labeled **IIB BAR 1** and **IIB BAR 2**. In the first screenshot, where the **deployedAlready** property was not specified, the Deploy Sequentially (Default) branch was followed. Notice that the two Deploy BAR component processes start times, which about a minute each, do not overlap. IIB BAR 1 is run separately and to completion before IIB BAR 2 begins. Once all component processes are completed, the Create Application Property process is run and the **alreadyDeploy** property is set.
+Below are the DevOps deployment logs from two different deployments. In this example, I have deployed two different components labeled **IIB BAR 1** and **IIB BAR 2**. In the first screenshot, where the **deployedAlready** property was not specified, the Deploy Sequentially (Default) branch was followed. Notice that the two Deploy BAR component processes start times, which about a minute each, do not overlap. IIB BAR 1 is run separately and to completion before IIB BAR 2 begins. Once all component processes are completed, the Create Application Property process is run and the **alreadyDeploy** property is set.
 
 
 [![](media/sequentially.png)](media/sequentially.png)
@@ -200,7 +200,7 @@ Once these changes have been made, you can add any number of new environments an
 ### Community Involvement
 
 
-The [IBM Integration Bus plug-in](https://github.com/IBM-UrbanCode/IBM-Integration-Bus-UCD) for IBM UrbanCode Deploy is a fully supported open source project that is accepting contributions. Please ask any questions about the documentation or plug-in usage on the [GitHub Issues page](https://github.com/IBM-UrbanCode/IBM-Integration-Bus-UCD/issues).
+The [IBM Integration Bus plug-in](https://github.com/IBM-UrbanCode/IBM-Integration-Bus-UCD) for IBM DevOps Deploy is a fully supported open source project that is accepting contributions. Please ask any questions about the documentation or plug-in usage on the [GitHub Issues page](https://github.com/IBM-UrbanCode/IBM-Integration-Bus-UCD/issues).
 
 
 ### Common step properties

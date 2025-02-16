@@ -15,12 +15,12 @@
 ### Before you begin discovering Mainframe Software Services Instances
 
 * Install the current version of the z/OS Management Facility plug-in.
-* Install an UrbanCode Deploy agent on theLPAR where z/OSMF is running.
+* Install an DevOps Deploy agent on theLPAR where z/OSMF is running.
 * Verify that the Cloud Provisioning function in z/OSMF is installed and software services instances have already been provisioned.
 
 ### Discovering Software Services Instances
 
-On theIBM UrbanCode Deployserver user interface, click**Resources** > **Agents**. Open the z/OS agent to be used to run discovery. Add an agent property named **zosmf.url** and set the value to the URL of z/OSMF. For example: `https://localhost/zosmf` .
+On theIBM DevOps Deployserver user interface, click**Resources** > **Agents**. Open the z/OS agent to be used to run discovery. Add an agent property named **zosmf.url** and set the value to the URL of z/OSMF. For example: `https://localhost/zosmf` .
 
 [![](media/agent-property.jpg)](media/agent-property.jpg)
 
@@ -50,7 +50,7 @@ You may add components to the resources and add these resources to an environmen
 
 ## Provisioning and Discovering Mainframe Software Services Instances
 
-Software services instances discovery can be run manually from the resource tree and automatically in an UrbanCode Deployprocess. This document describes a use case where a software instance is provisioned and discovered in a singleautomated UrbanCode Deploy process.
+Software services instances discovery can be run manually from the resource tree and automatically in an DevOps Deployprocess. This document describes a use case where a software instance is provisioned and discovered in a singleautomated DevOps Deploy process.
 
 * [Before you begin](#before-you-begin)
 * [Create a generic process](#create-a-generic-process)
@@ -60,7 +60,7 @@ Software services instances discovery can be run manually from the resource tree
 ### Before you begin
 
 * Install the current z/OS Management Facility plug-in.
-* Install an UrbanCode Deploy agent on theLPAR where z/OSMF is running.
+* Install an DevOps Deploy agent on theLPAR where z/OSMF is running.
 * Verify that the Cloud Provisioning function in z/OSMF is installed anda Published Software Service template is ready to run
 
 ### Create a generic process
@@ -95,7 +95,7 @@ After the process completes, refresh the resource tree.Resources that represent 
 
 ### Next step
 
-You can now provision a software services instanceand have the resources automatically created in UrbanCode Deploy to represent the subsystem. You can use the resource or you can further enhance theautomation. For example you can map a component to the resource, createenvironment and start initial deployments.
+You can now provision a software services instanceand have the resources automatically created in DevOps Deploy to represent the subsystem. You can use the resource or you can further enhance theautomation. For example you can map a component to the resource, createenvironment and start initial deployments.
 
 **Note:**If you prefer to usez/OSPTto provision software, you can replace the **Run Published Software Service Template** step with a **Shell** step and input the corresponding z/OSPT commands. You will need to parse the z/OSPT output to find the name of the instance.
 

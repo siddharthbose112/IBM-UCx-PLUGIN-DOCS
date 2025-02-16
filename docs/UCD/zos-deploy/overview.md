@@ -4,7 +4,7 @@
 
 The z/OS Utility plug-in includes steps for retrieving and deploying IBM z/OS artifacts.
 
-This plug-in requires agents that run on the z/OS platform. The Submit Job and Wait For Job steps require the job server component that is included with IBM UrbanCode Deploy, Rational Team Concert, or Rational Developer for System z.
+This plug-in requires agents that run on the z/OS platform. The Submit Job and Wait For Job steps require the job server component that is included with IBM DevOps Deploy, Rational Team Concert, or Rational Developer for System z.
 
 The plug-in includes steps that are related to deploying z/OS artifacts, such as the following steps:
 
@@ -35,14 +35,14 @@ The plug-in also includes steps that are related to managing redundant increment
 
 ### Compatibility
 
-* IBM UrbanCode Deploy version 7.0.0 or later
-* IBM UrbanCode Deploy agents on z/OS
+* IBM DevOps Deploy version 7.0.0 or later
+* IBM DevOps Deploy agents on z/OS
 * IBM z/OS version 2.4 or later with System REXX
 * Starting with version 49 this plug-in requires Java 8 or above
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins). You must install and configure the z/OS deployment tools before you use the plug-in. To learn how to install and configure the z/OS deployment tools, see [Deploying to the z/OS platform](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=integrating-deploying-components-zos-platform). You must configure the job server component before you run the following steps: Submit Job and Wait For Job.
+No special steps are required for installation. See [Installing plug-ins in DevOps products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins). You must install and configure the z/OS deployment tools before you use the plug-in. To learn how to install and configure the z/OS deployment tools, see [Deploying to the z/OS platform](https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=integrating-deploying-components-zos-platform). You must configure the job server component before you run the following steps: Submit Job and Wait For Job.
 
 ### History
 
@@ -362,11 +362,11 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 #### Version 44
 
-* Allowing mutiple source and multiple target directories to deploy instead of one HFS Target directory. NOTE: UrbanCode Deploy server 7.0.3 and the same level of the agent are required for using this HFS feature.
+* Allowing mutiple source and multiple target directories to deploy instead of one HFS Target directory. NOTE: DevOps Deploy server 7.0.3 and the same level of the agent are required for using this HFS feature.
 
 #### Version 41
 
-* Updated Deploy Data Sets step to support runtime delta deploy. NOTE: UrbanCode Deploy server 7.0.2 and the same level of the agent is required for using this runtime delta deploy feature.
+* Updated Deploy Data Sets step to support runtime delta deploy. NOTE: DevOps Deploy server 7.0.2 and the same level of the agent is required for using this runtime delta deploy feature.
 
 #### Version 39.1001623
 

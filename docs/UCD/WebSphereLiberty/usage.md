@@ -10,7 +10,7 @@
 
 ### Example: Creating a collective and installing a simple application
 
-The [CreateCollectiveSampleApp.zip](https://github.com/UrbanCode/IBM-UCD-PLUGINS/blob/main/files/WebSphereLiberty/SampleApplications/CreateCollectiveSampleApp.zip.txt) file contains an example IBM UrbanCode Deploy application that creates a WebSphere Liberty collective and deploys a simple web application to the servers in the collective. The sample application runs processes to complete the following tasks:
+The [CreateCollectiveSampleApp.zip](https://github.com/UrbanCode/IBM-UCD-PLUGINS/blob/main/files/WebSphereLiberty/SampleApplications/CreateCollectiveSampleApp.zip.txt) file contains an example IBM DevOps Deploy application that creates a WebSphere Liberty collective and deploys a simple web application to the servers in the collective. The sample application runs processes to complete the following tasks:
 
 - Create a Liberty server and collective.
 - Register a target host with the collective.
@@ -19,11 +19,11 @@ The [CreateCollectiveSampleApp.zip](https://github.com/UrbanCode/IBM-UCD-PLUGINS
 - Start collective member servers.
 - Deploy a simple application to the collective servers.
 
-The example IBM UrbanCode Deploy application assumes that you have two hosts. One host (the collective controller host) must be running the IBM UrbanCode Deploy agent software and also must have WebSphere Liberty installed.
+The example IBM DevOps Deploy application assumes that you have two hosts. One host (the collective controller host) must be running the IBM DevOps Deploy agent software and also must have WebSphere Liberty installed.
 
-See this example in action in a video: [Create a WebSphere Liberty collective and deploy applications using UrbanCode Deploy](https://www.youtube.com/watch?v=VaYQE5d96hY&feature=youtu.be).
+See this example in action in a video: [Create a WebSphere Liberty collective and deploy applications using DevOps Deploy](https://www.youtube.com/watch?v=VaYQE5d96hY&feature=youtu.be).
 
-Import the example application archive to your IBM UrbanCode Deploy server. When you import the application, select **Import with Snapshots**.[![liberty01](media/liberty01.png)](media/liberty01.png)
+Import the example application archive to your IBM DevOps Deploy server. When you import the application, select **Import with Snapshots**.[![liberty01](media/liberty01.png)](media/liberty01.png)
 
 After you import the example application archive, complete the following steps.
 

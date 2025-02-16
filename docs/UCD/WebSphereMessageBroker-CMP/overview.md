@@ -6,7 +6,7 @@ The IBM Integration Bus plug-in provides steps for working with IBM Integration 
 
 The plug-in uses the IBM Integration API, formerly known as the Configuration Manager Proxy (CMP) API, to communicate with IBM Integration Bus. To learn more about the API, see [IBM Integration API](https://www.ibm.com/support/knowledgecenter/SSMKHH_10.0.0/com.ibm.etools.mft.doc/be43410_.htm).
 
-For plug-in details and examples, read the [IIB Integration With UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/07/27/iib-integration-with-urbancode-deploy) blog article.
+For plug-in details and examples, read the [IIB Integration With DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/07/27/iib-integration-with-urbancode-deploy) blog article.
 
 This plug-in contains the following steps.
 
@@ -38,15 +38,15 @@ To access this plug-in in the palette, click **Middleware** > **Enterprise Servi
 
 This plug-in can be used with IBM Integration Bus versions 10. Starting with plug-in version 40, WebSphere Message Broker is not long supported. If you require the plug-in to integrate with WebSphere Message Broker, download a version of the plug-in lower than version 40.
 
-This plug-in requires version 7.0.0 or later of IBM UrbanCode Deploy.
+This plug-in requires version 7.0.0 or later of IBM DevOps Deploy.
 
-The IBM UrbanCode Deploy agent must run on an IBM Java Runtime Environment (JRE) or Java Development Kit (JDK). Other JREs and JDKs are not supported. This is a requirement of the IBM Integration API.
+The IBM DevOps Deploy agent must run on an IBM Java Runtime Environment (JRE) or Java Development Kit (JDK). Other JREs and JDKs are not supported. This is a requirement of the IBM Integration API.
 
-This plug-in runs on only z/OS operating system and UrbanCode Deploy agent.
+This plug-in runs on only z/OS operating system and DevOps Deploy agent.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in DevOps Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps Deploy").
 
 ### History
 

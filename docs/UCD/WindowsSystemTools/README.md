@@ -1,7 +1,7 @@
 
 # Microsoft Windows System Tools
 
-This is an UrbanCode developed plugin for performing various Windows tasks.
+This is an DevOps developed plugin for performing various Windows tasks.
 
 The Windows System Tools Plugin automates various Windows system tasks.
 
