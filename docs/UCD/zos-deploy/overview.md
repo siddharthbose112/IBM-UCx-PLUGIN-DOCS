@@ -48,7 +48,7 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 #### Version 96
 
-* Backup and Rollback use cp command instead of XMIT/RECEIVE for v2 format
+* Backup and Rollback use `cp` command instead of `XMIT/RECEIVE` for `v2` format
 
 #### Version 95
 
