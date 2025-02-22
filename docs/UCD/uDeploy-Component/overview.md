@@ -17,6 +17,10 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 #### Version 71
 
+Updating Jettison library.
+
+#### Version 71
+
 Update for API changes in server.
 
 #### Version 70
@@ -52,4 +56,4 @@ This release of the plug-in includes a fix for a compatibility defect with IBM D
 
 |Back to ...||Latest Version|IBM DevOps Deploy Components ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[78.1132354](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Component/ucd-uDeploy-Component-78.1132354.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[81.1155712](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/uDeploy-Component/ucd-uDeploy-Component-81.1155712.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
