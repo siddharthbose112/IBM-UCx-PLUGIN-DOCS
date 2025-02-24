@@ -16,6 +16,13 @@ IBM DevOps Velocity plug-in images are located in DockerHub and the IBM DevOps V
 
 ## History
 
+### Version 1.1.11
+
+* **Replica Server Name field addition**: The index.js file now contains a replica server name field. Entering any non-empty string value in this field will enable the read-only replica.
+* **Support for CHANGE_REQUEST normalized type**: A new normalized type  CHANGE_REQUEST has been added. In the value stream management page, this normalized type will be visible in the type filter for the ServiceNow plug-in integration.
+* **Bug fix**: The planned start and end date provided when creating the change request through the automation task did not match when reviewed in the ServiceNow application after the task was executed. This problem is fixed.
+* **Enhancements in integration page**: The Add Integration page now shows an error if you specify an invalid JSON format in the Resource Types and Sys_params fields. 
+
 ### Version 1.1.10
 
 * All scheduled events have been combined into a single unified event, improving performance. This reduces redundancy and simplifies configuration for users.
@@ -102,4 +109,4 @@ Implemented OAuth 2.0 authentication for secure communication with third-party s
 
 |Back to ...||Latest Version|ServiceNow |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All plug-ins](../../index.md)|[Velocity plug-ins](../README.md)|[1.1.10-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-plug-inS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.10.tar.7z.001)[and 1.1.10-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-plug-inS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.10.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All plug-ins](../../index.md)|[Velocity plug-ins](../README.md)|[1.1.11-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.11.tar.7z.001)[and 1.1.11-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.11.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
