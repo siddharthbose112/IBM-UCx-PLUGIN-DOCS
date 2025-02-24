@@ -15,9 +15,45 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ### History
 
-#### Version 71
+#### Version 81
 
-Updating Jettison library.
+Updating Jettison library to 1.5.4 for CVE-2023-1436
+
+#### Version 80
+
+Updating jettison library for CVE-2022-45693 and CVE-2022-45685
+
+#### Version 79
+
+Updating jettison library for CVE-2022-40150 CVE-2022-40149
+
+#### Version 78
+
+Update for java 17 compatibility
+
+#### Version 77
+
+Update udclient and uDeployRestClient
+
+#### Version 76
+
+Remove log4j functionality related to: CVE-2019-17571, CVE-2020-9488. CVE-2021-4104, CVE-2022-23302, CVE-2022-23305, CVE-2022-23307
+
+#### Version 75
+
+Allow specifying source config properties both with prefix and without. e.g. FileSystemComponentProperties/basePath=foo or basePath=foo.
+
+#### Version 74
+
+Fixing CVE:CVE-2019-4233
+
+#### Version 73
+
+Add "Secure Value" field to "Create Component Property" step.
+
+#### Version 72
+
+Plugin name changed.
 
 #### Version 71
 
