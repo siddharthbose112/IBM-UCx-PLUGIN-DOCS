@@ -156,4 +156,4 @@ Initial release of the plug-in.
 
 |Back to ...||Latest Version|IBM AppScan Enterprise |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[27.1169570](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan/ucd-appscan-27.1169570.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[27.1174441](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/appscan/ucd-appscan-27.1174441.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

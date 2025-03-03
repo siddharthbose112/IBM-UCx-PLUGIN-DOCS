@@ -21,4 +21,4 @@ Runtime Import Import runtime applications into your InfoSphere Information Serv
 
 |Back to ...||Latest Version||||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1.1003048](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/infosphere-isd/plugins-infosphere-isd-1.1003048.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1.1174436](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/infosphere-isd/ucd-plugins-infosphere-isd-1.1174436.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

@@ -27,4 +27,4 @@ LoginAuthenticate with an API Connect cloud through the management server. Logou
 
 |Back to ...||Latest Version|||||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[8.1164159](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/apiconnect/ucd-apiconnect-8.1164159.zip)|[Overview](overview.md)|[Usage](usage.md)|[Tutorials](tutorials.md)|[Steps](steps.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[8.1171240](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/apiconnect/ucd-apiconnect-8.1171240.zip)|[Overview](overview.md)|[Usage](usage.md)|[Tutorials](tutorials.md)|[Steps](steps.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|

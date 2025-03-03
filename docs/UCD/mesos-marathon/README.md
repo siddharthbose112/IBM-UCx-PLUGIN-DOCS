@@ -18,4 +18,4 @@ Scale ApplicationScale an application within Marathon.
 
 |Back to ...||Latest Version||||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[3.869088](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/mesos-marathon/mesos-marathon-3.869088.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[4.1174443](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/mesos-marathon/ucd-mesos-marathon-4.1174443.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|
