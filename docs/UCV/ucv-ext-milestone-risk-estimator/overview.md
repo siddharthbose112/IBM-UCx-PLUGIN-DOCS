@@ -22,8 +22,8 @@ view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/
 
 * **Image Size Optimization**: Reduced Docker image size using a multi-stage build and dependency optimizations.
 * **Python Packages**: Updated python dependencies used within the plugin.
-* **Bug fix**: Sprint completeTime Validation. Now defaults to endTime if missing; data is discarded if both are unavailable.
-* **Notes**: This update provides compatibility only up to Velocity version  5.1.1. It doesn't work above the velocity version 5.1.1.
+* **Bug fix**: In Sprint, completeTime was missing. It will now be populated with endTime if available; otherwise, the data will be discarded.
+* **Compatibility Notes**: This update provides compatibility only up to Velocity version  5.1.1. It doesn't work above the velocity version 5.1.1.
 
 ### Version 2.0.2
 
