@@ -216,7 +216,7 @@
 	- [System Information](#system-information)
 	- [TIBCO  \[partner plugin\]](#tibco--partner-plugin)
 	- [TeamCity](#teamcity)
-   	- [Terraform-Iaac](https://urbancode.github.io/plugin-docs-terraform-iaac/)
+    - [Terraform](https://urbancode.github.io/plugin-docs-terraform-iaac/)
 	- [Text Utility  \[community plugin\]](#text-utility--community-plugin)
 	- [VMware AirWatch  \[community plugin\]](#vmware-airwatch--community-plugin)
 	- [Venafi  \[community plugin\]](#venafi--community-plugin)
@@ -234,7 +234,7 @@
 	- [z/OS Management Facility](#zos-management-facility)
 	- [z/OS Multi Generate Artifact Information](#zos-multi-generate-artifact-information)
 	- [z/OS Shell \[Deprecated\]](#zos-shell-deprecated)
-	- [z/OS USS Utility](#zos-uss-utility)
+	- [z/OS USS Utility \[Deprecated\]](#zos-uss-utility-deprecated)
 	- [z/OS Utility](#zos-utility)
 	- [z/OS Rexx Executor](#zos-rexx-executor)
 
@@ -968,7 +968,7 @@ The IBM DevOps Deploy plugin for DataPower Configuration Manager provides the ab
 
 |Back to ...||IBM DataPower Configuration Manager |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](datapower/README.md)|[datapower-v26](https://github.com/ibm-datapower/datapower-configuration-manager/releases/download/Datapower26/datapower-v26.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](datapower/README.md)|[datapower-v27](https://github.com/ibm-datapower/datapower-configuration-manager/releases/download/Datapower27/datapower-v27.zip)|
 
 ## IBM Db2 for z/OS Package
 
@@ -2476,7 +2476,7 @@ The External Artifact Repository plug-in includes the step to download artifacts
 
 |        Back to ...         |                  |         z/OS External Artifact Repository          |                                                                  Latest Version                                                                   |
 |:--------------------------:|:----------------:|:--------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------:|
-| [All Plugins](../index.md) | [Top](#contents) | [Readme](zOS-external-artifact-download/README.md) | [11.1170736](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/ucd-ExtArtRepo-11.1170736.zip) |
+| [All Plugins](../index.md) | [Top](#contents) | [Readme](zOS-external-artifact-download/README.md) | [12.1174510](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOS-external-artifact-download/ucd-ExtArtRepo-12.1174510.zip) |
 
 ## z/OS FTP Utility
 
@@ -2496,7 +2496,7 @@ The z/OS File Source Config plug-in automates uploading data sets, UNIX files an
 
 |        Back to ...         || z/OS File Source Config |             Latest Version              |
 |:--------------------------:|:-----------------------:|:---------------------------------------:| :---: |
-| [All Plugins](../index.md) |    [Top](#contents)     | [Readme](zOSFileSourceConfig/README.md) |[7.1131549](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOSFileSourceConfig/ucd-zOSFileSourceConfig-7.1131549.zip)|
+| [All Plugins](../index.md) |    [Top](#contents)     | [Readme](zOSFileSourceConfig/README.md) |[8.1174630](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zOSFileSourceConfig/ucd-zOSFileSourceConfig-8.1174630.zip)|
 
 ## z/OS Management Facility
 
@@ -2521,7 +2521,6 @@ The z/OS Multi Generate Artifact Information plug-in scans version artifacts and
 ## z/OS Shell [Deprecated]
 
 > **Deprecation Notice**: The z/OS Shell plugin is deprecated. It is recommended to use the [Shell plugin](#Shell) instead.
-To download the plug-in, click the following version-specific links.
 
 The z/OS Shell plug-in is for the z/OS only operating system. It performs the same functions as the [Shell plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Shell/) for DevOps Deploy. The plug-in reduces the CPU consumption in the z/OS environment by using Java code instead of Groovy code.
 
@@ -2531,7 +2530,9 @@ The z/OS Shell plug-in is for the z/OS only operating system. It performs the sa
 |:--------------------------:|:----------------:|:------------------------------:| :---: |
 | [All Plugins](../index.md) | [Top](#contents) | [Readme](java-shell/README.md) |[2.1133862](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/java-shell/ucd-java-shell-2.1133862.zip)|
 
-## z/OS USS Utility
+## z/OS USS Utility [Deprecated]
+
+> **Deprecation Notice**: The z/OS USS Utility plugin is deprecated. It is recommended to use `Replace Tokens` step from [File Utils](#file-utils) plugin instead.
 
 The z/OS USS Utility plug-in automates working with USS files on the z/OS operating system. This plug-in supports working with the IBM z/OS version 2.2 and later and requires DevOps Deploy agent on the z/OS server.
 
@@ -2549,7 +2550,7 @@ The z/OS Utility plug-in includes steps for retrieving and deploying IBM z/OS ar
 
 |        Back to ...         ||   z/OS Utility   |         Latest Version         |
 |:--------------------------:|:----------------:|:------------------------------:| :---: |
-| [All Plugins](../index.md) | [Top](#contents) | [Readme](zos-deploy/README.md) |[95.1174105](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-95.1174105.zip)|
+| [All Plugins](../index.md) | [Top](#contents) | [Readme](zos-deploy/README.md) |[96.1174531](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/ucd-zos-deploy-96.1174531.zip)|
 
 ## z/OS Rexx Executor
 
