@@ -18,6 +18,13 @@ view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/
 
 ### History
 
+### Version 2.0.4
+
+* **Image Size Optimization**: Reduced Docker image size using a multi-stage build and dependency optimizations.
+* **Python Packages**: Updated python dependencies used within the plugin.
+* **Bug fix**: In Sprint, completeTime was missing. It will now be populated with endTime if available; otherwise, the data will be discarded.
+* **Compatibility Notes**: This update provides compatibility only up to Velocity version  5.1.1. It doesn't work above the velocity version 5.1.1.
+
 ### Version 2.0.2
 
 * Introduced generation of insights based on the prediction for displaying it as a tool tip for **P.R.E Risk** metric.
@@ -50,4 +57,4 @@ view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/
 
 |Back to ...||Latest Version|Milestone Risk Estimator |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.0.2](https://hub.docker.com/r/urbancode/ucv-ext-milestone-risk-estimator/tags)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[2.0.4](https://hub.docker.com/r/urbancode/ucv-ext-milestone-risk-estimator/tags)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)

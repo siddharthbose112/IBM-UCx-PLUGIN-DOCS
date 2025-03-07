@@ -216,7 +216,7 @@
 	- [System Information](#system-information)
 	- [TIBCO  \[partner plugin\]](#tibco--partner-plugin)
 	- [TeamCity](#teamcity)
-   	- [Terraform-Iaac](https://urbancode.github.io/plugin-docs-terraform-iaac/)
+    - [Terraform](https://urbancode.github.io/plugin-docs-terraform-iaac/)
 	- [Text Utility  \[community plugin\]](#text-utility--community-plugin)
 	- [VMware AirWatch  \[community plugin\]](#vmware-airwatch--community-plugin)
 	- [Venafi  \[community plugin\]](#venafi--community-plugin)
@@ -968,7 +968,7 @@ The IBM DevOps Deploy plugin for DataPower Configuration Manager provides the ab
 
 |Back to ...||IBM DataPower Configuration Manager |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](datapower/README.md)|[datapower-v26](https://github.com/ibm-datapower/datapower-configuration-manager/releases/download/Datapower26/datapower-v26.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](datapower/README.md)|[datapower-v27](https://github.com/ibm-datapower/datapower-configuration-manager/releases/download/Datapower27/datapower-v27.zip)|
 
 ## IBM Db2 for z/OS Package
 
