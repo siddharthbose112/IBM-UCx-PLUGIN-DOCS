@@ -19,4 +19,4 @@ This plug-in provides steps to interact with the Auto-Scaling for Bluemix servic
 
 |Back to ...||Latest Version||||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[2.1100942](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/bluemix-autoscale/bluemix-autoscale-2.1100942.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[2.1174433](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/bluemix-autoscale/ucd-bluemix-autoscale-2.1174433.zip)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

@@ -17,6 +17,10 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ### History
 
+#### Version 100
+
+Updated condition to ignore the replacement token properties file.
+
 #### Version 99
 
 Port "Create File", "Monitor File Contents", "Read Property File", and "Create Directories" steps to Java.
@@ -228,4 +232,4 @@ Version 47 of the plug-in includes a fix for APAR PI62114 Set custom file encodi
 
 |Back to ...||Latest Version|File Utils |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)| [99.1171705](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/ucd-FileUtils-99.1171705.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)| [100.1175039](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/FileUtils/ucd-FileUtils-100.1175039.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
