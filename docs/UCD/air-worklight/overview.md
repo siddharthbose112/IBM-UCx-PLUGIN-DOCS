@@ -22,6 +22,10 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ### History
 
+#### Version 13
+
+Fixing CVE:CVE-2019-4233
+
 #### Version 12
 
 * Updated server path descriptionspecifying respective server path for different versions of MobileFirst.
@@ -58,4 +62,4 @@ Version 5 of the plug-in includes a fix for a compatibility defect with IBM DevO
 
 |Back to ...||Latest Version|IBM MobileFirst Platform (formerly Worklight) |||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[13.1098510](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/air-worklight/ibm-mobilefirst-13.1098510.zip)|[Readme](README.md)|[Steps](steps.md)|[Usage](usage.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[13.1174444](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/air-worklight/ucd-ibm-mobilefirst-13.1174444.zip)|[Readme](README.md)|[Steps](steps.md)|[Usage](usage.md)|[Troubleshooting](troubleshooting.md)|[Downloads](downloads.md)|

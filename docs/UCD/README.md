@@ -1152,7 +1152,7 @@ The IBM MobileFirst Platform plug-in provides functionality for deploying artifa
 
 |Back to ...||IBM MobileFirst Platform (formerly Worklight) |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](air-worklight/README.md)|[13.1098510](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/air-worklight/ibm-mobilefirst-13.1098510.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](air-worklight/README.md)|[13.1174444](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/air-worklight/ucd-ibm-mobilefirst-13.1174444.zip)|
 
 ## IBM MobileFirst Platform Foundation on IBM Containers
 
