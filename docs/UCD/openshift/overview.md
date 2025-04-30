@@ -18,6 +18,10 @@ No special steps are required for installation. See [Installing plug-ins in IBM 
 
 ### History
 
+#### Version 25
+
+* Updating Jettison library to 1.5.4 for CVE-2023-1436
+
 #### Version 23
 
 * Fixes APAR : PH61399 oc create object from template command fails when a warning is received
@@ -114,4 +118,4 @@ Version 13
 
 |Back to ...||Latest Version|OpenShift for IBM DevOps Deploy ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[23.1168147](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/openshift/ucd-openshift-23.1168147.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[25.1176034](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/openshift/ucd-openshift-25.1176034.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

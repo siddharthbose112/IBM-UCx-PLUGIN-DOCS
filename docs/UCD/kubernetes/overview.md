@@ -16,6 +16,9 @@ This plug-in requires version 6.0.1 or later of IBM DevOps Deploy.
 No special steps are required for installation. See [Installing plug-ins in DevOps products](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in DevOps products").
 
 ### History
+#### Version 33
+
+* Updating Jettison library to 1.5.4 for CVE-2023-1436
 
 #### Version 32
 
@@ -144,4 +147,4 @@ Initial Release. Includes steps to create, run, expose and delete resources in a
 
 |Back to ...||Latest Version|Kubernetes ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[32.1154499](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/ucd-kubernetes-32.1154499.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[33.1176035](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/ucd-kubernetes-33.1176035.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
