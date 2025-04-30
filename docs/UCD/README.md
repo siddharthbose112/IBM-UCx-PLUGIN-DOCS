@@ -1692,7 +1692,7 @@ Kubernetes is an open-source system for automating deployment, operations, and s
 
 |Back to ...||Kubernetes |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](kubernetes/README.md)|[32.1154499](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/ucd-kubernetes-32.1154499.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](kubernetes/README.md)|[33.1176035](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/kubernetes/ucd-kubernetes-33.1176035.zip)|
 
 ## Linux System Tools
 
@@ -2032,7 +2032,7 @@ OpenShift provides application lifecycle management functionality and DevOps too
 
 |Back to ...||OpenShift Automation |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](openshift/README.md)|[23.1168147](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/openshift/ucd-openshift-23.1168147.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](openshift/README.md)|[25.1176034](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/openshift/ucd-openshift-25.1176034.zip)|
 
 ## Oracle SQLPlus
 
